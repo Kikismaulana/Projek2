@@ -13,3 +13,5 @@ okee kita opal
 oke kita kikis
 
 Buda
+
+diyah oke
