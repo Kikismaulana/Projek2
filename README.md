@@ -7,3 +7,5 @@ Software Requirement System
 kita wis pragat keh
 
 Hayo kita mah uwis
+
+okee kita opal
