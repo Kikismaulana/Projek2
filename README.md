@@ -11,3 +11,5 @@ Hayo kita mah uwis
 okee kita opal
 
 oke kita kikis
+
+Buda
