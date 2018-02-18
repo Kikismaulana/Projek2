@@ -47,7 +47,44 @@ Untuk mengorganisasikan pekerjaan kami sehingga terarah, kami memilih model pros
 
 2.3 Batasan dan antar muka organisasi
 
+Project Manager : dimana harus mejadi pengawas dari anggota – anggotanya bilamana
+saat anggota lalai dengan tugas – tugasnya, Project Manager berhak menegur dan bagi anggota tidak berhak melawan jika ditegur, dan untuk Project Manager sendiri tidak berhak semena-mena \dengan jabatanya.
+
+Documentation : dimana harus memenuhi segala dokumentasi proyek dan selalu berkomunikasi dengan semua anggota termasuk Project Manager.
+
+System Analysis : System analysis di harapkan mampu memecahkan dan mengembangkan permasalahan untuk menghasilkan solusi yang sesuai dengan tujuan dari apa yang dibutuhkan.
+
+Desain UI/UX : hanya bertugas pada bagian front-end dari implementasi System Analysis.
+
+Programmer : hanya bertugas pada bagian back-end dan selalu berkomunikasi dengan Desain UI/UX dan System Analysis.
+
 2.4 lingkup tanggung jawab
+
+Project Manager :
+
+Project Manager adalah seseorang mempunyai tanggung jawab dan tugas yang besar dalam sebuah tim, tidak hanya terfokus pada hal-hal yang teknis sifatnya. Project Manager juga harus mampu memanagement tim dengan baik, agar target projek dapat tercapai. Selain itu memberi pengarahan, memonitoring kinerja tim, serta dapat membagi tugas dan bagian tanggung jawab dari seorang Project Manager.
+
+Documentation :
+
+Adalah seseorang yang bertanggung jawab terhadap pengaturan, pembuatan, dan rekam jejak segala jenis dokumen yang terlibat dalam proyek.
+Mulai dari proposal dan kontrak proyek, sampai dengan hasil sampling atau
+percobaan dalam proses pembangunan proyek.
+
+System Analysis :
+
+Banyak hal yang harus dilakukan oleh seorang System Analysis, terutama yang berkaitan dengan pemecahan masalah. Seorang System Analysis harus mampu menganalisa segala kemungkinan dari pemasalahan yang ada, dan dapat mengasilkan solusi yang tepat dari permasalahan tersebut. Menentukan sistem yang
+tepat merupakan bagian dari tugas seorang sistem analis, sehingga kinerja tim dapat berjalasan secara efesien.
+
+Design UI/UX :
+
+Design UI/UX adalah dia yang membuat suatu tampilan untuk user yang mengimplementasikan perancangan sistem yang telah di buat oleh System Analysis.
+
+
+Programmer :
+
+Dalam hal ini, seorang programer bertugas untuk mengimplementasikan dari
+sistem yang sudah dirancang dan didesain. Programmer dituntut dapat menuliskan code program dengan baik, dan efesien. Hal ini dimaksudakan untuk menghindari terjadinya banyak error dalam proses implementasinya.
+
 
 ## Proses Manajerial ##
 
