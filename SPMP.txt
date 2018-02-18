@@ -1,17 +1,37 @@
 # Software Project Management Plan #
 
 ## Pendahuluan ##
-
 1.1 Gambaran Proyek
+
+M-Attendance Fingerprint (M-AFI) adalah sistem absensi menggunakan sidik jadi (fingerprint) yang ditujukan untuk absensi guru dan siswa. M-AFI ini memiliki tiga user, yaitu user admin, guru, dan orang tua siswa, dimana user admin mengelola M-AFI menggunakan Website, dan user guru serta orang tua menggunakan App Android M-AFI. Dimana cara kerjanya yaitu guru dan siswa absen menggunakan sidik jari (fingerprint), kemudian user orang tua dan guru dapat melihat report absen nya melalui App Android M-AFI.
 
 1.2 Dokumen-dokumen dalam proyek
 
+Saat mengerjakan projek ini kita menggunakan dokumen SPMP (Software Project Management Plan ) dan SRS (Software Requirement Specifications).
+
 1.3 Evolusi SPMP
+
+Dokumen ini bersifat freeware, jadi siapa saja boleh untuk memanfaatkan dokumen ini untuk hal yang positif. Tentu ada hal-hal yang tidak boleh dilakukan dalam pemanfaatan dokumen ini, seperti menjualbelikan dokumen ini secara ilegal, atapun mengubah dokumen tanpa dasar yang jelas.
 
 1.4 Material Acuan
 
+Materi yang menjadi acuan dalam pembuatan projek ini menggunakan standar IEEE, karena menyediakan kerangka kerja yang menggabungkan seluruh spektrum proses siklus hidup perangkat lunak. Dan juga standar IEEE untuk membentuk model yang diakui secara internasional dari kehidupan perangkat lunak umum, siklus proses yang dapat direferensikan oleh industri perangkat lunak diseluruh dunia, untuk mempromosikan pemahaman diantara pihak bisnis dengan aplikasi umum serta mengakui proses, kegiatan dan tugas.
+
 1.5 Definisi dan akronis (singkatan)
 
+Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin akan sulit dipahami oleh orang awam berikut ini :
+
+Tabel I.1 Akronim
+
+Singkatan Arti kata
+M-AFI	Mobile-Attendance Fingerprint
+IEEE	The International Institute ofElectronic and Electrical Engineers
+SPMP	Software Project Management Plan
+IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses kontrol dari lapisan data-link dari standar Ethernet berkabel.
+
+M-AFI adalah nama project yang sedang kita garap.
+
+SPMP adalah salah satu dokumentasi untuk merencanakan pembuatan project
 
 ## Organisasi Proyek ##
 
