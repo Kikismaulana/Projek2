@@ -24,7 +24,12 @@
 
 ![](gambar/Antarmuka_pengguna.png)
 
-2.1.3 Antarmuka perangkat keras (kikis)
+2.1.3 Antarmuka perangkat keras
+
+- Fingerprint
+- Server
+- Laptop
+- Smartphone
 
 2.1.4 Antarmuka perangkat lunak (kikis)
 
