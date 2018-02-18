@@ -20,7 +20,9 @@
 
 ![](gambar/DFD.png)
 
-2.1.2 Antarmuka pengguna (kikis)
+2.1.2 Antarmuka pengguna
+
+![](gambar/Antarmuka_pengguna.png)
 
 2.1.3 Antarmuka perangkat keras (kikis)
 
