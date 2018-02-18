@@ -37,6 +37,8 @@ SPMP adalah salah satu dokumentasi untuk merencanakan pembuatan project
 
 2.1 model proses
 
+Untuk mengorganisasikan pekerjaan kami sehingga terarah, kami memilih model proses dengan cara Sashimi, dimana model proses seperti ini kami dapat meng-over lap proses yang sedang di kerjakan dengan satu langkah proses setelahnya.
+
 2.2 struktur organisasi
 
 2.3 Batasan dan antar muka organisasi
