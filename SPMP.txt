@@ -4,36 +4,14 @@
 
 1.1 Gambaran Proyek
 
-M-Attendance Fingerprint (M-AFI) adalah sistem absensi menggunakan sidik jadi (fingerprint) yang ditujukan untuk absensi guru dan siswa. M-AFI ini memiliki tiga user, yaitu user admin, guru, dan orang tua siswa, dimana user admin mengelola M-AFI menggunakan Website, dan user guru serta orang tua menggunakan App Android M-AFI. Dimana cara kerjanya yaitu guru dan siswa absen menggunakan sidik jari (fingerprint), kemudian user orang tua dan guru dapat melihat report absen nya melalui App Android M-AFI.
-
 1.2 Dokumen-dokumen dalam proyek
-
-Saat mengerjakan projek ini kita menggunakan dokumen SPMP (Software Project Management Plan ) dan SRS (Software Requirement Specifications).
 
 1.3 Evolusi SPMP
 
-Dokumen ini bersifat freeware, jadi siapa saja boleh untuk memanfaatkan dokumen ini untuk hal yang positif. Tentu ada hal-hal yang tidak boleh dilakukan dalam pemanfaatan dokumen ini, seperti menjualbelikan dokumen ini secara ilegal, atapun mengubah dokumen tanpa dasar yang jelas.
-
 1.4 Material Acuan
-
-Materi yang menjadi acuan dalam pembuatan projek ini menggunakan standar IEEE, karena menyediakan kerangka kerja yang menggabungkan seluruh spektrum proses siklus hidup perangkat lunak. Dan juga standar IEEE untuk membentuk model yang diakui secara internasional dari kehidupan perangkat lunak umum, siklus proses yang dapat direferensikan oleh industri perangkat lunak diseluruh dunia, untuk mempromosikan pemahaman diantara pihak bisnis dengan aplikasi umum serta mengakui proses, kegiatan dan tugas.
 
 1.5 Definisi dan akronis (singkatan)
 
-Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin akan sulit dipahami oleh orang awam berikut ini :
-
-Tabel I.1 Akronim
-
-Singkatan Arti kata
-
-M-AFI	Mobile-Attendance Fingerprint
-IEEE	The International Institute ofElectronic and Electrical Engineers
-SPMP	Software Project Management Plan
-IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses kontrol dari lapisan data-link dari standar Ethernet berkabel.
-
-M-AFI adalah nama project yang sedang kita garap.
-
-SPMP adalah salah satu dokumentasi untuk merencanakan pembuatan project
 
 ## Organisasi Proyek ##
 
@@ -49,119 +27,30 @@ SPMP adalah salah satu dokumentasi untuk merencanakan pembuatan project
 
 3.1 Tujuan dan prioritas manajemen
 
-Tujuan dari proyek ini adalah untuk mengembangkan sistem manajemen pada sekolah misalkan absensi. Proyek ini diprioritaskan untuk kebutuhan instansi.
-
 3.2 Asumsi-asumsi, ketergantungan/keterkaitan, dan batasan-batasan
 
-Asumsi-asumsi
-Ketergantungan/keterkaitan
-Batasan-batasan
 3.3 Manajemen resiko
 
-Resiko teknologi
-Resiko keuangan
-Resiko orang
-struktur/resiko proses
 3.4 Mekanisme monitoring dan kontroling
 
-Pertemuan pembahasan proyek seminggu tiga kali
-Repository dokumen bersama
-
 3.5 Perencanaan staf
-
-Kikis Maulana (Project Manager)
-Naufal Ibrahim (Programmer)
-Widiana Silvi (Database)
-Diyah Ayu Amaliyah (Desain)
-Triyani Ramadhani (Dokumentasi)
 
 ## Proses Teknis ##
 
 4.1 Metoda, tool, dan teknik
 
-Proyek ini akan dilaksanakan menggunakan beberapa aplikasi yang mendukung yaitu android studio, mySQL dan perangkat keras yaitu finger print yang merupakan perangkat utama yang digunakan saat aplikasi absensi sudah jadi.
-
 4.2 Dokumentasi perangkat lunak
 
-Dokumentasi ini menggunakan beberapa dokumen yang tersedia seperti dokumen absensi dari instansi yang bersangkutan, serta dokumen-dokumen lain yang mendukung proyek ini seperti dokumen referensi yang tersedia dikampus.
-
 4.3 Fungsi-fungsi pendukung proyek
-
-Semua dokumen pendukung proyek akan selesai secara bertahap.
 
 ## Paket Pekerjaan, Jadwal, dan Budget ##
 
 5.1 Paket Pekerjaan
 
-
-No	Nama	Sebagai	Penanggung jawab Modul	Rincian
-1	Kikis Maulana	Projek Manager		
-2	Noufal Ibrahim	Programmer		
-3	Widiana Silvi	Database		
-4	Diyah Ayu Amaliyah	Desain		
-5	Triyani Ramadhani	Dokumentasi	
-
 5.2 Ketergantungan/Keterkaitan
-
-Pada proses pengerjaan projek yang kami buat ini, keterkaitan dalam tugas masing-masing sangat membantu karena agar terbentuknya ketelitian dalam mengerjakan projek ini sehingga mendapatkan hasil yang bagus.
 
 5.3 Kebutuhan-kebutuhan sumber daya
 
-Dalam pembuatan aplikasi ini dibuat oleh 5 orang. Didalam kebutuhan sumber daya terdiri dari kebutuhan software dan hardware, diantaranya :
-
-Kebutuhan-kebutuhan sumber daya manusia
-
-Kikis Maulana ( Project Manager )
-
-Noufal Ibrahim ( Programmer )
-
-Widiana Silvi ( Database )
-
-Diyah Ayu Amaliyah ( Desain )
-
-Triyani Ramadhani ( Dokumentasi )
-
-Kebutuhan-kebutuhan software
-
-i. Android Studio
-
-ii. Xampp
-
-iii. Javascript
-
-iv. Finger Print
-
-v. Mysql
-
-Kebutuhan-kebutuhan Hardware
-
-i. Laptop / PC
-
 5.4 Alokasi budget dan sumber daya
 
-Berikut ini yang dibutuhkan pada pembuatan aplikasi ini diantaranya
-
-Survey Mitra
 5.5 Jadwal
-
-Untuk mengerjakan projek ini diperlukan waktu kurang lebih 4 bulan. Didalam pembuatan projek ini diperlukan beberapa rincian diantaranya :
-
-i. Mulai Projek
-
-ii. Perencanaan
-
-iii. Pelaksanaan :
-
-Analisis Sistem
-
-Desain Database
-
-Koding dan Testing
-
-Desain antarmuka
-
-Dokumentasi
-
-iv. Implementasi Projek
-
-v. Penutupan Projek
