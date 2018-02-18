@@ -27,6 +27,8 @@ Singkatan Arti kata
 M-AFI	Mobile-Attendance Fingerprint
 IEEE	The International Institute ofElectronic and Electrical Engineers
 SPMP	Software Project Management Plan
+
+
 IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses kontrol dari lapisan data-link dari standar Ethernet berkabel.
 
 M-AFI adalah nama project yang sedang kita garap.
