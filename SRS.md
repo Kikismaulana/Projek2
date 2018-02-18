@@ -16,7 +16,9 @@
 
 2.1 Perspektif produk (opal)
 
-2.1.1 Antarmuka sistem (opal)
+2.1.1 Antarmuka sistem 
+
+![](gambar/DFD.png)
 
 2.1.2 Antarmuka pengguna (kikis)
 
