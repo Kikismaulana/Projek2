@@ -43,7 +43,7 @@ Untuk mengorganisasikan pekerjaan kami sehingga terarah, kami memilih model pros
 
 2.2 struktur organisasi
 
-![Struktur organisasi](https://github.com/Kikismaulana/RPL-C-6/tree/master/gambar/STRUKTUR.png)
+![Struktur organisasi](gambar/STRUKTUR.png)
 
 2.3 Batasan dan antar muka organisasi
 
