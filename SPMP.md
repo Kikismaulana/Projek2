@@ -112,6 +112,11 @@ Proyek ini diprioritaskan untuk kebutuhan instansi.
 
 3.3 Manajemen resiko
 
+ 1.Resiko teknologi
+ 2.Resiko keuangan
+ 3.Resiko orang
+ 4.struktur/resiko proses
+
 3.4 Mekanisme monitoring dan kontroling
 
 3.5 Perencanaan staf
