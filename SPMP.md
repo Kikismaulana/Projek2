@@ -153,26 +153,6 @@ i. Laptop / PC
 Berikut ini yang dibutuhkan pada pembuatan aplikasi ini diantaranya
 
 Survey Mitra
+
 5.5 Jadwal
 
-Untuk mengerjakan projek ini diperlukan waktu kurang lebih 4 bulan. Didalam pembuatan projek ini diperlukan beberapa rincian diantaranya :
-
-i. Mulai Projek
-
-ii. Perencanaan
-
-iii. Pelaksanaan :
-
-Analisis Sistem
-
-Desain Database
-
-Koding dan Testing
-
-Desain antarmuka
-
-Dokumentasi
-
-iv. Implementasi Projek
-
-v. Penutupan Projek
