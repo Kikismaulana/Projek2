@@ -91,9 +91,31 @@ sistem yang sudah dirancang dan didesain. Programmer dituntut dapat menuliskan c
 
 3.1 Tujuan dan prioritas manajemen
 
+Tujuan dari proyek ini adalah untuk mengembangkan sistem manajemen pada sekolah misalkan absensi. 
+Proyek ini diprioritaskan untuk kebutuhan instansi.
+
+
 3.2 Asumsi-asumsi, ketergantungan/keterkaitan, dan batasan-batasan
 
+1.Asumsi-asumsi
+  i. Tim 5 sumber
+  ii. perangkat lunak 
+  iii. Persetujuan pendanaan
+ 2.Ketergantungan/keterkaitan
+   i. 
+  ii. 
+  iii. 
+ 3.Batasan-batasan
+  i. Waktu
+  ii. Sumber daya
+  iii. Kualitas
+
 3.3 Manajemen resiko
+
+ 1.Resiko teknologi
+ 2.Resiko keuangan
+ 3.Resiko orang
+ 4.struktur/resiko proses
 
 3.4 Mekanisme monitoring dan kontroling
 
@@ -102,10 +124,13 @@ sistem yang sudah dirancang dan didesain. Programmer dituntut dapat menuliskan c
 ## Proses Teknis ##
 
 4.1 Metoda, tool, dan teknik
+Proyek ini akan dilaksanakan menggunakan beberapa aplikasi yang mendukung yaitu android studio, mySQL dan perangkat keras yaitu finger print yang merupakan perangkat utama yang digunakan saat aplikasi absensi sudah jadi.
 
 4.2 Dokumentasi perangkat lunak
+Dokumentasi ini menggunakan beberapa dokumen yang tersedia seperti dokumen absensi dari instansi yang bersangkutan, serta dokumen-dokumen lain yang mendukung proyek ini seperti dokumen referensi yang tersedia dikampus.
 
 4.3 Fungsi-fungsi pendukung proyek
+Semua dokumen pendukung proyek akan selesai secara bertahap.
 
 ## Paket Pekerjaan, Jadwal, dan Budget ##
 
