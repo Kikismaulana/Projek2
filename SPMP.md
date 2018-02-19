@@ -1,4 +1,4 @@
-﻿# Software Project Management Plan #
+# Software Project Management Plan #
 
 ## Pendahuluan ##
 1.1 Gambaran Proyek
@@ -96,6 +96,19 @@ Proyek ini diprioritaskan untuk kebutuhan instansi.
 
 
 3.2 Asumsi-asumsi, ketergantungan/keterkaitan, dan batasan-batasan
+
+1.Asumsi-asumsi
+  i. Tim 5 sumber
+  ii. perangkat lunak 
+  iii. Persetujuan pendanaan
+ 2.Ketergantungan/keterkaitan
+   i. 
+  ii. 
+  iii. 
+ 3.Batasan-batasan
+  i. Waktu
+  ii. Sumber daya
+  iii. Kualitas
 
 3.3 Manajemen resiko
 
