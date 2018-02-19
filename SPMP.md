@@ -160,3 +160,4 @@ Survey Mitra
 
 5.5 Jadwal
 
+![](gambar/JADWAL.png)
