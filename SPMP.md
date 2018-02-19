@@ -113,8 +113,66 @@ sistem yang sudah dirancang dan didesain. Programmer dituntut dapat menuliskan c
 
 5.2 Ketergantungan/Keterkaitan
 
+Pada proses pengerjaan projek yang kami buat ini, keterkaitan dalam tugas 
+masing-masing sangat membantu karena agar terbentuknya ketelitian dalam mengerjakan projek ini sehingga mendapatkan hasil yang bagus.
+
 5.3 Kebutuhan-kebutuhan sumber daya
+
+Dalam pembuatan aplikasi ini dibuat oleh 5 orang. Didalam kebutuhan sumber daya terdiri dari kebutuhan software dan hardware, diantaranya :
+
+Kebutuhan-kebutuhan sumber daya manusia
+
+Kikis Maulana ( Project Manager )
+
+Noufal Ibrahim ( Programmer )
+
+Widiana Silvi ( Database )
+
+Diyah Ayu Amaliyah ( Desain )
+
+Triyani Ramadhani ( Dokumentasi )
+
+Kebutuhan-kebutuhan software
+
+i. Android Studio
+
+ii. Xampp
+
+iii. Javascript
+
+iv. Finger Print
+
+v. Mysql
+
+Kebutuhan-kebutuhan Hardware
+
+i. Laptop / PC
 
 5.4 Alokasi budget dan sumber daya
 
+Berikut ini yang dibutuhkan pada pembuatan aplikasi ini diantaranya
+
+Survey Mitra
 5.5 Jadwal
+
+Untuk mengerjakan projek ini diperlukan waktu kurang lebih 4 bulan. Didalam pembuatan projek ini diperlukan beberapa rincian diantaranya :
+
+i. Mulai Projek
+
+ii. Perencanaan
+
+iii. Pelaksanaan :
+
+Analisis Sistem
+
+Desain Database
+
+Koding dan Testing
+
+Desain antarmuka
+
+Dokumentasi
+
+iv. Implementasi Projek
+
+v. Penutupan Projek
