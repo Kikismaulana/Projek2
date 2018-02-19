@@ -91,6 +91,10 @@ sistem yang sudah dirancang dan didesain. Programmer dituntut dapat menuliskan c
 
 3.1 Tujuan dan prioritas manajemen
 
+Tujuan dari proyek ini adalah untuk mengembangkan sistem manajemen pada sekolah misalkan absensi. 
+Proyek ini diprioritaskan untuk kebutuhan instansi.
+
+
 3.2 Asumsi-asumsi, ketergantungan/keterkaitan, dan batasan-batasan
 
 3.3 Manajemen resiko
