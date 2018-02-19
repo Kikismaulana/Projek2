@@ -49,6 +49,9 @@
 
 2.5 Asumsi-asumsi dan ketrgantungan/keterkaitan (diyah)
 
+-Semua absensi sekolah adalah siswa dan guru di sekolah. 
+-Absensi disekolah sendiri akan dilakukan oleh siswa dan guru yang apabila
+  ketika ingin kehadirannya masuk ke sekolah.
 2.6 Kebutuhan-kebutuhan penyeimbang (kikis)
 
 Kebutuhan lain yang spesifik (triyani)
