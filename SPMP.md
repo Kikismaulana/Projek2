@@ -23,10 +23,11 @@ Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin aka
 
 Tabel I.1 Akronim
 
-Singkatan Arti kata
-M-AFI	Mobile-Attendance Fingerprint
-IEEE	The International Institute ofElectronic and Electrical Engineers
-SPMP	Software Project Management Plan
+Singkatan | Arti kata
+---------------------
+M-AFI |	Mobile-Attendance Fingerprint
+IEEE |	The International Institute ofElectronic and Electrical Engineers
+SPMP |	Software Project Management Plan
 
 
 IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses kontrol dari lapisan data-link dari standar Ethernet berkabel.
