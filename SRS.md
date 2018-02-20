@@ -8,6 +8,8 @@ dan memberikan gambaran yang spesifik dari kebutuhan softaware Mobile-Attendance
 penjelasan mengenai pembuatan produk termasuk kebutuhan fungsional hingga non-fungsional, dan kebutuhan antar muka mulai dari antar muka pengguna hingga antar muka komunikasi.
 
 1.2 Lingkup (bunda)
+Ruang lingkup dalam membangun aplikasi M-AFI yaitu Mobile Attendence Fingerprint menggunakan beberapa perangkat lunak yang mendukung, diantaranya saat penginputan data siswa dan guru. M-AFI ini perlu dibuatkannya karena untuk mempermudah instansi pendidikan untuk sistem absensinya.
+
 
 1.3 Definisi, Akronim, Singkatan (bunda)
 
