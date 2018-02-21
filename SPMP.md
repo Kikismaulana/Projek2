@@ -97,46 +97,42 @@ Proyek ini diprioritaskan untuk kebutuhan instansi.
 
 3.2 Asumsi-asumsi, ketergantungan/keterkaitan, dan batasan-batasan
 
-1.Asumsi-asumsi
-  i. Tim 5 sumber
-  ii. perangkat lunak 
-  iii. Persetujuan pendanaan
- 2.Ketergantungan/keterkaitan
-   i. 
-  ii. 
-  iii. 
- 3.Batasan-batasan
-  i. Waktu
-  ii. Sumber daya
-  iii. Kualitas
+1.Asumsi-asumsi dan ketergantungan
+
+  - Aplikasi ini dapat berjalan dengan baik pada jaringan internet dan dapat diakses menggunanakan perangkat bergerak (mobile)
+
+
+2.Batasan-batasan
+
+  - Aplikasi M-AFI ini hanya memanajemen sistem absensi siswa dan guru
+  
 
 3.3 Manajemen resiko
 
- 1.Resiko teknologi
+ - Resiko teknologi misalnya kerusakan alat atau sistem
 
- 2.Resiko keuangan
+ - Resiko orang misalnya bentuk sidik jari yang rusak akibat kecelakaan atau sebagainya
 
- 3.Resiko orang
+ - struktur/resiko proses misalnya kesalahan pembacaan data pada sidik jari
 
- 4.struktur/resiko proses
 
 3.4 Mekanisme monitoring dan kontroling
 
- 1.Pertemuan pembahasan proyek seminggu tiga kali
+ - Pertemuan pembahasan proyek seminggu tiga kali
 
- 2.Repository dokumen bersama
+ - Repository dokumen bersama
 
 3.5 Perencanaan staf
 
- 1.Kikis Maulana (Project Manager)
+ - Kikis Maulana (Project Manager)
 
- 2.Naufal Ibrahim (Programmer)
+ - Noufal Ibrahim (Programmer)
 
- 3.Widiana Silvi (Database)
+ - Widiana Silvi (Database)
 
- 4.Diyah Ayu Amaliyah (Desain)
+ - Diyah Ayu Amaliyah (Desain)
 
- 5.Triyani Ramadhani (Dokumentasi)
+ - Triyani Ramadhani (Dokumentasi)
 
 ## Proses Teknis ##
 
