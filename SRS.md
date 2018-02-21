@@ -51,6 +51,9 @@ Pada dokumen ini memberikan penjelasan tentang gambaran umum, termasuk karakteri
 
 2.1.4 Antarmuka perangkat lunak (kikis)
 
+- Webserver
+
+	Untuk Webserver admin dapat di akses menggunakan semua jenis browser (google chrom, Mozila, Opera dan lain-lain), dan pastinya harus menggunakan akses internet untuk mengakses data pada Firebase.
 2.1.5 Antarmuka komunikasi (opal)
 
 2.1.6 Batasan-batasan memori (opal)
