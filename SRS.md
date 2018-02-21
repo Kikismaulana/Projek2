@@ -15,9 +15,15 @@ Ruang lingkup dalam membangun aplikasi M-AFI yaitu Mobile Attendence Fingerprint
 
 1.3 Definisi, Akronim, Singkatan (bunda)
 
+|   Singkatan  | Definisi |
+| ------ | ------ |
+| SRS | Merupakan singkatan dari Software Requirement Specfication |
+| M-AFI | Singkatan Dari Mobile Attendence merupakan sebuah aplikasi absensi yang menggunakan mobile  |
+
 1.4 Referensi
 
 http://hanungnp.staff.telkomuniversity.ac.id/files/2015/04/contoh-SKPL-Sistem-informasi-tugas-akhir-SISTA.pdf
+https://dillinger.io/
 
 1.5 Overview (bunda)
 
