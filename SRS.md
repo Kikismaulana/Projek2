@@ -154,3 +154,4 @@ Kebutuhan lain yang spesifik (triyani)
 Informasi pendukung (diyah)
 
 * aplikasi ini hanya dapat bisa digunakan oleh  orang tua siswa dan guru yang mempunyai smartphone.
+* siswa atau guru yang dikirimkan melalui aplikasi M-AFI akan diupdate secara manual melalui admin.
