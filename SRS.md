@@ -100,6 +100,8 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 2.1.6 Batasan-batasan memori (opal)
 
+M-AFI harus ditulis dalam bahasa java, php, CI, bootstrap.
+
 2.1.7 Operasi-operasi (opal)
 
 2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi (triyani)
