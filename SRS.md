@@ -23,8 +23,6 @@ Ruang lingkup dalam membangun aplikasi M-AFI yaitu Mobile Attendence Fingerprint
 
 2.1.1 Antarmuka sistem 
 
-![](gambar/DFD.png)
-
 ![](gambar/Antarmuka_pengguna.png)
 
 2.1.2 Antarmuka pengguna
