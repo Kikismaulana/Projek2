@@ -122,3 +122,5 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
 Kebutuhan lain yang spesifik (triyani)
 
 Informasi pendukung (diyah)
+
+* aplikasi ini hanya dapat bisa digunakan oleh  orang tua siswa dan guru yang mempunyai smartphone.
