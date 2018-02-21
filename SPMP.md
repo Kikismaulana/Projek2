@@ -113,13 +113,30 @@ Proyek ini diprioritaskan untuk kebutuhan instansi.
 3.3 Manajemen resiko
 
  1.Resiko teknologi
+
  2.Resiko keuangan
+
  3.Resiko orang
+
  4.struktur/resiko proses
 
 3.4 Mekanisme monitoring dan kontroling
 
+ 1.Pertemuan pembahasan proyek seminggu tiga kali
+
+ 2.Repository dokumen bersama
+
 3.5 Perencanaan staf
+
+ 1.Kikis Maulana (Project Manager)
+
+ 2.Naufal Ibrahim (Programmer)
+
+ 3.Widiana Silvi (Database)
+
+ 4.Diyah Ayu Amaliyah (Desain)
+
+ 5.Triyani Ramadhani (Dokumentasi)
 
 ## Proses Teknis ##
 
