@@ -137,12 +137,15 @@ Proyek ini diprioritaskan untuk kebutuhan instansi.
 ## Proses Teknis ##
 
 4.1 Metoda, tool, dan teknik
+
 Proyek ini akan dilaksanakan menggunakan beberapa aplikasi yang mendukung yaitu android studio, mySQL dan perangkat keras yaitu finger print yang merupakan perangkat utama yang digunakan saat aplikasi absensi sudah jadi.
 
 4.2 Dokumentasi perangkat lunak
+
 Dokumentasi ini menggunakan beberapa dokumen yang tersedia seperti dokumen absensi dari instansi yang bersangkutan, serta dokumen-dokumen lain yang mendukung proyek ini seperti dokumen referensi yang tersedia dikampus.
 
 4.3 Fungsi-fungsi pendukung proyek
+
 Semua dokumen pendukung proyek akan selesai secara bertahap.
 
 ## Paket Pekerjaan, Jadwal, dan Budget ##
