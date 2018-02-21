@@ -46,7 +46,12 @@ Ruang lingkup dalam membangun aplikasi M-AFI yaitu Mobile Attendence Fingerprint
 
 2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi (triyani)
 
+- untuk lokasi penempatan fingerprint dan komputer dipilih tempat yang strategis untuk pengimputan data supaya tidak terjadi antrian yang panjang.
+
+
 2.2 Fungsi-fungsi produk (triyani)
+
+- Modul absen adalah modul yyang digunakan untuk melayani absensi siswa dan guru menggunakan teknologi fingerprint. Fungsi dari modul absensi adalah absensi siswa dan guru dilakukan secara digital, sistem absensi akan membaca data keterlambatan sesuai waktu yang  ditentukan, hasil rekapitulasi absensi dapat dilihat secara cepat, tepat dan akurat. hasil rekapitulasi dapat di kelompokkan berdasarkan waktu (hari, minggu, bulan, semester dan tahunan) dan kelompok siswa( kelas, tahun ajaran, indeks prestasi dan lain-lain).
 
 2.3 Karakteristik pengguna (diyah)
 karakteristik pengguna dari aplikasi M-AFI ini adalah semua yang ingin menggunakan absensi diantaranya siswa dan guru, 
