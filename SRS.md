@@ -61,6 +61,12 @@ Pada dokumen ini memberikan penjelasan tentang gambaran umum, termasuk karakteri
 - Webserver
 
 	Untuk Webserver admin dapat di akses menggunakan semua jenis browser (google chrom, Mozila, Opera dan lain-lain), dan pastinya harus menggunakan akses internet untuk mengakses data pada Firebase.
+
+
+- Mobile M-AFI
+
+	Aplikasi M-AFI yang berfungsi sebagai monitoring absensi ini hanya dapat di akses melalui smartphone android dengan OS minimum Lolipop.
+
 2.1.5 Antarmuka komunikasi (opal)
 
 2.1.6 Batasan-batasan memori (opal)
