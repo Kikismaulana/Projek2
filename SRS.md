@@ -24,6 +24,7 @@ Ruang lingkup dalam membangun aplikasi M-AFI yaitu Mobile Attendence Fingerprint
 
 http://hanungnp.staff.telkomuniversity.ac.id/files/2015/04/contoh-SKPL-Sistem-informasi-tugas-akhir-SISTA.pdf
 https://dillinger.io/
+https://martinyunianto.wordpress.com/desain-dan-implementasi-sistem-informasi-absensi/
 
 1.5 Overview (bunda)
 
@@ -77,6 +78,9 @@ Aplikasi ini juga bisa mengirimkan izin siswa melalui user monitoring orang tua 
 
 2.1.4 Antarmuka perangkat lunak (kikis)
 
+- Webserver
+
+	Untuk Webserver admin dapat di akses menggunakan semua jenis browser (google chrom, Mozila, Opera dan lain-lain), dan pastinya harus menggunakan akses internet untuk mengakses data pada Firebase.
 2.1.5 Antarmuka komunikasi (opal)
 
 2.1.6 Batasan-batasan memori (opal)
