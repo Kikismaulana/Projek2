@@ -109,7 +109,13 @@ Aplikasi ini juga bisa mengirimkan izin siswa melalui user monitoring orang tua 
 
 2.2 Fungsi-fungsi produk (triyani)
 
-- Modul absen adalah modul yyang digunakan untuk melayani absensi siswa dan guru menggunakan teknologi fingerprint. Fungsi dari modul absensi adalah absensi siswa dan guru dilakukan secara digital, sistem absensi akan membaca data keterlambatan sesuai waktu yang  ditentukan, hasil rekapitulasi absensi dapat dilihat secara cepat, tepat dan akurat. hasil rekapitulasi dapat di kelompokkan berdasarkan waktu (hari, minggu, bulan, semester dan tahunan) dan kelompok siswa( kelas, tahun ajaran, indeks prestasi dan lain-lain).
+- Modul absen adalah modul yang digunakan untuk melayani absensi siswa dan guru menggunakan teknologi fingerprint.
+- Fungsi dari modul absensi adalah absensi siswa dan guru dilakukan secara digital
+- Sistem absensi akan membaca data keterlambatan sesuai waktu yang ditentukan
+- Hasil rekapitulasi absensi dapat dilihat secara cepat tepat dan akurat. 
+- Hasil rekapitulasi dapat di kelompokkan berdasarkan waktu (hari, minggu, bulan, semester dan tahunan)
+dan kelompok siswa( kelas, tahun ajaran, indeks prestasi dan lain-lain).
+- Hasil rekapitulasi siswa juga dapat dilihat oleh orang tua siswa melalui perangkat bergerak atau smartphone.
 
 2.3 Karakteristik pengguna (diyah)
 karakteristik pengguna dari aplikasi M-AFI ini adalah semua yang ingin menggunakan absensi diantaranya siswa dan guru, 
