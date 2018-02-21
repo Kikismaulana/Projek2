@@ -149,6 +149,14 @@ Semua dokumen pendukung proyek akan selesai secara bertahap.
 
 5.1 Paket Pekerjaan
 
+| No | Nama | Jabatan | Modul | Rincian |
+|----|------|---------|-------|---------|
+| 1  |Kikis Maulanan | PROJECT MANAGER |       |          |
+| 2  |Noufal Ibramhim | PROGRAMMER |        |          |
+| 3  |Widiana Silvi | DB ENGINEER  |        |          |
+| 4  |Diyah Ayu Amaliyah | DESIGNER |       |          |
+| 5  |Triyani Ramadhani | DOCUMENTATION |          |           |
+
 5.2 Ketergantungan/Keterkaitan
 
 Pada proses pengerjaan projek yang kami buat ini, keterkaitan dalam tugas 
@@ -158,39 +166,39 @@ masing-masing sangat membantu karena agar terbentuknya ketelitian dalam mengerja
 
 Dalam pembuatan aplikasi ini dibuat oleh 5 orang. Didalam kebutuhan sumber daya terdiri dari kebutuhan software dan hardware, diantaranya :
 
-Kebutuhan-kebutuhan sumber daya manusia
+1. Kebutuhan-kebutuhan sumber daya manusia
 
-Kikis Maulana ( Project Manager )
+* Kikis Maulana ( Project Manager )
 
-Noufal Ibrahim ( Programmer )
+* Noufal Ibrahim ( Programmer )
 
-Widiana Silvi ( Database )
+* Widiana Silvi ( Database )
 
-Diyah Ayu Amaliyah ( Desain )
+* Diyah Ayu Amaliyah ( Desain )
 
-Triyani Ramadhani ( Dokumentasi )
+* Triyani Ramadhani ( Dokumentasi )
 
-Kebutuhan-kebutuhan software
+2. Kebutuhan-kebutuhan software
 
-i. Android Studio
+* Android Studio
 
-ii. Xampp
+* Xampp
 
-iii. Javascript
+* Javascript
 
-iv. Finger Print
+* Finger Print
 
-v. Mysql
+* Mysql
 
-Kebutuhan-kebutuhan Hardware
+3. Kebutuhan-kebutuhan Hardware
 
-i. Laptop / PC
+* Laptop / PC
 
 5.4 Alokasi budget dan sumber daya
 
 Berikut ini yang dibutuhkan pada pembuatan aplikasi ini diantaranya
 
-Survey Mitra
+* Survey Mitra
 
 5.5 Jadwal
 
