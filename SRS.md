@@ -13,7 +13,9 @@ Ruang lingkup dalam membangun aplikasi M-AFI yaitu Mobile Attendence Fingerprint
 
 1.3 Definisi, Akronim, Singkatan (bunda)
 
-1.4 Referensi (bunda)
+1.4 Referensi
+
+http://hanungnp.staff.telkomuniversity.ac.id/files/2015/04/contoh-SKPL-Sistem-informasi-tugas-akhir-SISTA.pdf
 
 1.5 Overview (bunda)
 
