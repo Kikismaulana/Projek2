@@ -23,6 +23,8 @@ Singkatan | Definisi
 | M-AFI | Singkatan Dari Mobile Attendence merupakan sebuah aplikasi absensi yang menggunakan mobile  |
 |Fingerprint| Merupakan fingerprint merupakan suatu perangkat keras untuk memberikan data otomatis yang menggunakan sidik jari manusia. fingerprint digunakan biasannya untuk sistem absensi yang digunakan beberapa instansi.|
 | Webserver | Webserver sebuah software yang memberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada klien yang dikenal dan biasanya kita kenal dengan nama web browser (Mozilla Firefox, Google Chrome) dan untuk mengirimkan kembali yang hasilnya dalam bentuk beberapa halaman web dan pada umumnya akan berbentuk dokumen HTML. |
+| LAN | LAN merupakan singkatan dari Local Area Network, yang mana merupakan sebuah jaringan komputer dengan skala kecil (local) seperti gedung perkantoran, sekolah atau rumah. LAN umumnya digunakan untuk berbagi resource dalam suatu gedung. LAN dapat berdiri sendiri, tanpa terhubung oleh jaringan luar atau internet. Namun apabila suatu LAN dihubungkan dengan beberapa LAN lainnya maka akan terbentuk suatu jaringan yang disebut Metropolitan Area Network (MAN). |
+
 
 1.4 Referensi
 
@@ -104,9 +106,12 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 2.1.6 Batasan-batasan memori (opal)
 
-M-AFI harus ditulis dalam bahasa java, php, CI, bootstrap.
-
 2.1.7 Operasi-operasi (opal)
+
+* Login melalui website, masuk sebagai admin untuk mengelola presensi dan mengelola user guru dan orang tua siswa
+* Login melalui mobile, masuk sebagai orang tua siswa atau sebagai guru
+* Rekap presensi, dapat di download melalui mobile
+* Izin siswa, dapat mengupload foto surat izin/sakit siswa melalui mobile yang dilakukan orang tua siswa dan guru
 
 2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi (triyani)
 
@@ -142,15 +147,7 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
 * Semua absensi sekolah adalah siswa dan guru di sekolah. 
 * Absensi disekolah sendiri akan dilakukan oleh siswa dan guru yang apabila ketika ingin kehadirannya masuk ke sekolah.
 
-2.6 Kebutuhan-kebutuhan penyeimbang
-
-- C-Requirement
-
-Belum tau isinya apa
-
-- D-Requirement
-
-Belum tau isinya apa
+2.6 Kebutuhan-kebutuhan penyeimbang (kikis)
 
 Kebutuhan lain yang spesifik (triyani)
 
