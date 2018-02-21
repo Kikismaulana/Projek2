@@ -155,3 +155,5 @@ Informasi pendukung (diyah)
 
 * aplikasi ini hanya dapat bisa digunakan oleh  orang tua siswa dan guru yang mempunyai smartphone.
 * siswa atau guru yang dikirimkan melalui aplikasi M-AFI akan diupdate secara manual melalui admin.
+* untuk perizinan siswa atau guru dapat melalui offline juga tidak harus melalui aplikasi M-AFI tetapi tetap pada admin ( web server )
+   akan diupdate.
