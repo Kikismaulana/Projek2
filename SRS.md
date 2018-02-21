@@ -2,23 +2,29 @@
 
 ## Pendahuluan ##
 
-1.1 Tujuan (bunda)
+1.1 Tujuan
 
 Tujuan dari penulisan dokumen Softaware Requirement Specification (SRS) untuk mempermudah mengembangkan perangkat lunak untuk Mobile-Attendance Fingerprint
 dan memberikan gambaran yang spesifik dari kebutuhan softaware Mobile-Attendance Fingerprint(M-AFI). Spesifikasi kebutuhan tersebut termasuk dari segi perangkat lunak dan perangkat keras,untuk memberikan gambaran dan 
 penjelasan mengenai pembuatan produk termasuk kebutuhan fungsional hingga non-fungsional, dan kebutuhan antar muka mulai dari antar muka pengguna hingga antar muka komunikasi.
 
-1.2 Lingkup (bunda)
+1.2 Lingkup
 
 Ruang lingkup dalam membangun aplikasi M-AFI yaitu Mobile Attendence Fingerprint menggunakan beberapa perangkat lunak yang mendukung, diantaranya saat penginputan data siswa dan guru. M-AFI ini perlu dibuatkannya karena untuk mempermudah instansi pendidikan untuk sistem absensinya.
 
 
-1.3 Definisi, Akronim, Singkatan (bunda)
+1.3 Definisi, Akronim, Singkatan
 
-|   Singkatan  | Definisi |
+
+
+Singkatan | Definisi 
 | ------ | ------ |
 | SRS | Merupakan singkatan dari Software Requirement Specfication |
 | M-AFI | Singkatan Dari Mobile Attendence merupakan sebuah aplikasi absensi yang menggunakan mobile  |
+|Fingerprint| Merupakan fingerprint merupakan suatu perangkat keras untuk memberikan data otomatis yang menggunakan sidik jari manusia. fingerprint digunakan biasannya untuk sistem absensi yang digunakan beberapa instansi.|
+| Webserver | Webserver sebuah software yang memberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada klien yang dikenal dan biasanya kita kenal dengan nama web browser (Mozilla Firefox, Google Chrome) dan untuk mengirimkan kembali yang hasilnya dalam bentuk beberapa halaman web dan pada umumnya akan berbentuk dokumen HTML. |
+| LAN | LAN merupakan singkatan dari Local Area Network, yang mana merupakan sebuah jaringan komputer dengan skala kecil (local) seperti gedung perkantoran, sekolah atau rumah. LAN umumnya digunakan untuk berbagi resource dalam suatu gedung. LAN dapat berdiri sendiri, tanpa terhubung oleh jaringan luar atau internet. Namun apabila suatu LAN dihubungkan dengan beberapa LAN lainnya maka akan terbentuk suatu jaringan yang disebut Metropolitan Area Network (MAN). |
+
 
 1.4 Referensi
 
@@ -28,7 +34,7 @@ https://dillinger.io/
 
 https://martinyunianto.wordpress.com/desain-dan-implementasi-sistem-informasi-absensi/
 
-1.5 Overview (bunda)
+1.5 Overview
 
 Pada dokumen ini memberikan penjelasan tentang gambaran umum, termasuk karakterisitik pengguna proyek ini, hardware produk, dan persyaratan fungsional seperti data siswa/guru pada instansi yag terkait yang digunakan untuk persyaratan penginputan data. Gambaran umum ini dibahasan pada bagian 2 yang terdiri dari prespektif produk,antarmuka sistem, antarmuka pengguna,antarmuka perangkat keras,antarmuka perangkat lunak sampe anatrmuka komunikasi. Hal ini juga dapat memberikan suatu kebutuhan yang terdapat pada aplikasi M-AFI (Mobile Attandence Finger Print).
 
@@ -44,10 +50,14 @@ A.	Perbandingan dengan produk-produk kompetitor
 Aplikasi ini adalah aplikasi absensi yang memanfaatkan fitur sms gateway, aplikasi ini digunakan untuk memantau para siswa terkait dengan tingkat kedisiplinan dalam proses belajar di sekolah, dimana tingkat kedisiplinan kehadiran siswa menjadi salah satu tolok ukur dalam proses penilaian. 
 Aplikasi ini memiliki kelebihan untuk orang tua siswa dalam memantau anaknya apabila anaknya tersebut tidak hadir di sekolah, sistem akan otomatis mengirim pemberitahuan melalui sms langsung ke HP orang tua siswa.
 
+![](gambar/Absensi_siswa.png)
+
 2.	Sistem absensi fingerprint untuk dosen di POLINDRA
 
 Sistem absensi dosen yang diterapkan untuk para dosen di POLINDRA ini adalah sistem absensi yang diterapkan dengan menggunakan fingerprint, sistem ini mempunyai kelebihan cepat dan akurat dalam proses absensi, karena sistem ini menggunakan metode biometrik dalam pengaplikasiannya, metode biometrik dalam sistem ini adalah menggunakan sidik jari dosen.
 Sistem ini belum bisa dilihat report presensinya untuk para dosen, jadi aplikasi ini hanya sekedar absensi menggunakan sidik jari, dan data absensi nya hanya masuk ke database, tetapi tidak bisa dilihat oleh para dosen.
+
+![](gambar/absensi_polindra.jpg)
 
 3.	M-AFI (Mobile-Attendance Fingerprint)
 
@@ -83,11 +93,25 @@ Aplikasi ini juga bisa mengirimkan izin siswa melalui user monitoring orang tua 
 - Webserver
 
 	Untuk Webserver admin dapat di akses menggunakan semua jenis browser (google chrom, Mozila, Opera dan lain-lain), dan pastinya harus menggunakan akses internet untuk mengakses data pada Firebase.
+
+
+- Mobile M-AFI
+
+	Aplikasi M-AFI yang berfungsi sebagai monitoring absensi ini hanya dapat di akses melalui smartphone android dengan OS minimum Lolipop.
+
 2.1.5 Antarmuka komunikasi (opal)
+
+M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat fingerprint ke laptop. Ini harus menggunakan protokol IP handal-jenis seperti TCP / IP ataureliable-UDP/IP untuk kompatibilitas maksimum dan stabilitas. Semua perangkat itu akanantarmuka dengan seharusnya berisi standar Ethernet kompatibel, perangkat lunak kartu LAN dapatdiakses untuk menjaga komunikasi antara server dan komputer. Perangkat yang nirkabel juga harus menggunakan Ethernet cardyang kompatibel, menggunakan IEEE 802.11b / g dan mendukung standar memiliki untuk enkripsiWPA2-PSK. Penggunaan IEEE 802.11n hardware standar transmisi juga diterima jika semua perangkat keras lokal lainnya adalah konforman dengan standar yang sama
+
 
 2.1.6 Batasan-batasan memori (opal)
 
 2.1.7 Operasi-operasi (opal)
+
+* Login melalui website, masuk sebagai admin untuk mengelola presensi dan mengelola user guru dan orang tua siswa
+* Login melalui mobile, masuk sebagai orang tua siswa atau sebagai guru
+* Rekap presensi, dapat di download melalui mobile
+* Izin siswa, dapat mengupload foto surat izin/sakit siswa melalui mobile yang dilakukan orang tua siswa dan guru
 
 2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi (triyani)
 
@@ -96,7 +120,13 @@ Aplikasi ini juga bisa mengirimkan izin siswa melalui user monitoring orang tua 
 
 2.2 Fungsi-fungsi produk (triyani)
 
-- Modul absen adalah modul yyang digunakan untuk melayani absensi siswa dan guru menggunakan teknologi fingerprint. Fungsi dari modul absensi adalah absensi siswa dan guru dilakukan secara digital, sistem absensi akan membaca data keterlambatan sesuai waktu yang  ditentukan, hasil rekapitulasi absensi dapat dilihat secara cepat, tepat dan akurat. hasil rekapitulasi dapat di kelompokkan berdasarkan waktu (hari, minggu, bulan, semester dan tahunan) dan kelompok siswa( kelas, tahun ajaran, indeks prestasi dan lain-lain).
+- Data guru
+- Data siswa
+- daftar kehadiran 
+- From perizinan siswa 
+- Hasil rekapitulasi dapat di kelompokkan berdasarkan waktu (hari, minggu, bulan, semester dan tahunan) dan kelompok siswa( kelas, tahun ajaran, indeks prestasi dan lain-lain).
+
+secara umum fungsi pada aplikasi M-AFI, dimulai dari pembacaan sistem sidik jari kemudian masuk kedatabase, dapat dilihat oleh admin untuk keseluruhan data. kemudian, orang tua dapat melihat daftar hadir anaknya melalui smartphone.
 
 2.3 Karakteristik pengguna (diyah)
 karakteristik pengguna dari aplikasi M-AFI ini adalah semua yang ingin menggunakan absensi diantaranya siswa dan guru, 
