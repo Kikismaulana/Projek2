@@ -103,10 +103,18 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
 
 2.4 Batasan-batasan (diyah)
 
+ * Aplikasi M-AFI untuk waktu pengembangannya hanya ada beberapa fungsi yang dilaksanakan.
+ * Pengembangan aplikasi M-AFI tidak akan mengubah file-file ataupun database yang ada
+   pada saat ini tanpa adanya izin dari pihak sekolah.
+ * Pengembangan aplikasi M-AFI ini akan meliputi pengelolaan data-data yang ada disekolah
+   yang meliputi data absensi siswa dan guru serta laporan untuk siswa atau guru yang tidak 
+   masuk.
+
 2.5 Asumsi-asumsi dan ketrgantungan/keterkaitan (diyah)
 
--Semua absensi sekolah adalah siswa dan guru di sekolah. 
--Absensi disekolah sendiri akan dilakukan oleh siswa dan guru yang apabila ketika ingin kehadirannya masuk ke sekolah.
+* Semua absensi sekolah adalah siswa dan guru di sekolah. 
+* Absensi disekolah sendiri akan dilakukan oleh siswa dan guru yang apabila ketika ingin kehadirannya masuk ke sekolah.
+
 2.6 Kebutuhan-kebutuhan penyeimbang (kikis)
 
 Kebutuhan lain yang spesifik (triyani)
