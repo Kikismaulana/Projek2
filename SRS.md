@@ -141,7 +141,15 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
 * Semua absensi sekolah adalah siswa dan guru di sekolah. 
 * Absensi disekolah sendiri akan dilakukan oleh siswa dan guru yang apabila ketika ingin kehadirannya masuk ke sekolah.
 
-2.6 Kebutuhan-kebutuhan penyeimbang (kikis)
+2.6 Kebutuhan-kebutuhan penyeimbang
+
+- C-Requirement
+
+Belum tau isinya apa
+
+- D-Requirement
+
+Belum tau isinya apa
 
 Kebutuhan lain yang spesifik (triyani)
 
