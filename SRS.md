@@ -107,6 +107,11 @@ M-AFI harus ditulis dalam bahasa java, php, CI, bootstrap.
 
 2.1.7 Operasi-operasi (opal)
 
+* Login melalui website, masuk sebagai admin untuk mengelola presensi dan mengelola user guru dan orang tua siswa
+* Login melalui mobile, masuk sebagai orang tua siswa atau sebagai guru
+* Rekap presensi, dapat di download melalui mobile
+* Izin siswa, dapat mengupload foto surat izin/sakit siswa melalui mobile yang dilakukan orang tua siswa dan guru
+
 2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi (triyani)
 
 - untuk lokasi penempatan fingerprint dan komputer dipilih tempat yang strategis untuk pengimputan data supaya tidak terjadi antrian yang panjang.
