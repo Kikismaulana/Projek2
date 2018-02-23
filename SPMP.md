@@ -34,6 +34,7 @@ Tabel I.1 Akronim
 | M-AFI |	Mobile-Attendance Fingerprint |
 | IEEE |	The International Institute ofElectronic and Electrical Engineers |
 | SPMP |	Software Project Management Plan |
+| SRS |	Software Requirement Specification |
 
 
 IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses kontrol dari lapisan data-link dari standar Ethernet berkabel.
@@ -41,6 +42,8 @@ IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses
 M-AFI adalah nama project yang sedang kita garap.
 
 SPMP adalah salah satu dokumentasi untuk merencanakan pembuatan project
+
+SRS adalah dokumen yang digunakan pada tahap pengumpulan/analisis kebutuhankebutuhan.
 
 ## Organisasi Proyek ##
 
