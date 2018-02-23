@@ -41,7 +41,7 @@ Pada dokumen ini memberikan penjelasan tentang gambaran umum, termasuk karakteri
 
 ## Gambaran Umum ##
 
-2.1 Perspektif produk (opal)
+2.1 Perspektif produk
 
 A.	Perbandingan dengan produk-produk kompetitor
 
@@ -88,7 +88,7 @@ Aplikasi ini juga bisa mengirimkan izin siswa melalui user monitoring orang tua 
 - Laptop
 - Smartphone
 
-2.1.4 Antarmuka perangkat lunak (kikis)
+2.1.4 Antarmuka perangkat lunak
 
 - Webserver
 
@@ -99,26 +99,26 @@ Aplikasi ini juga bisa mengirimkan izin siswa melalui user monitoring orang tua 
 
 	Aplikasi M-AFI yang berfungsi sebagai monitoring absensi ini hanya dapat di akses melalui smartphone android dengan OS minimum Lolipop.
 
-2.1.5 Antarmuka komunikasi (opal)
+2.1.5 Antarmuka komunikasi
 
 M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat fingerprint ke laptop. Ini harus menggunakan protokol IP handal-jenis seperti TCP / IP ataureliable-UDP/IP untuk kompatibilitas maksimum dan stabilitas. Semua perangkat itu akanantarmuka dengan seharusnya berisi standar Ethernet kompatibel, perangkat lunak kartu LAN dapatdiakses untuk menjaga komunikasi antara server dan komputer. Perangkat yang nirkabel juga harus menggunakan Ethernet cardyang kompatibel, menggunakan IEEE 802.11b / g dan mendukung standar memiliki untuk enkripsiWPA2-PSK. Penggunaan IEEE 802.11n hardware standar transmisi juga diterima jika semua perangkat keras lokal lainnya adalah konforman dengan standar yang sama
 
 
-2.1.6 Batasan-batasan memori (opal)
+2.1.6 Batasan-batasan memori
 
-2.1.7 Operasi-operasi (opal)
+2.1.7 Operasi-operasi
 
 * Login melalui website, masuk sebagai admin untuk mengelola presensi dan mengelola user guru dan orang tua siswa
 * Login melalui mobile, masuk sebagai orang tua siswa atau sebagai guru
 * Rekap presensi, dapat di download melalui mobile
 * Izin siswa, dapat mengupload foto surat izin/sakit siswa melalui mobile yang dilakukan orang tua siswa dan guru
 
-2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi (triyani)
+2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi
 
 - untuk lokasi penempatan fingerprint dan komputer dipilih tempat yang strategis untuk pengimputan data supaya tidak terjadi antrian yang panjang.
 
 
-2.2 Fungsi-fungsi produk (triyani)
+2.2 Fungsi-fungsi produk
 
 - Data guru
 - Data siswa
@@ -128,12 +128,12 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 secara umum fungsi pada aplikasi M-AFI, dimulai dari pembacaan sistem sidik jari kemudian masuk kedatabase, dapat dilihat oleh admin untuk keseluruhan data. kemudian, orang tua dapat melihat daftar hadir anaknya melalui smartphone.
 
-2.3 Karakteristik pengguna (diyah)
+2.3 Karakteristik pengguna
 karakteristik pengguna dari aplikasi M-AFI ini adalah semua yang ingin menggunakan absensi diantaranya siswa dan guru, 
 dan orang tua yang membedakan adalah pengguna yang berinteraksi dengan sistem dihubungkan dengan hak akses dan 
 autentifikasi sesuai aturan yang terdapat pada absensi.
 
-2.4 Batasan-batasan (diyah)
+2.4 Batasan-batasan
 
  * Aplikasi M-AFI untuk waktu pengembangannya hanya ada beberapa fungsi yang dilaksanakan.
  * Pengembangan aplikasi M-AFI tidak akan mengubah file-file ataupun database yang ada
@@ -142,16 +142,19 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
    yang meliputi data absensi siswa dan guru serta laporan untuk siswa atau guru yang tidak 
    masuk.
 
-2.5 Asumsi-asumsi dan ketrgantungan/keterkaitan (diyah)
+2.5 Asumsi-asumsi dan ketrgantungan/keterkaitan
 
 * Semua absensi sekolah adalah siswa dan guru di sekolah. 
 * Absensi disekolah sendiri akan dilakukan oleh siswa dan guru yang apabila ketika ingin kehadirannya masuk ke sekolah.
 
-2.6 Kebutuhan-kebutuhan penyeimbang (kikis)
+2.6 Kebutuhan-kebutuhan penyeimbang
 
-Kebutuhan lain yang spesifik (triyani)
+- C-Requirement (Belum paham)
+- D-Requirement (Belum paham)
 
-Informasi pendukung (diyah)
+Kebutuhan lain yang spesifik
+
+Informasi pendukung
 
 * aplikasi ini hanya dapat bisa digunakan oleh  orang tua siswa dan guru yang mempunyai smartphone.
 * siswa atau guru yang dikirimkan melalui aplikasi M-AFI akan diupdate secara manual melalui admin.
