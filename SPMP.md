@@ -172,11 +172,12 @@ Semua dokumen pendukung proyek akan selesai secara bertahap.
 
 | No | Nama | Jabatan | Modul | Rincian |
 |----|------|---------|-------|---------|
-| 1  |Kikis Maulanan | PROJECT MANAGER |       |          |
-| 2  |Noufal Ibramhim | PROGRAMMER |        |          |
-| 3  |Widiana Silvi | DB ENGINEER  |        |          |
-| 4  |Diyah Ayu Amaliyah | DESIGNER |       |          |
-| 5  |Triyani Ramadhani | DOCUMENTATION |          |           |
+|  1  |Kikis Maulanan | PROJECT MANAGER |Rekap Absensi, view absensi, API, Logo, Mengoneksi ke email orang tua,API.        |          |
+|  2  |Noufal Ibramhim | PROGRAMMER |Fingerprint, inpurt data, kirim izin (Mobile), API.        |          |
+|  3  |Widiana Silvi | DB ENGINEER  |Membuat database di postgree, view data, delete data, API.        |          |
+|  4  |Diyah Ayu Amaliyah | DESIGNER | Tampilan web, tampilan mobile, login (backend), API.       |          |
+|  5  |Triyani Ramadhani | DOCUMENTATION |Update data, Notifikasi (web), lupa password, API.          |           |
+
 
 5.2 Ketergantungan/Keterkaitan
 
