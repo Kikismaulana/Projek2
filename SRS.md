@@ -394,3 +394,5 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 
 3.3. Detailed Non-Functional Requirements
+
+![](https://image.ibb.co/dR8riS/ERD.jpg)
