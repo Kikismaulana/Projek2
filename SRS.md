@@ -183,12 +183,8 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
 
 2.6. Asumsi-asumsi keterkaitan
 
-<<<<<<< HEAD
-
-=======
 * Kapasitas user pada fingerprint : 20.000 sidikjari
 * Jenis komunikasi PC : TCP/IP (RJ45), RS 232/RS485, USB cable, USB disk
 * Waktu respon input data pada fingerprint : <= 1 detik
->>>>>>> dac320e28c4242c37c540e759a2d9591e7b2d5c5
 
 2.7. Kebutuhan penyeimbang
