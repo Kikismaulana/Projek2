@@ -169,6 +169,8 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 2.2. Spesifikasi kebutuhan fungsional
 
 2.3. Spesifikasi kebutuhan non-fungsional
+-Design UI/UX layout mobile
+-Design UI/UX layout web server
 
 2.4. Karakteristik pengguna
 
