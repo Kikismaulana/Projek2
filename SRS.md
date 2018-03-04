@@ -168,9 +168,166 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 2.2. Spesifikasi kebutuhan fungsional
 
+	2.2.1 Siswa
+
+![](https://image.ibb.co/bGY4L7/Siswausescases.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+	2.2.2. Orang tua siswa
+
+![](https://image.ibb.co/mTa6YS/Orangtuausescases.jpg)
+
+Login/Logout uses cases
+
+![](https://image.ibb.co/jwajL7/os1.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
+Monitoring Presensi
+
+![](https://image.ibb.co/kr84L7/os2.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
+Rekap Presensi
+
+![](https://image.ibb.co/bDOFSn/os3.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
+Kirim Izin
+
+![](https://image.ibb.co/jUq6YS/os4.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
+Ganti Password
+
+![](https://image.ibb.co/bGnmYS/os5.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
+	2.2.3. Admin Uses Cases
+
+![](https://image.ibb.co/j0CW07/Adminusescases.jpg)
+
+Create Data Kelas
+
+![](https://image.ibb.co/iquTf7/A1.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
+
+Create Data Siswa
+
+![](https://image.ibb.co/gOQenn/A2.jpg)
+
+Update Presensi Izin
+
+![](https://image.ibb.co/go0enn/A3.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
+
+Hapus Data Kelas
+
+![](https://image.ibb.co/cEFZL7/A4.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
+Hapus Data Siswa
+
+![](https://image.ibb.co/h1Jof7/A5.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
+Rekap Presensi
+
+![](https://image.ibb.co/nnZiDS/A6.jpg)
+
+Deskripsi singkat :
+
+diisi
+
+Langkah-langkah :
+
+diisi
+
+
 2.3. Spesifikasi kebutuhan non-fungsional
--Design UI/UX layout mobile
--Design UI/UX layout web server
+
+- Design UI/UX layout mobile
+- Design UI/UX layout web server
 
 2.4. Karakteristik pengguna
 
