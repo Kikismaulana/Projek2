@@ -155,10 +155,6 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 	2.1.6. Batasan memori
 
-* Kapasitas user pada fingerprint : 20.000 sidikjari
-* Jenis komunikasi PC : TCP/IP (RJ45), RS 232/RS485, USB cable, USB disk
-* Waktu respon input data pada fingerprint : <= 1 detik
-
 	2.1.7. Operasi-operasi
 
 * Login melalui website, masuk sebagai admin untuk mengelola presensi dan mengelola user guru dan orang tua siswa
@@ -179,5 +175,9 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 2.5. Batasan-batasan
 
 2.6. Asumsi-asumsi keterkaitan
+
+* Kapasitas user pada fingerprint : 20.000 sidikjari
+* Jenis komunikasi PC : TCP/IP (RJ45), RS 232/RS485, USB cable, USB disk
+* Waktu respon input data pada fingerprint : <= 1 detik
 
 2.7. Kebutuhan penyeimbang
