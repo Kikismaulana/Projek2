@@ -174,11 +174,12 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 Deskripsi singkat :
 
-diisi
+Siswa akan melakukan absensi melalui fingerprint.
 
 Langkah-langkah :
 
-diisi
+* Siswa meletakan sidik jari ke device fingerprint.
+
 
 	2.2.2. Orang tua siswa
 
