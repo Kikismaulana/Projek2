@@ -591,16 +591,16 @@ Entitas data User
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| IdUser |  |  |
-| Email |  |  |
-| Password |  |  |
-| NamaLengkap |  |  |
-| Level |  |
-| Alamat |  |
-| JK |  |
-| NoHp |  |
-| NamaAyah |  |
-| NamaIbu |  |
+| IdUser | Int | NISN Siswa untuk username orang tua siswa login M-AFI App |
+| Email | varchar | email untuk bantuan lupa password |
+| Password | varchar | Password untuk login orang tua pada M-AFI App |
+| NamaLengkap | Varchar |  |
+| Level | Varchar | Pembedaan hak akses admin dan orang tua siswa |
+| Alamat | Text | Alamat siswa |
+| JK | Varchar | Jenis kelamin siswa |
+| NoHp | Varchar | Nomor hp siswa |
+| NamaAyah | Varchar | Nama ayah siswa |
+| NamaIbu | Varchar | Nama ibu siswa |
 
 
 Entitas data Kelas
