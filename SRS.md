@@ -1,15 +1,25 @@
 # Software Requirement Specification #
-## Version - ##
-## 04 Maret 2018 ##
+Version -
+04 Maret 2018
+
 ![](https://image.ibb.co/bJCF0x/POLINDRA.png)
-## M-AFI ##
-## Diyah Ayu Amaliyah ##
-## Kikis Maulana ##
-## Noufal Ibrahim ##
-## Widiana Silvi ##
-## Triyani Ramadhani ##
-## Jurusan D3 Teknik Informatika ##
-## Politeknik Negeri Indramayu ##
+
+M-AFI
+
+Diyah Ayu Amaliyah
+
+Kikis Maulana
+
+Noufal Ibrahim
+
+Widiana Silvi
+
+Triyani Ramadhani
+
+Jurusan D3 Teknik Informatika
+
+Politeknik Negeri Indramayu
+
 
 ## Pendahuluan ##
 
@@ -84,14 +94,32 @@ No | Nama Aplikasi | Keunggulan | Kekurangan
 
 	2.1.1. Antarmuka sistem
 
+	![](https://image.ibb.co/m2STDS/Antarmuka_sistem.png)
+
+Mobile - Attendance Fingerprint memiliki 3 faktor pada pengimplementasiannya, diantaranya, Siswa, Orangtua siswa dan admin.
+Siswa berperan sebagai inputan pada presensi melalui device fingerprint.
+Orang tua siswa dapat mengakses aplikasi M-AFI melalui perangkat mobile dengan standar sistem operasi Lolipop dan harus menggunakan akses internet.
+Admin bertugas untuk memanage presensi pada webserver.
+
 	2.1.2. Antarmuka Pengguna
 
 	2.1.3. Antarmuka perangkat keras
 
 	- Fingerprint
+
+Fingerprint adalah sebuah hardware sensor untuk membaca sidik jari yang unik dari seseorang yang berguna untuk memverifikasi identitas seseorang. Sensor ini dapat digunakan sebagai password untuk membuka telepon, membuka konten atau layanan tertentu atau mengkonfirmasi transaksi keuangan. Pada hal ini device fingerprint berguna untuk presensi siswa-siswi.
+
 	- Server
+
+adalah sebuah sistem komputer yang menyediakan jenis layanan (service) tertentu dalam sebuah jaringan komputer. Server didukung dengan prosesor yang bersifat scalable dan RAM yang besar, juga dilengkapi dengan sistem operasi khusus, yang disebut sebagai sistem operasi jaringan (network operating system).
+
 	- Laptop
+
+Digunakan untuk pembuatan aplikasi M-AFI.
+
 	- Smartphone
+
+Semartphone berfungsi untuk implementasi aplikasi mobile M-AFI.
 
 
 	2.1.4. Antarmuka perangkat lunak
