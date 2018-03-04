@@ -396,6 +396,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.1.1. Input presensi
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -412,6 +413,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.2.1. Login/Logout
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -426,6 +428,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.2.2. Monitoring Presensi
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -440,6 +443,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.2.3. Rekap Presensi
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -454,6 +458,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.2.4. Kirim Izin
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -468,6 +473,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.2.5. Ganti Password
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -485,6 +491,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.3.1. Create Data Kelas
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -499,6 +506,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.3.2. Create Data Siswa
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -513,6 +521,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.3.3. Update Presensi Izin
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -527,6 +536,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.3.4. Hapus Data Kelas
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -541,6 +551,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.3.5. Hapus Data Siswa
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
@@ -555,6 +566,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.3.6. Rekap Presensi
 
+| Item | Descriptions |
 | ------ | ------ |
 | Use Case Name |  |
 | XRef |  |
