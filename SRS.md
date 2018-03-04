@@ -398,13 +398,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Input presensi |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Siswa-siswi akan melakukan presensi saat masuk dan pulang melalui device fingerprint |
+| Precondition | Siswa-siswi hanya dapat melakukan 2 kali presensi melalui fingerprint yaitu saat masuk dan pulang |
+| Basic Path | fingerprint akan mengirimkan data presensi ke database melalui kabel UTP yang terkoneksi dengna pc admin |
+| Alternative Paths | jika pada proses presensi terdapat permasalahan siswa-siswi dapat menghubungi admin |
+| Postcondition | Presensi masuk ke database pada kondisi masuk dan pulang dengan waktu sesuai user menekan |
 | Exception Paths |  |
 | Other |  |
 
@@ -415,13 +415,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Login/logout |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Orang tua siswa melakukan login untuk masuk pada app M-AFI di perangkat mobile dan juga logout untuk keluarnya |
+| Precondition | Orang tua siswa harus mempunyai app M-AFI pada smartphone dengan minimum OS Lolipop |
+| Basic Path | Orang tua siswa membuka App M-AFI pada smartphone, mengisi form login yang telah disediakan dengan memasukkan username yaitu NISN dan password |
+| Alternative Paths | Jika saat mengisi form login salah maka segera hubungi admin/klik lupa password |
+| Postcondition | Setelah melakukan proses login orang tua siswa di suguhkan dengan tampilan monitoring presensi anaknya |
 | Exception Paths |  |
 | Other |  |
 
@@ -430,13 +430,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Monitoring presensi |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Pada bagian ini orang tua siswa dapat melihat waktu kedatangan anaknya saat masuk sekolah begitupun saat pulang |
+| Precondition | Tampilan kolom masuk/pulang (hanya berisi tanda - atau TH ) tidak akan terlihat sebelum anaknya melakukan presensi dengan menekan fingerprint |
+| Basic Path | Orang tua siswa dapat melakukan monitoring setidaknya minimal saat jam 8 untuk jam masuk dan jam set 4 untuk jam pulang |
+| Alternative Paths | Orang tua siswa dapat selalu memonitoring pada dashboard, jika memang cemas akan kehadiran anaknya segera hubungi admin |
+| Postcondition | Presensi akan nampak dengan waktu real time pada dashboar orang tua siswa |
 | Exception Paths |  |
 | Other |  |
 
@@ -445,13 +445,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Rekap presensi |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
+| Trigger | Rekap presensi berisi keseluruhan presensi dari anaknya mulai masuk sekolah sampai waktu sekarang ini |
+| Precondition | Orang tua siswa sudah login M-AFI, Orang tua siswa menekan slidebar pada header M-AFI, orang tua siswa dapat memilih rekap yang ingin di download dalam bentuk dokumen yakni mingguan, bulanan ataupun semester. |
+| Basic Path | Orang tua siswa menekan salah satu sub rekap pada slide bar |
 | Alternative Paths |  |
-| Postcondition |  |
+| Postcondition | File yang di download akan berupa file excel |
 | Exception Paths |  |
 | Other |  |
 
@@ -460,7 +460,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Kirim izin |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -475,7 +475,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Ganti password |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -493,7 +493,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Create data kelas |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -508,7 +508,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Create data siswa |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -523,7 +523,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Update presensi izin |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -538,7 +538,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Hapus data kelas |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -553,7 +553,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Hapus data siswa |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -568,7 +568,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Rekap presensi |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -608,7 +608,7 @@ Entitas data Kelas
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
 | IdKelas | int |  |
-| IdUser |  | int |
+| IdUser | int |  |
 | NamaKelas | Varchar |  |
 
 
