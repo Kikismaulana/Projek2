@@ -218,11 +218,13 @@ Rekap Presensi
 
 Deskripsi singkat :
 
-diisi
+Orang tua siswa dapat melihat rekap presensi anaknya melalui smartphone android dengan cara mendownload rekap presensi
 
 Langkah-langkah :
 
-diisi
+-Login sebagai orang tua siswa melalui smartphone android
+-Klik slide navbar pada aplikasi
+-Lalu ada "Rekap presensi" dan kemudian download 
 
 
 Kirim Izin
@@ -231,12 +233,20 @@ Kirim Izin
 
 Deskripsi singkat :
 
+<<<<<<< HEAD
+
+
+Langkah-langkah :
+
+
+=======
 Orang tua dapat mengirin pesan izin pada aplikasi M-AFI.
 
 Langkah-langkah :
 
 * orang tua terlebih dulu menekan tombol izin pada tombol izin pada dasboard.
 * Kemudian orang tua dapat mengirimkan izin siswa dan mengisi keterangannya.
+>>>>>>> 5cdaa438a521034c83f8c064a18c477577d25296
 
 
 Ganti Password
