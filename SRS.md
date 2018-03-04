@@ -174,11 +174,12 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 Deskripsi singkat :
 
-diisi
+Siswa akan melakukan absensi melalui fingerprint.
 
 Langkah-langkah :
 
-diisi
+* Siswa meletakan sidik jari ke device fingerprint.
+
 
 	2.2.2. Orang tua siswa
 
@@ -190,11 +191,13 @@ Login/Logout uses cases
 
 Deskripsi singkat :
 
-diisi
+Orang tua siswa dapat memonitoring anaknya dan dapat mengirim izin ketika anaknya tidak masuk sekolah.
 
 Langkah-langkah :
 
-diisi
+* orang tua dapat login melalui aplikasi M-AFI.
+* ketika orang tua sudah login, maka orang tua dapat melihat presensi anaknya serta dapat mendownload rekap absensi.
+* orang tua dapat mengirm izin ketika anaknya tidak masuk sekolah.
 
 
 Monitoring Presensi
