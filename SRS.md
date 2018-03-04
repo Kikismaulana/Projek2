@@ -245,11 +245,11 @@ Ganti Password
 
 Deskripsi singkat :
 
-diisi
+Orang tua dapat mengganti password pada aplikasi M-AFI.
 
 Langkah-langkah :
 
-diisi
+* Orang tua dapat klik dropdown user kemudian orang tua dapat mengganti password tersebut.
 
 
 	2.2.3. Admin Uses Cases
