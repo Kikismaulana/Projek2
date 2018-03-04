@@ -233,20 +233,13 @@ Kirim Izin
 
 Deskripsi singkat :
 
-<<<<<<< HEAD
+orang tua dapat mengirim izin pada aplikasi M-AFI.
 
-
-Langkah-langkah :
-
-
-=======
-Orang tua dapat mengirin pesan izin pada aplikasi M-AFI.
 
 Langkah-langkah :
 
 * orang tua terlebih dulu menekan tombol izin pada tombol izin pada dasboard.
 * Kemudian orang tua dapat mengirimkan izin siswa dan mengisi keterangannya.
->>>>>>> 5cdaa438a521034c83f8c064a18c477577d25296
 
 
 Ganti Password
