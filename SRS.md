@@ -304,11 +304,13 @@ Hapus Data Kelas
 
 Deskripsi singkat :
 
-diisi
+Admin dapat menghapus data yang ada dikelas.
 
 Langkah-langkah :
 
-diisi
+* Admin Login 
+* Masuk ke data kelas
+* klik button delete pada kelas yang ingin dihapus. 
 
 
 Hapus Data Siswa
@@ -317,11 +319,13 @@ Hapus Data Siswa
 
 Deskripsi singkat :
 
-diisi
+Admin Dapat menghapus data Siswa.
 
 Langkah-langkah :
 
-diisi
+* Admin Login
+* Masuk ke data siswa
+* Klik button delete pada siswa yang ingin dihapus
 
 
 Rekap Presensi
@@ -330,11 +334,12 @@ Rekap Presensi
 
 Deskripsi singkat :
 
-diisi
+Admin Dapat melihat rekap Presensi.
 
 Langkah-langkah :
 
-diisi
+* Admin login
+* Admin masuk ke rekap Absensi
 
 
 2.3. Spesifikasi kebutuhan non-fungsional
