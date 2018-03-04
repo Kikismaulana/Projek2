@@ -392,7 +392,249 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2. Functional Requirements
 
+3.2.1. Uses Cases Siswa
+
+3.2.1.1. Input presensi
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.2. Uses Cases Orang tua siswa
+
+3.2.2.1. Login/Logout
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.2.2. Monitoring Presensi
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.2.3. Rekap Presensi
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.2.4. Kirim Izin
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.2.5. Ganti Password
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+
+3.2.3. Uses Cases Admin
+
+3.2.3.1. Create Data Kelas
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.2. Create Data Siswa
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.3. Update Presensi Izin
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.4. Hapus Data Kelas
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.5. Hapus Data Siswa
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.6. Rekap Presensi
+
+| ------ | ------ |
+| Use Case Name |  |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
 
 3.3. Detailed Non-Functional Requirements
 
+3.3.1 Logical Structure data
+
 ![](https://image.ibb.co/dR8riS/ERD.jpg)
+
+
+Entitas data User
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| IdUser |  |  |
+| Email |  |  |
+| Password |  |  |
+| NamaLengkap |  |  |
+| Level |  |
+| Alamat |  |
+| JK |  |
+| NoHp |  |
+| NamaAyah |  |
+| NamaIbu |  |
+
+
+Entitas data Kelas
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| IdKelas |  |  |
+| IdUser |  |  |
+| NamaKelas |  |  |
+
+
+Entitas data Jurusan
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| IdJurusan |  |  |
+| IdKelas |  |  |
+| NamaJurusan |  |  |
+
+
+Entitas data Presensi
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| IdPresensi |  |  |
+| IdUser |  |  |
+| IdMasuk |  |  |
+| IdPulang |  |  |
+| Tanggal |  |  |
+| Keterangan |  |  |
+| Presensi |  |  |
+
+
+Entias data Pulang
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| IdPulang |  |  |
+| Pulang |  |  |
+| LebihCepat |  |  |
+
+
+Entitas data Masuk
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| IdMasuk |  |  |
+| Masuk |  |  |
+| Keterlambatan |  |  |
