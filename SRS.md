@@ -1,15 +1,25 @@
 # Software Requirement Specification #
-## Version - ##
-## 04 Maret 2018 ##
+Version -
+04 Maret 2018
+
 ![](https://image.ibb.co/bJCF0x/POLINDRA.png)
-## M-AFI ##
-## Diyah Ayu Amaliyah ##
-## Kikis Maulana ##
-## Noufal Ibrahim ##
-## Widiana Silvi ##
-## Triyani Ramadhani ##
-## Jurusan D3 Teknik Informatika ##
-## Politeknik Negeri Indramayu ##
+
+M-AFI
+
+Diyah Ayu Amaliyah
+
+Kikis Maulana
+
+Noufal Ibrahim
+
+Widiana Silvi
+
+Triyani Ramadhani
+
+Jurusan D3 Teknik Informatika
+
+Politeknik Negeri Indramayu
+
 
 ## Pendahuluan ##
 
@@ -84,6 +94,13 @@ No | Nama Aplikasi | Keunggulan | Kekurangan
 
 	2.1.1. Antarmuka sistem
 
+![](https://image.ibb.co/m2STDS/Antarmuka_sistem.png)
+
+Mobile - Attendance Fingerprint memiliki 3 faktor pada pengimplementasiannya, diantaranya, Siswa, Orangtua siswa dan admin.
+Siswa berperan sebagai inputan pada presensi melalui device fingerprint.
+Orang tua siswa dapat mengakses aplikasi M-AFI melalui perangkat mobile dengan standar sistem operasi Lolipop dan harus menggunakan akses internet.
+Admin bertugas untuk memanage presensi pada webserver.
+
 	2.1.2. Antarmuka Pengguna
 
 ![](https://image.ibb.co/hbTof7/login.png)
@@ -103,21 +120,51 @@ No | Nama Aplikasi | Keunggulan | Kekurangan
 
 	2.1.3. Antarmuka perangkat keras
 
-	- Fingerprint
-	- Server
-	- Laptop
-	- Smartphone
+- Fingerprint
+
+Fingerprint adalah sebuah hardware sensor untuk membaca sidik jari yang unik dari seseorang yang berguna untuk memverifikasi identitas seseorang. Sensor ini dapat digunakan sebagai password untuk membuka telepon, membuka konten atau layanan tertentu atau mengkonfirmasi transaksi keuangan. Pada hal ini device fingerprint berguna untuk presensi siswa-siswi.
+
+- Server
+
+adalah sebuah sistem komputer yang menyediakan jenis layanan (service) tertentu dalam sebuah jaringan komputer. Server didukung dengan prosesor yang bersifat scalable dan RAM yang besar, juga dilengkapi dengan sistem operasi khusus, yang disebut sebagai sistem operasi jaringan (network operating system).
+
+- Laptop
+
+Digunakan untuk pembuatan aplikasi M-AFI.
+
+- Smartphone
+
+Semartphone berfungsi untuk implementasi aplikasi mobile M-AFI.
 
 
 	2.1.4. Antarmuka perangkat lunak
 
+- Webserver
+
+    Untuk Webserver admin dapat di akses menggunakan semua jenis browser (google chrom, Mozila, Opera dan lain-lain), dan pastinya harus menggunakan akses internet untuk mengakses data pada Firebase.
+
+
+- Mobile M-AFI
+
+    Aplikasi M-AFI yang berfungsi sebagai monitoring absensi ini hanya dapat di akses melalui smartphone android dengan OS minimum Lolipop.
+
+
 	2.1.5. Antarmuka komunikasi
+
+M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat fingerprint ke laptop. Ini harus menggunakan protokol IP handal-jenis seperti TCP / IP ataureliable-UDP/IP untuk kompatibilitas maksimum dan stabilitas. Semua perangkat itu akanantarmuka dengan seharusnya berisi standar Ethernet kompatibel, perangkat lunak kartu LAN dapatdiakses untuk menjaga komunikasi antara server dan komputer. Perangkat yang nirkabel juga harus menggunakan Ethernet cardyang kompatibel, menggunakan IEEE 802.11b / g dan mendukung standar memiliki untuk enkripsiWPA2-PSK. Penggunaan IEEE 802.11n hardware standar transmisi juga diterima jika semua perangkat keras lokal lainnya adalah konforman dengan standar yang sama.
 
 	2.1.6. Batasan memori
 
 	2.1.7. Operasi-operasi
 
+* Login melalui website, masuk sebagai admin untuk mengelola presensi dan mengelola user guru dan orang tua siswa
+* Login melalui mobile, masuk sebagai orang tua siswa atau sebagai guru
+* Rekap presensi, dapat di download melalui mobile
+* Izin siswa, dapat mengupload foto surat izin/sakit siswa melalui mobile yang dilakukan orang tua siswa dan guru
+
+
 	2.1.8. Kebutuhan adaptasi
+
 
 2.2. Spesifikasi kebutuhan fungsional
 
@@ -136,6 +183,12 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
 
 2.6. Asumsi-asumsi keterkaitan
 
+<<<<<<< HEAD
 
+=======
+* Kapasitas user pada fingerprint : 20.000 sidikjari
+* Jenis komunikasi PC : TCP/IP (RJ45), RS 232/RS485, USB cable, USB disk
+* Waktu respon input data pada fingerprint : <= 1 detik
+>>>>>>> dac320e28c4242c37c540e759a2d9591e7b2d5c5
 
 2.7. Kebutuhan penyeimbang
