@@ -353,3 +353,18 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
   ketika ingin kehadirannya masuk ke sekolah.
 
 2.7. Kebutuhan penyeimbang
+
+## Requiremet Spesification ##
+
+
+3.1. External Interface Requirements
+
+Kebutuhan akan pengelolaan/management presensi pada suatu instansi sangatlah penting dengan menimbang beberapa aspek yang saling mendukung, pada hal ini tertuju pada sekolah SMK Negeri Indramayu dimana penerapan management/pengelolaan presensi siswa-siswi sudah semestinya menggunakan komputerisasi untuk dapat menghindari terjadinya human error pada pengerjaannya, Staf TU pada bidang kesiswaan sangatlah terbantu untuk meningkatkan kedisplinan siswa-siswinya dikarenakan fitur dari aplikasi M-AFI ini menunjang kedua orang tua siswa untuk dapat memonitoring siswa/siswinya pada saat berada pada lingkungan sekolah, dengan ini faktor kedua orang tua siswa terhadap kediplinan siswa/siswnya pada lingkungan sekolah sangatlah membantu bidang kesiswaan.
+
+Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat membantu guru-guru di sekolah tersebut sehingga sistem presensi yang dulu menggunakan buku absensi sekarang bisa di tinggalkan dengan adanya sistem presensi menggunakan fingerprint ini.
+
+
+3.2. Functional Requirements
+
+
+3.3. Detailed Non-Functional Requirements
