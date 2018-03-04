@@ -186,5 +186,8 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
 * Kapasitas user pada fingerprint : 20.000 sidikjari
 * Jenis komunikasi PC : TCP/IP (RJ45), RS 232/RS485, USB cable, USB disk
 * Waktu respon input data pada fingerprint : <= 1 detik
+* Semua absensi adalah untuk siswa di sekolah. 
+* Absensi disekolah sendiri akan dilakukan oleh siswa yang apabila
+  ketika ingin kehadirannya masuk ke sekolah.
 
 2.7. Kebutuhan penyeimbang
