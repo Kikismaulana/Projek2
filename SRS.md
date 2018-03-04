@@ -265,11 +265,15 @@ Create Data Kelas
 
 Deskripsi singkat :
 
-diisi
+Admin dapat menambahkan kelas dan jurusan pada web server
 
 Langkah-langkah :
 
-diisi
+- Masuk sebagai admin
+- Masuk ke manu Data Kelas
+- Klik tambah data
+- Lalu pilih jurusan, tingkatan, kategori
+- Submit
 
 
 
