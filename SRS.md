@@ -607,46 +607,46 @@ Entitas data Kelas
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| IdKelas |  |  |
-| IdUser |  |  |
-| NamaKelas |  |  |
+| IdKelas | int |  |
+| IdUser |  | int |
+| NamaKelas | Varchar |  |
 
 
 Entitas data Jurusan
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| IdJurusan |  |  |
-| IdKelas |  |  |
-| NamaJurusan |  |  |
+| IdJurusan | int |  |
+| IdKelas | int |  |
+| NamaJurusan | Varchar |  |
 
 
 Entitas data Presensi
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| IdPresensi |  |  |
-| IdUser |  |  |
-| IdMasuk |  |  |
-| IdPulang |  |  |
-| Tanggal |  |  |
-| Keterangan |  |  |
-| Presensi |  |  |
+| IdPresensi | int |  |
+| IdUser | int |  |
+| IdMasuk | int |  |
+| IdPulang | int |  |
+| Tanggal | date |  |
+| Keterangan | text | Untuk izin siswa melalui M-AFI |
+| Presensi | verchar | Presensi siswa Hadir/Izin/Sakit/Tidak Hadir |
 
 
 Entias data Pulang
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| IdPulang |  |  |
-| Pulang |  |  |
-| LebihCepat |  |  |
+| IdPulang | int |  |
+| Pulang | timestamp | Waktu saat menekat fingerprint |
+| LebihCepat | int | kalkulasi dari waktu saat menekan fingerprint dikurangi waktu minimal pulang |
 
 
 Entitas data Masuk
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| IdMasuk |  |  |
-| Masuk |  |  |
-| Keterlambatan |  |  |
+| IdMasuk | int |  |
+| Masuk | timestamp | Waktu saat menekan fingerprint |
+| Keterlambatan | int | kalkulasi dari waktu maksimal masuk dikurangi waktu saat menekan fingerprint |
