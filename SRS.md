@@ -462,11 +462,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Kirim izin |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Orang tua siswa dapat mengirimkan perizinan anaknya jika berhalangan hadir melalui App M-AFI |
+| Precondition | Orang tua siswa sudah login dan berada pada halaman dashboard |
+| Basic Path | Orang tua siswa menekan tombol izin, Orang tua siswa mengisi form yang telah disediakan oleh sistem, orang tua siswa harus menyertakan foto surat keterangan sakit ataupun surat yang bertanda tangan orang tua tersebut, atur tanggal untuk perizinan, kirim perizinan |
+| Alternative Paths | perizinan siswa dapat juga melalui admin langsung di sekolah |
+| Postcondition | Data perizinan akan masuk pada admin yang kemudian akan diupdate setelah di approve oleh admin |
 | Exception Paths |  |
 | Other |  |
 
@@ -477,11 +477,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Ganti password |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Ganti password berguna untuk orang tua siswa yang kesulitan untuk login ataupun lupa passwordnya |
+| Precondition | Orang tua membuka app M-AFI |
+| Basic Path | Orang tua siswa berada pada halaman login, orang tua siswa melakukan proses login namun terjadi kesalahan pada passwordnya, orang tua siswa menekan link lupa password yang akan di direct pada halaman web untuk memasukkan email, orang tua siswa akan mendapatkan email dari admin/sistem untuk merubah passwordnya |
+| Alternative Paths | Jika sudah masuk/berada pada halaman dashboard dapat langsung diganti dengan menekan dropdown account dan menekan ganti password kemudian mengganti passwordnya |
+| Postcondition | Password akun orang tua siswa akan terupdate dengan password baru |
 | Exception Paths |  |
 | Other |  |
 
@@ -495,11 +495,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Create data kelas |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Create data kelas berguna untuk penampung siswa agar setiap data siswa yang diinputkan memiliki kelas sesuai dengan yang semestinya |
+| Precondition | Masuk pada webserver sebagai admin |
+| Basic Path | Menekan menu data kelas, klik button tambah kelas kemudian mengisi form yang telah disediakan pada webserver |
+| Alternative Paths | klik menu data kelas |
+| Postcondition | Data kelas akan masuk pada database |
 | Exception Paths |  |
 | Other |  |
 
@@ -510,11 +510,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Create data siswa |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Create data siswa berguna sebagai fungsi utama pada sistem presensi menggunakan fingerprint karena data yang akan diolah adalah data siswa-siswinya dengan menggunakan alat bantu fingerprint yang sebagai perantara untuk menginputkan pada database |
+| Precondition | Masuk pada webserver sebagai admin |
+| Basic Path | Admin memilih menu data siswa, admin dapat menekan tombol brows untuk data siswa dengan format CSV atau dapat pula menambahkan data siswa dengan satu-persatu melalui button tambah |
+| Alternative Paths | Tambah data melalui database dengan mengeksport file CSV |
+| Postcondition | Data siswa akan bertambah sesuai dengan yang di tambahkan admin |
 | Exception Paths |  |
 | Other |  |
 
@@ -525,11 +525,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Update presensi izin |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Update perizinan berguna untuk mengubah data presensi siswa-siswi yang orang tuanya telah mengirimkan perizinan melalui app M-AFI |
+| Precondition | Masuk pada webserver sebagai admin |
+| Basic Path | Pada dashboard admin akan ada notifikasi, admin membuka notifikasi untuk memferifikasi data perizinan yang masuk, admin mengubah data presensi siswa pada menu rekap presensi, admin memilih kelas, tahun dan bulan kemudian mengisi form NISN dan form presensi untuk mengupdatenya |
+| Alternative Paths | Admin dapat mengupdate malalui langsung pada databasenya |
+| Postcondition | Data siswa akan terupdate dengan hari yang dikirimkan oleh orang tua siswa |
 | Exception Paths |  |
 | Other |  |
 
