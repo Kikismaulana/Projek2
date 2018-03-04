@@ -103,6 +103,21 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 	2.1.2. Antarmuka Pengguna
 
+![](https://image.ibb.co/hbTof7/login.png)
+
+![](https://image.ibb.co/jSzGYS/login2.png)
+
+![](https://image.ibb.co/mpYznn/dasboard.png)
+
+![](https://image.ibb.co/dax3DS/sidebar.png)
+
+![](https://image.ibb.co/bBFqtS/logout.png)
+
+![](https://image.ibb.co/dsvZL7/izin_siswa.png)
+
+![](https://image.ibb.co/gqoof7/lupa_password.png)
+
+
 	2.1.3. Antarmuka perangkat keras
 
 	- Fingerprint
