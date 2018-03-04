@@ -219,11 +219,13 @@ Rekap Presensi
 
 Deskripsi singkat :
 
-diisi
+Orang tua siswa dapat melihat rekap presensi anaknya melalui smartphone android dengan cara mendownload rekap presensi
 
 Langkah-langkah :
 
-diisi
+-Login sebagai orang tua siswa melalui smartphone android
+-Klik slide navbar pada aplikasi
+-Lalu ada "Rekap presensi" dan kemudian download 
 
 
 Kirim Izin
@@ -232,11 +234,11 @@ Kirim Izin
 
 Deskripsi singkat :
 
-diisi
+
 
 Langkah-langkah :
 
-diisi
+
 
 
 Ganti Password
