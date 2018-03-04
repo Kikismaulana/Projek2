@@ -1,4 +1,25 @@
 # Software Project Management Plan #
+Version 1.0
+04 Maret 2018
+
+![](https://image.ibb.co/bJCF0x/POLINDRA.png)
+
+M-AFI
+
+Diyah Ayu Amaliyah
+
+Kikis Maulana
+
+Noufal Ibrahim
+
+Widiana Silvi
+
+Triyani Ramadhani
+
+Jurusan D3 Teknik Informatika
+
+Politeknik Negeri Indramayu
+
 
 ## Pendahuluan ##
 1.1 Gambaran Proyek
@@ -23,9 +44,9 @@ Materi yang menjadi acuan dalam pembuatan projek ini menggunakan standar IEEE, k
 
 Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin akan sulit dipahami oleh orang awam berikut ini :
 
-- Firebase
+- PostgreSQL
 
-Firebase Membantu Kita Membuat Aplikasi Realtime, Facebook notification, Whatsapp, Bbm, Disqus adalah contoh kecil aplikasi real-time yang sering kita pakai. Disaat user lain memberikan komen atau kirim pesan, pada saat itu juga kita mendapat notifikasi dan pesan. Secara general, jika ada input data, maka output pada saat itu langsung tampil di hadapan kita. "Kita" disini adalah orang yang mengoperasikan semua computer client yang terhubung dengan aplikasi tersebut. Bahkan bisa secara serentak. Walaupun ada delay, tidak akan lama waktunya (Low Latency).
+PostgreSQL adalah sebuah sistem basis data yang disebarluaskan secara bebas menurut Perjanjian lisensi BSD. Peranti lunak ini merupakan salah satu basis data yang paling banyak digunakan saat ini, selain MySQL dan Oracle. PostgreSQL menyediakan fitur yang berguna untuk replikasi basis data. Fitur-fitur yang disediakan PostgreSQL antara lain DB Mirror, PGPool, Slony, PGCluster, dan lain-lain.
 
 Tabel I.1 Akronim
 
@@ -154,9 +175,8 @@ Proyek ini akan dilaksanakan menggunakan beberapa tools, metoda dan teknologi ya
 - Bootstrap
 - CodeIgniter
 - Sublime
-- Firebase
 - android studio
-- finger print
+- PostgreSQL
 
 4.2 Dokumentasi perangkat lunak
 
@@ -170,13 +190,13 @@ Semua dokumen pendukung proyek akan selesai secara bertahap.
 
 5.1 Paket Pekerjaan
 
-| No | Nama | Jabatan | Modul | Rincian |
-|----|------|---------|-------|---------|
-|  1  |Kikis Maulanan | PROJECT MANAGER |Rekap Absensi, view absensi, API, Logo, Mengoneksi ke email orang tua,API.        |          |
-|  2  |Noufal Ibramhim | PROGRAMMER |Fingerprint, inpurt data, kirim izin (Mobile), API.        |          |
-|  3  |Widiana Silvi | DB ENGINEER  |Membuat database di postgree, view data, delete data, API.        |          |
-|  4  |Diyah Ayu Amaliyah | DESIGNER | Tampilan web, tampilan mobile, login (backend), API.       |          |
-|  5  |Triyani Ramadhani | DOCUMENTATION |Update data, Notifikasi (web), lupa password, API.          |           |
+| No | Nama | Jabatan | Modul |
+|----|------|---------|-------|
+|  1  |Kikis Maulanan | PROJECT MANAGER |Rekap Absensi, view absensi, API, Logo, Mengoneksi ke email orang tua,API. |
+|  2  |Noufal Ibramhim | PROGRAMMER |Fingerprint, inpurt data, kirim izin (Mobile), API. |
+|  3  |Widiana Silvi | DB ENGINEER  |Membuat database di postgree, view data, delete data, API. |
+|  4  |Diyah Ayu Amaliyah | DESIGNER | Tampilan web, tampilan mobile, login (backend), API. |
+|  5  |Triyani Ramadhani | DOCUMENTATION |Update data, Notifikasi (web), lupa password, API. |
 
 
 5.2 Ketergantungan/Keterkaitan
@@ -203,7 +223,7 @@ Dalam pembuatan aplikasi ini dibuat oleh 5 orang. Didalam kebutuhan sumber daya 
 
 * Android Studio
 
-* Firebase
+* PostgreSQL
 
 * Sublime
 
