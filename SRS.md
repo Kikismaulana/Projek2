@@ -281,6 +281,17 @@ Create Data Siswa
 
 ![](https://image.ibb.co/gOQenn/A2.jpg)
 
+Deskripsi singkat :
+
+Mengisi data siswa pada tiap-tiap kelas dengan menggunakan button/module untuk mengeksport data dari file CSV.
+
+Langkah-langkah :
+
+- Masuk sebagai admin
+- Klik menu data siswa
+- klik button module untuk mencari file CSV yang akan di eksport
+- submit
+
 Update Presensi Izin
 
 ![](https://image.ibb.co/go0enn/A3.jpg)
