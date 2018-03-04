@@ -191,14 +191,13 @@ Login/Logout uses cases
 
 Deskripsi singkat :
 
-Orang tua siswa dapat memonitoring anaknya dan dapat mengirim izin ketika anaknya tidak masuk sekolah.
+Orang tua siswa dapat login pada aplikasi M-AFI.
 
 Langkah-langkah :
 
 * orang tua dapat login melalui aplikasi M-AFI.
-* ketika orang tua sudah login, maka orang tua dapat melihat presensi anaknya serta dapat mendownload rekap absensi.
-* orang tua dapat mengirm izin ketika anaknya tidak masuk sekolah.
-
+* ketika orang tua sudah login, maka orang tua dapat melihat presensi anaknya pada dasboard.
+* orang tua dapat mendownload rekap absensi ketika menekan tombol sidebar.
 
 Monitoring Presensi
 
@@ -206,11 +205,11 @@ Monitoring Presensi
 
 Deskripsi singkat :
 
-diisi
+Orang tua dapat memonitoring anaknya di aplikais M-AFI.
 
 Langkah-langkah :
 
-diisi
+* Orang tua harus login pada aplikasi M-AFI maka akan dapat memonitoring presensi anaknya pada halaman dasboard.
 
 
 Rekap Presensi
@@ -234,11 +233,20 @@ Kirim Izin
 
 Deskripsi singkat :
 
+<<<<<<< HEAD
 
 
 Langkah-langkah :
 
 
+=======
+Orang tua dapat mengirin pesan izin pada aplikasi M-AFI.
+
+Langkah-langkah :
+
+* orang tua terlebih dulu menekan tombol izin pada tombol izin pada dasboard.
+* Kemudian orang tua dapat mengirimkan izin siswa dan mengisi keterangannya.
+>>>>>>> 5cdaa438a521034c83f8c064a18c477577d25296
 
 
 Ganti Password
