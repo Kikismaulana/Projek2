@@ -196,9 +196,8 @@ Orang tua siswa dapat login pada aplikasi M-AFI.
 Langkah-langkah :
 
 * orang tua dapat login melalui aplikasi M-AFI.
-* ketika orang tua sudah login, maka orang tua dapat melihat presensi anaknya serta dapat mendownload rekap absensi.
-* orang tua dapat mengirm izin ketika anaknya tidak masuk sekolah.
-
+* ketika orang tua sudah login, maka orang tua dapat melihat presensi anaknya pada dasboard.
+* orang tua dapat mendownload rekap absensi ketika menekan tombol sidebar.
 
 Monitoring Presensi
 
@@ -210,7 +209,7 @@ Orang tua dapat memonitoring anaknya di aplikais M-AFI.
 
 Langkah-langkah :
 
-* Orang tua harus login pada aplikasi M-AFI maka akan dapat memonitoring presensi anaknya.
+* Orang tua harus login pada aplikasi M-AFI maka akan dapat memonitoring presensi anaknya pada halaman dasboard.
 
 
 Rekap Presensi
@@ -232,11 +231,12 @@ Kirim Izin
 
 Deskripsi singkat :
 
-diisi
+Orang tua dapat mengirin pesan izin pada aplikasi M-AFI.
 
 Langkah-langkah :
 
-diisi
+* orang tua terlebih dulu menekan tombol izin pada tombol izin pada dasboard.
+* Kemudian orang tua dapat mengirimkan izin siswa dan mengisi keterangannya.
 
 
 Ganti Password
