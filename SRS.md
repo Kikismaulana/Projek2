@@ -287,11 +287,14 @@ Update Presensi Izin
 
 Deskripsi singkat :
 
-diisi
+Admin dapat mengupdate keterangan presensi izin siswa melalui web server
 
 Langkah-langkah :
 
-diisi
+- Masuk sebagai admin melalui web server
+- Klik menu Rekap Absensi
+- Pilih Kelas, pilih tahun, pilih bulan, klik view untuk melihat presensi
+- Lalu update
 
 
 
