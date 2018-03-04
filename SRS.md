@@ -540,11 +540,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Hapus data kelas |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Hapus data kelas dapat dingunakan untuk kelas yang telah di hilangkan dari sekolah tersebut |
+| Precondition | Masuk pada webserver sebagai admin |
+| Basic Path | Admin menekan menu data kelas, admin mencari kelas yang ingin di hapus, admin menekan tombol button pada kelas yang ingin dihapus |
+| Alternative Paths | admin dapat menghapus data kelas langsung pada databasenya |
+| Postcondition | Data kelas akan terhapus sesuai dengan data yang dihapus oleh admin |
 | Exception Paths |  |
 | Other |  |
 
@@ -555,11 +555,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Hapus data siswa |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Hapus data siswa berguna untuk menghapus data siswa-siswi yang telah keluar dari sekolah tersebut |
+| Precondition | Masuk pada webserver sebagai admin |
+| Basic Path | Admin mesuk pada menu data siswa, admin mencari data siswa dengan mengetikkan NISN nya, admin menekan tombol delete pada siswa tersebut |
+| Alternative Paths | admin dapat menghapus data siswa langsung pada databasenya |
+| Postcondition | Data siswa akan terhapus sesuai dengan data yang dihapus oleh admin |
 | Exception Paths |  |
 | Other |  |
 
@@ -570,11 +570,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Rekap presensi |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Rekap presensi berguna untuk admin melihat keseluruhan rekap presensi yang dapat berguna untuk management presensi pada sekolah tersebut yang telah terkomputerisasi pada aplikasi ini |
+| Precondition | admin dapat menghapus data kelas langsung pada databasenya |
+| Basic Path | Admin memilih menu rekap presensi pada webserver, admin memilih kelas dan semester pada halaman rekap presensi |
+| Alternative Paths | Admin dapat langsung mengambil keseluruhan data presensi dari aplikasi tersebut |
+| Postcondition | Rekap keseluruhan presensi akan di tampilkan dan juga dapat di eksport menjadi file excel |
 | Exception Paths |  |
 | Other |  |
 
