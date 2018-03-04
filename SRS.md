@@ -125,8 +125,17 @@ No | Nama Aplikasi | Keunggulan | Kekurangan
 
 2.4. Karakteristik pengguna
 
+karakteristik pengguna dari aplikasi M-AFI ini adalah semua yang ingin menggunakan absensi diantaranya siswa dan orang tua yang membedakan adalah pengguna yang berinteraksi dengan sistem dihubungkan dengan hak akses dan 
+autentifikasi sesuai aturan yang terdapat pada absensi.
+
 2.5. Batasan-batasan
 
+* Aplikasi M-AFI untuk waktu pengembangannya hanya ada beberapa fungsi yang dilaksanakan.
+* Pengembangan aplikasi M-AFI tidak akan mengubah file-file ataupun database yang ada pada saat ini tanpa adanya izin dari pihak sekolah.
+* Pengembangan aplikasi M-AFI ini akan meliputi pengelolaan data-data yang ada disekolah yang meliputi data absensi siswa serta laporan untuk siswa yang tidak masuk.
+
 2.6. Asumsi-asumsi keterkaitan
+
+
 
 2.7. Kebutuhan penyeimbang
