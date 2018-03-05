@@ -319,9 +319,10 @@ Admin dapat menghapus data yang ada dikelas.
 
 Langkah-langkah :
 
-* Admin Login 
-* Masuk ke data kelas
-* klik button delete pada kelas yang ingin dihapus. 
+* Sistem menampilkan menu-menu admin
+* Admin memilih menu data kelas. *Sistem menampilkan data kelas serta button delete dan hapus.
+*Admin menekan tombol hapus pada kelas yg ingin di hapus.
+*Sistem secara otomatis akan menghapus data yang dipilih oleh admin.
 
 
 Hapus Data Siswa
