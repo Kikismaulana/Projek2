@@ -349,8 +349,9 @@ Admin Dapat melihat rekap Presensi.
 
 Langkah-langkah :
 
-* Admin login
-* Admin masuk ke rekap Absensi
+* Sistmen menampilkan rekap Presensi
+* Admin dapat melihat rekap presensi
+
 
 
 2.3. Spesifikasi kebutuhan non-fungsional
