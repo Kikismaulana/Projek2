@@ -335,10 +335,9 @@ Admin Dapat menghapus data Siswa.
 
 Langkah-langkah :
 
-* Admin Login
-* Masuk ke data siswa
-* Klik button delete pada siswa yang ingin dihapus
-
+* sistem menampilkan isi data siswa
+* admin mengklik button delete data siswa
+* sistem secara otomatis akan menghapus data yang dipilih admin.
 
 Rekap Presensi
 
