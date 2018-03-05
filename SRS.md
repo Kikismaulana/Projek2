@@ -1,5 +1,5 @@
 # Software Requirement Specification #
-Version -
+Version - 1.1
 04 Maret 2018
 
 ![](https://image.ibb.co/bJCF0x/POLINDRA.png)
