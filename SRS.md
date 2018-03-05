@@ -196,9 +196,10 @@ Orang tua siswa dapat login pada aplikasi M-AFI.
 
 Langkah-langkah :
 
-* orang tua dapat login melalui aplikasi M-AFI.
-* ketika orang tua sudah login, maka orang tua dapat melihat presensi anaknya pada dasboard.
-* orang tua dapat mendownload rekap absensi ketika menekan tombol sidebar.
+* login aplikasi M-AFI.
+* sistem menampilkan dashboard presensi.
+* mendwonload rekap absensi
+* sistem menampilkan rekap yang sudah didownload.
 
 Monitoring Presensi
 
