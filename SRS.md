@@ -179,6 +179,7 @@ Siswa akan melakukan absensi melalui fingerprint.
 Langkah-langkah :
 
 * Siswa meletakan sidik jari ke device fingerprint.
+* sistem akan merecord data siswa yang sudah absen.
 
 
 	2.2.2. Orang tua siswa
