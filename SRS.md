@@ -211,10 +211,10 @@ Orang tua dapat memonitoring anaknya di aplikais M-AFI.
 
 Langkah-langkah :
 
-* Orang tua harus login pada aplikasi M-AFI maka akan dapat memonitoring presensi anaknya pada halaman dasboard.
+* login aplikasi M-AFI 
+* sistem menampilkan dashboard presensi
+* orang tua dapat memonitoring presensi
 
-
-Rekap Presensi
 
 ![](https://image.ibb.co/bDOFSn/os3.jpg)
 
