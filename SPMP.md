@@ -74,7 +74,7 @@ Untuk mengorganisasikan pekerjaan kami sehingga terarah, kami memilih model pros
 
 2.2 struktur organisasi
 
-![Struktur organisasi](gambar/STRUKTUR.png)
+![](https://image.ibb.co/ddS4tH/STRUKTUR.png)
 
 2.3 Batasan dan antar muka organisasi
 
@@ -245,4 +245,4 @@ Berikut ini yang dibutuhkan pada pembuatan aplikasi ini diantaranya
 
 5.5 Jadwal
 
-![](gambar/JADWAL.png)
+![](https://image.ibb.co/igvDnc/JADWAL.png)
