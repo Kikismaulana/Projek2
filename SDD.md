@@ -62,3 +62,60 @@ dapat melihat rekap presensinya.
 4.2.2 Pengaruh SDD Software Life Cycle Produk
 
 4.2.3 Desain Verifikasi dan Desain Peran di Validasi
+
+## Desain Informasi Keterangan Isi ##
+
+5.1 Pengantar
+
+5.2 SDD Identifikasi
+
+5.3 Desain Stakeholder dan Kekhawatiran
+
+5.4 Pandangan Desain
+
+5.5 Sudut Pandang Desain
+
+5.6 Elemen Desain
+
+5.6.1 Entitas Desain
+
+5.6.2 Desain Atribut
+
+5.6.3 Hubungan Desain
+
+5.6.4 Kendala Desain
+
+5.7 Overlay Desain
+
+5.8 Desain Dasar Pemikiran
+
+5.9 Bahasa Desain
+
+## Pandangan Desain ##
+
+6.1 Pengantar
+
+6.2 Konteks Viewpoint
+
+6.3 Komposisi Viewpoint
+
+6.4 Viewpoint  Logis
+
+6.5 Ketergantungan Viewpoint
+
+6.6 Viewpoint Informasi
+
+6.7 Pola Gunakan Viewpoint
+
+6.8 Antarmuka Viewpoint
+
+6.9 Struktur Viewpoint
+
+6.10 Interaksi Viewpoint
+
+6.11 State Dynamics Viewpoint
+
+6.12 Algoritma Viewpoint
+
+6.13 Sumber Daya Viewpoint
+
