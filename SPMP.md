@@ -241,7 +241,7 @@ Dalam pembuatan aplikasi ini dibuat oleh 5 orang. Didalam kebutuhan sumber daya 
 
 Berikut ini yang dibutuhkan pada pembuatan aplikasi ini diantaranya
 
-* Survey Mitra
+![](https://image.ibb.co/kotfNn/biaya.png)
 
 5.5 Jadwal
 
