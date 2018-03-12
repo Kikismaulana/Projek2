@@ -1,25 +1,56 @@
-# Software Project Management Plan #
-Version 1.0
-04 Maret 2018
+<div align="center">
 
-![](https://image.ibb.co/bJCF0x/POLINDRA.png)
+<h1>Software Project Management Plan</h1> 
 
-M-AFI
+<p>Version 1.0 <br> 04 Maret 2018</p>
 
-Diyah Ayu Amaliyah
+<img src="https://image.ibb.co/bJCF0x/POLINDRA.png" height="300px">
 
-Kikis Maulana
+<br><br>
 
-Noufal Ibrahim
+<h2>M-AFI</h2><br>
 
-Widiana Silvi
+<table>
+	<tr>
+		<td>
+			<ul>
+			
+				<li>Diyah Ayu Amaliyah</li>
+			
+				<li>Kikis Maulana</li>
+			
+				<li>Noufal Ibrahim</li>
+			
+				<li>Triyani Ramadhani</li>
+			
+				<li>Widiana Silvi</li>
+			
+			<ul>
+		</td>
 
-Triyani Ramadhani
+		<td>
+			<ul>
+			
+				<li>1603067</li>
+			
+				<li>1603074</li>
+			
+				<li>1603080</li>
+			
+				<li>1603088</li>
+			
+				<li>16030</li>
+			
+			<ul>
+		</td>
+	</tr>
+</table>
 
-Jurusan D3 Teknik Informatika
+<h2>Jurusan D3 Teknik Informatika
+<br><br>
+Politeknik Negeri Indramayu</h2>
 
-Politeknik Negeri Indramayu
-
+</div>
 
 ## Pendahuluan ##
 1.1 Gambaran Proyek
