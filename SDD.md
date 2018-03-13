@@ -45,11 +45,26 @@ dapat melihat rekap presensinya.
 
 1.3 Audiens yang dituju
 
+
+
 1.4 Kesesuaian
+
+
 
 ##Referensi ##
 
+IEEE Draft Standard for Software Design Descriptions 
+
 ##Definisi##
+
+Singkatan | Definisi 
+| ------ | ------ |
+| SDD | Merupakan singkatan dari Software Design Document |
+| M-AFI | Singkatan Dari Mobile Attendence merupakan sebuah aplikasi absensi yang menggunakan mobile  |
+|Fingerprint| Merupakan fingerprint merupakan suatu perangkat keras untuk memberikan data otomatis yang menggunakan sidik jari manusia. fingerprint digunakan biasannya untuk sistem absensi yang digunakan beberapa instansi.|
+| Webserver | Webserver sebuah software yang memberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada klien yang dikenal dan biasanya kita kenal dengan nama web browser (Mozilla Firefox, Google Chrome) dan untuk mengirimkan kembali yang hasilnya dalam bentuk beberapa halaman web dan pada umumnya akan berbentuk dokumen HTML. |
+| LAN | LAN merupakan singkatan dari Local Area Network, yang mana merupakan sebuah jaringan komputer dengan skala kecil (local) seperti gedung perkantoran, sekolah atau rumah. LAN umumnya digunakan untuk berbagi resource dalam suatu gedung. LAN dapat berdiri sendiri, tanpa terhubung oleh jaringan luar atau internet. Namun apabila suatu LAN dihubungkan dengan beberapa LAN lainnya maka akan terbentuk suatu jaringan yang disebut Metropolitan Area Network (MAN). |
+
 
 ##Kerangka Konseptual  Untuk Perangkat Lunak ##
 
@@ -69,7 +84,11 @@ dapat melihat rekap presensinya.
 
 5.2 SDD Identifikasi
 
-5.3 Desain Stakeholder dan Kekhawatiran
+5.3 Desain Stakeholder dan Kekhawatiran  
+
+
+
+
 
 5.4 Pandangan Desain
 
