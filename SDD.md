@@ -1,25 +1,56 @@
-# Software Design Document  #
-Version - 1.0
-13 Maret 2018
+<div align="center">
 
-![](https://image.ibb.co/bJCF0x/POLINDRA.png)
+<h1>Software Design Document</h1> 
 
-M-AFI
+<p>Version 1.0 <br> 15 Maret 2018</p>
 
-Diyah Ayu Amaliyah
+<img src="https://image.ibb.co/bJCF0x/POLINDRA.png" height="300px">
 
+<br><br>
 
-Kikis Maulana
+<h2>M-AFI</h2><br>
 
-Noufal Ibrahim
+<table>
+	<tr>
+		<td>
+			<ul>
+			
+				<li>Diyah Ayu Amaliyah</li>
+			
+				<li>Kikis Maulana</li>
+			
+				<li>Noufal Ibrahim</li>
+			
+				<li>Triyani Ramadhani</li>
+			
+				<li>Widiana Silvi</li>
+			
+			<ul>
+		</td>
 
-Widiana Silvi
+		<td>
+			<ul>
+			
+				<li>1603067</li>
+			
+				<li>1603074</li>
+			
+				<li>1603080</li>
+			
+				<li>1603086</li>
+			
+				<li>1603088</li>
+			
+			<ul>
+		</td>
+	</tr>
+</table>
 
-Triyani Ramadhani
+<h2>Jurusan D3 Teknik Informatika
+<br><br>
+Politeknik Negeri Indramayu</h2>
 
-Jurusan D3 Teknik Informatika
-
-Politeknik Negeri Indramayu
+</div>
 
 
 ##Pendahuluan##
