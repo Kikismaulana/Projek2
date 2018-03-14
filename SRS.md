@@ -353,9 +353,10 @@ Admin dapat menghapus data yang ada dikelas.
 Langkah-langkah :
 
 * Sistem menampilkan menu-menu admin
-* Admin memilih menu data kelas. *Sistem menampilkan data kelas serta button delete dan hapus.
-*Admin menekan tombol hapus pada kelas yg ingin di hapus.
-*Sistem secara otomatis akan menghapus data yang dipilih oleh admin.
+* Admin memilih menu data kelas. 
+* Sistem menampilkan data kelas serta button delete dan hapus.
+* Admin menekan tombol hapus pada kelas yg ingin di hapus.
+* Sistem secara otomatis akan menghapus data yang dipilih oleh admin.
 
 
 Hapus Data Siswa
@@ -419,7 +420,7 @@ autentifikasi sesuai aturan yang terdapat pada absensi.
 
 3.1. External Interface Requirements
 
-Kebutuhan akan pengelolaan/management presensi pada suatu instansi sangatlah penting dengan menimbang beberapa aspek yang saling mendukung, pada hal ini tertuju pada sekolah SMK Negeri Indramayu dimana penerapan management/pengelolaan presensi siswa-siswi sudah semestinya menggunakan komputerisasi untuk dapat menghindari terjadinya human error pada pengerjaannya, Staf TU pada bidang kesiswaan sangatlah terbantu untuk meningkatkan kedisplinan siswa-siswinya dikarenakan fitur dari aplikasi M-AFI ini menunjang kedua orang tua siswa untuk dapat memonitoring siswa/siswinya pada saat berada pada lingkungan sekolah, dengan ini faktor kedua orang tua siswa terhadap kediplinan siswa/siswnya pada lingkungan sekolah sangatlah membantu bidang kesiswaan.
+Kebutuhan akan pengelolaan/management presensi pada suatu instansi sangatlah penting dengan menimbang beberapa aspek yang saling mendukung, pada hal ini tertuju pada sekolah SMK Negeri 1 Indramayu dimana penerapan management/pengelolaan presensi siswa-siswi sudah semestinya menggunakan komputerisasi untuk dapat menghindari terjadinya human error pada pengerjaannya, Staf TU pada bidang kesiswaan sangatlah terbantu untuk meningkatkan kedisplinan siswa-siswinya dikarenakan fitur dari aplikasi M-AFI ini menunjang kedua orang tua siswa untuk dapat memonitoring siswa/siswinya pada saat berada pada lingkungan sekolah, dengan ini faktor kedua orang tua siswa terhadap kedisplinan siswa/siswnya pada lingkungan sekolah sangatlah membantu bidang kesiswaan.
 
 Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat membantu guru-guru di sekolah tersebut sehingga sistem presensi yang dulu menggunakan buku absensi sekarang bisa di tinggalkan dengan adanya sistem presensi menggunakan fingerprint ini.
 
