@@ -50,7 +50,7 @@ Dokumen ini ditujukan untuk individu yang terlibat langsung dalam pengembangan M
 
 1.4 Kesesuaian
 
-
+Dengan pembuatan dokumen ini maka spesifikasi pembuatan projek dapat dimengerti programmer lain, dimana jika suatu saat akan dikembangkan, dokumen ini dapat membantu dan tidak terjadi perselisihan dengan programmer sebelumnya.
 
 ##Referensi ##
 
@@ -71,9 +71,11 @@ Singkatan | Definisi
 
 4.1  Desain Perangkat Lunak dalam Konteks
 
-
+M-AFI akan ditawarkan di sebuah instansi sekolah secara komersil. Pengembangan dan pemeliharaan menggunakan biaya karena terdapat alat sidik jari yang berkemungkinan rusak. Rencana pengembangan masa depan akan didasarkan pada dokumen ini maka pembuatannya tidak dimulai dari awal.  
 
 4.2 Deskripsi Software Desain dalam Siklus Hidup
+
+Pada tahap awal desain dalam sikulus hidup sebelum memulai perancangan produk secara terperinci. Menggambarkan Siklus Hidup (LC), dimana seorang perancang menggambarkan bagaimana sebuah produk menghabiskan siklus hidupnya. Tujuan dari penelitian ini adalah merupakan alat bantu deskripsi skenario siklus hidup untuk mendukung keputusan mendukung keputusan strategi siklus hidup. 
 
 4.2.1 Pengaruh pada SDD persiapan 
 
@@ -85,10 +87,13 @@ Singkatan | Definisi
 
 5.1 Pengantar
 
+Pada document ini menjelaskan secara detail tenteng project.Tentang Web Aplikasi, database aplikasi dan mobile aplikasi perancangan dan antarmuka dijelaskan dalam dokumen ini.
+
 5.2 SDD Identifikasi
 
-5.3 Desain Stakeholder dan Kekhawatiran  
 
+
+5.3 Desain Stakeholder dan Kekhawatiran  
 
 
 
