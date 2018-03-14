@@ -52,11 +52,11 @@ Dokumen ini ditujukan untuk individu yang terlibat langsung dalam pengembangan M
 
 Dengan pembuatan dokumen ini maka spesifikasi pembuatan projek dapat dimengerti programmer lain, dimana jika suatu saat akan dikembangkan, dokumen ini dapat membantu dan tidak terjadi perselisihan dengan programmer sebelumnya.
 
-##Referensi ##
+## Referensi ##
 
 IEEE Draft Standard for Software Design Descriptions 
 
-##Definisi##
+## Definisi ##
 
 Singkatan | Definisi 
 | ------ | ------ |
@@ -67,7 +67,7 @@ Singkatan | Definisi
 | LAN | LAN merupakan singkatan dari Local Area Network, yang mana merupakan sebuah jaringan komputer dengan skala kecil (local) seperti gedung perkantoran, sekolah atau rumah. LAN umumnya digunakan untuk berbagi resource dalam suatu gedung. LAN dapat berdiri sendiri, tanpa terhubung oleh jaringan luar atau internet. Namun apabila suatu LAN dihubungkan dengan beberapa LAN lainnya maka akan terbentuk suatu jaringan yang disebut Metropolitan Area Network (MAN). |
 
 
-##Kerangka Konseptual  Untuk Perangkat Lunak ##
+##  Kerangka Konseptual  Untuk Perangkat Lunak ##
 
 4.1  Desain Perangkat Lunak dalam Konteks
 
