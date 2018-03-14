@@ -168,7 +168,7 @@ Proyek ini diprioritaskan untuk kebutuhan instansi.
 
   - Sistem presensi ini hanya diperuntukkan untuk siswa dan guru
   - Pengolahan/management data hanya dilakukan pada sisi admin melalui webserver
-  - Aplikasi M-AFI hanya ditujukan untuk orang tua siswa dan guru
+  - Aplikasi M-AFI hanya ditujukan untuk siswa,orang tua, dan guru.
 
 3.3 Manajemen resiko
 
