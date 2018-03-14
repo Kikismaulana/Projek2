@@ -45,6 +45,7 @@ dapat melihat rekap presensinya.
 
 1.3 Audiens yang dituju
 
+Dokumen ini ditujukan untuk individu yang terlibat langsung dalam pengembangan M-AFI. Ini termasuk pengembang perangkat lunak, konsultan proyek, dan manajer tim.
 
 
 1.4 Kesesuaian
@@ -69,6 +70,8 @@ Singkatan | Definisi
 ##Kerangka Konseptual  Untuk Perangkat Lunak ##
 
 4.1  Desain Perangkat Lunak dalam Konteks
+
+
 
 4.2 Deskripsi Software Desain dalam Siklus Hidup
 
