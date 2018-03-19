@@ -150,26 +150,32 @@ Nama Tabel | Primary key | Data Store | E/R | Dekripsi
 ## Deskripsi Perancangan Rinci ##
 
 3.1 Diagram Konteks
+
 ![](https://image.ibb.co/caCT4c/Konteks_Diagram.png)
 
-
 3.1.1 DFD Level 0
+
 ![](https://image.ibb.co/jg81Pc/DFD_LEVEL_0_Page_1.png)
 
 3.1.1.1 DFD Level 1 Proses 1
+
 ![](https://image.ibb.co/i2fy4c/DFD_level_1_mengelola_data_siswa.png)
 
 3.1.1.2 DFD Level 1 Proses 2
+
 ![](https://image.ibb.co/gxfy4c/DFD_level_1_mengelola_data_kelas.png)
 
 
 3.1.1.3 DFD Level 1 Proses 3
+
 ![](https://image.ibb.co/hTiwqH/DFD_level_1_mengelola_data_Jurusan.png)
 
 3.1.1.4 DFD Level 1 Proses 4
+
 ![](https://image.ibb.co/dvQy4c/DFD_level_1_mengelola_data_User.png)
 
 3.1.1.5 DFD Level 1 Proses 5
+
 ![](https://image.ibb.co/fwhZcx/DFD_level_1_mengelola_data_Presensi.png)
 
 3.1.1.6 DFD Level 1 Proses 6
@@ -177,9 +183,11 @@ Nama Tabel | Primary key | Data Store | E/R | Dekripsi
 ![](https://image.ibb.co/jtNpAH/DFD_level_1_Input_data_Presensi.png)
 
 3.1.1.7 DFD Level 1 Proses 7
+
 ![](https://image.ibb.co/dCOUAH/DFD_level_1_View_data_Presensi.png)
 
 3.1.1.8 DFD Level 1 Proses 8
+
 ![](https://image.ibb.co/jEGSxx/DFD_level_1_Mengirim_surat_izin.png)
 
 3.2 Deskripsi Rinci Tabel
