@@ -149,7 +149,8 @@ Nama Tabel | Primary key | Data Store | E/R | Dekripsi
 
 ## Deskripsi Perancangan Rinci ##
 
-
+3.1 Diagram Konteks
+![](https://image.ibb.co/caCT4c/Konteks_Diagram.png)
 
 
 3.1.1 DFD Level 0
