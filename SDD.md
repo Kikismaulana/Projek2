@@ -123,7 +123,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 2.2 Deskripsi Data
 
-
+![](https://github.com/Kikismaulana/RPL-C-6.git)
 
 2.2.1 Definisi Domain/Type
 
