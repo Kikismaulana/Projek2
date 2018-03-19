@@ -123,6 +123,8 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 2.2 Deskripsi Data
 
+
+
 2.2.1 Definisi Domain/Type
 
 2.2.1 Conceptual Data Model
@@ -130,6 +132,17 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 2.2.3 Physical Data Model
 
 2.2.4 Daftar Tabel Aplikasi
+
+Nama Tabel | Primary key | Data Store | E/R | Dekripsi 
+|----------|-------------|------------|-----|-=-------|
+| users	 | id_users | 11 | siswa dan guru | tabel users terdiri dari id_users, NIS, password dan level. tabel users terhubung dengan tabel guru dan siswa.|
+| guru | NIP | 11 | users | Tabel guru terdiri dari NIP, nama_lengkap, email, password, jk, no_hp dan alamat. tabel guru terhubung dengan tabel users.|
+| siswa | NIS | 11 | users, presensi dan kelas | Tabel siswa terdiri dari NIS, id_kelas, nama_lengkap, jk, ttl, email, agama, alamat, no_hp, nama_ayah, nama_ibu, pekerjaan_ayah, pekerjaan_ibu, alamat_ortu, dan password. tabel siswa terhubung dengan tabel users, presensi dan users.|
+| kelas | id_kelas | 11 | siswa dan jurusan | Tabel kelas terdiri dari id_kelas, id_jurusan dan nama kelas |
+| jurusan |  id_jurusan | 11 | kelas |  Tabel jurusan terdiri dari id_jurusan dan nama_jurusan. tabel jurusan terhubung dengan tabel kelas |
+| presensi | id_presensi | 11 | siswa , masuk dan pulang | Tabel presensi terdiri dari id_presensi, NIS id_masuk, id_pulang, tanggal, keterangan dan presensi. Tabel presensi terhubung dengan tabel masuk, pulang dan siswa. |
+| masuk | id_masuk | 11 | presensi | Tabel masuk terdiri dari id_masuk, masuk dan terlambat. Tabel masuk terhubung dengan tabel presensi |
+| pulang | id_pulang | 11 | presensi | Tabel pulang terdiri id_pulang, pulang, dan lebih_cepat. Tabel pulang terhubung dengan presensi. | 
 
 2.3 Deskripsi Modul
 
