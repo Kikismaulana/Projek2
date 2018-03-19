@@ -134,7 +134,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 2.2.4 Daftar Tabel Aplikasi
 
 Nama Tabel | Primary key | Data Store | E/R | Dekripsi 
-|----------|-------------|------------|-----|-=-------|
+|----------|-------------|------------|-----|---------|
 | users	 | id_users | 11 | siswa dan guru | tabel users terdiri dari id_users, NIS, password dan level. tabel users terhubung dengan tabel guru dan siswa.|
 | guru | NIP | 11 | users | Tabel guru terdiri dari NIP, nama_lengkap, email, password, jk, no_hp dan alamat. tabel guru terhubung dengan tabel users.|
 | siswa | NIS | 11 | users, presensi dan kelas | Tabel siswa terdiri dari NIS, id_kelas, nama_lengkap, jk, ttl, email, agama, alamat, no_hp, nama_ayah, nama_ibu, pekerjaan_ayah, pekerjaan_ibu, alamat_ortu, dan password. tabel siswa terhubung dengan tabel users, presensi dan users.|
