@@ -24,10 +24,8 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <link rel="shortcut icon" href="img/tittle.png">
+
   </head>
   <body>
     <!-- Side Navbar -->
@@ -40,18 +38,24 @@
             <h2 class="h5">ADMIN</h2><span>SMK N 1 INDRAMAYU</span>
           </div>
           <!-- Small Brand information, appears on minimized sidebar-->
-          <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"> <strong>B</strong><strong class="text-primary">D</strong></a></div>
+          <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"> <strong>4</strong><strong class="text-primary">7</strong></a></div>
         </div>
         <!-- Sidebar Navigation Menus-->
         <div class="main-menu">
           <h5 class="sidenav-heading">Main</h5>
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
-            <li><a href="index.html"> <i class="icon-home"></i>Home                             </a></li>
-            <li><a href="datasiswa.html"> <i class="icon-user"></i>Data Siswa                             </a></li>
-            <li><a href="dataguru.html"> <i class="icon-user"></i>Data Guru                             </a></li>
-            <li><a href="datakelas.html"> <i class="icon-home"></i>Data Kelas                             </a></li>
-            <li><a href="datajurusan.html"><i class="icon-home"></i>Data Jurusan</a></li>
-            <li><a href="rekapabsen.html"> <i class="icon-padnote"></i>Rekap Absen                             </a></li>
+            <li><a href="index.html"> <i class="icon-home"></i>Home </a></li>
+            <li><a href="datasiswa.html"> <i class="icon-user"></i>Data Siswa </a></li>
+            <li><a href="dataguru.html"> <i class="icon-user"></i>Data Guru </a></li>
+            <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Data User</a>
+              <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
+                <li><a href="userguru.html"> <i class="icon-user"></i>User Guru</a></li>
+                <li><a href="usersiswa.html"> <i class="icon-user"></i>User Siswa</a></li>
+              </ul>
+            </li>
+            <li><a href="datakelas.html"> <i class="icon-home"></i>Data Kelas </a></li>
+            <li><a href="datajurusan.html"> <i class="icon-home"></i>Data Jurusan </a></li>
+            <li><a href="rekapabsen.php"> <i class="icon-padnote"></i>Rekap Absen </a></li>
           </ul>
         </div>
       </div>
@@ -96,61 +100,83 @@
         <div class="container-fluid">
           <div class="row">
             <!-- Count item widget-->
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="container card" style="padding: 20px">
-                <div class="wrapper count-title d-flex">
-                  <div class="icon"><i style="font-size: 70px" class="icon-user"></i></div>
-                  <div class="name"><strong class="text-uppercase">Data Siswa</strong><span>Jumlah</span>
-                      <div class="count-number">25</div>
-                  </div>
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="wrapper count-title d-flex">
+                <div class="icon"><i class="icon-user"></i></div>
+                  <a href="datasiswa.html">
+                    <div class="name"><strong class="text-uppercase">Data siswa</strong><span>Jumlah</span>
+                  </a>
+                  <div class="count-number">25</div>
                 </div>
               </div>
             </div>
             <!-- Count item widget-->
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="container card" style="padding: 20px">
-                <div class="wrapper count-title d-flex">
-                  <div class="icon"><i style="font-size: 70px" class="icon-user"></i></div>
-                  <div class="name"><strong class="text-uppercase">Data Guru</strong><span>Jumlah</span>
-                      <div class="count-number">25</div>
-                  </div>
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="wrapper count-title d-flex">
+                <div class="icon"><i class="icon-user"></i></div>
+                  <a href="dataguru.html">
+                    <div class="name"><strong class="text-uppercase">Data Guru</strong><span>Jumlah</span>
+                  </a>
+                  <div class="count-number">400</div>
                 </div>
               </div>
             </div>
             <!-- Count item widget-->
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="container card" style="padding: 20px">
-                <div class="wrapper count-title d-flex">
-                  <div class="icon"><i style="font-size: 70px" class="icon-home"></i></div>
-                  <div class="name"><strong class="text-uppercase">Data KElas</strong><span>Keseluruhan</span>
-                      <div class="count-number">25</div>
-                  </div>
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="wrapper count-title d-flex">
+                <div class="icon"><i class="icon-user"></i></div>
+                  <a href="usersiswa.html">
+                    <div class="name"><strong class="text-uppercase">Data User</strong><span>Jumlah</span>
+                  </a>
+                  <div class="count-number">342</div>
                 </div>
               </div>
             </div>
             <!-- Count item widget-->
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="container card" style="padding: 20px">
-                <div class="wrapper count-title d-flex">
-                  <div class="icon"><i style="font-size: 70px" class="icon-padnote"></i></div>
-                  <div class="name"><strong class="text-uppercase">Rekap Absen</strong><span>Keseluruhan</span>
-                      <div class="count-number">25</div>
-                  </div>
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="wrapper count-title d-flex">
+                <div class="icon"><i class="icon-home"></i></div>
+                  <a href="datakelas.html">
+                    <div class="name"><strong class="text-uppercase">Data Kelas</strong><span>Jumlah</span>
+                  </a>
+                  <div class="count-number">123</div>
+                </div>
+              </div>
+            </div>
+            <!-- Count item widget-->
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="wrapper count-title d-flex">
+                <div class="icon"><i class="icon-home"></i></div>
+                  <a href="datajurusan.html">
+                    <div class="name"><strong class="text-uppercase" style="font-size: 13px">Data Jurusan</strong><span>Jumlah</span>
+                  </a>
+                  <div class="count-number">92</div>
+                </div>
+              </div>
+            </div>
+            <!-- Count item widget-->
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="wrapper count-title d-flex">
+                <div class="icon"><i class="icon-bill"></i></div>
+                  <a href="rekapabsen.php">
+                    <div class="name"><strong class="text-uppercase" style="font-size: 13px">Rekap Absen</strong><span>Presensi</span>
+                  </a>
+                  <div class="count-number">70</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <footer class="main-footer">
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-6">
-              <p>Your company &copy; 2017-2019</p>
+              <p>Production by Informatic Engineering <b class="external">POLINDRA</b></p>
             </div>
             <div class="col-sm-6 text-right">
-              <p>Design by <a href="https://bootstrapious.com" class="external">Bootstrapious</a></p>
-              <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+              <p>Copyright &copy by <b class="external">M-AFI</b></p>
             </div>
           </div>
         </div>
