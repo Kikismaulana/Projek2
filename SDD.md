@@ -53,7 +53,7 @@ Politeknik Negeri Indramayu</h2>
 </div>
 
 
-##Pendahuluan##
+## Pendahuluan ##
 
 
 1.1 Tujuan
@@ -173,9 +173,39 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 2.2.1 Definisi Domain/Type
 
  Domain Name | Power Designer Tipe
-|-----------|--------------------|
-  
+|------------|--------------------|
+| NIP | integer |
+| NIS | integer |
+| id_kelas | integer |
+| id_presensi | integer |
+| id_user | integer |
+| id_jurusan | integer |
+| nama_lengkap | varchar |
+| jk | varchar |
+| ttl | varchar |
+| email | varchar |
+| agama | varchar |
+| alamat | text |
+| no_hp | varchar |
+| nama_ayah | varchar |
+| pekerjaan_ayah | varchar |
+| nama_ibu | varchar |
+| pekerjaan_ibu | varchar |
+| alamat_ortu | text |
+| keterangan | text |
+| presensi | varchar |
+| tanggal | date |
+| masuk | time |
+| terlambat | integer |
+| pulang  | time |
+| lebih_cepat | integer |
+| level  |  |
+| password | varchar |
+| nama_kelas | varchar |
+| nama_jurusan | varchar |
 
+
+  
 2.2.2 Conceptual Data Model
 
 
@@ -187,8 +217,8 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 2.2.4 Daftar Tabel Aplikasi
 
  Nama Tabel | Primary key | Data Store | E/R | Dekripsi 
-|----------|-------------|------------|-----|---------|
-| Siswa | NIS |  | tabel users, kelas dan presensi | tabel siswa terdiri dari NIS, id_kelas, nama_lengkap, jk, ttl, email,agama, alamat, no_hp, nama_ayah, nama_ibu, pekerjaan_ortu dan alamat_ortu. tabel siswa terhubung dengan tabel users, kelas dan presensi |
+|-----------|-------------|------------|-----|---------|
+| Siswa | NIS |  | tabel users, kelas dan presensi | tabel siswa terdiri dari NIS, id_kelas, nama_lengkap, jk, ttl, email,agama, alamat, no_hp, nama_ayah, pekerjaan_ayah, nama_ibu, pekerjaan_ibu dan alamat_ortu. tabel siswa terhubung dengan tabel users, kelas dan presensi |
 | Guru | NIP |  | tabel users dan kelas | tabel guru terdiri dari NIP, id_kelas, nama_lengkap, email, password, jk, no_hp dan alamat. tabel guru terhubung dengan tabel users dan kelas |
 | Kelas | id_kelas |  | tabel siswa, jurusan dan guru | tabel kelas terdiri dari id_kelas, nama_kelas dan id_jurusan. tabel kelas terhubung dengan tabel siswa, jurusan dan guru |
 | Jurusan | id_jurusan |  | tabel kelas | tabel jurusan terdiri dari id_jurusan dan nama_jurusan. tabel jurusan terhubung dengan tabel kelas |
