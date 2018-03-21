@@ -123,28 +123,32 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 2.2 Deskripsi Data
 
-![](https://image.ibb.co/k4RhVH/ER.png)
+
 
 2.2.1 Definisi Domain/Type
 
-2.2.1 Conceptual Data Model
+ Domain Name | Power Designer Tipe
+|-----------|--------------------|
+  
+
+2.2.2 Conceptual Data Model
+
+
 
 2.2.3 Physical Data Model
 
+
+
 2.2.4 Daftar Tabel Aplikasi
 
-Nama Tabel | Primary key | Data Store | E/R | Dekripsi 
+ Nama Tabel | Primary key | Data Store | E/R | Dekripsi 
 |----------|-------------|------------|-----|---------|
-| users	 | id_users | 11 | siswa dan guru | tabel users terdiri dari id_users, NIS, password dan level. tabel users terhubung dengan tabel guru dan siswa.|
-| guru | NIP | 11 | users | Tabel guru terdiri dari NIP, nama_lengkap, email, password, jk, no_hp dan alamat. tabel guru terhubung dengan tabel users.|
-| siswa | NIS | 11 | users, presensi dan kelas | Tabel siswa terdiri dari NIS, id_kelas, nama_lengkap, jk, ttl, email, agama, alamat, no_hp, nama_ayah, nama_ibu, pekerjaan_ayah, pekerjaan_ibu, alamat_ortu, dan password. tabel siswa terhubung dengan tabel users, presensi dan users.|
-| kelas | id_kelas | 11 | siswa dan jurusan | Tabel kelas terdiri dari id_kelas, id_jurusan dan nama kelas |
-| jurusan |  id_jurusan | 11 | kelas |  Tabel jurusan terdiri dari id_jurusan dan nama_jurusan. tabel jurusan terhubung dengan tabel kelas |
-| presensi | id_presensi | 11 | siswa , masuk dan pulang | Tabel presensi terdiri dari id_presensi, NIS id_masuk, id_pulang, tanggal, keterangan dan presensi. Tabel presensi terhubung dengan tabel masuk, pulang dan siswa. |
-| masuk | id_masuk | 11 | presensi | Tabel masuk terdiri dari id_masuk, masuk dan terlambat. Tabel masuk terhubung dengan tabel presensi |
-| pulang | id_pulang | 11 | presensi | Tabel pulang terdiri id_pulang, pulang, dan lebih_cepat. Tabel pulang terhubung dengan presensi. | 
+
 
 2.3 Deskripsi Modul
+
+ No |  Nama Modul | Keterangan 
+|---|-------------|-----------|
 
 
 ## Deskripsi Perancangan Rinci ##
@@ -192,11 +196,78 @@ Nama Tabel | Primary key | Data Store | E/R | Dekripsi
 
 3.2 Deskripsi Rinci Tabel
 
-3.2.1 Tabel A
+3.2.1 Tabel Siswa
 
-3.2.2 Tabel B
+Identifikasi/Nama	:
+Deskripsi Isi		:
+Jenis 				:
+Volume				:
+Laju				:
+Primary Key			:
 
-3.2.3 Tabel dst
+ Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
+|---------|-----------|---------------|------------|---------|----------|
+
+3.2.2 Tabel Guru
+
+Identifikasi/Nama	:
+Deskripsi Isi		:
+Jenis 				:
+Volume				:
+Laju				:
+Primary Key			:
+
+ Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
+|---------|-----------|---------------|------------|---------|----------|
+
+
+3.2.3 Tabel Kelas
+
+Identifikasi/Nama	:
+Deskripsi Isi		:
+Jenis 				:
+Volume				:
+Laju				:
+Primary Key			:
+
+ Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
+|---------|-----------|---------------|------------|---------|----------|
+
+3.2.4 Tabel Jurusan
+
+Identifikasi/Nama	:
+Deskripsi Isi		:
+Jenis 				:
+Volume				:
+Laju				:
+Primary Key			:
+
+ Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
+|---------|-----------|---------------|------------|---------|----------|
+
+3.2.5 Tabel Users
+
+Identifikasi/Nama	:
+Deskripsi Isi		:
+Jenis 				:
+Volume				:
+Laju				:
+Primary Key			:
+
+ Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
+|---------|-----------|---------------|------------|---------|----------|
+
+3.2.6 Tabel Presensi
+
+Identifikasi/Nama	:
+Deskripsi Isi		:
+Jenis 				:
+Volume				:
+Laju				:
+Primary Key			:
+
+ Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
+|---------|-----------|---------------|------------|---------|----------|
 
 3.3 Deskripsi Rinci Modul
 
@@ -204,20 +275,38 @@ Nama Tabel | Primary key | Data Store | E/R | Dekripsi
 
 3.3.1.1 Fungsi Modul
 
+ No | Fungsi | Jenis | Tabel Terkait
+|---|--------|-------|--------------|
+
 3.3.1.2 Spesifikasi Layar Utama
+
+
 
 3.3.1.3 Spesifikasi Query
 
+
+
 3.3.1.4 Spesifikasi Field Data Layar
+
+ Label | Field | Tabel/Query | Validasi | Keterangan
+|------|-------|-------------|----------|-----------|
 
 3.3.1.5 Spesifikasi Obyek Pada Layer
 
+ Id Objek | Jenis | Keterangan 
+|---------|-------|-----------|
+
 3.3.1.6 Spesifikasi Proses / Algoritma
+
+
 
 3.3.2 Modul ?
 
+
+
 3.4 Matriks Kerunutan 
 
-
+ ID Kebutuhan | Modul | Keterangan 
+|-------------|-------|-----------|
 
 
