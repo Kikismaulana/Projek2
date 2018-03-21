@@ -92,6 +92,51 @@ IEEE Draft Standard for Software Design Descriptions
 
 1.5 Ikhtisar Dokumen
 
+BAB 1 Pendahuluan
+1.1 Tujuan
+1.2 Lingkup
+1.3 Definisi, Akronim, dan Singkatan
+1.4 Referensi
+1.5 Ikhtisar Dokumen
+
+BAB 2 Deskripsi Perancangan Global
+2.1 Rancangan Lingkungan Implementasi
+2.2 Deskripsi Data
+2.2.1  Definisi Domain/Type
+2.2.2 Conceptual Data Model
+2.2.3 Physical Data Model 
+2.2.4 Daftar Tabel Aplikasi
+2.3 Deskripsi Modul
+
+BAB 3 Deskripsi Perancangan Rinci
+3.1 Diagram Konteks
+3.1.1 DFD level 0
+3.1.1.1 DFD Level 1 Proses Mengelola Data Master 
+3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
+3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
+3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
+3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
+3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
+3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
+3.2 Deskripsi Rinci Tabel
+3.2.1 Tabel Siswa
+3.2.2 Tabel Guru
+3.2.3 Tabel Kelas
+3.2.4 Tabel Jurusan
+3.2.5 Tabel User
+3.2.6 Tabel Presensi
+3.3 Deskripsi Rinci Modul
+3.3.1 Modul 1
+3.3.1.1 Fungsi Modul
+3.3.1.2 Spesifikasi Layar Utama
+3.3.1.3 Spesifikasi Query
+3.3.1.4 Spesifikasi Field Data Layar
+3.3.1.5 Spesifikasi Obyek Pada Layer
+3.3.1.6 Spesifikasi Proses / Algoritma
+3.3.2 Modul 2
+3.3.3 Modul dst
+3.4 Matriks Keturunan
+
 
 ##  Deskripsi Perancangan Global ##
 
@@ -155,55 +200,38 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 3.1 Diagram Konteks
 
-![](https://image.ibb.co/caCT4c/Konteks_Diagram.png)
+3.1.1 DFD level 0
 
-3.1.1 DFD Level 0
+3.1.1.1 DFD Level 1 Proses Mengelola Data Master
+ 
+3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
 
-![](https://image.ibb.co/jg81Pc/DFD_LEVEL_0_Page_1.png)
+3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
 
-3.1.1.1 DFD Level 1 Proses 1
+3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
 
-![](https://image.ibb.co/i2fy4c/DFD_level_1_mengelola_data_siswa.png)
+3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
 
-3.1.1.2 DFD Level 1 Proses 2
+3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
 
-![](https://image.ibb.co/gxfy4c/DFD_level_1_mengelola_data_kelas.png)
-
-
-3.1.1.3 DFD Level 1 Proses 3
-
-![](https://image.ibb.co/hTiwqH/DFD_level_1_mengelola_data_Jurusan.png)
-
-3.1.1.4 DFD Level 1 Proses 4
-
-![](https://image.ibb.co/dvQy4c/DFD_level_1_mengelola_data_User.png)
-
-3.1.1.5 DFD Level 1 Proses 5
-
-![](https://image.ibb.co/fwhZcx/DFD_level_1_mengelola_data_Presensi.png)
-
-3.1.1.6 DFD Level 1 Proses 6
-
-![](https://image.ibb.co/jtNpAH/DFD_level_1_Input_data_Presensi.png)
-
-3.1.1.7 DFD Level 1 Proses 7
-
-![](https://image.ibb.co/dCOUAH/DFD_level_1_View_data_Presensi.png)
-
-3.1.1.8 DFD Level 1 Proses 8
-
-![](https://image.ibb.co/jEGSxx/DFD_level_1_Mengirim_surat_izin.png)
+3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
 
 3.2 Deskripsi Rinci Tabel
 
 3.2.1 Tabel Siswa
 
 Identifikasi/Nama	:
+
 Deskripsi Isi		:
+
 Jenis 				:
+
 Volume				:
+
 Laju				:
+
 Primary Key			:
+
 
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
@@ -211,11 +239,17 @@ Primary Key			:
 3.2.2 Tabel Guru
 
 Identifikasi/Nama	:
+
 Deskripsi Isi		:
+
 Jenis 				:
+
 Volume				:
+
 Laju				:
+
 Primary Key			:
+
 
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
@@ -224,11 +258,17 @@ Primary Key			:
 3.2.3 Tabel Kelas
 
 Identifikasi/Nama	:
+
 Deskripsi Isi		:
+
 Jenis 				:
+
 Volume				:
+
 Laju				:
+
 Primary Key			:
+
 
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
@@ -236,11 +276,17 @@ Primary Key			:
 3.2.4 Tabel Jurusan
 
 Identifikasi/Nama	:
+
 Deskripsi Isi		:
+
 Jenis 				:
+
 Volume				:
+
 Laju				:
+
 Primary Key			:
+
 
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
@@ -248,11 +294,17 @@ Primary Key			:
 3.2.5 Tabel Users
 
 Identifikasi/Nama	:
+
 Deskripsi Isi		:
+
 Jenis 				:
+
 Volume				:
+
 Laju				:
+
 Primary Key			:
+
 
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
@@ -260,11 +312,17 @@ Primary Key			:
 3.2.6 Tabel Presensi
 
 Identifikasi/Nama	:
+
 Deskripsi Isi		:
+
 Jenis 				:
+
 Volume				:
+
 Laju				:
+
 Primary Key			:
+
 
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
