@@ -126,15 +126,42 @@ BAB 3 Deskripsi Perancangan Rinci
 3.2.5 Tabel User
 3.2.6 Tabel Presensi
 3.3 Deskripsi Rinci Modul
-3.3.1 Modul 1
+3.3.1 Modul siswa
 3.3.1.1 Fungsi Modul
 3.3.1.2 Spesifikasi Layar Utama
 3.3.1.3 Spesifikasi Query
 3.3.1.4 Spesifikasi Field Data Layar
 3.3.1.5 Spesifikasi Obyek Pada Layer
 3.3.1.6 Spesifikasi Proses / Algoritma
-3.3.2 Modul 2
-3.3.3 Modul dst
+3.3.2 Modul kelas
+3.3.2.1 Fungsi Modul
+3.3.2.2 Spesifikasi Layar Utama
+3.3.2.3 Spesifikasi Query
+3.3.2.4 Spesifikasi Field Data Layar
+3.3.2.5 Spesifikasi Obyek Pada Layer
+3.3.2.6 Spesifikasi Proses / Algoritma
+3.3.3 Modul jurusan
+3.3.3.1 Fungsi Modul
+3.3.3.2 Spesifikasi Layar Utama
+3.3.3.3 Spesifikasi Query
+3.3.3.4 Spesifikasi Field Data Layar
+3.3.3.5 Spesifikasi Obyek Pada Layer
+3.3.3.6 Spesifikasi Proses / Algoritma
+3.3.4 Modul users
+3.3.4.1 Fungsi Modul
+3.3.4.2 Spesifikasi Layar Utama
+3.3.4.3 Spesifikasi Query
+3.3.4.4 Spesifikasi Field Data Layar
+3.3.4.5 Spesifikasi Obyek Pada Layer
+3.3.4.6 Spesifikasi Proses / Algoritma
+3.3.5 Modul presensi
+3.3.5.1 Fungsi Modul
+3.3.5.2 Spesifikasi Layar Utama
+3.3.5.3 Spesifikasi Query
+3.3.5.4 Spesifikasi Field Data Layar
+3.3.5.5 Spesifikasi Obyek Pada Layer
+3.3.5.6 Spesifikasi Proses / Algoritma
+
 3.4 Matriks Keturunan
 
 
