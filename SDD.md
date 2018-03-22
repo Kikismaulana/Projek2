@@ -115,6 +115,8 @@ BAB 3 Deskripsi Perancangan Rinci
 ![](https://image.ibb.co/egDHLH/Konteks_Diagram.png)
 3.1.1 DFD level 0
 
+![](https://image.ibb.co/bUeGfH/DFD_Level_0.png)
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master 
 
 ![](https://image.ibb.co/fsfp0H/DFD_Level_1_mengelola_data_master.jpg)
