@@ -17,8 +17,9 @@
     <string name="pulang">PULANG</string>
     <string name="_06_48">06:48</string>
     <string name="pulang_lebih_cepat">* Pulang lebih cepat</string>
-    <string name="_20_02_2018" tools:ignore="TypographyDashes">20 - 02 - 2018</string>
-    <string name="izin_siswa">Izin Siswa</string>
     <string name="_15_20">15 : 20</string>
     <string name="tepat_waktu">* Tepat waktu</string>
+    <string name="_09_03_2018">09 Maret 2018</string>
+
+
 </resources>
