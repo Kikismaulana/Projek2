@@ -168,7 +168,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 #### 2.2 Deskripsi Data ####
 
-
+![](https://image.ibb.co/f0Mujc/IMG_20180322_WA0007.jpg)
 
 ##### 2.2.1 Definisi Domain/Type
 
@@ -208,11 +208,11 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
   
 ##### 2.2.2 Conceptual Data Model
 
-
+![](https://image.ibb.co/ieN3uc/IMG_20180322_WA0003.jpg)
 
 ##### 2.2.3 Physical Data Model
 
-
+![](https://image.ibb.co/hT1UZc/IMG_20180322_WA0002.jpg)
 
 ##### 2.2.4 Daftar Tabel Aplikasi
 
@@ -222,7 +222,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 | Guru | NIP |  | tabel users dan kelas | tabel guru terdiri dari NIP, id_kelas, nama_lengkap, email, password, jk, no_hp dan alamat. tabel guru terhubung dengan tabel users dan kelas |
 | Kelas | id_kelas |  | tabel siswa, jurusan dan guru | tabel kelas terdiri dari id_kelas, nama_kelas dan id_jurusan. tabel kelas terhubung dengan tabel siswa, jurusan dan guru |
 | Jurusan | id_jurusan |  | tabel kelas | tabel jurusan terdiri dari id_jurusan dan nama_jurusan. tabel jurusan terhubung dengan tabel kelas |
-| Users | id_user |  | tabel siswa dan guru | tabel users terdiri dari id_user, NIP, NIS, level dan password. tabel users terhubung dengan tabel siswa dan guru. |
+| Users | id_user |  | tabel siswa dan guru | tabel users terdiri dari id_user, NIP, NIS,NISN, level dan password. tabel users terhubung dengan tabel siswa dan guru. |
 | Presensi | id_presensi |  | tabel siswa | tabel presensi terdiri dari id_presensi, NIS, keterangan, presensi, tanggal, masuk, terlambat, pulang dan lebih_cepat. tabel presensi terhubung dengan tabel siswa. |
 
 
@@ -235,7 +235,6 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 | 3 | Modul Jurusan | Yang dapat mengelola modul jurusan hanya admin saja, pada modul jurusan admin dapat mengelola data jurusan. |
 | 4 | Modul User | | Yang dapat mengelola modul user hanya admin saja, pada modul user admin dapat mengelola data user. |
 | 5 | Modul Presensi | Pada modul presensi admin dapat mengelola, sedangkan guru, siswa dan orang tua dapat melihat hasil rekap absen berdasarkan levelnya. |
-| 6 | Modul Login | Yang dapat login adalah admin, guru, siswa dan orang tua namun beda-beda level. |
 
 
 
@@ -263,112 +262,105 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 ##### 3.2.1 Tabel Siswa
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: siswa
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi data-data siswa
 
-Jenis 				:
+Jenis 				: Tabel Referensi
 
-Volume				:
+Volume				: 
 
-Laju				:
+Laju				: 
 
-Primary Key			:
+Primary Key			: NIP 
 
+![](https://image.ibb.co/gA0Ouc/IMG_20180323_WA0005.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 ##### 3.2.2 Tabel Guru
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: guru
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi data-data guru.
 
-Jenis 				:
+Jenis 				: Tabel Referensi
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: NIP
 
-
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
+![](https://image.ibb.co/fQFCnx/IMG_20180323_WA0006.jpg)
 
 
 ##### 3.2.3 Tabel Kelas
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: kelas 
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi id dan nama kelas.
 
-Jenis 				:
+Jenis 				: Tabel Referensi
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: id_kelas
 
+![](https://image.ibb.co/ey4iuc/IMG_20180323_WA0004.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 ##### 3.2.4 Tabel Jurusan
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: jurusan
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi id dan nama jurusan.
 
-Jenis 				:
+Jenis 				: Tabel referensi
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: id_jurusan
 
+![](https://image.ibb.co/cq8nLH/IMG_20180323_WA0000.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 ##### 3.2.5 Tabel Users
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: users
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi id dari berbagai user, password dan level.
 
-Jenis 				:
+Jenis 				: Tabel referensi
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: id_users
 
+![](https://image.ibb.co/fi7Q7x/IMG_20180323_WA0007.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 ##### 3.2.6 Tabel Presensi
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: presensi
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi pengelolaan data induk.
 
-Jenis 				:
+Jenis 				: Tabel data induk
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: id_presensi
 
+![](https://image.ibb.co/mWJ9Zc/IMG_20180323_WA0008.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 #### 3.3 Deskripsi Rinci Modul ####
 
@@ -385,7 +377,27 @@ Primary Key			:
 
 3.3.1.3 Spesifikasi Query
 
-
+create table siswa (
+NIS int not null,
+id_kelas int not null,
+nama_lengkap varchar (50),
+jk varchar (9),
+ttl varchar (50),
+email varchar (50),
+agama varchar (10),
+alamat text,
+no_hp varchar (15),
+nama_ayah varchar (50),
+nama_ibu varchar (50),
+pekerjaan_ayah varchar (50),
+pekerjaan_ibu varchar (50),
+alamat_ortu text,
+password varchar (50),
+PRIMARY KEY (NIS),
+FOREIGN KEY (id_kelas) REFERENCES kelas (id_kelas)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);
 
 3.3.1.4 Spesifikasi Field Data Layar
 
@@ -414,6 +426,15 @@ Primary Key			:
 
 3.3.2.3 Spesifikasi Query
 
+create table kelas (
+id_kelas int not null AUTO_INCREMENT,
+id_jurusan int not null,
+nama_kelas varchar (20),
+PRIMARY KEY (id_kelas),
+FOREIGN KEY (id_jurusan) REFERENCES jurusan (id_jurusan)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);
 
 
 3.3.2.4 Spesifikasi Field Data Layar
@@ -442,7 +463,10 @@ Primary Key			:
 
 3.3.3.3 Spesifikasi Query
 
-
+create table jurusan (
+id_jurusan int not null AUTO_INCREMENT,
+nama_jurusan varchar (50),
+PRIMARY KEY (id_jurusan));
 
 3.3.3.4 Spesifikasi Field Data Layar
 
@@ -471,7 +495,19 @@ Primary Key			:
 
 3.3.4.3 Spesifikasi Query
 
-
+create table users (
+id_users int not null,
+NIP int not null,
+NIS int not null,
+NISN int not null, 
+password varchar (50),
+level varchar (10),
+PRIMARY KEY (id_users),
+FOREIGN KEY (NIS) REFERENCES siswa (NIS), 
+FOREIGN KEY (NIP) REFERENCES guru (NIP)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);
 
 3.3.4.4 Spesifikasi Field Data Layar
 
@@ -499,7 +535,21 @@ Primary Key			:
 
 3.3.5.3 Spesifikasi Query
 
-
+create table presensi (
+id_presensi int not null AUTO_INCREMENT,
+NIS int not null,
+tanggal date,
+keterangan text,
+presensi varchar (20),
+pulang time,
+lebih_cepat int,
+masuk time,
+terlambat int,
+PRIMARY KEY (id_presensi),
+FOREIGN KEY (NIS) REFERENCES siswa (NIS)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);
 
 3.3.5.4 Spesifikasi Field Data Layar
 
@@ -514,37 +564,12 @@ Primary Key			:
 3.3.5.6 Spesifikasi Proses / Algoritma
 
 
-##### 3.3.6 Modul Login
-
-3.3.6.1 Fungsi Modul
-
- No | Fungsi | Jenis | Tabel Terkait
-|---|--------|-------|--------------|
-
-3.3.6.2 Spesifikasi Layar Utama
-
-![](https://image.ibb.co/nby5pc/login.png)
-
-3.3.6.3 Spesifikasi Query
-
-
-
-3.3.6.4 Spesifikasi Field Data Layar
-
- Label | Field | Tabel/Query | Validasi | Keterangan
-|------|-------|-------------|----------|-----------|
-
-3.3.6.5 Spesifikasi Obyek Pada Layer
-
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
-
-3.3.6.6 Spesifikasi Proses / Algoritma
 
 
 #### 3.4 Matriks Kerunutan  ####
 
  ID Kebutuhan | Modul | Keterangan 
 |-------------|-------|-----------|
+
 
 
