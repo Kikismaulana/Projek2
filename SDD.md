@@ -514,8 +514,7 @@ ON UPDATE CASCADE
 
 3.3.1.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/fxaXnx/obyek_siswa.png)
 
 3.3.1.6 Spesifikasi Proses / Algoritma
 
@@ -551,8 +550,7 @@ ON UPDATE CASCADE
 
 3.3.2.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/g4xCnx/obyek_kelas.png)
 
 3.3.2.6 Spesifikasi Proses / Algoritma
 
@@ -581,8 +579,7 @@ PRIMARY KEY (id_jurusan));
 
 3.3.3.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/jJPsnx/obyek_jurusan.png)
 
 3.3.3.6 Spesifikasi Proses / Algoritma
 
@@ -621,8 +618,7 @@ ON UPDATE CASCADE
 
 3.3.4.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/dopgfH/obyek_users.png)
 
 3.3.4.6 Spesifikasi Proses / Algoritma
 
@@ -662,8 +658,7 @@ ON UPDATE CASCADE
 
 3.3.5.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/i2YwEc/obyek_presensi.png)
 
 3.3.5.6 Spesifikasi Proses / Algoritma
 
