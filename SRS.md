@@ -359,6 +359,8 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 		* Sistem menampilkan button download rekap presensi
 		* Orang tua siswa mendownload rekap presensi
 		
+
+
 		2.2.1.3 Guru
 
 		Masuk / Keluar
@@ -366,11 +368,20 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 ![](https://image.ibb.co/imBL5H/23.jpg)
 		
 		Deskripsi singkat :
-
+	
+		Guru dapat mengakses (masuk/keluar) app M-AFI.
 
 		Langkah - langkah :
 
-
+		* Guru membuka app M-AFI
+		* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+		* Guru mengisi form login (username dan password)
+		* Sistem melakukan verifikasi data user
+		* Guru mengakses app M-AFI dengan level sebagai Guru yang hanya dapat mendownload rekap presensi setiap kelas.
+		* Guru menekan dropdown user pada navbar
+		* Sistem menampilkan pilihan ubah password dan logout
+		* Guru memilih logout untuk keluar dari sistem
+		* Sistem Menampilkan activity login
 		
 
 		Ganti Password
@@ -380,8 +391,15 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Guru dapat merubah/mengganti password default akun app M-AFI.
+		
+		
+		Langkah-langkah :
 
-		Langkah - langkah :
+		* Guru mengakses activity ganti password pada dropdown user di navbar.
+		* Sistem menampilkan activity form ganti password.
+		* Guru mengisiform (password yang masih aktif, password baru dan konfirmasi password baru).
+		* Sistem Memberikan notice bahwa password telah berubah.
 
 
 		
@@ -393,8 +411,13 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Guru dapat mendownload rekap presensi pada setiap kelas yang ada dalam kurun waktu persemester.
 
 		Langkah - langkah :
+		
+		* Guru menekan drawer pada dashboard
+		* Sistem menampilkan button download rekap presensi
+		* Guru mendownload rekap presensi
 
 
 		
@@ -1070,17 +1093,17 @@ Entitas data Jurusan
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| Id_Jurusan | int |  |
-| Nama_Jurusan | Varchar |  |
+| Id_Jurusan | int | sebagai id saja |
+| Nama_Jurusan | Varchar | nama jurusannya |
 
 
 Entitas data Kelas
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| Id_Kelas | int |  |
-| Id_User | int |  |
-| Nama_Kelas | Varchar |  |
+| Id_Kelas | int | sebagai id saja |
+| Id_jurusan | int | sebaga kepemilikan kelas pada jurusan |
+| Nama_Kelas | Varchar | nama kelas |
 
 
 
@@ -1088,45 +1111,45 @@ Entitas data Siswa
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| NIS | Int |  |
-| id_kelas | int |  |
-| nama_lengkap | varchar |  |
-| jk | varchar |  |
-| ttl | varchar |  |
-| email | varchar |  |
-| agama | varchar |  |
-| alamat | text |  |
-| no_hp | varchar |  |
-| nama_ayah | varchar |  |
-| pekerjaan_ayah | varchar |  |
-| nama_ibu | varchar |  |
-| pekerjaan_ibu | varchar |  |
-| alamat_ortu | text |  |
+| NIS | Int | Sebagai primary key yang akan terhubung ke tabel presensi dan tabel user |
+| id_kelas | int | sebagai penghubung tabel siswa dengan tael kelas agar mengidentifikasi bahwa NIS pada record ini memiliki kelas ini |
+| nama_lengkap | varchar | nama lengkap siswa |
+| jk | varchar | jenis kelamin siswa |
+| ttl | varchar | tempat dan tanggal lahir siswa yang di tuliskan melalui form |
+| email | varchar | email siswa yang akan berfungsi untuk bantuan lupa password |
+| agama | varchar | agama siswa |
+| alamat | text | alamat siswa |
+| no_hp | varchar | nomor handphone siswa yang bisa dihubungi |
+| nama_ayah | varchar | nama ayah siswa |
+| pekerjaan_ayah | varchar | pekerjaan siswa |
+| nama_ibu | varchar | nama ibu siswa |
+| pekerjaan_ibu | varchar | pekerjaan ibu siswa |
+| alamat_ortu | text | alamat tempat tinggal orang tua siswa |
 
 
 Entitas data Guru
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| NIP | Int |  |
-| id_kelas | int |  |
-| nama_lengkap | varchar |  |
-| email | varchar |  |
-| jk | varchar |  |
-| no_hp | varchar |  |
-| alamat | text |  |
+| NIP | Int | Sebagai primary key untuk data guru dikarenakan NIP (id guru bagi yang belum memiliki NIP) pada tiap-tiap guru berbeda |
+| id_kelas | int | sebagai penghubung tabel guru dengan tabel kelas untuk memudahkan dalam pengambilan rekap presensi dengan pilihan kelasnya |
+| nama_lengkap | varchar | nama guru |
+| email | varchar | email guru sebagai bantuan untuk memulihkan password yang lupa yang akan dikirim melalui email dari admin |
+| jk | varchar | jenis kelamin guru |
+| no_hp | varchar | nomor handphone guru |
+| alamat | text | alamat guru |
 
 
 Entitas data User
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| id_user | Int |  |
-| NIP | int |  |
-| NIS | int |  |
-| NISN | int |  |
-| Password | varchar |  |
-| level | varchar |  |
+| id_user | Int | Hanya sebagai id untuk user |
+| NIP | int | sebagai username guru |
+| NIS | int | sebagai username siswa |
+| NISN | int | Sebagai username orang tua siswa |
+| Password | varchar | untuk password akun |
+| level | varchar | sebagai pembeda hak akses tiap-tiap user |
 
 
 Entitas data Presensi
