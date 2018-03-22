@@ -199,192 +199,448 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 2.2. Spesifikasi kebutuhan fungsional
 
-	2.2.1 Siswa
+	2.2.1 Mobile App
 
-![](https://image.ibb.co/bGY4L7/Siswausescases.jpg)
+![](https://image.ibb.co/mOnA5H/USES_CASES_APP.jpg)
 
-Deskripsi singkat :
 
-Siswa akan melakukan absensi melalui fingerprint.
+		2.2.1.1 Siswa
 
-Langkah-langkah :
+		Masukkan presensi
+		
+![](https://image.ibb.co/frsMCx/19.jpg)
 
-* Siswa meletakan sidik jari ke device fingerprint.
-* sistem akan merecord data siswa yang sudah absen.
+		Deskripsi singkat :
 
+		Siswa melakukan proses absensi melalui device fingerprint yang tersedia sehingga data presensi yang dilakukan masuk di database.
+	
+		
+		Langkah-langkah :
+		
+		* Siswa meletakan sidik jari ke device fingerprint.
+		* sistem akan merecord data siswa yang sudah absen.
 
-	2.2.2. Orang tua siswa
+		masuk / keluar
 
-![](https://image.ibb.co/mTa6YS/Orangtuausescases.jpg)
+![](https://image.ibb.co/keXGec/20.jpg)
 
-Login/Logout uses cases
+		Deskripsi singkat :
+		
+		Siswa dapat mengakses (masuk/keluar) app M-AFI.
+		
+		Langkah-langkah :
+		
+		* Siswa membuka app M-AFI
+		* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+		* Siswa mengisi form login (username dan password)
+		* Sistem melakukan verifikasi data user
+		* Siswa mengakses app M-AFI dengan level sebagai siswa yang hanya dapat mendownload rekap presensi.
+		* Siswa menekan dropdown user pada navbar
+		* Sistem menampilkan pilihan ubah password dan logout
+		* Siswa memilih logout untuk keluar dari sistem
+		* Sistem Menampilkan activity login
+		
+		Ganti password
 
-![](https://image.ibb.co/jwajL7/os1.jpg)
+![](https://image.ibb.co/eyZwec/21.jpg)
 
-Deskripsi singkat :
 
-Orang tua siswa dapat login pada aplikasi M-AFI.
+		Deskripsi singkat :
 
-Langkah-langkah :
+		Siswa dapat merubah/mengganti password default akun app M-AFI.
+		
+		
+		Langkah-langkah :
 
-* login aplikasi M-AFI.
-* sistem menampilkan dashboard presensi.
-* mendwonload rekap absensi
-* sistem menampilkan rekap yang sudah didownload.
+		* Siswa mengakses activity ganti password pada dropdown user di navbar.
+		* Sistem menampilkan activity form ganti password.
+		* Siswa mengisiform (password yang masih aktif, password baru dan konfirmasi password baru).
+		* Sistem Memberikan notice bahwa password telah berubah.
 
-Monitoring Presensi
+	
+		Rekap Presensi
 
-![](https://image.ibb.co/kr84L7/os2.jpg)
+![](https://image.ibb.co/escGec/22.jpg)
 
-Deskripsi singkat :
 
-Orang tua dapat memonitoring anaknya di aplikais M-AFI.
+		Deskripsi singkat :
 
-Langkah-langkah :
+		Siswa dapat mendownload rekap presensi pada kelas yang ia tempati dalam kurun waktu persemester.
+		
+		
+		Langkah-langkah :
+		
+		* Siswa menekan drawer pada dashboard
+		* Sistem menampilkan button download rekap presensi
+		* Siswa mendownload rekap presensi
 
-* login aplikasi M-AFI 
-* sistem menampilkan dashboard presensi
-* orang tua dapat memonitoring presensi
+	
+		2.2.1.2 Orang tua siswa
 
+		Masuk / Keluar
 
-![](https://image.ibb.co/bDOFSn/os3.jpg)
+![](https://image.ibb.co/j17hKc/26.jpg)
 
-Deskripsi singkat :
+		Deskripsi singkat :
+		
+		Orang tua siswa dapat mengakses (masuk/keluar) app M-AFI.
+		
+		Langkah-langkah :
+		
+		* Orang tua siswa membuka app M-AFI
+		* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+		* Orang tua siswa mengisi form login (username dan password)
+		* Sistem melakukan verifikasi data user
+		* Orang tua siswa mengakses app M-AFI dengan level sebagai Orang tua siswa yang dapat memonitoring anaknya, dapat mengirim izin, dan mendownload rekap presensi.
+		* Orang tua siswa menekan dropdown user pada navbar
+		* Sistem menampilkan pilihan ubah password dan logout
+		* Orang tua siswa memilih logout untuk keluar dari sistem
+		* Sistem Menampilkan activity login
 
-Orang tua siswa dapat melihat rekap presensi anaknya melalui smartphone android dengan cara mendownload rekap presensi
 
-Langkah-langkah :
 
--Login sebagai orang tua siswa melalui smartphone android
--Klik slide navbar pada aplikasi
--Lalu ada "Rekap presensi" dan kemudian download 
+		Ganti Password
 
+![](https://image.ibb.co/ddcSkH/27.jpg)
 
-Kirim Izin
+		Deskripsi singkat :
+	
+		Orang tua siswa dapat merubah/mengganti password default akun app M-AFI.
+		
+		Langkah - langkah :
 
-![](https://image.ibb.co/jUq6YS/os4.jpg)
+		* Orang tua siswa mengakses activity ganti password pada dropdown user di navbar.
+		* Sistem menampilkan activity form ganti password.
+		* Orang tua siswa mengisi form (password yang masih aktif, password baru dan konfirmasi password baru).
+		* Sistem Memberikan notice bahwa password telah berubah.
 
-Deskripsi singkat :
 
-orang tua dapat mengirim izin pada aplikasi M-AFI.
+		Monitoring Presensi
 
+![](https://image.ibb.co/jSMnkH/28.jpg)
 
-Langkah-langkah :
+		Deskripsi singkat :
+	
+		Pada akun orang tua diberikan hak akses untuk dapat melakukan monitoring anaknya pada saat jam masuk dan jam pulan pada activity dashboard.
+		
+		Langkah - langkah :
+		
+		* Orang tua siswa melakukan proses login pada app M-AFI.
+		* Sistem memperlihatkan presensi masuk dan pulang di hari tersebut pada activity dashboard.
+		
 
-* orang tua terlebih dulu menekan tombol izin pada tombol izin pada dasboard.
-* Kemudian orang tua dapat mengirimkan izin siswa dan mengisi keterangannya.
+		Kirim Izin
 
+![](https://image.ibb.co/dL8NKc/29.jpg)
 
-Ganti Password
+		Deskripsi singkat :
 
-![](https://image.ibb.co/bGnmYS/os5.jpg)
+		Orang tua siswa dapat mengirimkan izin anaknya melalui app M-AFI dengan mengirimkan bukti/keterangan perizinannya.
 
-Deskripsi singkat :
+		Langkah - langkah
 
-Orang tua dapat mengganti password pada aplikasi M-AFI.
+		* Orang tua siswa memilih button Izin siswa pada activity dashboard yang berada di paling bawah.
+		* Sistem menampilkan form untuk perizinan siswa.
+		* Orang tua siswa mengisi form yang telah disediakan.
+		* Pengiriman perizinan siswa akan masuk melalui webserver pada admin.
 
-Langkah-langkah :
 
-* Orang tua dapat klik dropdown user kemudian orang tua dapat mengganti password tersebut.
+		Rekap presensi
 
+![](https://image.ibb.co/dyX4Xx/30.jpg)
 
-	2.2.3. Admin Uses Cases
+		Deskripsi singkat :
 
-![](https://image.ibb.co/j0CW07/Adminusescases.jpg)
+		Orang tua siswa tentunya dapat melihat rekap presensi anaknya pada akun yang ia miliki dengan mendownload pada bagian drawer.
 
-Create Data Kelas
+		Langkah - langkah :
+		
+		* Orang tua siswa menekan drawer pada dashboard
+		* Sistem menampilkan button download rekap presensi
+		* Orang tua siswa mendownload rekap presensi
+		
 
-![](https://image.ibb.co/iquTf7/A1.jpg)
 
-Deskripsi singkat :
+		2.2.1.3 Guru
 
-Admin dapat menambahkan kelas dan jurusan pada web server
+		Masuk / Keluar
 
-Langkah-langkah :
+![](https://image.ibb.co/imBL5H/23.jpg)
+		
+		Deskripsi singkat :
+	
+		Guru dapat mengakses (masuk/keluar) app M-AFI.
 
-- Masuk sebagai admin
-- Masuk ke manu Data Kelas
-- Klik tambah data
-- Lalu pilih jurusan, tingkatan, kategori
-- Submit
+		Langkah - langkah :
 
+		* Guru membuka app M-AFI
+		* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+		* Guru mengisi form login (username dan password)
+		* Sistem melakukan verifikasi data user
+		* Guru mengakses app M-AFI dengan level sebagai Guru yang hanya dapat mendownload rekap presensi setiap kelas.
+		* Guru menekan dropdown user pada navbar
+		* Sistem menampilkan pilihan ubah password dan logout
+		* Guru memilih logout untuk keluar dari sistem
+		* Sistem Menampilkan activity login
+		
 
+		Ganti Password
 
-Create Data Siswa
+![](https://image.ibb.co/bVejXx/24.jpg)
 
-![](https://image.ibb.co/gOQenn/A2.jpg)
 
-Deskripsi singkat :
+		Deskripsi singkat :
 
-Mengisi data siswa pada tiap-tiap kelas dengan menggunakan button/module untuk mengeksport data dari file CSV.
+		Guru dapat merubah/mengganti password default akun app M-AFI.
+		
+		
+		Langkah-langkah :
 
-Langkah-langkah :
+		* Guru mengakses activity ganti password pada dropdown user di navbar.
+		* Sistem menampilkan activity form ganti password.
+		* Guru mengisiform (password yang masih aktif, password baru dan konfirmasi password baru).
+		* Sistem Memberikan notice bahwa password telah berubah.
 
-- Masuk sebagai admin
-- Klik menu data siswa
-- klik button module untuk mencari file CSV yang akan di eksport
-- submit
 
-Update Presensi Izin
+		
 
-![](https://image.ibb.co/go0enn/A3.jpg)
+		Rekap Presensi
 
-Deskripsi singkat :
+![](https://image.ibb.co/gApwec/25.jpg)
 
-Admin dapat mengupdate keterangan presensi izin siswa melalui web server
 
-Langkah-langkah :
+		Deskripsi singkat :
 
-- Masuk sebagai admin melalui web server
-- Klik menu Rekap Absensi
-- Pilih Kelas, pilih tahun, pilih bulan, klik view untuk melihat presensi
-- Lalu update
+		Guru dapat mendownload rekap presensi pada setiap kelas yang ada dalam kurun waktu persemester.
 
+		Langkah - langkah :
+		
+		* Guru menekan drawer pada dashboard
+		* Sistem menampilkan button download rekap presensi
+		* Guru mendownload rekap presensi
 
 
-Hapus Data Kelas
+		
+	2.2.2 Webserver
 
-![](https://image.ibb.co/cEFZL7/A4.jpg)
+![](https://image.ibb.co/nNRL5H/USES_CASES_WEBSERVER.jpg)
 
-Deskripsi singkat :
+	2.2.2.1 Admin
 
-Admin dapat menghapus data yang ada dikelas.
+		Masuk / Keluar
 
-Langkah-langkah :
+![](https://image.ibb.co/dknXKc/1.jpg)
 
-* Sistem menampilkan menu-menu admin
-* Admin memilih menu data kelas. 
-* Sistem menampilkan data kelas serta button delete dan hapus.
-* Admin menekan tombol hapus pada kelas yg ingin di hapus.
-* Sistem secara otomatis akan menghapus data yang dipilih oleh admin.
 
+		Deskripsi singkat :
 
-Hapus Data Siswa
 
-![](https://image.ibb.co/h1Jof7/A5.jpg)
+		Langkah - langkah :
 
-Deskripsi singkat :
 
-Admin Dapat menghapus data Siswa.
 
-Langkah-langkah :
+		Tambah Data Siswa
 
-* sistem menampilkan isi data siswa
-* admin mengklik button delete data siswa
-* sistem secara otomatis akan menghapus data yang dipilih admin.
+![](https://image.ibb.co/kvMsKc/2.jpg)
 
-Rekap Presensi
 
-![](https://image.ibb.co/nnZiDS/A6.jpg)
+		Deskripsi singkat :
 
-Deskripsi singkat :
 
-Admin Dapat melihat rekap Presensi.
+		Langkah - langkah :
 
-Langkah-langkah :
 
-* Sistmen menampilkan rekap Presensi
-* Admin dapat melihat rekap presensi
+
+	Perbarui Data Siswa
+
+![](https://image.ibb.co/jTLV5H/3.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Hapus Data Siswa
+
+![](https://image.ibb.co/gXiHkH/4.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Tambah Data Guru
+
+![](https://image.ibb.co/e7RsKc/5.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Perbarui Data Guru
+
+![](https://image.ibb.co/d7Fmec/6.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Hapus Data Guru
+
+![](https://image.ibb.co/nepCKc/7.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Tambah Data Users
+
+![](https://image.ibb.co/hmOuXx/8.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Perbarui Data Users
+
+![](https://image.ibb.co/g5Zq5H/9.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Hapus Data Users
+
+![](https://image.ibb.co/chfV5H/10.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Tambah Data Kelas
+
+![](https://image.ibb.co/cYggCx/11.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Perbarui Data Kelas
+
+![](https://image.ibb.co/j01Rec/12.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Hapus Data Kelas
+
+![](https://image.ibb.co/iG2XKc/13.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Tambah Data Jurusan
+
+![](https://image.ibb.co/bUPOQH/14.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Perbarui Data Jurusan
+
+![](https://image.ibb.co/b1w3QH/15.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Hapus Data Jurusan
+
+![](https://image.ibb.co/f9cA5H/16.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Update Presensi Izin
+
+![](https://image.ibb.co/d7hMCx/17.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
+
+
+	Cari Data
+
+![](https://image.ibb.co/ncVV5H/18.jpg)
+
+
+		Deskripsi singkat :
+
+
+		Langkah - langkah :
+
 
 
 
@@ -395,8 +651,8 @@ Langkah-langkah :
 
 2.4. Karakteristik pengguna
 
-karakteristik pengguna dari aplikasi M-AFI ini adalah semua yang ingin menggunakan absensi diantaranya siswa dan orang tua yang membedakan adalah pengguna yang berinteraksi dengan sistem dihubungkan dengan hak akses dan 
-autentifikasi sesuai aturan yang terdapat pada absensi.
+karakteristik pengguna dari aplikasi M-AFI ini adalah semua yang ingin menggunakan absensi diantaranya siswa, guru dan orang tua yang membedakan adalah pengguna yang berinteraksi dengan sistem dihubungkan dengan hak akses dan 
+autentifikasi sesuai aturan yang terdapat pada absensi (level).
 
 2.5. Batasan-batasan
 
@@ -429,28 +685,58 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.1. Uses Cases Siswa
 
-3.2.1.1. Input presensi
+3.2.1.1. Masukkan presensi
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Input presensi |
+| Use Case Name | Masukkan presensi |
 | XRef |  |
-| Trigger | Siswa-siswi akan melakukan presensi saat masuk dan pulang melalui device fingerprint |
-| Precondition | Siswa-siswi hanya dapat melakukan 2 kali presensi melalui fingerprint yaitu saat masuk dan pulang |
-| Basic Path | fingerprint akan mengirimkan data presensi ke database melalui kabel UTP yang terkoneksi dengna pc admin |
-| Alternative Paths | jika pada proses presensi terdapat permasalahan siswa-siswi dapat menghubungi admin |
-| Postcondition | Presensi masuk ke database pada kondisi masuk dan pulang dengan waktu sesuai user menekan |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.1.2. masuk / keluar
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | masuk / keluar |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.1.2. Rekap Presensi
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Rekap Presensi |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
 | Exception Paths |  |
 | Other |  |
 
 
 3.2.2. Uses Cases Orang tua siswa
 
-3.2.2.1. Login/Logout
+3.2.2.1. Masuk / Keluar
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Login/logout |
+| Use Case Name | Masuk / keluar |
 | XRef |  |
 | Trigger | Orang tua siswa melakukan login untuk masuk pada app M-AFI di perangkat mobile dan juga logout untuk keluarnya |
 | Precondition | Orang tua siswa harus mempunyai app M-AFI pada smartphone dengan minimum OS Lolipop |
@@ -461,7 +747,22 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-3.2.2.2. Monitoring Presensi
+3.2.2.2. Ganti Password
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Ganti password |
+| XRef |  |
+| Trigger | Ganti password berguna untuk orang tua siswa yang kesulitan untuk login ataupun lupa passwordnya |
+| Precondition | Orang tua membuka app M-AFI |
+| Basic Path | Orang tua siswa berada pada halaman login, orang tua siswa melakukan proses login namun terjadi kesalahan pada passwordnya, orang tua siswa menekan link lupa password yang akan di direct pada halaman web untuk memasukkan email, orang tua siswa akan mendapatkan email dari admin/sistem untuk merubah passwordnya |
+| Alternative Paths | Jika sudah masuk/berada pada halaman dashboard dapat langsung diganti dengan menekan dropdown account dan menekan ganti password kemudian mengganti passwordnya |
+| Postcondition | Password akun orang tua siswa akan terupdate dengan password baru |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.2.3. Monitoring Presensi
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -472,21 +773,6 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Basic Path | Orang tua siswa dapat melakukan monitoring setidaknya minimal saat jam 8 untuk jam masuk dan jam set 4 untuk jam pulang |
 | Alternative Paths | Orang tua siswa dapat selalu memonitoring pada dashboard, jika memang cemas akan kehadiran anaknya segera hubungi admin |
 | Postcondition | Presensi akan nampak dengan waktu real time pada dashboar orang tua siswa |
-| Exception Paths |  |
-| Other |  |
-
-
-3.2.2.3. Rekap Presensi
-
-| Item | Descriptions |
-| ------ | ------ |
-| Use Case Name | Rekap presensi |
-| XRef |  |
-| Trigger | Rekap presensi berisi keseluruhan presensi dari anaknya mulai masuk sekolah sampai waktu sekarang ini |
-| Precondition | Orang tua siswa sudah login M-AFI, Orang tua siswa menekan slidebar pada header M-AFI, orang tua siswa dapat memilih rekap yang ingin di download dalam bentuk dokumen yakni mingguan, bulanan ataupun semester. |
-| Basic Path | Orang tua siswa menekan salah satu sub rekap pada slide bar |
-| Alternative Paths |  |
-| Postcondition | File yang di download akan berupa file excel |
 | Exception Paths |  |
 | Other |  |
 
@@ -506,17 +792,18 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-3.2.2.5. Ganti Password
+
+3.2.2.5. Rekap Presensi
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Ganti password |
+| Use Case Name | Rekap presensi |
 | XRef |  |
-| Trigger | Ganti password berguna untuk orang tua siswa yang kesulitan untuk login ataupun lupa passwordnya |
-| Precondition | Orang tua membuka app M-AFI |
-| Basic Path | Orang tua siswa berada pada halaman login, orang tua siswa melakukan proses login namun terjadi kesalahan pada passwordnya, orang tua siswa menekan link lupa password yang akan di direct pada halaman web untuk memasukkan email, orang tua siswa akan mendapatkan email dari admin/sistem untuk merubah passwordnya |
-| Alternative Paths | Jika sudah masuk/berada pada halaman dashboard dapat langsung diganti dengan menekan dropdown account dan menekan ganti password kemudian mengganti passwordnya |
-| Postcondition | Password akun orang tua siswa akan terupdate dengan password baru |
+| Trigger | Rekap presensi berisi keseluruhan presensi dari anaknya mulai masuk sekolah sampai waktu sekarang ini |
+| Precondition | Orang tua siswa sudah login M-AFI, Orang tua siswa menekan slidebar pada header M-AFI, orang tua siswa dapat memilih rekap yang ingin di download dalam bentuk dokumen yakni mingguan, bulanan ataupun semester. |
+| Basic Path | Orang tua siswa menekan salah satu sub rekap pada slide bar |
+| Alternative Paths |  |
+| Postcondition | File yang di download akan berupa file excel |
 | Exception Paths |  |
 | Other |  |
 
@@ -524,92 +811,272 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.2.3. Uses Cases Admin
 
-3.2.3.1. Create Data Kelas
+3.2.3.1. Masuk / Keluar
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Create data kelas |
+| Use Case Name | Masuk / Keluar |
 | XRef |  |
-| Trigger | Create data kelas berguna untuk penampung siswa agar setiap data siswa yang diinputkan memiliki kelas sesuai dengan yang semestinya |
-| Precondition | Masuk pada webserver sebagai admin |
-| Basic Path | Menekan menu data kelas, klik button tambah kelas kemudian mengisi form yang telah disediakan pada webserver |
-| Alternative Paths | klik menu data kelas |
-| Postcondition | Data kelas akan masuk pada database |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
 | Exception Paths |  |
 | Other |  |
 
 
-3.2.3.2. Create Data Siswa
+3.2.3.2. Tambah Data Siswa
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Create data siswa |
+| Use Case Name | Tambah Data Siswa |
 | XRef |  |
-| Trigger | Create data siswa berguna sebagai fungsi utama pada sistem presensi menggunakan fingerprint karena data yang akan diolah adalah data siswa-siswinya dengan menggunakan alat bantu fingerprint yang sebagai perantara untuk menginputkan pada database |
-| Precondition | Masuk pada webserver sebagai admin |
-| Basic Path | Admin memilih menu data siswa, admin dapat menekan tombol brows untuk data siswa dengan format CSV atau dapat pula menambahkan data siswa dengan satu-persatu melalui button tambah |
-| Alternative Paths | Tambah data melalui database dengan mengeksport file CSV |
-| Postcondition | Data siswa akan bertambah sesuai dengan yang di tambahkan admin |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
 | Exception Paths |  |
 | Other |  |
 
 
-3.2.3.3. Update Presensi Izin
+3.2.3.3. Perbarui Data Siswa
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Update presensi izin |
+| Use Case Name | Perbarui Data Siswa |
 | XRef |  |
-| Trigger | Update perizinan berguna untuk mengubah data presensi siswa-siswi yang orang tuanya telah mengirimkan perizinan melalui app M-AFI |
-| Precondition | Masuk pada webserver sebagai admin |
-| Basic Path | Pada dashboard admin akan ada notifikasi, admin membuka notifikasi untuk memferifikasi data perizinan yang masuk, admin mengubah data presensi siswa pada menu rekap presensi, admin memilih kelas, tahun dan bulan kemudian mengisi form NISN dan form presensi untuk mengupdatenya |
-| Alternative Paths | Admin dapat mengupdate malalui langsung pada databasenya |
-| Postcondition | Data siswa akan terupdate dengan hari yang dikirimkan oleh orang tua siswa |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
 | Exception Paths |  |
 | Other |  |
 
 
-3.2.3.4. Hapus Data Kelas
+3.2.3.4. Hapus Data Siswa
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Hapus data kelas |
+| Use Case Name | Hapus Data Siswa |
 | XRef |  |
-| Trigger | Hapus data kelas dapat dingunakan untuk kelas yang telah di hilangkan dari sekolah tersebut |
-| Precondition | Masuk pada webserver sebagai admin |
-| Basic Path | Admin menekan menu data kelas, admin mencari kelas yang ingin di hapus, admin menekan tombol button pada kelas yang ingin dihapus |
-| Alternative Paths | admin dapat menghapus data kelas langsung pada databasenya |
-| Postcondition | Data kelas akan terhapus sesuai dengan data yang dihapus oleh admin |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
 | Exception Paths |  |
 | Other |  |
 
 
-3.2.3.5. Hapus Data Siswa
+3.2.3.5. Tambah Data Guru
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Hapus data siswa |
+| Use Case Name | Tambah Data Guru |
 | XRef |  |
-| Trigger | Hapus data siswa berguna untuk menghapus data siswa-siswi yang telah keluar dari sekolah tersebut |
-| Precondition | Masuk pada webserver sebagai admin |
-| Basic Path | Admin mesuk pada menu data siswa, admin mencari data siswa dengan mengetikkan NISN nya, admin menekan tombol delete pada siswa tersebut |
-| Alternative Paths | admin dapat menghapus data siswa langsung pada databasenya |
-| Postcondition | Data siswa akan terhapus sesuai dengan data yang dihapus oleh admin |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
 | Exception Paths |  |
 | Other |  |
 
 
-3.2.3.6. Rekap Presensi
+3.2.3.6. Perbarui Data Guru
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Rekap presensi |
+| Use Case Name | Perbarui Data Guru |
 | XRef |  |
-| Trigger | Rekap presensi berguna untuk admin melihat keseluruhan rekap presensi yang dapat berguna untuk management presensi pada sekolah tersebut yang telah terkomputerisasi pada aplikasi ini |
-| Precondition | admin dapat menghapus data kelas langsung pada databasenya |
-| Basic Path | Admin memilih menu rekap presensi pada webserver, admin memilih kelas dan semester pada halaman rekap presensi |
-| Alternative Paths | Admin dapat langsung mengambil keseluruhan data presensi dari aplikasi tersebut |
-| Postcondition | Rekap keseluruhan presensi akan di tampilkan dan juga dapat di eksport menjadi file excel |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.7. Hapus Data Guru
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Hapus Data Guru |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.8. Tambah Data Users
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Tambah Data Users |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.9. Perbarui Data Users
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Perbarui Data Users |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.10. Hapus Data Users
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Hapus Data Users |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.11. Tambah Data Kelas
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Tambah Data Kelas |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.12. Perbarui Data Kelas
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Perbarui Data Kelas |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.13. Hapus Data Kelas
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Hapus Data Kelas |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.14. Tambah Data Jurusan
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Tambah Data Jurusan |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.15. Perbarui Data Jurusan
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Perbarui data jurusan |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.16. Hapus Data Jurusan
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Hapus data jurusan |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.17. Update Presensi Izin
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Update Presensi Izin |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
+| Exception Paths |  |
+| Other |  |
+
+
+3.2.3.18. Cari Data
+
+| Item | Descriptions |
+| ------ | ------ |
+| Use Case Name | Cari data |
+| XRef |  |
+| Trigger |  |
+| Precondition |  |
+| Basic Path |  |
+| Alternative Paths |  |
+| Postcondition |  |
 | Exception Paths |  |
 | Other |  |
 
@@ -619,69 +1086,82 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 3.3.1 Logical Structure data
 
-![](https://image.ibb.co/dR8riS/ERD.jpg)
-
-
-Entitas data User
-
-Data Item | Type | Deskripsi | 
-| ------ | ------ | ------ |
-| IdUser | Int | NISN Siswa untuk username orang tua siswa login M-AFI App |
-| Email | varchar | email untuk bantuan lupa password |
-| Password | varchar | Password untuk login orang tua pada M-AFI App |
-| NamaLengkap | Varchar |  |
-| Level | Varchar | Pembedaan hak akses admin dan orang tua siswa |
-| Alamat | Text | Alamat siswa |
-| JK | Varchar | Jenis kelamin siswa |
-| NoHp | Varchar | Nomor hp siswa |
-| NamaAyah | Varchar | Nama ayah siswa |
-| NamaIbu | Varchar | Nama ibu siswa |
-
-
-Entitas data Kelas
-
-Data Item | Type | Deskripsi | 
-| ------ | ------ | ------ |
-| IdKelas | int |  |
-| IdUser | int |  |
-| NamaKelas | Varchar |  |
+![](https://image.ibb.co/fuuq5H/ERD_FIX_BANGET_YA_ALLAH.jpg)
 
 
 Entitas data Jurusan
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| IdJurusan | int |  |
-| IdKelas | int |  |
-| NamaJurusan | Varchar |  |
+| Id_Jurusan | int | sebagai id saja |
+| Nama_Jurusan | Varchar | nama jurusannya |
+
+
+Entitas data Kelas
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| Id_Kelas | int | sebagai id saja |
+| Id_jurusan | int | sebaga kepemilikan kelas pada jurusan |
+| Nama_Kelas | Varchar | nama kelas |
+
+
+
+Entitas data Siswa
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| NIS | Int | Sebagai primary key yang akan terhubung ke tabel presensi dan tabel user |
+| id_kelas | int | sebagai penghubung tabel siswa dengan tael kelas agar mengidentifikasi bahwa NIS pada record ini memiliki kelas ini |
+| nama_lengkap | varchar | nama lengkap siswa |
+| jk | varchar | jenis kelamin siswa |
+| ttl | varchar | tempat dan tanggal lahir siswa yang di tuliskan melalui form |
+| email | varchar | email siswa yang akan berfungsi untuk bantuan lupa password |
+| agama | varchar | agama siswa |
+| alamat | text | alamat siswa |
+| no_hp | varchar | nomor handphone siswa yang bisa dihubungi |
+| nama_ayah | varchar | nama ayah siswa |
+| pekerjaan_ayah | varchar | pekerjaan siswa |
+| nama_ibu | varchar | nama ibu siswa |
+| pekerjaan_ibu | varchar | pekerjaan ibu siswa |
+| alamat_ortu | text | alamat tempat tinggal orang tua siswa |
+
+
+Entitas data Guru
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| NIP | Int | Sebagai primary key untuk data guru dikarenakan NIP (id guru bagi yang belum memiliki NIP) pada tiap-tiap guru berbeda |
+| id_kelas | int | sebagai penghubung tabel guru dengan tabel kelas untuk memudahkan dalam pengambilan rekap presensi dengan pilihan kelasnya |
+| nama_lengkap | varchar | nama guru |
+| email | varchar | email guru sebagai bantuan untuk memulihkan password yang lupa yang akan dikirim melalui email dari admin |
+| jk | varchar | jenis kelamin guru |
+| no_hp | varchar | nomor handphone guru |
+| alamat | text | alamat guru |
+
+
+Entitas data User
+
+Data Item | Type | Deskripsi | 
+| ------ | ------ | ------ |
+| id_user | Int | Hanya sebagai id untuk user |
+| NIP | int | sebagai username guru |
+| NIS | int | sebagai username siswa |
+| NISN | int | Sebagai username orang tua siswa |
+| Password | varchar | untuk password akun |
+| level | varchar | sebagai pembeda hak akses tiap-tiap user |
 
 
 Entitas data Presensi
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| IdPresensi | int |  |
-| IdUser | int |  |
-| IdMasuk | int |  |
-| IdPulang | int |  |
-| Tanggal | date |  |
-| Keterangan | text | Untuk izin siswa melalui M-AFI |
-| Presensi | verchar | Presensi siswa Hadir/Izin/Sakit/Tidak Hadir |
-
-
-Entias data Pulang
-
-Data Item | Type | Deskripsi | 
-| ------ | ------ | ------ |
-| IdPulang | int |  |
-| Pulang | timestamp | Waktu saat menekat fingerprint |
-| LebihCepat | int | kalkulasi dari waktu saat menekan fingerprint dikurangi waktu minimal pulang |
-
-
-Entitas data Masuk
-
-Data Item | Type | Deskripsi | 
-| ------ | ------ | ------ |
-| IdMasuk | int |  |
-| Masuk | timestamp | Waktu saat menekan fingerprint |
-| Keterlambatan | int | kalkulasi dari waktu maksimal masuk dikurangi waktu saat menekan fingerprint |
+| id_presensi | int | hanya untuk id saja |
+| NIS | int | Untuk kepemilikan presensi |
+| tanggal | date | keterangan tanggal presensi pada saat melakukan presensi melalui device fingerprint |
+| presensi | varchar | keterangan presensi siswa, jika siswa melakukan proses presensi pada saat jam masuk sekolah maka akan terisi 'hadir', jika siswa tidak melakukan proses presensi pada saat jam masuk sampai waktu yang telah di tentukan maka akan terisi 'tidak hadir' dan jika siswa melakukan perizinan melalui app M-ADI pada akun orang tua siswa ataupun mengirimkan surat langsung maka presensi yang semua 'tidak hadir' akan di update menjadi 'izin/sakit' |
+| keterangan | varchar | berisi keterangan untuk perizinan siswa |
+| masuk | time | waktu saat siswa menekan device fingerprint/proses presensi |
+| terlambat | int | waktu keterlambatan pada saat melakukan proses presensi dikarenakan melebihi batas waktu yang telah di tentukan |
+| pulang | time | waktu saat siswa menekan device fingerprint/proses presensi |
+| lebih_cepat | int | waktu dimana siswa lebih cepat menekan fingerprint saat pulang dikarenakan mendahului batas waktu yang telah di tentukan |

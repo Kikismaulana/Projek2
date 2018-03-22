@@ -5,17 +5,10 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_1minggu"
+            android:id="@+id/nav_rekapPerSemester"
             android:icon="@drawable/icondownload"
-            android:title="1 Minggu" />
-        <item
-            android:id="@+id/nav_1bulan"
-            android:icon="@drawable/icondownload"
-            android:title="1 Bulan" />
-        <item
-            android:id="@+id/nav_rekapkeseluruhan"
-            android:icon="@drawable/icondownload"
-            android:title="Rekap Keseluruhan" />
+            android:title="Rekap Persemester" />
+
 
     </group>
 
