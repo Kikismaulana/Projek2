@@ -211,8 +211,9 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 ![](https://image.ibb.co/frsMCx/19.jpg)
 
 		Deskripsi singkat :
-		
-		Siswa akan melakukan absensi melalui fingerprint.
+
+		Siswa melakukan proses absensi melalui device fingerprint yang tersedia sehingga data presensi yang dilakukan masuk di database.
+	
 		
 		Langkah-langkah :
 		
@@ -225,9 +226,19 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 		
+		Siswa dapat mengakses (masuk/keluar) app M-AFI.
 		
 		Langkah-langkah :
-
+		
+		* Siswa membuka app M-AFI
+		* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+		* Siswa mengisi form login (username dan password)
+		* Sistem melakukan verifikasi data user
+		* Siswa mengakses app M-AFI dengan level sebagai siswa yang hanya dapat mendownload rekap presensi.
+		* Siswa menekan dropdown user pada navbar
+		* Sistem menampilkan pilihan ubah password dan logout
+		* Siswa memilih logout untuk keluar dari sistem
+		* Sistem Menampilkan activity login
 		
 		Ganti password
 
@@ -235,9 +246,16 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Deskripsi singkat :
+
+		Siswa dapat merubah/mengganti password default akun app M-AFI.
 		
 		
 		Langkah-langkah :
+
+		* Siswa mengakses activity ganti password pada dropdown user di navbar.
+		* Sistem menampilkan activity form ganti password.
+		* Siswa mengisiform (password yang masih aktif, password baru dan konfirmasi password baru).
+		* Sistem Memberikan notice bahwa password telah berubah.
 
 	
 		Rekap Presensi
@@ -246,9 +264,15 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Deskripsi singkat :
+
+		Siswa dapat mendownload rekap presensi pada kelas yang ia tempati dalam kurun waktu persemester.
 		
 		
 		Langkah-langkah :
+		
+		* Siswa menekan drawer pada dashboard
+		* Sistem menampilkan button download rekap presensi
+		* Siswa mendownload rekap presensi
 
 	
 		2.2.1.2 Orang tua siswa
@@ -259,14 +283,19 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 		
-		Orang tua siswa dapat login/logout pada M-AFI App.
+		Orang tua siswa dapat mengakses (masuk/keluar) app M-AFI.
 		
 		Langkah-langkah :
 		
-		* login aplikasi M-AFI.
-		* sistem menampilkan dashboard presensi.
-		* logout dari aplikasi M-AFI.
-		* siste menampilkan activity login.
+		* Orang tua siswa membuka app M-AFI
+		* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+		* Orang tua siswa mengisi form login (username dan password)
+		* Sistem melakukan verifikasi data user
+		* Orang tua siswa mengakses app M-AFI dengan level sebagai Orang tua siswa yang dapat memonitoring anaknya, dapat mengirim izin, dan mendownload rekap presensi.
+		* Orang tua siswa menekan dropdown user pada navbar
+		* Sistem menampilkan pilihan ubah password dan logout
+		* Orang tua siswa memilih logout untuk keluar dari sistem
+		* Sistem Menampilkan activity login
 
 
 
@@ -275,21 +304,29 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 ![](https://image.ibb.co/ddcSkH/27.jpg)
 
 		Deskripsi singkat :
-
+	
+		Orang tua siswa dapat merubah/mengganti password default akun app M-AFI.
 		
 		Langkah - langkah :
 
-		
+		* Orang tua siswa mengakses activity ganti password pada dropdown user di navbar.
+		* Sistem menampilkan activity form ganti password.
+		* Orang tua siswa mengisi form (password yang masih aktif, password baru dan konfirmasi password baru).
+		* Sistem Memberikan notice bahwa password telah berubah.
+
 
 		Monitoring Presensi
 
 ![](https://image.ibb.co/jSMnkH/28.jpg)
 
 		Deskripsi singkat :
-
+	
+		Pada akun orang tua diberikan hak akses untuk dapat melakukan monitoring anaknya pada saat jam masuk dan jam pulan pada activity dashboard.
 		
 		Langkah - langkah :
-
+		
+		* Orang tua siswa melakukan proses login pada app M-AFI.
+		* Sistem memperlihatkan presensi masuk dan pulang di hari tersebut pada activity dashboard.
 		
 
 		Kirim Izin
@@ -298,9 +335,14 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Orang tua siswa dapat mengirimkan izin anaknya melalui app M-AFI dengan mengirimkan bukti/keterangan perizinannya.
 
 		Langkah - langkah
 
+		* Orang tua siswa memilih button Izin siswa pada activity dashboard yang berada di paling bawah.
+		* Sistem menampilkan form untuk perizinan siswa.
+		* Orang tua siswa mengisi form yang telah disediakan.
+		* Pengiriman perizinan siswa akan masuk melalui webserver pada admin.
 
 
 		Rekap presensi
@@ -309,10 +351,13 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Orang tua siswa tentunya dapat melihat rekap presensi anaknya pada akun yang ia miliki dengan mendownload pada bagian drawer.
 
 		Langkah - langkah :
-
-
+		
+		* Orang tua siswa menekan drawer pada dashboard
+		* Sistem menampilkan button download rekap presensi
+		* Orang tua siswa mendownload rekap presensi
 		
 		2.2.1.3 Guru
 
@@ -1088,12 +1133,12 @@ Entitas data Presensi
 
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
-| id_presensi | int |  |
-| NIS | int |  |
-| tanggal | date |  |
-| presensi | varchar |  |
-| keterangan | varchar |  |
-| masuk | time |  |
-| terlambat | int |  |
-| pulang | time |  |
-| lebih_cepat | int |  |
+| id_presensi | int | hanya untuk id saja |
+| NIS | int | Untuk kepemilikan presensi |
+| tanggal | date | keterangan tanggal presensi pada saat melakukan presensi melalui device fingerprint |
+| presensi | varchar | keterangan presensi siswa, jika siswa melakukan proses presensi pada saat jam masuk sekolah maka akan terisi 'hadir', jika siswa tidak melakukan proses presensi pada saat jam masuk sampai waktu yang telah di tentukan maka akan terisi 'tidak hadir' dan jika siswa melakukan perizinan melalui app M-ADI pada akun orang tua siswa ataupun mengirimkan surat langsung maka presensi yang semua 'tidak hadir' akan di update menjadi 'izin/sakit' |
+| keterangan | varchar | berisi keterangan untuk perizinan siswa |
+| masuk | time | waktu saat siswa menekan device fingerprint/proses presensi |
+| terlambat | int | waktu keterlambatan pada saat melakukan proses presensi dikarenakan melebihi batas waktu yang telah di tentukan |
+| pulang | time | waktu saat siswa menekan device fingerprint/proses presensi |
+| lebih_cepat | int | waktu dimana siswa lebih cepat menekan fingerprint saat pulang dikarenakan mendahului batas waktu yang telah di tentukan |
