@@ -621,7 +621,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Masukkan presensi |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -636,7 +636,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | masuk / keluar |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -651,7 +651,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Rekap Presensi |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -668,7 +668,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name | Login/logout |
+| Use Case Name | Masuk / keluar |
 | XRef |  |
 | Trigger | Orang tua siswa melakukan login untuk masuk pada app M-AFI di perangkat mobile dan juga logout untuk keluarnya |
 | Precondition | Orang tua siswa harus mempunyai app M-AFI pada smartphone dengan minimum OS Lolipop |
@@ -747,7 +747,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Masuk / Keluar |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -762,7 +762,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Tambah Data Siswa |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -777,7 +777,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Perbarui Data Siswa |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -792,7 +792,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Hapus Data Siswa |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -807,7 +807,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Tambah Data Guru |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -822,7 +822,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Perbarui Data Guru |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -837,7 +837,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Hapus Data Guru |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -852,7 +852,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Tambah Data Users |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -867,7 +867,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Perbarui Data Users |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -882,7 +882,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Hapus Data Users |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -897,7 +897,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Tambah Data Kelas |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -912,7 +912,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Perbarui Data Kelas |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -927,7 +927,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Hapus Data Kelas |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -942,7 +942,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Tambah Data Jurusan |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -957,7 +957,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Perbarui data jurusan |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -972,7 +972,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Hapus data jurusan |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -987,7 +987,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Update Presensi Izin |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -1002,7 +1002,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 | Item | Descriptions |
 | ------ | ------ |
-| Use Case Name |  |
+| Use Case Name | Cari data |
 | XRef |  |
 | Trigger |  |
 | Precondition |  |
@@ -1044,19 +1044,19 @@ Entitas data Siswa
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
 | NIS | Int |  |
-| id_kelas | varchar |  |
+| id_kelas | int |  |
 | nama_lengkap | varchar |  |
-| jk | Varchar |  |
-| ttl | Varchar |  |
-| email | Text |  |
-| agama | Varchar |  |
-| alamat | Varchar |  |
-| no_hp | Varchar |  |
-| nama_ayah | Varchar |  |
-| pekerjaan_ayah | Varchar |  |
-| nama_ibu | Varchar |  |
-| pekerjaan_ibu | Varchar |  |
-| alamat_ortu | Varchar |  |
+| jk | varchar |  |
+| ttl | varchar |  |
+| email | varchar |  |
+| agama | varchar |  |
+| alamat | text |  |
+| no_hp | varchar |  |
+| nama_ayah | varchar |  |
+| pekerjaan_ayah | varchar |  |
+| nama_ibu | varchar |  |
+| pekerjaan_ibu | varchar |  |
+| alamat_ortu | text |  |
 
 
 Entitas data Guru
@@ -1064,12 +1064,12 @@ Entitas data Guru
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
 | NIP | Int |  |
-| id_kelas | varchar |  |
+| id_kelas | int |  |
 | nama_lengkap | varchar |  |
-| email | Varchar |  |
-| jk | Varchar |  |
-| no_hp | Text |  |
-| alamat | Varchar |  |
+| email | varchar |  |
+| jk | varchar |  |
+| no_hp | varchar |  |
+| alamat | text |  |
 
 
 Entitas data User
@@ -1077,11 +1077,11 @@ Entitas data User
 Data Item | Type | Deskripsi | 
 | ------ | ------ | ------ |
 | id_user | Int |  |
-| NIP | varchar |  |
-| NIS | varchar |  |
-| NISN | Varchar |  |
-| Password | Varchar |  |
-| level | Text |  |
+| NIP | int |  |
+| NIS | int |  |
+| NISN | int |  |
+| Password | varchar |  |
+| level | varchar |  |
 
 
 Entitas data Presensi
@@ -1090,10 +1090,10 @@ Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | id_presensi | int |  |
 | NIS | int |  |
-| tanggal | int |  |
-| presensi | int |  |
-| keterangan | date |  |
-| masuk | text |  |
-| terlambat | verchar |  |
-| pulang | text |  |
-| lebih_cepat | verchar |  |
+| tanggal | date |  |
+| presensi | varchar |  |
+| keterangan | varchar |  |
+| masuk | time |  |
+| terlambat | int |  |
+| pulang | time |  |
+| lebih_cepat | int |  |
