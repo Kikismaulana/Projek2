@@ -109,17 +109,27 @@ BAB 2 Deskripsi Perancangan Global
 2.3 Deskripsi Modul
 
 BAB 3 Deskripsi Perancangan Rinci
+
 3.1 Diagram Konteks
 
 ![](https://image.ibb.co/egDHLH/Konteks_Diagram.png)
 3.1.1 DFD level 0
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master 
+
+
 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
+
 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
+
 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
+
 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
+
 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
+
 3.2 Deskripsi Rinci Tabel
 3.2.1 Tabel Siswa
 3.2.2 Tabel Guru
