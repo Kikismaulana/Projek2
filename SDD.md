@@ -130,12 +130,20 @@ BAB 3 Deskripsi Perancangan Rinci
 ![](https://image.ibb.co/gJdgEc/DFD_Level_2_mengelola_data_siswa.jpg)
 
 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
+![](https://image.ibb.co/dWjouc/DFD_Level_2_mengelola_data_guru.jpg)
+
 
 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
 
+![](https://image.ibb.co/gh83Sx/DFD_Level_2_mengelola_data_user.jpg)
+
 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
 
+![](https://image.ibb.co/bvwZZc/DFD_Level_2_mengelola_data_jurusan.jpg)
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
+
+![](https://image.ibb.co/iV7mfH/DFD_Level_1_mengelola_data_presensi.jpg)
 
 3.2 Deskripsi Rinci Tabel
 3.2.1 Tabel Siswa
