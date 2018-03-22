@@ -127,6 +127,7 @@ BAB 3 Deskripsi Perancangan Rinci
 ![](https://image.ibb.co/bOZA7x/DFD_Level_2_mengelola_data_kelas.jpg)
 
 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
+![](https://image.ibb.co/gJdgEc/DFD_Level_2_mengelola_data_siswa.jpg)
 
 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
 
