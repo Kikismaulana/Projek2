@@ -56,7 +56,7 @@ Politeknik Negeri Indramayu</h2>
 ## Pendahuluan ##
 
 
-1.1 Tujuan
+#### 1.1 Tujuan ####
 
 Tujuan  pembuatan  SDD  (Software  Design  Document) ini adalah  untuk  menjelaskan 
 langkah  langkah  desain  dan  proses-proses  dalam  pembuatan  sistem  aplikasi  yang  akan  
@@ -67,7 +67,7 @@ untuk sistem, spesifikasi kebutuhan fungsional.
 dimana orang tua dapat melihat kehadiran dan rekap presensi anaknya, guru dan siswapun 
 dapat melihat rekap presensinya.
 
-1.2 Lingkup
+#### 1.2 Lingkup ####
 
 Hasil dari SDD ini adalah aplikasi berbasis web untuk adminnya dan berbasis mobile untuk user-usernya,
 yang digunakan untuk membantu manajemen di M-AFI ini adalah dalam hal :
@@ -76,7 +76,7 @@ yang digunakan untuk membantu manajemen di M-AFI ini adalah dalam hal :
 - mengupdate data kehadiran siswa
 
 
-1.3 Definisi, akronim, dan Singkatan
+#### 1.3 Definisi, akronim, dan Singkatan ####
 
 Singkatan | Definisi 
 | ------ | ------ |
@@ -86,11 +86,11 @@ Singkatan | Definisi
 | Webserver | Webserver sebuah software yang memberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada klien yang dikenal dan biasanya kita kenal dengan nama web browser (Mozilla Firefox, Google Chrome) dan untuk mengirimkan kembali yang hasilnya dalam bentuk beberapa halaman web dan pada umumnya akan berbentuk dokumen HTML. |
 | LAN | LAN merupakan singkatan dari Local Area Network, yang mana merupakan sebuah jaringan komputer dengan skala kecil (local) seperti gedung perkantoran, sekolah atau rumah. LAN umumnya digunakan untuk berbagi resource dalam suatu gedung. LAN dapat berdiri sendiri, tanpa terhubung oleh jaringan luar atau internet. Namun apabila suatu LAN dihubungkan dengan beberapa LAN lainnya maka akan terbentuk suatu jaringan yang disebut Metropolitan Area Network (MAN). |
 
-1.4 Referensi
+#### 1.4 Referensi ####
 
 IEEE Draft Standard for Software Design Descriptions
 
-1.5 Ikhtisar Dokumen
+#### 1.5 Ikhtisar Dokumen ####
 
 BAB 1 Pendahuluan
 1.1 Tujuan
@@ -140,7 +140,7 @@ BAB 3 Deskripsi Perancangan Rinci
 
 ##  Deskripsi Perancangan Global ##
 
-2.1 Rancangan Lingkungan Implementasi
+#### 2.1 Rancangan Lingkungan Implementasi ####
 
 -	Sublime,
 Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman termasuk pemrograman PHP, sublime mendukung banyak bahasa pemrograman dan bahasa markup serta fungsinya dapat ditambah dengan plugin, sublime juga memiliki banyak kelebihan.
@@ -166,11 +166,11 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 - Android Studio adalah Lingkungan Pengembangan Terpadu - Integrated Development Environment (IDE) untuk pengembangan aplikasi Android, berdasarkan IntelliJ IDEA .
 
 
-2.2 Deskripsi Data
+#### 2.2 Deskripsi Data ####
 
 
 
-2.2.1 Definisi Domain/Type
+##### 2.2.1 Definisi Domain/Type
 
  Domain Name | Power Designer Tipe
 |------------|--------------------|
@@ -206,15 +206,15 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 
   
-2.2.2 Conceptual Data Model
+##### 2.2.2 Conceptual Data Model
 
 
 
-2.2.3 Physical Data Model
+##### 2.2.3 Physical Data Model
 
 
 
-2.2.4 Daftar Tabel Aplikasi
+##### 2.2.4 Daftar Tabel Aplikasi
 
  Nama Tabel | Primary key | Data Store | E/R | Dekripsi 
 |-----------|-------------|------------|-----|---------|
@@ -226,17 +226,24 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 | Presensi | id_presensi |  | tabel siswa | tabel presensi terdiri dari id_presensi, NIS, keterangan, presensi, tanggal, masuk, terlambat, pulang dan lebih_cepat. tabel presensi terhubung dengan tabel siswa. |
 
 
-2.3 Deskripsi Modul
+#### 2.3 Deskripsi Modul ####
 
  No |  Nama Modul | Keterangan 
 |---|-------------|-----------|
+| 1 | Modul Siswa | Yang dapat mengelola modul siswa hanya admin saja, pada modul siswa admin dapat mengelola data siswa. | 
+| 2 | Modul Kelas | Yang dapat mengelola modul kelas hanya admin saja, pada modul kelas admin dapat mengelola data kelas. |
+| 3 | Modul Jurusan | Yang dapat mengelola modul jurusan hanya admin saja, pada modul jurusan admin dapat mengelola data jurusan. |
+| 4 | Modul User | | Yang dapat mengelola modul user hanya admin saja, pada modul user admin dapat mengelola data user. |
+| 5 | Modul Presensi | Pada modul presensi admin dapat mengelola, sedangkan guru, siswa dan orang tua dapat melihat hasil rekap absen berdasarkan levelnya. |
+| 6 | Modul Login | Yang dapat login adalah admin, guru, siswa dan orang tua namun beda-beda level. |
+
 
 
 ## Deskripsi Perancangan Rinci ##
 
-3.1 Diagram Konteks
+#### 3.1 Diagram Konteks ####
 
-3.1.1 DFD level 0
+##### 3.1.1 DFD level 0
 
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master
  
@@ -252,27 +259,9 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
 
-3.2 Deskripsi Rinci Tabel
+#### 3.2 Deskripsi Rinci Tabel ####
 
-3.2.1 Tabel Siswa
-
-Identifikasi/Nama	:
-
-Deskripsi Isi		:
-
-Jenis 				:
-
-Volume				:
-
-Laju				:
-
-Primary Key			:
-
-
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
-
-3.2.2 Tabel Guru
+##### 3.2.1 Tabel Siswa
 
 Identifikasi/Nama	:
 
@@ -290,26 +279,7 @@ Primary Key			:
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
 
-
-3.2.3 Tabel Kelas
-
-Identifikasi/Nama	:
-
-Deskripsi Isi		:
-
-Jenis 				:
-
-Volume				:
-
-Laju				:
-
-Primary Key			:
-
-
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
-
-3.2.4 Tabel Jurusan
+##### 3.2.2 Tabel Guru
 
 Identifikasi/Nama	:
 
@@ -327,7 +297,8 @@ Primary Key			:
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
 
-3.2.5 Tabel Users
+
+##### 3.2.3 Tabel Kelas
 
 Identifikasi/Nama	:
 
@@ -345,7 +316,7 @@ Primary Key			:
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
 
-3.2.6 Tabel Presensi
+##### 3.2.4 Tabel Jurusan
 
 Identifikasi/Nama	:
 
@@ -363,9 +334,45 @@ Primary Key			:
  Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
 |---------|-----------|---------------|------------|---------|----------|
 
-3.3 Deskripsi Rinci Modul
+##### 3.2.5 Tabel Users
 
-3.3.1 Modul Siswa
+Identifikasi/Nama	:
+
+Deskripsi Isi		:
+
+Jenis 				:
+
+Volume				:
+
+Laju				:
+
+Primary Key			:
+
+
+ Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
+|---------|-----------|---------------|------------|---------|----------|
+
+##### 3.2.6 Tabel Presensi
+
+Identifikasi/Nama	:
+
+Deskripsi Isi		:
+
+Jenis 				:
+
+Volume				:
+
+Laju				:
+
+Primary Key			:
+
+
+ Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
+|---------|-----------|---------------|------------|---------|----------|
+
+#### 3.3 Deskripsi Rinci Modul ####
+
+##### 3.3.1 Modul Siswa
 
 3.3.1.1 Fungsi Modul
 
@@ -394,7 +401,7 @@ Primary Key			:
 
 
 
-3.3.2 Modul Kelas
+##### 3.3.2 Modul Kelas
 
 3.3.2.1 Fungsi Modul
 
@@ -422,7 +429,7 @@ Primary Key			:
 3.3.2.6 Spesifikasi Proses / Algoritma
 
 
-3.3.3 Modul Jurusan
+##### 3.3.3 Modul Jurusan
 
 3.3.3.1 Fungsi Modul
 
@@ -450,7 +457,7 @@ Primary Key			:
 3.3.3.6 Spesifikasi Proses / Algoritma
 
 
-3.3.4 Modul User
+##### 3.3.4 Modul User
 
 3.3.4.1 Fungsi Modul
 
@@ -478,7 +485,7 @@ Primary Key			:
 3.3.4.6 Spesifikasi Proses / Algoritma
 
 
-3.3.5 Modul Presensi
+##### 3.3.5 Modul Presensi
 
 3.3.5.1 Fungsi Modul
 
@@ -506,7 +513,7 @@ Primary Key			:
 3.3.5.6 Spesifikasi Proses / Algoritma
 
 
-3.3.6 Modul Login
+##### 3.3.6 Modul Login
 
 3.3.6.1 Fungsi Modul
 
@@ -534,7 +541,7 @@ Primary Key			:
 3.3.6.6 Spesifikasi Proses / Algoritma
 
 
-3.4 Matriks Kerunutan 
+#### 3.4 Matriks Kerunutan  ####
 
  ID Kebutuhan | Modul | Keterangan 
 |-------------|-------|-----------|
