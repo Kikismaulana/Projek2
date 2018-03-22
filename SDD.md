@@ -365,7 +365,7 @@ Primary Key			:
 
 3.3 Deskripsi Rinci Modul
 
-3.3.1 Modul
+3.3.1 Modul Siswa
 
 3.3.1.1 Fungsi Modul
 
@@ -394,8 +394,144 @@ Primary Key			:
 
 
 
-3.3.2 Modul ?
+3.3.2 Modul Kelas
 
+3.3.2.1 Fungsi Modul
+
+ No | Fungsi | Jenis | Tabel Terkait
+|---|--------|-------|--------------|
+
+3.3.2.2 Spesifikasi Layar Utama
+
+
+
+3.3.2.3 Spesifikasi Query
+
+
+
+3.3.2.4 Spesifikasi Field Data Layar
+
+ Label | Field | Tabel/Query | Validasi | Keterangan
+|------|-------|-------------|----------|-----------|
+
+3.3.2.5 Spesifikasi Obyek Pada Layer
+
+ Id Objek | Jenis | Keterangan 
+|---------|-------|-----------|
+
+3.3.2.6 Spesifikasi Proses / Algoritma
+
+
+3.3.3 Modul Jurusan
+
+3.3.3.1 Fungsi Modul
+
+ No | Fungsi | Jenis | Tabel Terkait
+|---|--------|-------|--------------|
+
+3.3.3.2 Spesifikasi Layar Utama
+
+
+
+3.3.3.3 Spesifikasi Query
+
+
+
+3.3.3.4 Spesifikasi Field Data Layar
+
+ Label | Field | Tabel/Query | Validasi | Keterangan
+|------|-------|-------------|----------|-----------|
+
+3.3.3.5 Spesifikasi Obyek Pada Layer
+
+ Id Objek | Jenis | Keterangan 
+|---------|-------|-----------|
+
+3.3.3.6 Spesifikasi Proses / Algoritma
+
+
+3.3.4 Modul User
+
+3.3.4.1 Fungsi Modul
+
+ No | Fungsi | Jenis | Tabel Terkait
+|---|--------|-------|--------------|
+
+3.3.4.2 Spesifikasi Layar Utama
+
+
+
+3.3.4.3 Spesifikasi Query
+
+
+
+3.3.4.4 Spesifikasi Field Data Layar
+
+ Label | Field | Tabel/Query | Validasi | Keterangan
+|------|-------|-------------|----------|-----------|
+
+3.3.4.5 Spesifikasi Obyek Pada Layer
+
+ Id Objek | Jenis | Keterangan 
+|---------|-------|-----------|
+
+3.3.4.6 Spesifikasi Proses / Algoritma
+
+
+3.3.5 Modul Presensi
+
+3.3.5.1 Fungsi Modul
+
+ No | Fungsi | Jenis | Tabel Terkait
+|---|--------|-------|--------------|
+
+3.3.5.2 Spesifikasi Layar Utama
+
+
+
+3.3.5.3 Spesifikasi Query
+
+
+
+3.3.5.4 Spesifikasi Field Data Layar
+
+ Label | Field | Tabel/Query | Validasi | Keterangan
+|------|-------|-------------|----------|-----------|
+
+3.3.5.5 Spesifikasi Obyek Pada Layer
+
+ Id Objek | Jenis | Keterangan 
+|---------|-------|-----------|
+
+3.3.5.6 Spesifikasi Proses / Algoritma
+
+
+3.3.6 Modul Login
+
+3.3.6.1 Fungsi Modul
+
+ No | Fungsi | Jenis | Tabel Terkait
+|---|--------|-------|--------------|
+
+3.3.6.2 Spesifikasi Layar Utama
+
+
+
+3.3.6.3 Spesifikasi Query
+
+
+
+3.3.6.4 Spesifikasi Field Data Layar
+
+ Label | Field | Tabel/Query | Validasi | Keterangan
+|------|-------|-------------|----------|-----------|
+
+3.3.6.5 Spesifikasi Obyek Pada Layer
+
+ Id Objek | Jenis | Keterangan 
+|---------|-------|-----------|
+
+3.3.6.6 Spesifikasi Proses / Algoritma
 
 
 3.4 Matriks Kerunutan 
