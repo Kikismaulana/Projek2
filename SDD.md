@@ -93,73 +93,137 @@ IEEE Draft Standard for Software Design Descriptions
 #### 1.5 Ikhtisar Dokumen ####
 
 BAB 1 Pendahuluan
+
 1.1 Tujuan
+
 1.2 Lingkup
+
 1.3 Definisi, Akronim, dan Singkatan
+
 1.4 Referensi
+
 1.5 Ikhtisar Dokumen
 
 BAB 2 Deskripsi Perancangan Global
+
 2.1 Rancangan Lingkungan Implementasi
+
 2.2 Deskripsi Data
+
 2.2.1  Definisi Domain/Type
+
 2.2.2 Conceptual Data Model
-2.2.3 Physical Data Model 
+
+2.2.3 Physical Data Model
+ 
 2.2.4 Daftar Tabel Aplikasi
+
 2.3 Deskripsi Modul
 
 BAB 3 Deskripsi Perancangan Rinci
+
 3.1 Diagram Konteks
+
 3.1.1 DFD level 0
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master 
+
 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
+
 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
+
 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
+
 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
+
 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
+
 3.2 Deskripsi Rinci Tabel
+
 3.2.1 Tabel Siswa
+
 3.2.2 Tabel Guru
+
 3.2.3 Tabel Kelas
+
 3.2.4 Tabel Jurusan
+
 3.2.5 Tabel User
+
 3.2.6 Tabel Presensi
+
 3.3 Deskripsi Rinci Modul
+
 3.3.1 Modul siswa
+
 3.3.1.1 Fungsi Modul
+
 3.3.1.2 Spesifikasi Layar Utama
+
 3.3.1.3 Spesifikasi Query
+
 3.3.1.4 Spesifikasi Field Data Layar
+
 3.3.1.5 Spesifikasi Obyek Pada Layer
+
 3.3.1.6 Spesifikasi Proses / Algoritma
+
 3.3.2 Modul kelas
+
 3.3.2.1 Fungsi Modul
+
 3.3.2.2 Spesifikasi Layar Utama
+
 3.3.2.3 Spesifikasi Query
+
 3.3.2.4 Spesifikasi Field Data Layar
+
 3.3.2.5 Spesifikasi Obyek Pada Layer
+
 3.3.2.6 Spesifikasi Proses / Algoritma
+
 3.3.3 Modul jurusan
+
 3.3.3.1 Fungsi Modul
+
 3.3.3.2 Spesifikasi Layar Utama
+
 3.3.3.3 Spesifikasi Query
+
 3.3.3.4 Spesifikasi Field Data Layar
+
 3.3.3.5 Spesifikasi Obyek Pada Layer
+
 3.3.3.6 Spesifikasi Proses / Algoritma
+
 3.3.4 Modul users
+
 3.3.4.1 Fungsi Modul
+
 3.3.4.2 Spesifikasi Layar Utama
+
 3.3.4.3 Spesifikasi Query
+
 3.3.4.4 Spesifikasi Field Data Layar
+
 3.3.4.5 Spesifikasi Obyek Pada Layer
+
 3.3.4.6 Spesifikasi Proses / Algoritma
+
 3.3.5 Modul presensi
+
 3.3.5.1 Fungsi Modul
+
 3.3.5.2 Spesifikasi Layar Utama
+
 3.3.5.3 Spesifikasi Query
+
 3.3.5.4 Spesifikasi Field Data Layar
+
 3.3.5.5 Spesifikasi Obyek Pada Layer
+
 3.3.5.6 Spesifikasi Proses / Algoritma
 
 3.4 Matriks Keturunan
@@ -269,21 +333,39 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 #### 3.1 Diagram Konteks ####
 
+
+
 ##### 3.1.1 DFD level 0
 
+
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master
+
+
  
 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
 
+
+
 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
+
+
 
 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
 
+
+
 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
+
+
 
 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
 
+
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
+
+
 
 #### 3.2 Deskripsi Rinci Tabel ####
 
