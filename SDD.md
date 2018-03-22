@@ -146,22 +146,39 @@ BAB 3 Deskripsi Perancangan Rinci
 ![](https://image.ibb.co/iV7mfH/DFD_Level_1_mengelola_data_presensi.jpg)
 
 3.2 Deskripsi Rinci Tabel
+
 3.2.1 Tabel Siswa
+
 3.2.2 Tabel Guru
+
 3.2.3 Tabel Kelas
+
 3.2.4 Tabel Jurusan
+
 3.2.5 Tabel User
+
 3.2.6 Tabel Presensi
+
 3.3 Deskripsi Rinci Modul
+
 3.3.1 Modul 1
+
 3.3.1.1 Fungsi Modul
+
 3.3.1.2 Spesifikasi Layar Utama
+
 3.3.1.3 Spesifikasi Query
+
 3.3.1.4 Spesifikasi Field Data Layar
+
 3.3.1.5 Spesifikasi Obyek Pada Layer
+
 3.3.1.6 Spesifikasi Proses / Algoritma
+
 3.3.2 Modul 2
+
 3.3.3 Modul dst
+
 3.4 Matriks Keturunan
 
 
@@ -174,7 +191,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 - PHP adalah singkatan dari Hypertext Prepocessor, yaitu bahasa pemrograman yang digunakan secara luas untuk penanganan pembuatan dan pengembangan sebuah situs web dan bias digunakan bersamaan dengan HTML. PHP diciptakan oleh Rasmus Lerdorf pertama kali tahun 1994. Pada awalnya PHP adalah singkatan dari “Personal Home Page Tools”. Selanjutnya diganti menjadi FI (“Forms Interpreter”). Sejak versi 3.0, nama bahasa ini diubah menjadi “PHP Hypertext Prepocessor  dengan singkatannya PHP . PHP versi terbaru adalah versi ke-5. Berdasarkan survey Netcraft pada bulan Desember 1999, lebih dari sejuta website menggunakan PHP, diantaranya adalah NASA, Mitsubishi, dan RedHat.
 
-- MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL (bahasa Inggris: database management system) atau DBMS yang multithread, multi-user, dengan sekitar 6 juta instalasi di seluruh dunia. MySQL AB membuat MySQL tersedia sebagai perangkat lunak gratis dibawah lisensi GNU General Public License (GPL), tetapi mereka juga menjual dibawah lisensi komersial untuk kasus-kasus di mana penggunaannya tidak cocok dengan penggunaan GPL. Tidak sama dengan proyek-proyek seperti Apache, di mana perangkat lunak dikembangkan oleh komunitas umum, dan hak cipta untuk kode sumber dimiliki oleh penulisnya masing-masing, MySQL dimiliki dan disponsori oleh sebuah perusahaan komersial Swedia MySQL AB, di mana memegang hak cipta hampir atas semua kode sumbernya. Kedua orang Swedia dan satu orang Finlandia yang mendirikan MySQL AB adalah: David Axmark, Allan Larsson, dan Michael "Monty" Widenius.
+- PostgreSQL adalah sebuah sistem basis data yang dapat dugunakan secara bebas menurut Perjanjian lisensi BSD. Perangkat lunak ini merupakan salah satu basis data yang paling banyak digunakan saat ini, selain MySQL dan Oracle. PostgreSQL menyediakan banyak fitur yang berguna untuk berbagai keperluan basis data. Dalam hubunganya dengan Sistem Informasi Geografis, PostgreSQL merupakan basis data yang dapat menyimpan data berupa objek geometrik berupa point (titik), garis (line), dan area (polygon) selain dari table-tabel atribut (berserta objek-objek lainnya seperti halnya view, rule, constraint, indeks, fungsi / prosedur, dan lain sejenisnya) sebagaimana basis data biasa.
 
 - Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman. Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa berkas (file). Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML. CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan, atas, bawah, dan parameter lainnya.  CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen. Dengan adanya CSS memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda.
 
