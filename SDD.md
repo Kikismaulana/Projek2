@@ -381,7 +381,7 @@ Primary Key			:
 
 3.3.1.2 Spesifikasi Layar Utama
 
-
+![](https://image.ibb.co/gEdD9c/data_siswa.png)
 
 3.3.1.3 Spesifikasi Query
 
@@ -410,7 +410,7 @@ Primary Key			:
 
 3.3.2.2 Spesifikasi Layar Utama
 
-
+![](https://image.ibb.co/m5JD9c/data_kelas.png)
 
 3.3.2.3 Spesifikasi Query
 
@@ -438,7 +438,7 @@ Primary Key			:
 
 3.3.3.2 Spesifikasi Layar Utama
 
-
+![](https://image.ibb.co/nNTKhx/data_jurusan.png)
 
 3.3.3.3 Spesifikasi Query
 
@@ -466,7 +466,8 @@ Primary Key			:
 
 3.3.4.2 Spesifikasi Layar Utama
 
-
+![](https://image.ibb.co/eyvh2x/data_user_siswa.png)
+![](https://image.ibb.co/j5w0pc/data_user_guru.png)
 
 3.3.4.3 Spesifikasi Query
 
@@ -494,7 +495,7 @@ Primary Key			:
 
 3.3.5.2 Spesifikasi Layar Utama
 
-
+![](https://image.ibb.co/j81BvH/data_rekap.png)
 
 3.3.5.3 Spesifikasi Query
 
@@ -522,7 +523,7 @@ Primary Key			:
 
 3.3.6.2 Spesifikasi Layar Utama
 
-
+![](https://image.ibb.co/nby5pc/login.png)
 
 3.3.6.3 Spesifikasi Query
 
