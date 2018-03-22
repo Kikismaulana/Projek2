@@ -117,6 +117,8 @@ BAB 3 Deskripsi Perancangan Rinci
 
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master 
 
+![](https://image.ibb.co/fsfp0H/DFD_Level_1_mengelola_data_master.jpg)
+
 
 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
 
