@@ -110,6 +110,8 @@ BAB 2 Deskripsi Perancangan Global
 
 BAB 3 Deskripsi Perancangan Rinci
 3.1 Diagram Konteks
+
+![](https://image.ibb.co/egDHLH/Konteks_Diagram.png)
 3.1.1 DFD level 0
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master 
 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
