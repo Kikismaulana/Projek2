@@ -333,7 +333,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 #### 3.1 Diagram Konteks ####
 
-![](![](https://image.ibb.co/egDHLH/Konteks_Diagram.png))
+![](https://image.ibb.co/iV7mfH/DFD_Level_1_mengelola_data_presensi.jpg)
 
 
 
