@@ -614,9 +614,17 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
-
+		Admin dapat menambahkan data kelas ketika ada tambahan dari tiap-tiap kelas.
+	
 		Langkah - langkah :
-
+		
+		* Admin mengakses halaman data kelas.
+		* Sistem dapat menampilkan data kelas.
+		* Admin dapat mencari data kelas.
+		* Admin dapat mencari data yang telah dihapus. 
+		* Admin menekan button delete pada kolom aksi.
+		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menambahkan data kelas.
+		* Sistem akan menyimpan data kelas. 
 
 
 		Perbarui Data Kelas
@@ -626,10 +634,20 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Admin dapat melakukan perubahan pada tiap-tiap data kelas yang ada.
+
 
 		Langkah - langkah :
 
-
+		
+		* Admin mengakses halaman data kelas
+		* Sistem menampilkan semua data kelas pada tabel
+		* Admin mencari data kelas yang akan di perbarui
+		* Sistem menampilkan data yang akan cari
+		* Admin menekan button update pada kolom aksi
+		* Sistem akan menampilkan modal yang form-formnya berisi tambah data kelas yang ingin di perbarui
+		* Admin melakukan perubahan pada data kelas dan menekan button save
+		* Sistem akan memperbarui data kelas. 
 
 		Hapus Data Kelas
 
@@ -638,10 +656,18 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Admin dapat menghapus data yang sudah tidak diperlukan.
 
 		Langkah - langkah :
 
-
+		* Admin mengakses halaman data kelas
+		* Sistem menampilkan semua data kelas pada tabel
+		* Admin mencari data kelas yang akan di hapus
+		* Sistem menampilkan data yang ingin di cari
+		* Admin menekan button delete pada kolom aksi
+		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+		* Admin memilih button ya untuk menghapus data kelas tersebut
+		* Sistem akan menghapus data kelas. 
 
 		Tambah Data Jurusan
 
