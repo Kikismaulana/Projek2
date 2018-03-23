@@ -434,9 +434,14 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Admin yang telah di tentukan instansi dapat mengakses (masuk/keluar) webserver.
 
 		Langkah - langkah :
 
+		* Admin membuka webserver M-AFI
+		* Sistem menampilkan halaman login
+		* Admin memasukkan username dan password
+		* Sistem melakukan verifikasi username dan password admin
 
 
 		Tambah Data Siswa
@@ -446,36 +451,68 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Admin dapat melakukan penambahan data siswa melalui kumpulan dati dengan menggunakan button import data melalui .CSV ataupun dapat berupa penambahan data perorangan melalui button tambah data.
 
 		Langkah - langkah :
 
+		* Admin mengakses halaman data siswa dengan menekan menu data siswa pada navigasi menu.
+		* Sistem menampilkan halaman data siswa yang berisi button-button fungsi dan data siswa yang ada.
+		* Admin menekan button pilih file untuk menambahkan data berupa import data dari file .CSV
+		* Sistem menampilkan browse file pada admin.
+		* Admin memilih file .CSV.
+		* Sistem menyimpan pilihan admin.
+		* Admin menekan button import.
+		* Sistem akan merecod semua data yang ada pada file .CSV.
+		* Admin menekan button tambah data untuk menambahkan data perorang.
+		* Sistem menampilkan modal yang berisi form-form untuk pengisian data siswa.
+		* Admin mengisi form dan menekan button save.
+		* Sistem akan menyimpan data.
 
-
-	Perbarui Data Siswa
+		Perbarui Data Siswa
 
 ![](https://image.ibb.co/jTLV5H/3.jpg)
 
 
 		Deskripsi singkat :
 
+		Admin dapat melakukan perubahan pada tiap-tiap data siswa yang ada.
 
 		Langkah - langkah :
 
+		* Admin mengakses halaman data siswa
+		* Sistem menampilkan semua data siswa dalam tabel
+		* Admin mencari data siswa yang akan di perbarui
+		* Sistem menampilkan data yang di cari
+		* Admin menekan button update pada kolom aksi
+		* Sistem akan menampilkan modal yang form-formnya berisi dari data siswa yang ingin di perbarui
+		* Admin melakukan perubahan pada data siswa dan menekan button save
+		* Sistem akan memperbarui data siswa tersebut
 
 
-	Hapus Data Siswa
+
+		Hapus Data Siswa
 
 ![](https://image.ibb.co/gXiHkH/4.jpg)
 
 
 		Deskripsi singkat :
 
+		Admin dapat menghapus data siswa jika siswa yang bersangkutan sudah tidak lagi aktif/DO/keluar/berhenti dari sekolah tersebut.
 
 		Langkah - langkah :
 
+		* Admin mengakses halaman data siswa
+		* Sistem menampilkan semua data siswa dalam tabel
+		* Admin mencari data siswa yang akan di hapus
+		* Sistem menampilkan data yang di cari
+		* Admin menekan button delete pada kolom aksi
+		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+		* Admin memilih button ya untuk menghapus data siswa tersebut
+		* Sistem akan menghapus data siswa tersebut 
 
 
-	Tambah Data Guru
+
+		Tambah Data Guru
 
 ![](https://image.ibb.co/e7RsKc/5.jpg)
 
@@ -487,7 +524,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Perbarui Data Guru
+		Perbarui Data Guru
 
 ![](https://image.ibb.co/d7Fmec/6.jpg)
 
@@ -499,7 +536,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Hapus Data Guru
+		Hapus Data Guru
 
 ![](https://image.ibb.co/nepCKc/7.jpg)
 
@@ -511,7 +548,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Tambah Data Users
+		Tambah Data Users
 
 ![](https://image.ibb.co/hmOuXx/8.jpg)
 
@@ -523,7 +560,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Perbarui Data Users
+		Perbarui Data Users
 
 ![](https://image.ibb.co/g5Zq5H/9.jpg)
 
@@ -535,7 +572,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Hapus Data Users
+		Hapus Data Users
 
 ![](https://image.ibb.co/chfV5H/10.jpg)
 
@@ -547,7 +584,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Tambah Data Kelas
+		Tambah Data Kelas
 
 ![](https://image.ibb.co/cYggCx/11.jpg)
 
@@ -559,7 +596,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Perbarui Data Kelas
+		Perbarui Data Kelas
 
 ![](https://image.ibb.co/j01Rec/12.jpg)
 
@@ -571,7 +608,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Hapus Data Kelas
+		Hapus Data Kelas
 
 ![](https://image.ibb.co/iG2XKc/13.jpg)
 
@@ -583,7 +620,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Tambah Data Jurusan
+		Tambah Data Jurusan
 
 ![](https://image.ibb.co/bUPOQH/14.jpg)
 
@@ -595,7 +632,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Perbarui Data Jurusan
+		Perbarui Data Jurusan
 
 ![](https://image.ibb.co/b1w3QH/15.jpg)
 
@@ -607,7 +644,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Hapus Data Jurusan
+		Hapus Data Jurusan
 
 ![](https://image.ibb.co/f9cA5H/16.jpg)
 
@@ -619,7 +656,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Update Presensi Izin
+		Update Presensi Izin
 
 ![](https://image.ibb.co/d7hMCx/17.jpg)
 
@@ -631,7 +668,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 
-	Cari Data
+		Cari Data
 
 ![](https://image.ibb.co/ncVV5H/18.jpg)
 
