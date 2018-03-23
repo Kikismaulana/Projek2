@@ -684,12 +684,9 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 		* Sistem menampilkan halaman data jurusan yang berisi button-button fungsi dan data jurusan yang ada.
 		* Admin mengisi form tambah data jurusan dan mengklik button tambah data.
 		* Sistem menambahkan data jurusan yang telah diinputkan oleh admin 
-		* Admin bisa menggunakan fungsi search untuk memudahkan mencari data jurusan.
-		* Sistem memproses hasil inputan fungsi search, dan menampilkan hasil fungsi inputan search.
-		* Admin dapat mengupdate data jurusan dengan menekan button update.
-		* Sistem memproses dan mengupdate data jurusan.
-		* Admin dapat menghapus data dengan menekan button delete.
-		* Sistem memproses dan menghapus data jurusan.
+		
+	
+		
 
 
 
@@ -699,10 +696,14 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Deskripsi singkat :
+		Admin dapat memperbaharui data jurusan dengan menekan button update
 
 
 		Langkah - langkah :
-
+		* Admin mencari data jurusan melalui fungsi search
+		* Sistem memproses dan mencari data jurusan
+		* Admin dapat mengupdate data jurusan dengan menekan button update.
+		* Sistem memproses dan mengupdate data jurusan.
 
 
 		Hapus Data Jurusan
@@ -714,6 +715,8 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Langkah - langkah :
+		* Admin dapat menghapus data dengan menekan button delete.
+		* Sistem memproses dan menghapus data jurusan.
 
 
 
