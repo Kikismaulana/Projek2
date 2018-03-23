@@ -93,57 +93,52 @@ IEEE Draft Standard for Software Design Descriptions
 #### 1.5 Ikhtisar Dokumen ####
 
 BAB 1 Pendahuluan
+
 1.1 Tujuan
+
 1.2 Lingkup
+
 1.3 Definisi, Akronim, dan Singkatan
+
 1.4 Referensi
+
 1.5 Ikhtisar Dokumen
 
 BAB 2 Deskripsi Perancangan Global
+
 2.1 Rancangan Lingkungan Implementasi
+
 2.2 Deskripsi Data
+
 2.2.1  Definisi Domain/Type
+
 2.2.2 Conceptual Data Model
-2.2.3 Physical Data Model 
+
+2.2.3 Physical Data Model
+ 
 2.2.4 Daftar Tabel Aplikasi
+
 2.3 Deskripsi Modul
 
 BAB 3 Deskripsi Perancangan Rinci
 
 3.1 Diagram Konteks
 
-![](https://image.ibb.co/egDHLH/Konteks_Diagram.png)
 3.1.1 DFD level 0
-
-![](https://image.ibb.co/bUeGfH/DFD_Level_0.png)
 
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master 
 
-![](https://image.ibb.co/fsfp0H/DFD_Level_1_mengelola_data_master.jpg)
-
-
 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
 
-![](https://image.ibb.co/bOZA7x/DFD_Level_2_mengelola_data_kelas.jpg)
-
 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
-![](https://image.ibb.co/gJdgEc/DFD_Level_2_mengelola_data_siswa.jpg)
 
 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
-![](https://image.ibb.co/dWjouc/DFD_Level_2_mengelola_data_guru.jpg)
-
 
 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
 
-![](https://image.ibb.co/gh83Sx/DFD_Level_2_mengelola_data_user.jpg)
-
 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
 
-![](https://image.ibb.co/bvwZZc/DFD_Level_2_mengelola_data_jurusan.jpg)
-
 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
-
-![](https://image.ibb.co/iV7mfH/DFD_Level_1_mengelola_data_presensi.jpg)
 
 3.2 Deskripsi Rinci Tabel
 
@@ -161,7 +156,7 @@ BAB 3 Deskripsi Perancangan Rinci
 
 3.3 Deskripsi Rinci Modul
 
-3.3.1 Modul 1
+3.3.1 Modul siswa
 
 3.3.1.1 Fungsi Modul
 
@@ -175,9 +170,61 @@ BAB 3 Deskripsi Perancangan Rinci
 
 3.3.1.6 Spesifikasi Proses / Algoritma
 
-3.3.2 Modul 2
+3.3.2 Modul kelas
 
-3.3.3 Modul dst
+3.3.2.1 Fungsi Modul
+
+3.3.2.2 Spesifikasi Layar Utama
+
+3.3.2.3 Spesifikasi Query
+
+3.3.2.4 Spesifikasi Field Data Layar
+
+3.3.2.5 Spesifikasi Obyek Pada Layer
+
+3.3.2.6 Spesifikasi Proses / Algoritma
+
+3.3.3 Modul jurusan
+
+3.3.3.1 Fungsi Modul
+
+3.3.3.2 Spesifikasi Layar Utama
+
+3.3.3.3 Spesifikasi Query
+
+3.3.3.4 Spesifikasi Field Data Layar
+
+3.3.3.5 Spesifikasi Obyek Pada Layer
+
+3.3.3.6 Spesifikasi Proses / Algoritma
+
+3.3.4 Modul users
+
+3.3.4.1 Fungsi Modul
+
+3.3.4.2 Spesifikasi Layar Utama
+
+3.3.4.3 Spesifikasi Query
+
+3.3.4.4 Spesifikasi Field Data Layar
+
+3.3.4.5 Spesifikasi Obyek Pada Layer
+
+3.3.4.6 Spesifikasi Proses / Algoritma
+
+3.3.5 Modul presensi
+
+3.3.5.1 Fungsi Modul
+
+3.3.5.2 Spesifikasi Layar Utama
+
+3.3.5.3 Spesifikasi Query
+
+3.3.5.4 Spesifikasi Field Data Layar
+
+3.3.5.5 Spesifikasi Obyek Pada Layer
+
+3.3.5.6 Spesifikasi Proses / Algoritma
 
 3.4 Matriks Keturunan
 
@@ -191,7 +238,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 - PHP adalah singkatan dari Hypertext Prepocessor, yaitu bahasa pemrograman yang digunakan secara luas untuk penanganan pembuatan dan pengembangan sebuah situs web dan bias digunakan bersamaan dengan HTML. PHP diciptakan oleh Rasmus Lerdorf pertama kali tahun 1994. Pada awalnya PHP adalah singkatan dari “Personal Home Page Tools”. Selanjutnya diganti menjadi FI (“Forms Interpreter”). Sejak versi 3.0, nama bahasa ini diubah menjadi “PHP Hypertext Prepocessor  dengan singkatannya PHP . PHP versi terbaru adalah versi ke-5. Berdasarkan survey Netcraft pada bulan Desember 1999, lebih dari sejuta website menggunakan PHP, diantaranya adalah NASA, Mitsubishi, dan RedHat.
 
-- PostgreSQL adalah sebuah sistem basis data yang dapat dugunakan secara bebas menurut Perjanjian lisensi BSD. Perangkat lunak ini merupakan salah satu basis data yang paling banyak digunakan saat ini, selain MySQL dan Oracle. PostgreSQL menyediakan banyak fitur yang berguna untuk berbagai keperluan basis data. Dalam hubunganya dengan Sistem Informasi Geografis, PostgreSQL merupakan basis data yang dapat menyimpan data berupa objek geometrik berupa point (titik), garis (line), dan area (polygon) selain dari table-tabel atribut (berserta objek-objek lainnya seperti halnya view, rule, constraint, indeks, fungsi / prosedur, dan lain sejenisnya) sebagaimana basis data biasa.
+- MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL (bahasa Inggris: database management system) atau DBMS yang multithread, multi-user, dengan sekitar 6 juta instalasi di seluruh dunia. MySQL AB membuat MySQL tersedia sebagai perangkat lunak gratis dibawah lisensi GNU General Public License (GPL), tetapi mereka juga menjual dibawah lisensi komersial untuk kasus-kasus di mana penggunaannya tidak cocok dengan penggunaan GPL. Tidak sama dengan proyek-proyek seperti Apache, di mana perangkat lunak dikembangkan oleh komunitas umum, dan hak cipta untuk kode sumber dimiliki oleh penulisnya masing-masing, MySQL dimiliki dan disponsori oleh sebuah perusahaan komersial Swedia MySQL AB, di mana memegang hak cipta hampir atas semua kode sumbernya. Kedua orang Swedia dan satu orang Finlandia yang mendirikan MySQL AB adalah: David Axmark, Allan Larsson, dan Michael "Monty" Widenius.
 
 - Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman. Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa berkas (file). Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML. CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan, atas, bawah, dan parameter lainnya.  CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen. Dengan adanya CSS memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda.
 
@@ -212,7 +259,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 #### 2.2 Deskripsi Data ####
 
-
+![](https://image.ibb.co/f0Mujc/IMG_20180322_WA0007.jpg)
 
 ##### 2.2.1 Definisi Domain/Type
 
@@ -252,11 +299,11 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
   
 ##### 2.2.2 Conceptual Data Model
 
-
+![](https://image.ibb.co/ieN3uc/IMG_20180322_WA0003.jpg)
 
 ##### 2.2.3 Physical Data Model
 
-
+![](https://image.ibb.co/hT1UZc/IMG_20180322_WA0002.jpg)
 
 ##### 2.2.4 Daftar Tabel Aplikasi
 
@@ -266,7 +313,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 | Guru | NIP |  | tabel users dan kelas | tabel guru terdiri dari NIP, id_kelas, nama_lengkap, email, password, jk, no_hp dan alamat. tabel guru terhubung dengan tabel users dan kelas |
 | Kelas | id_kelas |  | tabel siswa, jurusan dan guru | tabel kelas terdiri dari id_kelas, nama_kelas dan id_jurusan. tabel kelas terhubung dengan tabel siswa, jurusan dan guru |
 | Jurusan | id_jurusan |  | tabel kelas | tabel jurusan terdiri dari id_jurusan dan nama_jurusan. tabel jurusan terhubung dengan tabel kelas |
-| Users | id_user |  | tabel siswa dan guru | tabel users terdiri dari id_user, NIP, NIS, level dan password. tabel users terhubung dengan tabel siswa dan guru. |
+| Users | id_user |  | tabel siswa dan guru | tabel users terdiri dari id_user, NIP, NIS,NISN, level dan password. tabel users terhubung dengan tabel siswa dan guru. |
 | Presensi | id_presensi |  | tabel siswa | tabel presensi terdiri dari id_presensi, NIS, keterangan, presensi, tanggal, masuk, terlambat, pulang dan lebih_cepat. tabel presensi terhubung dengan tabel siswa. |
 
 
@@ -279,7 +326,6 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 | 3 | Modul Jurusan | Yang dapat mengelola modul jurusan hanya admin saja, pada modul jurusan admin dapat mengelola data jurusan. |
 | 4 | Modul User | | Yang dapat mengelola modul user hanya admin saja, pada modul user admin dapat mengelola data user. |
 | 5 | Modul Presensi | Pada modul presensi admin dapat mengelola, sedangkan guru, siswa dan orang tua dapat melihat hasil rekap absen berdasarkan levelnya. |
-| 6 | Modul Login | Yang dapat login adalah admin, guru, siswa dan orang tua namun beda-beda level. |
 
 
 
@@ -287,132 +333,143 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 #### 3.1 Diagram Konteks ####
 
+
+
 ##### 3.1.1 DFD level 0
 
+
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master
+
+
  
 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
 
+
+
 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
+
+
 
 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
 
+
+
 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
+
+
 
 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
 
+
+
 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
+
+
 
 #### 3.2 Deskripsi Rinci Tabel ####
 
 ##### 3.2.1 Tabel Siswa
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: siswa
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi data-data siswa
 
-Jenis 				:
+Jenis 				: Tabel Referensi
 
-Volume				:
+Volume				: 
 
-Laju				:
+Laju				: 
 
-Primary Key			:
+Primary Key			: NIP 
 
+![](https://image.ibb.co/gA0Ouc/IMG_20180323_WA0005.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 ##### 3.2.2 Tabel Guru
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: guru
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi data-data guru.
 
-Jenis 				:
+Jenis 				: Tabel Referensi
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: NIP
 
-
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
+![](https://image.ibb.co/fQFCnx/IMG_20180323_WA0006.jpg)
 
 
 ##### 3.2.3 Tabel Kelas
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: kelas 
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi id dan nama kelas.
 
-Jenis 				:
+Jenis 				: Tabel Referensi
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: id_kelas
 
+![](https://image.ibb.co/ey4iuc/IMG_20180323_WA0004.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 ##### 3.2.4 Tabel Jurusan
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: jurusan
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi id dan nama jurusan.
 
-Jenis 				:
+Jenis 				: Tabel referensi
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: id_jurusan
 
+![](https://image.ibb.co/cq8nLH/IMG_20180323_WA0000.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 ##### 3.2.5 Tabel Users
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: users
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi id dari berbagai user, password dan level.
 
-Jenis 				:
+Jenis 				: Tabel referensi
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: id_users
 
+![](https://image.ibb.co/fi7Q7x/IMG_20180323_WA0007.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 ##### 3.2.6 Tabel Presensi
 
-Identifikasi/Nama	:
+Identifikasi/Nama	: presensi
 
-Deskripsi Isi		:
+Deskripsi Isi		: Berisi pengelolaan data induk.
 
-Jenis 				:
+Jenis 				: Tabel data induk
 
 Volume				:
 
 Laju				:
 
-Primary Key			:
+Primary Key			: id_presensi
 
+![](https://image.ibb.co/mWJ9Zc/IMG_20180323_WA0008.jpg)
 
- Id Field | Deskripsi | Tipe & length | Boleh NULL | Default |Keterangan 
-|---------|-----------|---------------|------------|---------|----------|
 
 #### 3.3 Deskripsi Rinci Modul ####
 
@@ -420,8 +477,7 @@ Primary Key			:
 
 3.3.1.1 Fungsi Modul
 
- No | Fungsi | Jenis | Tabel Terkait
-|---|--------|-------|--------------|
+![](https://image.ibb.co/iOaLPc/fungsi_siswa.png)
 
 3.3.1.2 Spesifikasi Layar Utama
 
@@ -429,7 +485,27 @@ Primary Key			:
 
 3.3.1.3 Spesifikasi Query
 
-
+create table siswa (
+NIS int not null,
+id_kelas int not null,
+nama_lengkap varchar (50),
+jk varchar (9),
+ttl varchar (50),
+email varchar (50),
+agama varchar (10),
+alamat text,
+no_hp varchar (15),
+nama_ayah varchar (50),
+nama_ibu varchar (50),
+pekerjaan_ayah varchar (50),
+pekerjaan_ibu varchar (50),
+alamat_ortu text,
+password varchar (50),
+PRIMARY KEY (NIS),
+FOREIGN KEY (id_kelas) REFERENCES kelas (id_kelas)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);
 
 3.3.1.4 Spesifikasi Field Data Layar
 
@@ -438,8 +514,7 @@ Primary Key			:
 
 3.3.1.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/fxaXnx/obyek_siswa.png)
 
 3.3.1.6 Spesifikasi Proses / Algoritma
 
@@ -449,8 +524,7 @@ Primary Key			:
 
 3.3.2.1 Fungsi Modul
 
- No | Fungsi | Jenis | Tabel Terkait
-|---|--------|-------|--------------|
+![](https://image.ibb.co/c1ux4c/fungsi_kelass.png)
 
 3.3.2.2 Spesifikasi Layar Utama
 
@@ -458,6 +532,15 @@ Primary Key			:
 
 3.3.2.3 Spesifikasi Query
 
+create table kelas (
+id_kelas int not null AUTO_INCREMENT,
+id_jurusan int not null,
+nama_kelas varchar (20),
+PRIMARY KEY (id_kelas),
+FOREIGN KEY (id_jurusan) REFERENCES jurusan (id_jurusan)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);
 
 
 3.3.2.4 Spesifikasi Field Data Layar
@@ -467,8 +550,7 @@ Primary Key			:
 
 3.3.2.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/g4xCnx/obyek_kelas.png)
 
 3.3.2.6 Spesifikasi Proses / Algoritma
 
@@ -477,8 +559,7 @@ Primary Key			:
 
 3.3.3.1 Fungsi Modul
 
- No | Fungsi | Jenis | Tabel Terkait
-|---|--------|-------|--------------|
+![](https://image.ibb.co/ciWujc/fungsi_jurusan.png)
 
 3.3.3.2 Spesifikasi Layar Utama
 
@@ -486,7 +567,10 @@ Primary Key			:
 
 3.3.3.3 Spesifikasi Query
 
-
+create table jurusan (
+id_jurusan int not null AUTO_INCREMENT,
+nama_jurusan varchar (50),
+PRIMARY KEY (id_jurusan));
 
 3.3.3.4 Spesifikasi Field Data Layar
 
@@ -495,8 +579,7 @@ Primary Key			:
 
 3.3.3.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/jJPsnx/obyek_jurusan.png)
 
 3.3.3.6 Spesifikasi Proses / Algoritma
 
@@ -505,8 +588,7 @@ Primary Key			:
 
 3.3.4.1 Fungsi Modul
 
- No | Fungsi | Jenis | Tabel Terkait
-|---|--------|-------|--------------|
+![](https://image.ibb.co/h7yJAH/fungsi_users.png)
 
 3.3.4.2 Spesifikasi Layar Utama
 
@@ -515,7 +597,19 @@ Primary Key			:
 
 3.3.4.3 Spesifikasi Query
 
-
+create table users (
+id_users int not null,
+NIP int not null,
+NIS int not null,
+NISN int not null, 
+password varchar (50),
+level varchar (10),
+PRIMARY KEY (id_users),
+FOREIGN KEY (NIS) REFERENCES siswa (NIS), 
+FOREIGN KEY (NIP) REFERENCES guru (NIP)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);
 
 3.3.4.4 Spesifikasi Field Data Layar
 
@@ -524,8 +618,7 @@ Primary Key			:
 
 3.3.4.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/dopgfH/obyek_users.png)
 
 3.3.4.6 Spesifikasi Proses / Algoritma
 
@@ -534,16 +627,29 @@ Primary Key			:
 
 3.3.5.1 Fungsi Modul
 
- No | Fungsi | Jenis | Tabel Terkait
-|---|--------|-------|--------------|
+![](https://image.ibb.co/d709Hx/fungsi_presensi.png)
 
 3.3.5.2 Spesifikasi Layar Utama
 
-![](https://image.ibb.co/j81BvH/data_rekap.png)
+![](https://image.ibb.co/dsVn4c/data_presensi.png)
 
 3.3.5.3 Spesifikasi Query
 
-
+create table presensi (
+id_presensi int not null AUTO_INCREMENT,
+NIS int not null,
+tanggal date,
+keterangan text,
+presensi varchar (20),
+pulang time,
+lebih_cepat int,
+masuk time,
+terlambat int,
+PRIMARY KEY (id_presensi),
+FOREIGN KEY (NIS) REFERENCES siswa (NIS)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);
 
 3.3.5.4 Spesifikasi Field Data Layar
 
@@ -552,43 +658,17 @@ Primary Key			:
 
 3.3.5.5 Spesifikasi Obyek Pada Layer
 
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
+![](https://image.ibb.co/i2YwEc/obyek_presensi.png)
 
 3.3.5.6 Spesifikasi Proses / Algoritma
 
 
-##### 3.3.6 Modul Login
-
-3.3.6.1 Fungsi Modul
-
- No | Fungsi | Jenis | Tabel Terkait
-|---|--------|-------|--------------|
-
-3.3.6.2 Spesifikasi Layar Utama
-
-![](https://image.ibb.co/nby5pc/login.png)
-
-3.3.6.3 Spesifikasi Query
-
-
-
-3.3.6.4 Spesifikasi Field Data Layar
-
- Label | Field | Tabel/Query | Validasi | Keterangan
-|------|-------|-------------|----------|-----------|
-
-3.3.6.5 Spesifikasi Obyek Pada Layer
-
- Id Objek | Jenis | Keterangan 
-|---------|-------|-----------|
-
-3.3.6.6 Spesifikasi Proses / Algoritma
 
 
 #### 3.4 Matriks Kerunutan  ####
 
  ID Kebutuhan | Modul | Keterangan 
 |-------------|-------|-----------|
+
 
 
