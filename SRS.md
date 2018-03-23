@@ -451,7 +451,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
-		Admin dapat melakukan penambahan data siswa melalui kumpulan dati dengan menggunakan button import data melalui .CSV ataupun dapat berupa penambahan data perorangan melalui button tambah data.
+		Admin dapat melakukan penambahan data siswa melalui kumpulan data dengan menggunakan button import data melalui .CSV ataupun dapat berupa penambahan data perorangan melalui button tambah data.
 
 		Langkah - langkah :
 
@@ -627,9 +627,20 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Admin dapat melakukan penambahan data jurusan jika sekolah memiliki jurusan baru.
 
 		Langkah - langkah :
 
+		* Admin mengakses halaman data jurusan dengan menekan menu data jurusan pada navigasi menu.
+		* Sistem menampilkan halaman data jurusan yang berisi button-button fungsi dan data jurusan yang ada.
+		* Admin mengisi form tambah data jurusan dan mengklik button tambah data.
+		* Sistem menambahkan data jurusan yang telah diinputkan oleh admin 
+		* Admin bisa menggunakan fungsi search untuk memudahkan mencari data jurusan.
+		* Sistem memproses hasil inputan fungsi search, dan menampilkan hasil fungsi inputan search.
+		* Admin dapat mengupdate data jurusan dengan menekan button update.
+		* Sistem memproses dan mengupdate data jurusan.
+		* Admin dapat menghapus data dengan menekan button delete.
+		* Sistem memproses dan menghapus data jurusan.
 
 
 		Perbarui Data Jurusan
