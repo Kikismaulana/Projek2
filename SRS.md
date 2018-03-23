@@ -518,9 +518,23 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Deskripsi singkat :
+ Admin dapat menambahkan data guru berupa Nip, nama lengkap  dll ke dalam tabel data guru yang ada di webserver M-AFI.
 
 
 		Langkah - langkah :
+* Admin mengakses halaman data guru
+
+* Admin menekan button tambah guru
+
+* Sistem menampilkan form data guru yang harus diisi untuk ditambahkan
+
+* Admin mengisi data guru yang akan ditambahkan
+
+* Sistem menyediakan button Save changes dan close
+
+* Admin menekan button Save changes lalu close
+
+* Sistem menampilkan data yang guru yang berhasil ditambahkan.
 
 
 
