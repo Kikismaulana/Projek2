@@ -663,9 +663,15 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Admin akan menerima permintaan izin dari orang tua siswa yang kemudian admin melakukan approvement untuk mengupdate data prsensi siswa yang berkaitan tersebut.
 
 		Langkah - langkah :
 
+		* Sistem memberikan notifikasi pada admin melalui webserver di bagian notifikasi engan icon messages
+		* Admin menekan button icon tersebut
+		* Sistem menampilan halaman presensi
+		* Admin melihat data perizinan siswa dan kemudian melakukan approvement dengan mengupdate presensi siswa tersebut.
+		* Sistem memperbarui presensi siswa tersebut.
 
 
 		Cari Data
@@ -675,8 +681,14 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Admin dapat melakukan pencarian siswa pada data siswa, guru, user, kelas, jurusan dan presensi.
 
 		Langkah - langkah :
+
+		* Admin mengakses pada halaman tertentu yang ingin di cari datanya
+		* Sistem menyediakan form search pada tiap-tiap halaman
+		* Admin mengisi forn search untuk mencari data yang ingin di cari
+		* Sistem akan menampilkan data yang admin cari
 
 
 
