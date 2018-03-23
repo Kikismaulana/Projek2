@@ -451,7 +451,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
-		Admin dapat melakukan penambahan data siswa melalui kumpulan data dengan menggunakan button import data melalui .CSV ataupun dapat berupa penambahan data perorangan melalui button tambah data.
+		Admin dapat melakukan penambahan data siswa melalui kumpulan dati dengan menggunakan button import data melalui .CSV ataupun dapat berupa penambahan data perorangan melalui button tambah data.
 
 		Langkah - langkah :
 
@@ -554,11 +554,18 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Deskripsi singkat :
-
+		
+		Admin dapat melakukan penambahan data users siswa dan users guru melalui penambahan data users melalui button tambah data.
 
 		Langkah - langkah :
 
-
+		* Admin mengakses halaman data users dengan menekan menu data user pada navigasi menu, pilih user siswa atau guru.
+		* Sistem menampilkan halaman data user yang berisi button_button fungsi dan data user yang ada
+		* Sistem menampilkan browse file pada admin.
+		* Admin menekan button tambah data untuk menambahkan data peruser.
+		* Sistem menampilkan modal yang berisi form-form untuk pengisian data user.
+		* Admin mengisi form dan menekan button save.
+		* Sistem akan menyimpan data.
 
 		Perbarui Data Users
 
@@ -567,10 +574,18 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Admin dapat melakukan perubahan pada tiap-tiap data user yang ada.
 
 		Langkah - langkah :
 
-
+		* Admin mengakses halaman data user
+		* Sistem menampilkan semua data user dalam tabel
+		* Admin mencari data user yang akan di perbarui
+		* Sistem menampilkan data yang di cari
+		* Admin menekan button update pada kolom aksi
+		* Sistem akan menampilkan modal yang form-formnya berisi dari data user yang ingin di perbarui
+		* Admin melakukan perubahan pada data user dan menekan button save
+		* Sistem akan memperbarui data user tersebut
 
 		Hapus Data Users
 
@@ -579,10 +594,18 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
+		Admin dapat menghapus data user jika user sudah tidak lagi aktif/DO/keluar/berhenti dari sekolah tersebut.
 
 		Langkah - langkah :
 
-
+		* Admin mengakses halaman data user siswa atau user guru
+		* Sistem menampilkan semua data user dalam tabel
+		* Admin mencari data user yang akan di hapus
+		* Sistem menampilkan data yang di cari
+		* Admin menekan button delete pada kolom aksi
+		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+		* Admin memilih button ya untuk menghapus data siswa tersebut
+		* Sistem akan menghapus data user tersebut
 
 		Tambah Data Kelas
 
@@ -627,20 +650,9 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		Deskripsi singkat :
 
-		Admin dapat melakukan penambahan data jurusan jika sekolah memiliki jurusan baru.
 
 		Langkah - langkah :
 
-		* Admin mengakses halaman data jurusan dengan menekan menu data jurusan pada navigasi menu.
-		* Sistem menampilkan halaman data jurusan yang berisi button-button fungsi dan data jurusan yang ada.
-		* Admin mengisi form tambah data jurusan dan mengklik button tambah data.
-		* Sistem menambahkan data jurusan yang telah diinputkan oleh admin 
-		* Admin bisa menggunakan fungsi search untuk memudahkan mencari data jurusan.
-		* Sistem memproses hasil inputan fungsi search, dan menampilkan hasil fungsi inputan search.
-		* Admin dapat mengupdate data jurusan dengan menekan button update.
-		* Sistem memproses dan mengupdate data jurusan.
-		* Admin dapat menghapus data dengan menekan button delete.
-		* Sistem memproses dan menghapus data jurusan.
 
 
 		Perbarui Data Jurusan
