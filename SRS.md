@@ -836,11 +836,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | masuk / keluar |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Siswa dapat melakukan login untuk masuk app M-AFI diperangkat mobile dan kemudian logout untuk keluarnya  |
+| Precondition | Siswa harus memiliki app M-AFI pada smartphonenya  |
+| Basic Path | Siswa dapat membuka app M-AFI pada smartphone, kemudian mengisi form login yang telah disediakan dengan memasukan username dan password  |
+| Alternative Paths | jika sudah mengisi form login salah maka bisa menghubungi admin atau mengklik lupa password |
+| Postcondition | setelah melakukan proses login ssiswa dapat melihat tampilan presensi yang sudah ada |
 | Exception Paths |  |
 | Other |  |
 
