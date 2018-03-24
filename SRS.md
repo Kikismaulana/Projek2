@@ -991,12 +991,12 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Hapus Data Siswa |
-| XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| XRef | |
+| Trigger | Admin dapat menghapus data siswa yang sudah tidak digunakan atau siswa sudah berhenti sekolah |
+| Precondition | Admin dapat mencari data yang ingin dihapus|
+| Basic Path | Pada web M-AFI akan menampilkan semua data yang telah dicari yang ingin dihapus pada tabel|
+| Alternative Paths | Jika sudah menemukan data yang telah dicari maka admin dapat menekan button delete untuk menghapus data siswa tersebut |
+| Postcondition | Data siswa akan terhapus pada web M-AFI|
 | Exception Paths |  |
 | Other |  |
 
