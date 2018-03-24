@@ -1087,11 +1087,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Perbarui Data Users |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat melakukan perubahan pada tiap-tiap data user yang ada |
+| Precondition | Admin dapat mengakses data user dan dapat memperbaharui data user yang sudah dipilih  |
+| Basic Path | Admin dapat memperbaharui data user setelah memilih data user yang akan diperbaharui |
+| Alternative Paths | Admin dapat menekan button update setelah selesai melakukan perubahan data user |
+| Postcondition |  sistem akan menapilkan hasil data user yang sudah diperbaharui|
 | Exception Paths |  |
 | Other |  |
 
@@ -1102,11 +1102,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Hapus Data Users |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger |  Admin dapat melakukan hapus data users |
+| Precondition | Admin dapat mengkases data users dan admin dapat mencari data yang akan dihapus  |
+| Basic Path | Admin dapat menghapus data user yang sudah dipilih |
+| Alternative Paths | Admin dapat menekan button delete untuk menghapus data   |
+| Postcondition | sistem akan menampilkan hasil data user yang sudah dihapus  |
 | Exception Paths |  |
 | Other |  |
 
