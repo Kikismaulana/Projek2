@@ -1072,11 +1072,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Tambah Data Users |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat menambahkan data user|
+| Precondition | Admin dapat mengkases halaman data user dan dapat menambahkan data uesr |
+| Basic Path | admin dapat menambhakan data user dengan mengisi form data user yang ditampilkan pada modal pengsian data user |
+| Alternative Paths |  Admin dapat menekan button save saat tambah data user selesai  |
+| Postcondition | sistem akan menampilkan hasil data user yang sudah ditambahkan oleh admin |
 | Exception Paths |  |
 | Other |  |
 
