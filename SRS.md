@@ -650,13 +650,17 @@ Admin dapat menghapus data guru jika data guru yang bersangkutan sudah tidak akt
 	
 		Langkah - langkah :
 		
-		* Admin mengakses halaman data kelas.
-		* Sistem dapat menampilkan data kelas.
-		* Admin dapat mencari data kelas.
-		* Admin dapat mencari data yang telah dihapus. 
-		* Admin menekan button delete pada kolom aksi.
-		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menambahkan data kelas.
-		* Sistem akan menyimpan data kelas. 
+		* Admin mengakses halaman data Kelas
+
+		* Admin menekan button tambah data
+
+		* Sistem menampilkan form data kelas yang harus diisi untuk ditambahkan
+
+		* Admin mengisi data kelas yang akan ditambahkan
+
+		* Admin menekan button Save changes lalu close
+
+		* Sistem menampilkan data yang kelas yang berhasil ditambahkan.
 
 
 		Perbarui Data Kelas
@@ -786,7 +790,7 @@ Admin dapat menghapus data guru jika data guru yang bersangkutan sudah tidak akt
 
 		* Admin mengakses pada halaman tertentu yang ingin di cari datanya
 		* Sistem menyediakan form search pada tiap-tiap halaman
-		* Admin mengisi forn search untuk mencari data yang ingin di cari
+		* Admin mengisi form search untuk mencari data yang ingin di cari
 		* Sistem akan menampilkan data yang admin cari
 
 
@@ -854,11 +858,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | masuk / keluar |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Siswa dapat melakukan login untuk masuk app M-AFI diperangkat mobile dan kemudian logout untuk keluarnya  |
+| Precondition | Siswa harus memiliki app M-AFI pada smartphonenya  |
+| Basic Path | Siswa dapat membuka app M-AFI pada smartphone, kemudian mengisi form login yang telah disediakan dengan memasukan username dan password  |
+| Alternative Paths | jika sudah mengisi form login salah maka bisa menghubungi admin atau mengklik lupa password |
+| Postcondition | setelah melakukan proses login ssiswa dapat melihat tampilan presensi yang sudah ada |
 | Exception Paths |  |
 | Other |  |
 
@@ -869,11 +873,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Rekap Presensi |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
+| Trigger |Pada Rekap Presensi ini berisi keseluruhan presensi siswa dari mulai awal masuk sekolah sampai sekarang |
+| Precondition | Siswa dapat login melalui app M-AFI, siswa dapat memilih rekap yang ingin di download dalam bentuk dokumen yakni tahun ataupun semester|
+| Basic Path | siswa dapat menekan salah satu sub rekap |
 | Alternative Paths |  |
-| Postcondition |  |
+| Postcondition | File yang didownload berupa file excel|
 | Exception Paths |  |
 | Other |  |
 
@@ -965,11 +969,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Masuk / Keluar |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin melakukan login untuk masuk ke web server dan juga logout untuk keluarnya. |
+| Precondition | Admin harus memiliki web server M-AFI pada laptopnya |
+| Basic Path | Admin membuka web M-AFI pada laptop, mengisi form login yang sudah ada dengan memasukan username dan password |
+| Alternative Paths | Jika mengisi form login dipastikan harus tahu username dan password |
+| Postcondition | Setelah melakukan proses login admin akan melihat data-data yang ada pada web tersebut. |
 | Exception Paths |  |
 | Other |  |
 
@@ -980,11 +984,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Tambah Data Siswa |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat menambahkan data siswa pada web server M-AFI |
+| Precondition | Admin ketika sudah login maka akan berada pada tampilan awal admin |
+| Basic Path | Admin menekan button pilih file untuk menambahkan data berupa import data dari file .CSV dan admin juga dapat menambahkan data perorangan dengan menekan button tambah data |
+| Alternative Paths |Jika Admin sudah menambahkan data siswa maka admin dapat menekan button save |
+| Postcondition | Setelah admin menambahkan data siswa maka sistem akan menyimpan data siswa tersebut |
 | Exception Paths |  |
 | Other |  |
 
@@ -995,11 +999,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Perbarui Data Siswa |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat melakukan perbarui data siswa ketika data siswa tersebut ada perubahan |
+| Precondition | Admin ketika sudah mengakses halaman data siswa maka akan menampilkan semua data siswa pada tabel |
+| Basic Path | Admin dapat mencari data siswa yang akan diperbarui dengan menekan button update |
+| Alternative Paths | Admin dapat melakukan perubahan pada data siswa dengan menekan button save |
+| Postcondition | Setelah admin melakukan perubahan data siswa maka akan tampil pada tabel  |
 | Exception Paths |  |
 | Other |  |
 
@@ -1009,12 +1013,12 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Hapus Data Siswa |
-| XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| XRef | |
+| Trigger | Admin dapat menghapus data siswa yang sudah tidak digunakan atau siswa sudah berhenti sekolah |
+| Precondition | Admin dapat mencari data yang ingin dihapus|
+| Basic Path | Pada web server M-AFI akan menampilkan semua data yang telah dicari yang ingin dihapus pada tabel|
+| Alternative Paths | Jika sudah menemukan data yang telah dicari maka admin dapat menekan button delete untuk menghapus data siswa tersebut |
+| Postcondition | Data siswa akan terhapus pada web server M-AFI|
 | Exception Paths |  |
 | Other |  |
 
@@ -1024,12 +1028,12 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Tambah Data Guru |
-| XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| XRef | |
+| Trigger | Admin dapat menambahkan data guru pada web server M-AFI  |
+| Precondition |Admin akan menampikan form data guru yang sudah disediakan untuk ditambahkan |
+| Basic Path | Admin akan mengisi data guru yang telah ditambahkan pada web server M-AFI |
+| Alternative Paths | Jika admin sudah mengisi data guru maka admin akan menekan button save untuk menyimpan data yang telah ditambahkan |
+| Postcondition | Setelah melakukan proses penambahan data guru maka data akan tersimpan pada tabel|
 | Exception Paths |  |
 | Other |  |
 
@@ -1115,11 +1119,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Tambah Data Kelas |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat menambahkan data kelas ketika ada data yang telah ditambahkan dari tiap-tiap kelas |
+| Precondition | Admin sudah login dan akan mengakses halaman data kelas |
+| Basic Path | Admin akan menekan button tambah data, kemudian mengisi form yang telah ada yang harus diisi untuk ditambahkan pada data kelas |
+| Alternative Paths | Jika sudah ditambahkan data kelas akan tersimpan ketika menekan button save |
+| Postcondition | Data siswa yang telah berhasil ditambahkan akan tampil pada web server M-AFI |
 | Exception Paths |  |
 | Other |  |
 
@@ -1220,10 +1224,10 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Cari data |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
+| Trigger | Pada bagian ini admin dapat melakukan pencarian pada data siswa, guru, user, kelas, jurusan dan presensi pada web M-AFI|
+| Precondition | Admin dapat membuka web M-AFI untuk mengakses pada halaman yang iningin dicari datanya |
+| Basic Path |Pada web M-AFI ini menyediakan form search pada tiap-tiap halaman untuk mencari data |
+| Alternative Paths | Admin dapat mengisi form search untuk mencari data yang ingin dicari |
 | Postcondition |  |
 | Exception Paths |  |
 | Other |  |
