@@ -1132,11 +1132,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Perbarui Data Kelas |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat melakukan perubahan pada tiap-tiap data  yang ada  |
+| Precondition | Admin dapat mengakses halaman data kelas  |
+| Basic Path | Admin mencari data kelas yang akan diperbaharui |
+| Alternative Paths | Admin menekan button update pada kolom aksi |
+| Postcondition | Sistem akan menampikan hasil perbaharui data kelas  |
 | Exception Paths |  |
 | Other |  |
 
