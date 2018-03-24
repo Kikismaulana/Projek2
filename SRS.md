@@ -1042,8 +1042,8 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Perbarui Data Guru |
 | XRef | Admin   |
-| Trigger | Admin dapat melakukan tiap-tiap data guru yang ada  |
-| Precondition | Admin dapat mengkases halaman data guru dan admin dapat mencari data guru yang akan di peebarui |
+| Trigger | Admin dapat melakukan perubahan pada tiap-tiap data guru yang ada  |
+| Precondition | Admin dapat mengkases halaman data guru dan admin dapat mencari data guru yang akan di peebaharui |
 | Basic Path | Admin dapat merubah/memperbaharui data guru yang harus diubah sewaktu-waktu |
 | Alternative Paths | Setelah melakukan perubahan pada data guru admin dapat mengklik tombol button update  |
 | Postcondition | Data guru berhasil diperbaharui saat admin mengisi/merubah data  |
@@ -1057,11 +1057,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Hapus Data Guru |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat menghapus data guru sewakt-waktu saat ada data yang harus dihapus |
+| Precondition |  Admin dapat mengakses data guru |
+| Basic Path | Admin dapat memilih/mencari data guru yang harus dihapus   |
+| Alternative Paths | Setelah admin dapat data guru yang harus dihapus admin dapat mengklik tombol button delete |
+| Postcondition |  Data guru yang sudah dihapus oleh admin akan berhasil dan ditampilkan oleh sistem setelah hapus data berhasil |
 | Exception Paths |  |
 | Other |  |
 
