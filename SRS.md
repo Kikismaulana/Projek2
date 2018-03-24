@@ -768,7 +768,7 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 		* Admin mengakses pada halaman tertentu yang ingin di cari datanya
 		* Sistem menyediakan form search pada tiap-tiap halaman
-		* Admin mengisi forn search untuk mencari data yang ingin di cari
+		* Admin mengisi form search untuk mencari data yang ingin di cari
 		* Sistem akan menampilkan data yang admin cari
 
 
@@ -1202,10 +1202,10 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Cari data |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
+| Trigger | Pada bagian ini admin dapat melakukan pencarian pada data siswa, guru, user, kelas, jurusan dan presensi pada web M-AFI|
+| Precondition | Admin dapat membuka web M-AFI untuk mengakses pada halaman yang iningin dicari datanya |
+| Basic Path |Pada web M-AFI ini menyediakan form search pada tiap-tiap halaman untuk mencari data |
+| Alternative Paths | Admin dapat mengisi form search untuk mencari data yang ingin dicari |
 | Postcondition |  |
 | Exception Paths |  |
 | Other |  |
