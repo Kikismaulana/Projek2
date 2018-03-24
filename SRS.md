@@ -947,11 +947,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Masuk / Keluar |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin melakukan login untuk masuk ke web dan juga logout untuk keluarnya. |
+| Precondition | Admin harus memiliki web M-AFI pada laptopnya |
+| Basic Path | Admin membuka web M-AFI pada laptop, mengisi form login yang sudah ada dengan memasukan username dan password |
+| Alternative Paths | Jika mengisi form login dipastikan harus tahu username dan password |
+| Postcondition | Setelah melakukan proses login admin akan melihat data-data yang ada pada web tersebut. |
 | Exception Paths |  |
 | Other |  |
 
@@ -962,11 +962,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Tambah Data Siswa |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat menambahkan data siswa pada web M-AFI |
+| Precondition | Admin ketika sudah login maka akan berada pada tampilan awal admin |
+| Basic Path | Admin menekan button pilih file untuk menambahkan data berupa import data dari file .CSV dan admin juga dapat menambahkan data perorangan dengan menekan button tambah data |
+| Alternative Paths |Jika Admin sudah menambahkan data siswa maka admin dapat menekan button save |
+| Postcondition | Setelah admin menambahkan data siswa maka sistem akan menyimpan data siswa tersebut |
 | Exception Paths |  |
 | Other |  |
 
@@ -977,11 +977,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Perbarui Data Siswa |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat melakukan perbarui data siswa ketika data siswa tersebut ada perubahan |
+| Precondition | Admin ketika sudah mengakses halaman data siswa maka akan menampilkan semua data siswa pada tabel |
+| Basic Path | Admin dapat mencari data siswa yang akan diperbarui dengan menekan button update |
+| Alternative Paths | Admin dapat melakukan perubahan pada data siswa dengan menekan button save |
+| Postcondition | Setelah admin melakukan perubahan data siswa maka akan tampil pada tabel  |
 | Exception Paths |  |
 | Other |  |
 
