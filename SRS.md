@@ -851,11 +851,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Rekap Presensi |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
+| Trigger |Pada Rekap Presensi ini berisi keseluruhan presensi siswa dari mulai awal masuk sekolah sampai sekarang |
+| Precondition | Siswa dapat login melalui app M-AFI, siswa dapat memilih rekap yang ingin di download dalam bentuk dokumen yakni tahun ataupun semester|
+| Basic Path | siswa dapat menekan salah satu sub rekap |
 | Alternative Paths |  |
-| Postcondition |  |
+| Postcondition | File yang didownload berupa file excel|
 | Exception Paths |  |
 | Other |  |
 
