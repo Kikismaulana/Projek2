@@ -1042,11 +1042,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Perbarui Data Guru |
 | XRef | Admin   |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat melakukan tiap-tiap data guru yang ada  |
+| Precondition | Admin dapat mengkases halaman data guru dan admin dapat mencari data guru yang akan di peebarui |
+| Basic Path | Admin dapat merubah/memperbaharui data guru yang harus diubah sewaktu-waktu |
+| Alternative Paths | Setelah melakukan perubahan pada data guru admin dapat mengklik tombol button update  |
+| Postcondition | Data guru berhasil diperbaharui saat admin mengisi/merubah data  |
 | Exception Paths |  |
 | Other |  |
 
