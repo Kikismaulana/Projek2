@@ -544,10 +544,20 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Deskripsi singkat :
+Admin dapat melakukan perubahan tiap-tiap data guru yang ada.
 
 
-		Langkah - langkah :
 
+
+		Langkah - langkah : 
+* Admin mengakses halaman data guru
+* Sistem menampilkan semua data guru dalam tabel
+* Admin mencari data guru yang akan di perbarui
+* Sistem menampilkan data yang di cari
+* Admin menekan button update pada kolom aksi
+* Sistem akan menampilkan modal yang form-formnya berisi dari data guru yang ingin di perbarui
+* Admin melakukan perubahan pada data guru  dan menekan button save
+* Sistem akan memperbarui data guru tersebut
 
 
 		Hapus Data Guru
@@ -556,10 +566,18 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Deskripsi singkat :
+Admin dapat menghapus data guru jika data guru yang bersangkutan sudah tidak aktif/keluar/mengundurkan diri/berhenti dari sekolah tersebut.
 
 
 		Langkah - langkah :
-
+* Admin mengakses halaman data guru
+* Sistem menampilkan semua data guru dalam tabel
+* Admin mencari data guru yang akan di hapus
+* Sistem menampilkan data yang di cari
+* Admin menekan button delete pada kolom aksi
+* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+* Admin memilih button ya untuk menghapus data guru tersebut
+* Sistem akan menghapus data guru tersebut 
 
 
 		Tambah Data Users
