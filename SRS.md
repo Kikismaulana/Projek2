@@ -518,23 +518,23 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Deskripsi singkat :
- Admin dapat menambahkan data guru berupa Nip, nama lengkap  dll ke dalam tabel data guru yang ada di webserver M-AFI.
-
+ 		Admin dapat menambahkan data guru berupa Nip, nama lengkap  dll ke dalam tabel data guru yang ada di webserver M-AFI.
+		
 
 		Langkah - langkah :
-* Admin mengakses halaman data guru
-
-* Admin menekan button tambah guru
-
-* Sistem menampilkan form data guru yang harus diisi untuk ditambahkan
-
-* Admin mengisi data guru yang akan ditambahkan
-
-* Sistem menyediakan button Save changes dan close
-
-* Admin menekan button Save changes lalu close
-
-* Sistem menampilkan data yang guru yang berhasil ditambahkan.
+		* Admin mengakses halaman data guru
+		
+		* Admin menekan button tambah guru
+		
+		* Sistem menampilkan form data guru yang harus diisi untuk ditambahkan
+		
+		* Admin mengisi data guru yang akan ditambahkan
+		
+		* Sistem menyediakan button Save changes dan close
+		
+		* Admin menekan button Save changes lalu close
+		
+		* Sistem menampilkan data yang guru yang berhasil ditambahkan.
 
 
 
@@ -544,20 +544,18 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 
 		Deskripsi singkat :
-Admin dapat melakukan perubahan tiap-tiap data guru yang ada.
-
-
+		Admin dapat melakukan perubahan tiap-tiap data guru yang ada.
 
 
 		Langkah - langkah : 
-* Admin mengakses halaman data guru
-* Sistem menampilkan semua data guru dalam tabel
-* Admin mencari data guru yang akan di perbarui
-* Sistem menampilkan data yang di cari
-* Admin menekan button update pada kolom aksi
-* Sistem akan menampilkan modal yang form-formnya berisi dari data guru yang ingin di perbarui
-* Admin melakukan perubahan pada data guru  dan menekan button save
-* Sistem akan memperbarui data guru tersebut
+		* Admin mengakses halaman data guru
+		* Sistem menampilkan semua data guru dalam tabel
+		* Admin mencari data guru yang akan di perbarui
+		* Sistem menampilkan data yang di cari
+		* Admin menekan button update pada kolom aksi
+		* Sistem akan menampilkan modal yang form-formnya berisi dari data guru yang ingin di perbarui
+		* Admin melakukan perubahan pada data guru  dan menekan button save
+		* Sistem akan memperbarui data guru tersebut
 
 
 		Hapus Data Guru
@@ -566,18 +564,18 @@ Admin dapat melakukan perubahan tiap-tiap data guru yang ada.
 
 
 		Deskripsi singkat :
-Admin dapat menghapus data guru jika data guru yang bersangkutan sudah tidak aktif/keluar/mengundurkan diri/berhenti dari sekolah tersebut.
+		Admin dapat menghapus data guru jika data guru yang bersangkutan sudah tidak aktif/keluar/mengundurkan diri/berhenti dari sekolah tersebut.
 
 
 		Langkah - langkah :
-* Admin mengakses halaman data guru
-* Sistem menampilkan semua data guru dalam tabel
-* Admin mencari data guru yang akan di hapus
-* Sistem menampilkan data yang di cari
-* Admin menekan button delete pada kolom aksi
-* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
-* Admin memilih button ya untuk menghapus data guru tersebut
-* Sistem akan menghapus data guru tersebut 
+		* Admin mengakses halaman data guru
+		* Sistem menampilkan semua data guru dalam tabel
+		* Admin mencari data guru yang akan di hapus
+		* Sistem menampilkan data yang di cari
+		* Admin menekan button delete pada kolom aksi
+		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+		* Admin memilih button ya untuk menghapus data guru tersebut
+		* Sistem akan menghapus data guru tersebut 
 
 
 		Tambah Data Users
@@ -1043,7 +1041,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Perbarui Data Guru |
-| XRef |  |
+| XRef | Admin   |
 | Trigger |  |
 | Precondition |  |
 | Basic Path |  |
