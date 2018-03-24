@@ -632,13 +632,17 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 	
 		Langkah - langkah :
 		
-		* Admin mengakses halaman data kelas.
-		* Sistem dapat menampilkan data kelas.
-		* Admin dapat mencari data kelas.
-		* Admin dapat mencari data yang telah dihapus. 
-		* Admin menekan button delete pada kolom aksi.
-		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menambahkan data kelas.
-		* Sistem akan menyimpan data kelas. 
+		* Admin mengakses halaman data Kelas
+
+		* Admin menekan button tambah data
+
+		* Sistem menampilkan form data kelas yang harus diisi untuk ditambahkan
+
+		* Admin mengisi data kelas yang akan ditambahkan
+
+		* Admin menekan button Save changes lalu close
+
+		* Sistem menampilkan data yang kelas yang berhasil ditambahkan.
 
 
 		Perbarui Data Kelas
@@ -1097,11 +1101,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Tambah Data Kelas |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat menambahkan data kelas ketika ada data yang telah ditambahkan dari tiap-tiap kelas |
+| Precondition | Admin sudah login dan akan mengakses halaman data kelas |
+| Basic Path | Admin akan menekan button tambah data, kemudian mengisi form yang telah ada yang harus diisi untuk ditambahkan pada data kelas |
+| Alternative Paths | Jika sudah ditambahkan data kelas akan tersimpan ketika menekan button save |
+| Postcondition | Data siswa yang telah berhasil ditambahkan akan tampil pada web server M-AFI |
 | Exception Paths |  |
 | Other |  |
 
