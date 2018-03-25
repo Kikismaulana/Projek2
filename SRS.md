@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Software Requirement Specification</h1> 
 
-<p>Version 1.1 <br> 04 Maret 2018</p>
+<p>Version 2.0 <br> 25 Maret 2018</p>
 
 <img src="https://image.ibb.co/bJCF0x/POLINDRA.png" height="300px">
 
@@ -204,592 +204,581 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 ![](https://image.ibb.co/mOnA5H/USES_CASES_APP.jpg)
 
 
-		2.2.1.1 Siswa
+2.2.1.1 Siswa
 
-		Masukkan presensi
-		
+Masukkan presensi
+	
 ![](https://image.ibb.co/frsMCx/19.jpg)
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Siswa melakukan proses absensi melalui device fingerprint yang tersedia sehingga data presensi yang dilakukan masuk di database.
+Siswa melakukan proses absensi melalui device fingerprint yang tersedia sehingga data presensi yang dilakukan masuk di database.
 	
 		
-		Langkah-langkah :
-		
-		* Siswa meletakan sidik jari ke device fingerprint.
-		* sistem akan merecord data siswa yang sudah absen.
+Langkah-langkah :
 
-		masuk / keluar
+* Siswa meletakan sidik jari ke device fingerprint.
+* sistem akan merecord data siswa yang sudah absen.
+
+masuk / keluar
 
 ![](https://image.ibb.co/keXGec/20.jpg)
 
-		Deskripsi singkat :
+Deskripsi singkat :
 		
-		Siswa dapat mengakses (masuk/keluar) app M-AFI.
+Siswa dapat mengakses (masuk/keluar) app M-AFI.
 		
-		Langkah-langkah :
+Langkah-langkah :
 		
-		* Siswa membuka app M-AFI
-		* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
-		* Siswa mengisi form login (username dan password)
-		* Sistem melakukan verifikasi data user
-		* Siswa mengakses app M-AFI dengan level sebagai siswa yang hanya dapat mendownload rekap presensi.
-		* Siswa menekan dropdown user pada navbar
-		* Sistem menampilkan pilihan ubah password dan logout
-		* Siswa memilih logout untuk keluar dari sistem
-		* Sistem Menampilkan activity login
+* Siswa membuka app M-AFI
+* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+* Siswa mengisi form login (username dan password)
+* Sistem melakukan verifikasi data user
+* Siswa mengakses app M-AFI dengan level sebagai siswa yang hanya dapat mendownload rekap presensi.
+* Siswa menekan dropdown user pada navbar
+* Sistem menampilkan pilihan ubah password dan logout
+* Siswa memilih logout untuk keluar dari sistem
+* Sistem Menampilkan activity login
 		
-		Ganti password
+Ganti password
 
 ![](https://image.ibb.co/eyZwec/21.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Siswa dapat merubah/mengganti password default akun app M-AFI.
+Siswa dapat merubah/mengganti password default akun app M-AFI.
 		
 		
-		Langkah-langkah :
+Langkah-langkah :
 
-		* Siswa mengakses activity ganti password pada dropdown user di navbar.
-		* Sistem menampilkan activity form ganti password.
-		* Siswa mengisiform (password yang masih aktif, password baru dan konfirmasi password baru).
-		* Sistem Memberikan notice bahwa password telah berubah.
+* Siswa mengakses activity ganti password pada dropdown user di navbar.
+* Sistem menampilkan activity form ganti password.
+* Siswa mengisiform (password yang masih aktif, password baru dan konfirmasi password baru).
+* Sistem Memberikan notice bahwa password telah berubah.
 
 	
-		Rekap Presensi
+Rekap Presensi
 
 ![](https://image.ibb.co/escGec/22.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Siswa dapat mendownload rekap presensi pada kelas yang ia tempati dalam kurun waktu persemester.
+Siswa dapat mendownload rekap presensi pada kelas yang ia tempati dalam kurun waktu persemester.
 		
 		
-		Langkah-langkah :
+Langkah-langkah :
 		
-		* Siswa menekan drawer pada dashboard
-		* Sistem menampilkan button download rekap presensi
-		* Siswa mendownload rekap presensi
+* Siswa menekan drawer pada dashboard
+* Sistem menampilkan button download rekap presensi
+* Siswa mendownload rekap presensi
 
 	
-		2.2.1.2 Orang tua siswa
+2.2.1.2 Orang tua siswa
 
-		Masuk / Keluar
+Masuk / Keluar
 
 ![](https://image.ibb.co/j17hKc/26.jpg)
 
-		Deskripsi singkat :
+Deskripsi singkat :
 		
-		Orang tua siswa dapat mengakses (masuk/keluar) app M-AFI.
+Orang tua siswa dapat mengakses (masuk/keluar) app M-AFI.
 		
-		Langkah-langkah :
+Langkah-langkah :
 		
-		* Orang tua siswa membuka app M-AFI
-		* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
-		* Orang tua siswa mengisi form login (username dan password)
-		* Sistem melakukan verifikasi data user
-		* Orang tua siswa mengakses app M-AFI dengan level sebagai Orang tua siswa yang dapat memonitoring anaknya, dapat mengirim izin, dan mendownload rekap presensi.
-		* Orang tua siswa menekan dropdown user pada navbar
-		* Sistem menampilkan pilihan ubah password dan logout
-		* Orang tua siswa memilih logout untuk keluar dari sistem
-		* Sistem Menampilkan activity login
+* Orang tua siswa membuka app M-AFI
+* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+* Orang tua siswa mengisi form login (username dan password)
+* Sistem melakukan verifikasi data user
+* Orang tua siswa mengakses app M-AFI dengan level sebagai Orang tua siswa yang dapat memonitoring anaknya, dapat mengirim izin, dan mendownload rekap presensi.
+* Orang tua siswa menekan dropdown user pada navbar
+* Sistem menampilkan pilihan ubah password dan logout
+* Orang tua siswa memilih logout untuk keluar dari sistem
+* Sistem Menampilkan activity login
 
 
 
-		Ganti Password
+Ganti Password
 
 ![](https://image.ibb.co/ddcSkH/27.jpg)
 
-		Deskripsi singkat :
+Deskripsi singkat :
 	
-		Orang tua siswa dapat merubah/mengganti password default akun app M-AFI.
+Orang tua siswa dapat merubah/mengganti password default akun app M-AFI.
 		
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Orang tua siswa mengakses activity ganti password pada dropdown user di navbar.
-		* Sistem menampilkan activity form ganti password.
-		* Orang tua siswa mengisi form (password yang masih aktif, password baru dan konfirmasi password baru).
-		* Sistem Memberikan notice bahwa password telah berubah.
+* Orang tua siswa mengakses activity ganti password pada dropdown user di navbar.
+* Sistem menampilkan activity form ganti password.
+* Orang tua siswa mengisi form (password yang masih aktif, password baru dan konfirmasi password baru).
+* Sistem Memberikan notice bahwa password telah berubah.
 
 
-		Monitoring Presensi
+Monitoring Presensi
 
 ![](https://image.ibb.co/jSMnkH/28.jpg)
 
-		Deskripsi singkat :
+Deskripsi singkat :
 	
-		Pada akun orang tua diberikan hak akses untuk dapat melakukan monitoring anaknya pada saat jam masuk dan jam pulan pada activity dashboard.
+Pada akun orang tua diberikan hak akses untuk dapat melakukan monitoring anaknya pada saat jam masuk dan jam pulan pada activity dashboard.
 		
-		Langkah - langkah :
+Langkah - langkah :
 		
-		* Orang tua siswa melakukan proses login pada app M-AFI.
-		* Sistem memperlihatkan presensi masuk dan pulang di hari tersebut pada activity dashboard.
+* Orang tua siswa melakukan proses login pada app M-AFI.
+* Sistem memperlihatkan presensi masuk dan pulang di hari tersebut pada activity dashboard.
 		
 
-		Kirim Izin
+Kirim Izin
 
 ![](https://image.ibb.co/dL8NKc/29.jpg)
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Orang tua siswa dapat mengirimkan izin anaknya melalui app M-AFI dengan mengirimkan bukti/keterangan perizinannya.
+Orang tua siswa dapat mengirimkan izin anaknya melalui app M-AFI dengan mengirimkan bukti/keterangan perizinannya.
 
-		Langkah - langkah
+Langkah - langkah
 
-		* Orang tua siswa memilih button Izin siswa pada activity dashboard yang berada di paling bawah.
-		* Sistem menampilkan form untuk perizinan siswa.
-		* Orang tua siswa mengisi form yang telah disediakan.
-		* Pengiriman perizinan siswa akan masuk melalui webserver pada admin.
+* Orang tua siswa memilih button Izin siswa pada activity dashboard yang berada di paling bawah.
+* Sistem menampilkan form untuk perizinan siswa.
+* Orang tua siswa mengisi form yang telah disediakan.
+* Pengiriman perizinan siswa akan masuk melalui webserver pada admin.
 
 
-		Rekap presensi
+Rekap presensi
 
 ![](https://image.ibb.co/dyX4Xx/30.jpg)
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Orang tua siswa tentunya dapat melihat rekap presensi anaknya pada akun yang ia miliki dengan mendownload pada bagian drawer.
+Orang tua siswa tentunya dapat melihat rekap presensi anaknya pada akun yang ia miliki dengan mendownload pada bagian drawer.
 
-		Langkah - langkah :
+Langkah - langkah :
 		
-		* Orang tua siswa menekan drawer pada dashboard
-		* Sistem menampilkan button download rekap presensi
-		* Orang tua siswa mendownload rekap presensi
+* Orang tua siswa menekan drawer pada dashboard
+* Sistem menampilkan button download rekap presensi
+* Orang tua siswa mendownload rekap presensi
 		
 
 
-		2.2.1.3 Guru
+2.2.1.3 Guru
 
-		Masuk / Keluar
+Masuk / Keluar
 
 ![](https://image.ibb.co/imBL5H/23.jpg)
 		
-		Deskripsi singkat :
+Deskripsi singkat :
 	
-		Guru dapat mengakses (masuk/keluar) app M-AFI.
+Guru dapat mengakses (masuk/keluar) app M-AFI.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Guru membuka app M-AFI
-		* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
-		* Guru mengisi form login (username dan password)
-		* Sistem melakukan verifikasi data user
-		* Guru mengakses app M-AFI dengan level sebagai Guru yang hanya dapat mendownload rekap presensi setiap kelas.
-		* Guru menekan dropdown user pada navbar
-		* Sistem menampilkan pilihan ubah password dan logout
-		* Guru memilih logout untuk keluar dari sistem
-		* Sistem Menampilkan activity login
+* Guru membuka app M-AFI
+* Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+* Guru mengisi form login (username dan password)
+* Sistem melakukan verifikasi data user
+* Guru mengakses app M-AFI dengan level sebagai Guru yang hanya dapat mendownload rekap presensi setiap kelas.
+* Guru menekan dropdown user pada navbar
+* Sistem menampilkan pilihan ubah password dan logout
+* Guru memilih logout untuk keluar dari sistem
+* Sistem Menampilkan activity login
 		
 
-		Ganti Password
+Ganti Password
 
 ![](https://image.ibb.co/bVejXx/24.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Guru dapat merubah/mengganti password default akun app M-AFI.
+Guru dapat merubah/mengganti password default akun app M-AFI.
 		
 		
-		Langkah-langkah :
+Langkah-langkah :
 
-		* Guru mengakses activity ganti password pada dropdown user di navbar.
-		* Sistem menampilkan activity form ganti password.
-		* Guru mengisiform (password yang masih aktif, password baru dan konfirmasi password baru).
-		* Sistem Memberikan notice bahwa password telah berubah.
+* Guru mengakses activity ganti password pada dropdown user di navbar.
+* Sistem menampilkan activity form ganti password.
+* Guru mengisiform (password yang masih aktif, password baru dan konfirmasi password baru).
+* Sistem Memberikan notice bahwa password telah berubah.
 
 
 		
 
-		Rekap Presensi
+Rekap Presensi
 
 ![](https://image.ibb.co/gApwec/25.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Guru dapat mendownload rekap presensi pada setiap kelas yang ada dalam kurun waktu persemester.
+Guru dapat mendownload rekap presensi pada setiap kelas yang ada dalam kurun waktu persemester.
 
-		Langkah - langkah :
+Langkah - langkah :
 		
-		* Guru menekan drawer pada dashboard
-		* Sistem menampilkan button download rekap presensi
-		* Guru mendownload rekap presensi
+* Guru menekan drawer pada dashboard
+* Sistem menampilkan button download rekap presensi
+* Guru mendownload rekap presensi
 
 
 		
-	2.2.2 Webserver
+2.2.2 Webserver
 
 ![](https://image.ibb.co/nNRL5H/USES_CASES_WEBSERVER.jpg)
 
-	2.2.2.1 Admin
+2.2.2.1 Admin
 
-		Masuk / Keluar
+Masuk / Keluar
 
 ![](https://image.ibb.co/dknXKc/1.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin yang telah di tentukan instansi dapat mengakses (masuk/keluar) webserver.
+Admin yang telah di tentukan instansi dapat mengakses (masuk/keluar) webserver.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Admin membuka webserver M-AFI
-		* Sistem menampilkan halaman login
-		* Admin memasukkan username dan password
-		* Sistem melakukan verifikasi username dan password admin
+* Admin membuka webserver M-AFI
+* Sistem menampilkan halaman login
+* Admin memasukkan username dan password
+* Sistem melakukan verifikasi username dan password admin
 
 
-		Tambah Data Siswa
+Tambah Data Siswa
 
 ![](https://image.ibb.co/kvMsKc/2.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin dapat melakukan penambahan data siswa melalui kumpulan dati dengan menggunakan button import data melalui .CSV ataupun dapat berupa penambahan data perorangan melalui button tambah data.
+Admin dapat melakukan penambahan data siswa melalui kumpulan dati dengan menggunakan button import data melalui .CSV ataupun dapat berupa penambahan data perorangan melalui button tambah data.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Admin mengakses halaman data siswa dengan menekan menu data siswa pada navigasi menu.
-		* Sistem menampilkan halaman data siswa yang berisi button-button fungsi dan data siswa yang ada.
-		* Admin menekan button pilih file untuk menambahkan data berupa import data dari file .CSV
-		* Sistem menampilkan browse file pada admin.
-		* Admin memilih file .CSV.
-		* Sistem menyimpan pilihan admin.
-		* Admin menekan button import.
-		* Sistem akan merecod semua data yang ada pada file .CSV.
-		* Admin menekan button tambah data untuk menambahkan data perorang.
-		* Sistem menampilkan modal yang berisi form-form untuk pengisian data siswa.
-		* Admin mengisi form dan menekan button save.
-		* Sistem akan menyimpan data.
+* Admin mengakses halaman data siswa dengan menekan menu data siswa pada navigasi menu.
+* Sistem menampilkan halaman data siswa yang berisi button-button fungsi dan data siswa yang ada.
+* Admin menekan button pilih file untuk menambahkan data berupa import data dari file .CSV
+* Sistem menampilkan browse file pada admin.
+* Admin memilih file .CSV.
+* Sistem menyimpan pilihan admin.
+* Admin menekan button import.
+* Sistem akan merecod semua data yang ada pada file .CSV.
+* Admin menekan button tambah data untuk menambahkan data perorang.
+* Sistem menampilkan modal yang berisi form-form untuk pengisian data siswa.
+* Admin mengisi form dan menekan button save.
+* Sistem akan menyimpan data.
 
-		Perbarui Data Siswa
+Perbarui Data Siswa
 
 ![](https://image.ibb.co/jTLV5H/3.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin dapat melakukan perubahan pada tiap-tiap data siswa yang ada.
+Admin dapat melakukan perubahan pada tiap-tiap data siswa yang ada.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Admin mengakses halaman data siswa
-		* Sistem menampilkan semua data siswa dalam tabel
-		* Admin mencari data siswa yang akan di perbarui
-		* Sistem menampilkan data yang di cari
-		* Admin menekan button update pada kolom aksi
-		* Sistem akan menampilkan modal yang form-formnya berisi dari data siswa yang ingin di perbarui
-		* Admin melakukan perubahan pada data siswa dan menekan button save
-		* Sistem akan memperbarui data siswa tersebut
+* Admin mengakses halaman data siswa
+* Sistem menampilkan semua data siswa dalam tabel
+* Admin mencari data siswa yang akan di perbarui
+* Sistem menampilkan data yang di cari
+* Admin menekan button update pada kolom aksi
+* Sistem akan menampilkan modal yang form-formnya berisi dari data siswa yang ingin di perbarui
+* Admin melakukan perubahan pada data siswa dan menekan button save
+* Sistem akan memperbarui data siswa tersebut
 
 
 
-		Hapus Data Siswa
+Hapus Data Siswa
 
 ![](https://image.ibb.co/gXiHkH/4.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin dapat menghapus data siswa jika siswa yang bersangkutan sudah tidak lagi aktif/DO/keluar/berhenti dari sekolah tersebut.
+Admin dapat menghapus data siswa jika siswa yang bersangkutan sudah tidak lagi aktif/DO/keluar/berhenti dari sekolah tersebut.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Admin mengakses halaman data siswa
-		* Sistem menampilkan semua data siswa dalam tabel
-		* Admin mencari data siswa yang akan di hapus
-		* Sistem menampilkan data yang di cari
-		* Admin menekan button delete pada kolom aksi
-		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
-		* Admin memilih button ya untuk menghapus data siswa tersebut
-		* Sistem akan menghapus data siswa tersebut 
+* Admin mengakses halaman data siswa
+* Sistem menampilkan semua data siswa dalam tabel
+* Admin mencari data siswa yang akan di hapus
+* Sistem menampilkan data yang di cari
+* Admin menekan button delete pada kolom aksi
+* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+* Admin memilih button ya untuk menghapus data siswa tersebut
+* Sistem akan menghapus data siswa tersebut 
 
 
 
-		Tambah Data Guru
+Tambah Data Guru
 
 ![](https://image.ibb.co/e7RsKc/5.jpg)
 
 
-		Deskripsi singkat :
- 		Admin dapat menambahkan data guru berupa Nip, nama lengkap  dll ke dalam tabel data guru yang ada di webserver M-AFI.
+Deskripsi singkat :
+ Admin dapat menambahkan data guru berupa Nip, nama lengkap  dll ke dalam tabel data guru yang ada di webserver M-AFI.
 		
 
-		Langkah - langkah :
-		* Admin mengakses halaman data guru
-		
-		* Admin menekan button tambah guru
-		
-		* Sistem menampilkan form data guru yang harus diisi untuk ditambahkan
-		
-		* Admin mengisi data guru yang akan ditambahkan
-		
-		* Sistem menyediakan button Save changes dan close
-		
-		* Admin menekan button Save changes lalu close
-		
-		* Sistem menampilkan data yang guru yang berhasil ditambahkan.
+Langkah - langkah :
+* Admin mengakses halaman data guru
+* Admin menekan button tambah guru
+* Sistem menampilkan form data guru yang harus diisi untuk ditambahkan
+* Admin mengisi data guru yang akan ditambahkan
+* Sistem menyediakan button Save changes dan close
+* Admin menekan button Save changes lalu close
+* Sistem menampilkan data yang guru yang berhasil ditambahkan.
 
 
 
-		Perbarui Data Guru
+Perbarui Data Guru
 
 ![](https://image.ibb.co/d7Fmec/6.jpg)
 
 
-		Deskripsi singkat :
-		Admin dapat melakukan perubahan tiap-tiap data guru yang ada.
+Deskripsi singkat :
+Admin dapat melakukan perubahan tiap-tiap data guru yang ada.
 
 
-		Langkah - langkah : 
-		* Admin mengakses halaman data guru
-		* Sistem menampilkan semua data guru dalam tabel
-		* Admin mencari data guru yang akan di perbarui
-		* Sistem menampilkan data yang di cari
-		* Admin menekan button update pada kolom aksi
-		* Sistem akan menampilkan modal yang form-formnya berisi dari data guru yang ingin di perbarui
-		* Admin melakukan perubahan pada data guru  dan menekan button save
-		* Sistem akan memperbarui data guru tersebut
+Langkah - langkah : 
+* Admin mengakses halaman data guru
+* Sistem menampilkan semua data guru dalam tabel
+* Admin mencari data guru yang akan di perbarui
+* Sistem menampilkan data yang di cari
+* Admin menekan button update pada kolom aksi
+* Sistem akan menampilkan modal yang form-formnya berisi dari data guru yang ingin di perbarui
+* Admin melakukan perubahan pada data guru  dan menekan button save
+* Sistem akan memperbarui data guru tersebut
 
 
-		Hapus Data Guru
+Hapus Data Guru
 
 ![](https://image.ibb.co/nepCKc/7.jpg)
 
 
-		Deskripsi singkat :
-		Admin dapat menghapus data guru jika data guru yang bersangkutan sudah tidak aktif/keluar/mengundurkan diri/berhenti dari sekolah tersebut.
+Deskripsi singkat :
+Admin dapat menghapus data guru jika data guru yang bersangkutan sudah tidak aktif/keluar/mengundurkan diri/berhenti dari sekolah tersebut.
 
 
-		Langkah - langkah :
-		* Admin mengakses halaman data guru
-		* Sistem menampilkan semua data guru dalam tabel
-		* Admin mencari data guru yang akan di hapus
-		* Sistem menampilkan data yang di cari
-		* Admin menekan button delete pada kolom aksi
-		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
-		* Admin memilih button ya untuk menghapus data guru tersebut
-		* Sistem akan menghapus data guru tersebut 
+Langkah - langkah :
+* Admin mengakses halaman data guru
+* Sistem menampilkan semua data guru dalam tabel
+* Admin mencari data guru yang akan di hapus
+* Sistem menampilkan data yang di cari
+* Admin menekan button delete pada kolom aksi
+* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+* Admin memilih button ya untuk menghapus data guru tersebut
+* Sistem akan menghapus data guru tersebut 
 
 
-		Tambah Data Users
+Tambah Data Users
 
 ![](https://image.ibb.co/hmOuXx/8.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 		
-		Admin dapat melakukan penambahan data users siswa dan users guru melalui penambahan data users melalui button tambah data.
+Admin dapat melakukan penambahan data users siswa dan users guru melalui penambahan data users melalui button tambah data.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Admin mengakses halaman data users dengan menekan menu data user pada navigasi menu, pilih user siswa atau guru.
-		* Sistem menampilkan halaman data user yang berisi button_button fungsi dan data user yang ada
-		* Sistem menampilkan browse file pada admin.
-		* Admin menekan button tambah data untuk menambahkan data peruser.
-		* Sistem menampilkan modal yang berisi form-form untuk pengisian data user.
-		* Admin mengisi form dan menekan button save.
-		* Sistem akan menyimpan data.
+* Admin mengakses halaman data users dengan menekan menu data user pada navigasi menu, pilih user siswa atau guru.
+* Sistem menampilkan halaman data user yang berisi button_button fungsi dan data user yang ada
+* Sistem menampilkan browse file pada admin.
+* Admin menekan button tambah data untuk menambahkan data peruser.
+* Sistem menampilkan modal yang berisi form-form untuk pengisian data user.
+* Admin mengisi form dan menekan button save.
+* Sistem akan menyimpan data.
 
-		Perbarui Data Users
+Perbarui Data Users
 
 ![](https://image.ibb.co/g5Zq5H/9.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin dapat melakukan perubahan pada tiap-tiap data user yang ada.
+Admin dapat melakukan perubahan pada tiap-tiap data user yang ada.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Admin mengakses halaman data user
-		* Sistem menampilkan semua data user dalam tabel
-		* Admin mencari data user yang akan di perbarui
-		* Sistem menampilkan data yang di cari
-		* Admin menekan button update pada kolom aksi
-		* Sistem akan menampilkan modal yang form-formnya berisi dari data user yang ingin di perbarui
-		* Admin melakukan perubahan pada data user dan menekan button save
-		* Sistem akan memperbarui data user tersebut
+* Admin mengakses halaman data user
+* Sistem menampilkan semua data user dalam tabel
+* Admin mencari data user yang akan di perbarui
+* Sistem menampilkan data yang di cari
+* Admin menekan button update pada kolom aksi
+* Sistem akan menampilkan modal yang form-formnya berisi dari data user yang ingin di perbarui
+* Admin melakukan perubahan pada data user dan menekan button save
+* Sistem akan memperbarui data user tersebut
 
-		Hapus Data Users
+Hapus Data Users
 
 ![](https://image.ibb.co/chfV5H/10.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin dapat menghapus data user jika user sudah tidak lagi aktif/DO/keluar/berhenti dari sekolah tersebut.
+Admin dapat menghapus data user jika user sudah tidak lagi aktif/DO/keluar/berhenti dari sekolah tersebut.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Admin mengakses halaman data user siswa atau user guru
-		* Sistem menampilkan semua data user dalam tabel
-		* Admin mencari data user yang akan di hapus
-		* Sistem menampilkan data yang di cari
-		* Admin menekan button delete pada kolom aksi
-		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
-		* Admin memilih button ya untuk menghapus data siswa tersebut
-		* Sistem akan menghapus data user tersebut
+* Admin mengakses halaman data user siswa atau user guru
+* Sistem menampilkan semua data user dalam tabel
+* Admin mencari data user yang akan di hapus
+* Sistem menampilkan data yang di cari
+* Admin menekan button delete pada kolom aksi
+* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+* Admin memilih button ya untuk menghapus data siswa tersebut
+* Sistem akan menghapus data user tersebut
 
-		Tambah Data Kelas
+Tambah Data Kelas
 
 ![](https://image.ibb.co/cYggCx/11.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin dapat menambahkan data kelas ketika ada tambahan dari tiap-tiap kelas.
+Admin dapat menambahkan data kelas ketika ada tambahan dari tiap-tiap kelas.
 	
-		Langkah - langkah :
+Langkah - langkah :
 		
-		* Admin mengakses halaman data Kelas
-
-		* Admin menekan button tambah data
-
-		* Sistem menampilkan form data kelas yang harus diisi untuk ditambahkan
-
-		* Admin mengisi data kelas yang akan ditambahkan
-
-		* Admin menekan button Save changes lalu close
-
-		* Sistem menampilkan data yang kelas yang berhasil ditambahkan.
+* Admin mengakses halaman data Kelas
+* Admin menekan button tambah data
+* Sistem menampilkan form data kelas yang harus diisi untuk ditambahkan
+* Admin mengisi data kelas yang akan ditambahkan
+* Admin menekan button Save changes lalu close
+* Sistem menampilkan data yang kelas yang berhasil ditambahkan.
 
 
-		Perbarui Data Kelas
+Perbarui Data Kelas
 
 ![](https://image.ibb.co/j01Rec/12.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin dapat melakukan perubahan pada tiap-tiap data kelas yang ada.
+Admin dapat melakukan perubahan pada tiap-tiap data kelas yang ada.
 
 
-		Langkah - langkah :
+Langkah - langkah :
 
 		
-		* Admin mengakses halaman data kelas
-		* Sistem menampilkan semua data kelas pada tabel
-		* Admin mencari data kelas yang akan di perbarui
-		* Sistem menampilkan data yang akan cari
-		* Admin menekan button update pada kolom aksi
-		* Sistem akan menampilkan modal yang form-formnya berisi tambah data kelas yang ingin di perbarui
-		* Admin melakukan perubahan pada data kelas dan menekan button save
-		* Sistem akan memperbarui data kelas. 
+* Admin mengakses halaman data kelas
+* Sistem menampilkan semua data kelas pada tabel
+* Admin mencari data kelas yang akan di perbarui
+* Sistem menampilkan data yang akan cari
+* Admin menekan button update pada kolom aksi
+* Sistem akan menampilkan modal yang form-formnya berisi tambah data kelas yang ingin di perbarui
+* Admin melakukan perubahan pada data kelas dan menekan button save
+* Sistem akan memperbarui data kelas. 
 
-		Hapus Data Kelas
+Hapus Data Kelas
 
 ![](https://image.ibb.co/iG2XKc/13.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin dapat menghapus data yang sudah tidak diperlukan.
+Admin dapat menghapus data yang sudah tidak diperlukan.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Admin mengakses halaman data kelas
-		* Sistem menampilkan semua data kelas pada tabel
-		* Admin mencari data kelas yang akan di hapus
-		* Sistem menampilkan data yang ingin di cari
-		* Admin menekan button delete pada kolom aksi
-		* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
-		* Admin memilih button ya untuk menghapus data kelas tersebut
-		* Sistem akan menghapus data kelas. 
+* Admin mengakses halaman data kelas
+* Sistem menampilkan semua data kelas pada tabel
+* Admin mencari data kelas yang akan di hapus
+* Sistem menampilkan data yang ingin di cari
+* Admin menekan button delete pada kolom aksi
+* Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+* Admin memilih button ya untuk menghapus data kelas tersebut
+* Sistem akan menghapus data kelas. 
 
-		Tambah Data Jurusan
+Tambah Data Jurusan
 
 ![](https://image.ibb.co/bUPOQH/14.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
  
-		Admin dapat melakukan penambahan data jurusan jika sekolah memiliki jurusan baru.
+Admin dapat melakukan penambahan data jurusan jika sekolah memiliki jurusan baru.
  
- 		Langkah - langkah :
+Langkah - langkah :
  
-		* Admin mengakses halaman data jurusan dengan menekan menu data jurusan pada navigasi menu.
-		* Sistem menampilkan halaman data jurusan yang berisi button-button fungsi dan data jurusan yang ada.
-		* Admin mengisi form tambah data jurusan dan mengklik button tambah data.
-		* Sistem menambahkan data jurusan yang telah diinputkan oleh admin 
+* Admin mengakses halaman data jurusan dengan menekan menu data jurusan pada navigasi menu.
+* Sistem menampilkan halaman data jurusan yang berisi button-button fungsi dan data jurusan yang ada.
+* Admin mengisi form tambah data jurusan dan mengklik button tambah data.
+* Sistem menambahkan data jurusan yang telah diinputkan oleh admin 
 		
 	
 		
 
 
 
-		Perbarui Data Jurusan
+Perbarui Data Jurusan
 
 ![](https://image.ibb.co/b1w3QH/15.jpg)
 
 
-		Deskripsi singkat :
-		Admin dapat memperbaharui data jurusan dengan menekan button update
+Deskripsi singkat :
+Admin dapat memperbaharui data jurusan dengan menekan button update
 
 
-		Langkah - langkah :
-		* Admin mencari data jurusan melalui fungsi search
-		* Sistem memproses dan mencari data jurusan
-		* Admin dapat mengupdate data jurusan dengan menekan button update.
-		* Sistem memproses dan mengupdate data jurusan.
+Langkah - langkah :
+* Admin mencari data jurusan melalui fungsi search
+* Sistem memproses dan mencari data jurusan
+* Admin dapat mengupdate data jurusan dengan menekan button update.
+* Sistem memproses dan mengupdate data jurusan.
 
 
-		Hapus Data Jurusan
+Hapus Data Jurusan
 
 ![](https://image.ibb.co/f9cA5H/16.jpg)
 
 
-		Deskripsi singkat :
-		Admin dapat menghapus data jurusan jika memang tidak dibutuhkan.
+Deskripsi singkat :
+Admin dapat menghapus data jurusan jika memang tidak dibutuhkan.
 
 
-		Langkah - langkah :
-		* Admin mencari data jurusan melalui fungsi search
-		* Sistem memproses dan mencari data jurusan
-		* Admin dapat menghapus data dengan menekan button delete.
-		* Sistem memproses dan menghapus data jurusan.
+Langkah - langkah :
+* Admin mencari data jurusan melalui fungsi search
+* Sistem memproses dan mencari data jurusan
+* Admin dapat menghapus data dengan menekan button delete.
+* Sistem memproses dan menghapus data jurusan.
 
 
 
-		Update Presensi Izin
+Update Presensi Izin
 
 ![](https://image.ibb.co/d7hMCx/17.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin akan menerima permintaan izin dari orang tua siswa yang kemudian admin melakukan approvement untuk mengupdate data prsensi siswa yang berkaitan tersebut.
+Admin akan menerima permintaan izin dari orang tua siswa yang kemudian admin melakukan approvement untuk mengupdate data prsensi siswa yang berkaitan tersebut.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Sistem memberikan notifikasi pada admin melalui webserver di bagian notifikasi engan icon messages
-		* Admin menekan button icon tersebut
-		* Sistem menampilan halaman presensi
-		* Admin melihat data perizinan siswa dan kemudian melakukan approvement dengan mengupdate presensi siswa tersebut.
-		* Sistem memperbarui presensi siswa tersebut.
+* Sistem memberikan notifikasi pada admin melalui webserver di bagian notifikasi engan icon messages
+* Admin menekan button icon tersebut
+* Sistem menampilan halaman presensi
+* Admin melihat data perizinan siswa dan kemudian melakukan approvement dengan mengupdate presensi siswa tersebut.
+* Sistem memperbarui presensi siswa tersebut.
 
 
-		Cari Data
+Cari Data
 
 ![](https://image.ibb.co/ncVV5H/18.jpg)
 
 
-		Deskripsi singkat :
+Deskripsi singkat :
 
-		Admin dapat melakukan pencarian siswa pada data siswa, guru, user, kelas, jurusan dan presensi.
+Admin dapat melakukan pencarian siswa pada data siswa, guru, user, kelas, jurusan dan presensi.
 
-		Langkah - langkah :
+Langkah - langkah :
 
-		* Admin mengakses pada halaman tertentu yang ingin di cari datanya
-		* Sistem menyediakan form search pada tiap-tiap halaman
-		* Admin mengisi form search untuk mencari data yang ingin di cari
-		* Sistem akan menampilkan data yang admin cari
+* Admin mengakses pada halaman tertentu yang ingin di cari datanya
+* Sistem menyediakan form search pada tiap-tiap halaman
+* Admin mengisi form search untuk mencari data yang ingin di cari
+* Sistem akan menampilkan data yang admin cari
 
 
 
@@ -840,10 +829,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Masukkan presensi |
-| XRef |  |
+| XRef | 2.2.1.1 Siswa, Masukkan presensi |
 | Trigger | Siswa dapat memasukan presensi dengan menekan fingerprint |
 | Precondition | Presensi akan masuk ke web server M-AFI dan app M-AFI |
-| Basic Path | Siswa harus login dan melihat presensi melalui app M-AFI  |
+| Basic Path | * Siswa meletakan sidik jari ke device fingerprint
+| | * sistem akan merecord data siswa yang sudah absen.  |
 | Alternative Paths | Presensi dilakukan siswa dengan menekan fingerprint melalui sidik jari siswa |
 | Postcondition | Presensi akan tampil pada app M-AFI dan web server M-AFI |
 | Exception Paths |  |
@@ -855,10 +845,18 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | masuk / keluar |
-| XRef |  |
+| XRef | 2.2.1.1 Siswa, Masuk / Keluar |
 | Trigger | Siswa dapat melakukan login untuk masuk app M-AFI diperangkat mobile dan kemudian logout untuk keluarnya  |
 | Precondition | Siswa harus memiliki app M-AFI pada smartphonenya  |
-| Basic Path | Siswa dapat membuka app M-AFI pada smartphone, kemudian mengisi form login yang telah disediakan dengan memasukan username dan password  |
+| Basic Path | * Siswa membuka app M-AFI
+| | * Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+| | * Siswa mengisi form login (username dan password)
+| | * Sistem melakukan verifikasi data user
+| | * Siswa mengakses app M-AFI dengan level sebagai siswa yang hanya dapat mendownload rekap presensi.
+| | * Siswa menekan dropdown user pada navbar
+| | * Sistem menampilkan pilihan ubah password dan logout
+| | * Siswa memilih logout untuk keluar dari sistem
+| | * Sistem Menampilkan activity login  |
 | Alternative Paths | jika sudah mengisi form login salah maka bisa menghubungi admin atau mengklik lupa password |
 | Postcondition | setelah melakukan proses login ssiswa dapat melihat tampilan presensi yang sudah ada |
 | Exception Paths |  |
@@ -870,10 +868,12 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Rekap Presensi |
-| XRef |  |
+| XRef | 2.2.1.1 Siswa, Rekap PResensi |
 | Trigger | Pada Rekap Presensi ini berisi keseluruhan presensi siswa dari mulai awal masuk sekolah sampai sekarang |
 | Precondition | Siswa dapat login melalui app M-AFI, siswa dapat memilih rekap yang ingin di download dalam bentuk dokumen yakni tahun ataupun semester|
-| Basic Path | siswa dapat memilih tahun dan semester pada app M-AFI |
+| Basic Path | * Siswa menekan drawer pada dashboard
+| | * Sistem menampilkan button download rekap presensi
+| | * Siswa mendownload rekap presensi |
 | Alternative Paths | Siswa dapat melihat rekap presensi pada app M-AFI |
 | Postcondition | File yang didownload berupa file excel|
 | Exception Paths |  |
@@ -887,10 +887,18 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Masuk / keluar |
-| XRef |  |
+| XRef | 2.2.1.2 Orang tua siswa, Masuk / Keluar |
 | Trigger | Orang tua siswa melakukan login untuk masuk pada app M-AFI di perangkat mobile dan juga logout untuk keluarnya |
-| Precondition | Orang tua siswa harus mempunyai app M-AFI pada smartphone dengan minimum OS Lolipop |
-| Basic Path | Orang tua siswa membuka App M-AFI pada smartphone, mengisi form login yang telah disediakan dengan memasukkan username yaitu NISN dan password |
+| Precondition | Orang tua siswa harus mempunyai app M-AFI pada smartphone dengan minimum OS Lolipop, Orang tua siswa membuka App M-AFI pada smartphone, mengisi form login yang telah disediakan dengan memasukkan username yaitu NISN dan password |
+| Basic Path | * Orang tua siswa membuka app M-AFI
+| | * Sistem menampilkan activity Login untuk masuk dengan level yang telah di tentukan
+| | * Orang tua siswa mengisi form login (username dan password)
+| | * Sistem melakukan verifikasi data user
+| | * Orang tua siswa mengakses app M-AFI dengan level sebagai Orang tua siswa yang dapat memonitoring anaknya, dapat mengirim izin, dan mendownload rekap presensi.
+| | * Orang tua siswa menekan dropdown user pada navbar
+| | * Sistem menampilkan pilihan ubah password dan logout
+| | * Orang tua siswa memilih logout untuk keluar dari sistem
+| | * Sistem Menampilkan activity login |
 | Alternative Paths | Jika saat mengisi form login salah maka segera hubungi admin/klik lupa password |
 | Postcondition | Setelah melakukan proses login orang tua siswa di suguhkan dengan tampilan monitoring presensi anaknya |
 | Exception Paths |  |
@@ -902,10 +910,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Ganti password |
-| XRef |  |
+| XRef | 2.2.1.2 Orang tua siswa, Ganti Password |
 | Trigger | Ganti password berguna untuk orang tua siswa yang kesulitan untuk login ataupun lupa passwordnya |
-| Precondition | Orang tua membuka app M-AFI |
-| Basic Path | Orang tua siswa berada pada halaman login, orang tua siswa melakukan proses login namun terjadi kesalahan pada passwordnya, orang tua siswa menekan link lupa password yang akan di direct pada halaman web untuk memasukkan email, orang tua siswa akan mendapatkan email dari admin/sistem untuk merubah passwordnya |
+| Precondition | Orang tua membuka app M-AFI, Orang tua siswa berada pada halaman login, orang tua siswa melakukan proses login namun terjadi kesalahan pada passwordnya, orang tua siswa menekan link lupa password yang akan di direct pada halaman web untuk memasukkan email, orang tua siswa akan mendapatkan email dari admin/sistem untuk merubah passwordnya |
+| Basic Path | * Orang tua siswa mengakses activity ganti password pada dropdown user di navbar.
+| | * Sistem menampilkan activity form ganti password.
+| | * Orang tua siswa mengisi form (password yang masih aktif, password baru dan konfirmasi password baru).
+| | * Sistem Memberikan notice bahwa password telah berubah. |
 | Alternative Paths | Jika sudah masuk/berada pada halaman dashboard dapat langsung diganti dengan menekan dropdown account dan menekan ganti password kemudian mengganti passwordnya |
 | Postcondition | Password akun orang tua siswa akan terupdate dengan password baru |
 | Exception Paths |  |
@@ -917,10 +928,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Monitoring presensi |
-| XRef |  |
+| XRef | 2.2.1.2 Orang tua siswa, Monitoring Presensi |
 | Trigger | Pada bagian ini orang tua siswa dapat melihat waktu kedatangan anaknya saat masuk sekolah begitupun saat pulang |
-| Precondition | Tampilan kolom masuk/pulang (hanya berisi tanda - atau TH ) tidak akan terlihat sebelum anaknya melakukan presensi dengan menekan fingerprint |
-| Basic Path | Orang tua siswa dapat melakukan monitoring setidaknya minimal saat jam 8 untuk jam masuk dan jam set 4 untuk jam pulang |
+| Precondition | Tampilan kolom masuk/pulang (hanya berisi tanda - atau TH ) tidak akan terlihat sebelum anaknya melakukan presensi dengan menekan fingerprint, Orang tua siswa dapat melakukan monitoring setidaknya minimal saat jam 8 untuk jam masuk dan jam set 4 untuk jam pulang |
+| Basic Path | * Orang tua siswa melakukan proses login pada app M-AFI.
+| | * Sistem memperlihatkan presensi masuk dan pulang di hari tersebut pada activity dashboard. |
 | Alternative Paths | Orang tua siswa dapat selalu memonitoring pada dashboard, jika memang cemas akan kehadiran anaknya segera hubungi admin |
 | Postcondition | Presensi akan nampak dengan waktu real time pada dashboar orang tua siswa |
 | Exception Paths |  |
@@ -932,10 +944,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Kirim izin |
-| XRef |  |
+| XRef | 2.2.1.2 Orang tua siswa, Kirim Izin |
 | Trigger | Orang tua siswa dapat mengirimkan perizinan anaknya jika berhalangan hadir melalui App M-AFI |
-| Precondition | Orang tua siswa sudah login dan berada pada halaman dashboard |
-| Basic Path | Orang tua siswa menekan tombol izin, Orang tua siswa mengisi form yang telah disediakan oleh sistem, orang tua siswa harus menyertakan foto surat keterangan sakit ataupun surat yang bertanda tangan orang tua tersebut, atur tanggal untuk perizinan, kirim perizinan |
+| Precondition | Orang tua siswa sudah login dan berada pada halaman dashboard, Orang tua siswa menekan tombol izin, Orang tua siswa mengisi form yang telah disediakan oleh sistem, orang tua siswa harus menyertakan foto surat keterangan sakit ataupun surat yang bertanda tangan orang tua tersebut, atur tanggal untuk perizinan, kirim perizinan |
+| Basic Path | * Orang tua siswa memilih button Izin siswa pada activity dashboard yang berada di paling bawah.
+| | * Sistem menampilkan form untuk perizinan siswa.
+| | * Orang tua siswa mengisi form yang telah disediakan.
+| | * Pengiriman perizinan siswa akan masuk melalui webserver pada admin. |
 | Alternative Paths | perizinan siswa dapat juga melalui admin langsung di sekolah |
 | Postcondition | Data perizinan akan masuk pada admin yang kemudian akan diupdate setelah di approve oleh admin |
 | Exception Paths |  |
@@ -948,10 +963,12 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Rekap presensi |
-| XRef |  |
+| XRef | 2.2.1.2 Orang tua siswa, Rekap Presensi |
 | Trigger | Rekap presensi berisi keseluruhan presensi dari anaknya mulai masuk sekolah sampai waktu sekarang ini |
-| Precondition | Orang tua siswa sudah login M-AFI, Orang tua siswa menekan slidebar pada header M-AFI, orang tua siswa dapat memilih rekap yang ingin di download dalam bentuk dokumen yakni mingguan, bulanan ataupun semester. |
-| Basic Path | Orang tua siswa menekan salah satu sub rekap pada slide bar |
+| Precondition | Orang tua siswa sudah login M-AFI, Orang tua siswa menekan slidebar pada header M-AFI, orang tua siswa dapat memilih rekap yang ingin di download dalam bentuk dokumen yakni mingguan, bulanan ataupun semester. Orang tua siswa menekan salah satu sub rekap pada slide bar |
+| Basic Path | * Orang tua siswa menekan drawer pada dashboard
+| | * Sistem menampilkan button download rekap presensi
+| | * Orang tua siswa mendownload rekap presensi |
 | Alternative Paths |  |
 | Postcondition | File yang di download akan berupa file excel |
 | Exception Paths |  |
@@ -966,10 +983,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Masuk / Keluar |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Masuk / Keluar |
 | Trigger | Admin melakukan login untuk masuk ke web server dan juga logout untuk keluarnya. |
-| Precondition | Admin harus memiliki web server M-AFI pada laptopnya |
-| Basic Path | Admin membuka web M-AFI pada laptop, mengisi form login yang sudah ada dengan memasukan username dan password |
+| Precondition | Admin harus memiliki web server M-AFI pada laptopnya, Admin membuka web M-AFI pada laptop, mengisi form login yang sudah ada dengan memasukan username dan password |
+| Basic Path | * Admin membuka webserver M-AFI
+| | * Sistem menampilkan halaman login
+| | * Admin memasukkan username dan password
+| | * Sistem melakukan verifikasi username dan password admin |
 | Alternative Paths | Jika mengisi form login dipastikan harus tahu username dan password |
 | Postcondition | Setelah melakukan proses login admin akan melihat data-data yang ada pada web tersebut. |
 | Exception Paths |  |
@@ -981,10 +1001,21 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Tambah Data Siswa |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Tambah Data Siswa |
 | Trigger | Admin dapat menambahkan data siswa pada web server M-AFI |
-| Precondition | Admin ketika sudah login maka akan berada pada tampilan awal admin |
-| Basic Path | Admin menekan button pilih file untuk menambahkan data berupa import data dari file .CSV dan admin juga dapat menambahkan data perorangan dengan menekan button tambah data |
+| Precondition | Admin ketika sudah login maka akan berada pada tampilan awal admin, Admin menekan button pilih file untuk menambahkan data berupa import data dari file .CSV dan admin juga dapat menambahkan data perorangan dengan menekan button tambah data |
+| Basic Path | * Admin mengakses halaman data siswa dengan menekan menu data siswa pada navigasi menu.
+| | * Sistem menampilkan halaman data siswa yang berisi button-button fungsi dan data siswa yang ada.
+| | * Admin menekan button pilih file untuk menambahkan data berupa import data dari file .CSV
+| | * Sistem menampilkan browse file pada admin.
+| | * Admin memilih file .CSV.
+| | * Sistem menyimpan pilihan admin.
+| | * Admin menekan button import.
+| | * Sistem akan merecod semua data yang ada pada file .CSV.
+| | * Admin menekan button tambah data untuk menambahkan data perorang.
+| | * Sistem menampilkan modal yang berisi form-form untuk pengisian data siswa.
+| | * Admin mengisi form dan menekan button save.
+| | * Sistem akan menyimpan data. |
 | Alternative Paths |Jika Admin sudah menambahkan data siswa maka admin dapat menekan button save |
 | Postcondition | Setelah admin menambahkan data siswa maka sistem akan menyimpan data siswa tersebut |
 | Exception Paths |  |
@@ -996,10 +1027,17 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Perbarui Data Siswa |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Perbarui Data |
 | Trigger | Admin dapat melakukan perbarui data siswa ketika data siswa tersebut ada perubahan |
-| Precondition | Admin ketika sudah mengakses halaman data siswa maka akan menampilkan semua data siswa pada tabel |
-| Basic Path | Admin dapat mencari data siswa yang akan diperbarui dengan menekan button update |
+| Precondition | Admin ketika sudah mengakses halaman data siswa maka akan menampilkan semua data siswa pada tabel, Admin dapat mencari data siswa yang akan diperbarui dengan menekan button update |
+| Basic Path | * Admin mengakses halaman data siswa
+| | * Sistem menampilkan semua data siswa dalam tabel
+| | * Admin mencari data siswa yang akan di perbarui
+| | * Sistem menampilkan data yang di cari
+| | * Admin menekan button update pada kolom aksi
+| | * Sistem akan menampilkan modal yang form-formnya berisi dari data siswa yang ingin di perbarui
+| | * Admin melakukan perubahan pada data siswa dan menekan button save
+| | * Sistem akan memperbarui data siswa tersebut |
 | Alternative Paths | Admin dapat melakukan perubahan pada data siswa dengan menekan button save |
 | Postcondition | Setelah admin melakukan perubahan data siswa maka akan tampil pada tabel  |
 | Exception Paths |  |
@@ -1011,10 +1049,17 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Hapus Data Siswa |
-| XRef | |
+| XRef | 2.2.2.1 Admin, Hapus Data SIswa |
 | Trigger | Admin dapat menghapus data siswa yang sudah tidak digunakan atau siswa sudah berhenti sekolah |
-| Precondition | Admin dapat mencari data yang ingin dihapus|
-| Basic Path | Pada web server M-AFI akan menampilkan semua data yang telah dicari yang ingin dihapus pada tabel|
+| Precondition | Admin dapat mencari data yang ingin dihapus, Pada web server M-AFI akan menampilkan semua data yang telah dicari yang ingin dihapus pada tabel |
+| Basic Path | * Admin mengakses halaman data siswa
+| | * Sistem menampilkan semua data siswa dalam tabel
+| | * Admin mencari data siswa yang akan di hapus
+| | * Sistem menampilkan data yang di cari
+| | * Admin menekan button delete pada kolom aksi
+| | * Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+| | * Admin memilih button ya untuk menghapus data siswa tersebut
+| | * Sistem akan menghapus data siswa tersebut |
 | Alternative Paths | Jika sudah menemukan data yang telah dicari maka admin dapat menekan button delete untuk menghapus data siswa tersebut |
 | Postcondition | Data siswa akan terhapus pada web server M-AFI|
 | Exception Paths |  |
@@ -1026,10 +1071,16 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Tambah Data Guru |
-| XRef | |
+| XRef | 2.2.2.1 Admin, Tambah Data Guru |
 | Trigger | Admin dapat menambahkan data guru pada web server M-AFI  |
-| Precondition |Admin akan menampikan form data guru yang sudah disediakan untuk ditambahkan |
-| Basic Path | Admin akan mengisi data guru yang telah ditambahkan pada web server M-AFI |
+| Precondition | Admin akan menampikan form data guru yang sudah disediakan untuk ditambahkan, Admin akan mengisi data guru yang telah ditambahkan pada web server M-AFI |
+| Basic Path | * Admin mengakses halaman data guru
+| | * Admin menekan button tambah guru
+| | * Sistem menampilkan form data guru yang harus diisi untuk ditambahkan
+| | * Admin mengisi data guru yang akan ditambahkan
+| | * Sistem menyediakan button Save changes dan close
+| | * Admin menekan button Save changes lalu close
+| | * Sistem menampilkan data yang guru yang berhasil ditambahkan. |
 | Alternative Paths | Jika admin sudah mengisi data guru maka admin akan menekan button save untuk menyimpan data yang telah ditambahkan |
 | Postcondition | Setelah melakukan proses penambahan data guru maka data akan tersimpan pada tabel|
 | Exception Paths |  |
@@ -1041,10 +1092,17 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Perbarui Data Guru |
-| XRef | Admin   |
+| XRef | 2.2.2.1 Admin, Perbarui Data Guru  |
 | Trigger | Admin dapat melakukan perubahan pada tiap-tiap data guru yang ada  |
-| Precondition | Admin dapat mengkases halaman data guru dan admin dapat mencari data guru yang akan di peebaharui |
-| Basic Path | Admin dapat merubah/memperbaharui data guru yang harus diubah sewaktu-waktu |
+| Precondition | Admin dapat mengkases halaman data guru dan admin dapat mencari data guru yang akan di peebaharui, Admin dapat merubah/memperbaharui data guru yang harus diubah sewaktu-waktu |
+| Basic Path | * Admin mengakses halaman data guru
+| | * Sistem menampilkan semua data guru dalam tabel
+| | * Admin mencari data guru yang akan di perbarui
+| | * Sistem menampilkan data yang di cari
+| | * Admin menekan button update pada kolom aksi
+| | * Sistem akan menampilkan modal yang form-formnya berisi dari data guru yang ingin di perbarui
+| | * Admin melakukan perubahan pada data guru  dan menekan button save
+| | * Sistem akan memperbarui data guru tersebut |
 | Alternative Paths | Setelah melakukan perubahan pada data guru admin dapat mengklik tombol button update  |
 | Postcondition | Data guru berhasil diperbaharui saat admin mengisi/merubah data  |
 | Exception Paths |  |
@@ -1056,10 +1114,17 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Hapus Data Guru |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Hapus Data Gur |
 | Trigger | Admin dapat menghapus data guru sewakt-waktu saat ada data yang harus dihapus |
-| Precondition |  Admin dapat mengakses data guru |
-| Basic Path | Admin dapat memilih/mencari data guru yang harus dihapus   |
+| Precondition |  Admin dapat mengakses data guru, Admin dapat memilih/mencari data guru yang harus dihapus |
+| Basic Path | * Admin mengakses halaman data guru
+| | * Sistem menampilkan semua data guru dalam tabel
+| | * Admin mencari data guru yang akan di hapus
+| | * Sistem menampilkan data yang di cari
+| | * Admin menekan button delete pada kolom aksi
+| | * Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+| | * Admin memilih button ya untuk menghapus data guru tersebut
+| | * Sistem akan menghapus data guru tersebut   |
 | Alternative Paths | Setelah admin dapat data guru yang harus dihapus admin dapat mengklik tombol button delete |
 | Postcondition |  Data guru yang sudah dihapus oleh admin akan berhasil dan ditampilkan oleh sistem setelah hapus data berhasil |
 | Exception Paths |  |
@@ -1071,10 +1136,16 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Tambah Data Users |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Tambah Data User |
 | Trigger | Admin dapat menambahkan data user|
-| Precondition | Admin dapat mengkases halaman data user dan dapat menambahkan data uesr |
-| Basic Path | admin dapat menambhakan data user dengan mengisi form data user yang ditampilkan pada modal pengsian data user |
+| Precondition | Admin dapat mengkases halaman data user dan dapat menambahkan data uesr, admin dapat menambhakan data user dengan mengisi form data user yang ditampilkan pada modal pengsian data user |
+| Basic Path | * Admin mengakses halaman data users dengan menekan menu data user pada navigasi menu, pilih user siswa atau guru.
+| | * Sistem menampilkan halaman data user yang berisi button_button fungsi dan data user yang ada
+| | * Sistem menampilkan browse file pada admin.
+| | * Admin menekan button tambah data untuk menambahkan data peruser.
+| | * Sistem menampilkan modal yang berisi form-form untuk pengisian data user.
+| | * Admin mengisi form dan menekan button save.
+| | * Sistem akan menyimpan data. |
 | Alternative Paths |  Admin dapat menekan button save saat tambah data user selesai  |
 | Postcondition | sistem akan menampilkan hasil data user yang sudah ditambahkan oleh admin |
 | Exception Paths |  |
@@ -1086,10 +1157,17 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Perbarui Data Users |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Perbarui Data User |
 | Trigger | Admin dapat melakukan perubahan pada tiap-tiap data user yang ada |
-| Precondition | Admin dapat mengakses data user dan dapat memperbaharui data user yang sudah dipilih  |
-| Basic Path | Admin dapat memperbaharui data user setelah memilih data user yang akan diperbaharui |
+| Precondition | Admin dapat mengakses data user dan dapat memperbaharui data user yang sudah dipilih, Admin dapat memperbaharui data user setelah memilih data user yang akan diperbaharui |
+| Basic Path | * Admin mengakses halaman data user
+| | * Sistem menampilkan semua data user dalam tabel
+| | * Admin mencari data user yang akan di perbarui
+| | * Sistem menampilkan data yang di cari
+| | * Admin menekan button update pada kolom aksi
+| | * Sistem akan menampilkan modal yang form-formnya berisi dari data user yang ingin di perbarui
+| | * Admin melakukan perubahan pada data user dan menekan button save
+| | * Sistem akan memperbarui data user tersebut |
 | Alternative Paths | Admin dapat menekan button update setelah selesai melakukan perubahan data user |
 | Postcondition |  sistem akan menapilkan hasil data user yang sudah diperbaharui|
 | Exception Paths |  |
@@ -1101,10 +1179,17 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Hapus Data Users |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Hapus Data User |
 | Trigger |  Admin dapat melakukan hapus data users |
-| Precondition | Admin dapat mengkases data users dan admin dapat mencari data yang akan dihapus  |
-| Basic Path | Admin dapat menghapus data user yang sudah dipilih |
+| Precondition | Admin dapat mengkases data users dan admin dapat mencari data yang akan dihapus, Admin dapat menghapus data user yang sudah dipilih  |
+| Basic Path | * Admin mengakses halaman data user siswa atau user guru
+| | * Sistem menampilkan semua data user dalam tabel
+| | * Admin mencari data user yang akan di hapus
+| | * Sistem menampilkan data yang di cari
+| | * Admin menekan button delete pada kolom aksi
+| | * Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+| | * Admin memilih button ya untuk menghapus data siswa tersebut
+| | * Sistem akan menghapus data user tersebut |
 | Alternative Paths | Admin dapat menekan button delete untuk menghapus data   |
 | Postcondition | sistem akan menampilkan hasil data user yang sudah dihapus  |
 | Exception Paths |  |
@@ -1116,10 +1201,15 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Tambah Data Kelas |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Tambah Data Kela |
 | Trigger | Admin dapat menambahkan data kelas ketika ada data yang telah ditambahkan dari tiap-tiap kelas |
-| Precondition | Admin sudah login dan akan mengakses halaman data kelas |
-| Basic Path | Admin akan menekan button tambah data, kemudian mengisi form yang telah ada yang harus diisi untuk ditambahkan pada data kelas |
+| Precondition | Admin sudah login dan akan mengakses halaman data kelas, Admin akan menekan button tambah data, kemudian mengisi form yang telah ada yang harus diisi untuk ditambahkan pada data kelas |
+| Basic Path | * Admin mengakses halaman data Kelas
+| | * Admin menekan button tambah data
+| | * Sistem menampilkan form data kelas yang harus diisi untuk ditambahkan
+| | * Admin mengisi data kelas yang akan ditambahkan
+| | * Admin menekan button Save changes lalu close
+| | * Sistem menampilkan data yang kelas yang berhasil ditambahkan. |
 | Alternative Paths | Jika sudah ditambahkan data kelas akan tersimpan ketika menekan button save |
 | Postcondition | Data siswa yang telah berhasil ditambahkan akan tampil pada web server M-AFI |
 | Exception Paths |  |
@@ -1131,10 +1221,17 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Perbarui Data Kelas |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Perbarui Data Kelas |
 | Trigger | Admin dapat melakukan perubahan pada tiap-tiap data  yang ada  |
-| Precondition | Admin dapat mengakses halaman data kelas  |
-| Basic Path | Admin mencari data kelas yang akan diperbaharui |
+| Precondition | Admin dapat mengakses halaman data kelas, Admin mencari data kelas yang akan diperbaharui  |
+| Basic Path | * Admin mengakses halaman data kelas
+| | * Sistem menampilkan semua data kelas pada tabel
+| | * Admin mencari data kelas yang akan di perbarui
+| | * Sistem menampilkan data yang akan cari
+| | * Admin menekan button update pada kolom aksi
+| | * Sistem akan menampilkan modal yang form-formnya berisi tambah data kelas yang ingin di perbarui
+| | * Admin melakukan perubahan pada data kelas dan menekan button save
+| | * Sistem akan memperbarui data kelas. |
 | Alternative Paths | Admin menekan button update pada kolom aksi |
 | Postcondition | Sistem akan menampikan hasil perbaharui data kelas  |
 | Exception Paths |  |
@@ -1146,10 +1243,17 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Hapus Data Kelas |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Hapus Data Kelas |
 | Trigger | Admin dapat menghapus data kelas yang sudah tidak diperlukan |
-| Precondition | Admin dapat mengakses halaman data kelas |
-| Basic Path | Admin mencari data kelas yang akan dihapus pada tabel |
+| Precondition | Admin dapat mengakses halaman data kelas, Admin mencari data kelas yang akan dihapus pada tabel |
+| Basic Path | * Admin mengakses halaman data kelas
+| | * Sistem menampilkan semua data kelas pada tabel
+| | * Admin mencari data kelas yang akan di hapus
+| | * Sistem menampilkan data yang ingin di cari
+| | * Admin menekan button delete pada kolom aksi
+| | * Sistem akan menampilkan modal untuk meyakinkan pilihan admin untuk menghapus data tersebut.
+| | * Admin memilih button ya untuk menghapus data kelas tersebut
+| | * Sistem akan menghapus data kelas. |
 | Alternative Paths | Admin akan menekan button delete pada kolom aksi untuk menghapus data yang diinginkan |
 | Postcondition | Sistem akan menampilkan semua data kelas pada tabel|
 | Exception Paths |  |
@@ -1161,10 +1265,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Tambah Data Jurusan |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Tambah Data  |
 | Trigger | Admin dapat menambahkan data jurusan jika sekolah memiliki jurusan baru |
-| Precondition | Admin dapat menekan menu data jurusan pada navigasi menu untuk mengakses halaman data jurusan |
-| Basic Path | Admin dapat menambahkan data jurusan melalui button tambah data  |
+| Precondition | Admin dapat menekan menu data jurusan pada navigasi menu untuk mengakses halaman data jurusan, Admin dapat menambahkan data jurusan melalui button tambah data |
+| Basic Path | * Admin mengakses halaman data jurusan dengan menekan menu data jurusan pada navigasi menu.
+| | * Sistem menampilkan halaman data jurusan yang berisi button-button fungsi dan data jurusan yang ada.
+| | * Admin mengisi form tambah data jurusan dan mengklik button tambah data.
+| | * Sistem menambahkan data jurusan yang telah diinputkan oleh admin  |
 | Alternative Paths | Admin mengisi form tambah data dengan mengklik button tambah data |
 | Postcondition | Pada sistem ini akan menampilkan halaman data jurusan yang telah diinputkan oleh admin |
 | Exception Paths |  |
@@ -1176,10 +1283,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Perbarui data jurusan |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Perbarui Data Jurusan |
 | Trigger | Admin dapat memperbaharui tiap-tiap data jurusan yang ada |
-| Precondition | Admin dapat mencari data jurusan melalui search pada data jurusan |
-| Basic Path | Admin akan memperbaharui data jurusan yang sudah dipilih |
+| Precondition | Admin dapat mencari data jurusan melalui search pada data jurusan, Admin akan memperbaharui data jurusan yang sudah dipilih |
+| Basic Path | * Admin mencari data jurusan melalui fungsi search
+| | * Sistem memproses dan mencari data jurusan
+| | * Admin dapat mengupdate data jurusan dengan menekan button update.
+| | * Sistem memproses dan mengupdate data jurusan. |
 | Alternative Paths | Admin akan mengupdate data dengan menekan button update setelah melakukan perubahan pada data jurusan |
 | Postcondition | Sistem akan memproses dan akan menampilkan pada tabel data jurusan |
 | Exception Paths |  |
@@ -1191,10 +1301,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Hapus data jurusan |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Hapus Data Ju |
 | Trigger | Admin dapat menghapus data jurusan jika memang sudah tidak diperlukan  |
-| Precondition | Admin dapat mengakses halaman data jurusan |
-| Basic Path | Admin akan mencari data melalui search yang akan dihapus pada tabel jurusan |
+| Precondition | Admin dapat mengakses halaman data jurusan, Admin akan mencari data melalui search yang akan dihapus pada tabel jurusan |
+| Basic Path | * Admin mencari data jurusan melalui fungsi search
+| | * Sistem memproses dan mencari data jurusan
+| | * Admin dapat menghapus data dengan menekan button delete.
+| | * Sistem memproses dan menghapus data jurusan. |
 | Alternative Paths | Admin akan menghapus data dengan menekan button delete |
 | Postcondition | Sistem akan menampilkan semua data pada tabel jurusan |
 | Exception Paths |  |
@@ -1206,10 +1319,14 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Update Presensi Izin |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Update Presensi Izin |
 | Trigger | Admin dapat mengupdate presensi Izin melalui web server M-AFI |
-| Precondition | Admin akan melihat Presensi Izin pada web server M-AFI |
-| Basic Path | Admin akan mendapatkan notifikasi pada web server M-AFI |
+| Precondition | Admin akan melihat Presensi Izin pada web server M-AFI, Admin akan mendapatkan notifikasi pada web server M-AFI |
+| Basic Path | * Sistem memberikan notifikasi pada admin melalui webserver di bagian notifikasi engan icon messages
+| | * Admin menekan button icon tersebut
+| | * Sistem menampilan halaman presensi
+| | * Admin melihat data perizinan siswa dan kemudian melakukan approvement dengan mengupdate presensi siswa tersebut.
+| | * Sistem memperbarui presensi siswa tersebut. |
 | Alternative Paths | Presensi izin akan diinputkan orang tua melalui android yang akan masuk ke web server M-AFI berupa notifikasi izin pada halaman izin |
 | Postcondition | Sistem akan menampilkan update presensi siswa |
 | Exception Paths |  |
@@ -1221,10 +1338,13 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Item | Descriptions |
 | ------ | ------ |
 | Use Case Name | Cari data |
-| XRef |  |
+| XRef | 2.2.2.1 Admin, Cari Data |
 | Trigger | Pada bagian ini admin dapat melakukan pencarian pada data siswa, guru, user, kelas, jurusan dan presensi pada web M-AFI|
-| Precondition | Admin dapat membuka web M-AFI untuk mengakses pada halaman yang iningin dicari datanya |
-| Basic Path |Pada web M-AFI ini menyediakan form search pada tiap-tiap halaman untuk mencari data |
+| Precondition | Admin dapat membuka web M-AFI untuk mengakses pada halaman yang iningin dicari datanya, Pada web M-AFI ini menyediakan form search pada tiap-tiap halaman untuk mencari data |
+| Basic Path | * Admin mengakses pada halaman tertentu yang ingin di cari datanya
+| | * Sistem menyediakan form search pada tiap-tiap halaman
+| | * Admin mengisi form search untuk mencari data yang ingin di cari
+| | * Sistem akan menampilkan data yang admin cari |
 | Alternative Paths | Admin dapat mengisi form search untuk mencari data yang ingin dicari |
 | Postcondition | Sistem akan memproses dan akan menampilkan data yang telah dicari |
 | Exception Paths |  |
