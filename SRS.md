@@ -1192,11 +1192,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Hapus data jurusan |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat menghapus data jurusan jika memang sudah tidak diperlukan  |
+| Precondition | Admin dapat mengakses halaman data jurusan |
+| Basic Path | Admin akan mencari data melalui search yang akan dihapus pada tabel jurusan |
+| Alternative Paths | Admin akan menghapus data dengan menekan button delete |
+| Postcondition | Sistem akan menampilkan semua data pada tabel jurusan |
 | Exception Paths |  |
 | Other |  |
 
