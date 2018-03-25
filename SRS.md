@@ -1209,9 +1209,9 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | XRef |  |
 | Trigger | Admin dapat mengupdate presensi Izin melalui web server M-AFI |
 | Precondition | Admin akan melihat Presensi Izin pada web server M-AFI |
-| Basic Path | |
-| Alternative Paths |  |
-| Postcondition |  |
+| Basic Path | Admin akan mendapatkan notifikasi pada web server M-AFI |
+| Alternative Paths | Presensi izin akan diinputkan orang tua melalui android yang akan masuk ke web server M-AFI berupa notifikasi izin pada halaman izin |
+| Postcondition | Sistem akan menampilkan update prensi siswa |
 | Exception Paths |  |
 | Other |  |
 
