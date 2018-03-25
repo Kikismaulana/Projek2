@@ -1162,11 +1162,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Tambah Data Jurusan |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat menambahkan data jurusan jika sekolah memiliki jurusan baru |
+| Precondition | Admin dapat menekan menu data jurusan pada navigasi menu untuk mengakses halaman data jurusan |
+| Basic Path | Admin dapat menambahkan data jurusan melalui button tambah data  |
+| Alternative Paths | Admin mengisi form tambah data dengan mengklik button tambah data |
+| Postcondition | Pada sistem ini akan menampilkan halaman data jurusan yang telah diinputkan oleh admin |
 | Exception Paths |  |
 | Other |  |
 
