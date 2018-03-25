@@ -1147,11 +1147,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Hapus Data Kelas |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat menghapus data kelas yang sudah tidak diperlukan |
+| Precondition | Admin dapat mengakses halaman data kelas |
+| Basic Path | Admin mencari data kelas yang akan dihapus pada tabel |
+| Alternative Paths | Admin akan menekan button delete pada kolom aksi untuk menghapus data yang diinginkan |
+| Postcondition | Sistem akan menampilkan semua data kelas pada tabel|
 | Exception Paths |  |
 | Other |  |
 
