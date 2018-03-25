@@ -1177,11 +1177,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Perbarui data jurusan |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Admin dapat memperbaharui tiap-tiap data jurusan yang ada |
+| Precondition | Admin dapat mencari data jurusan melalui search pada data jurusan |
+| Basic Path | Admin akan memperbaharui data jurusan yang sudah dipilih |
+| Alternative Paths | Admin akan mengupdate data dengan menekan button update setelah melakukan perubahan pada data jurusan |
+| Postcondition | Sistem akan memproses dan akan menampilkan pada tabel data jurusan |
 | Exception Paths |  |
 | Other |  |
 
