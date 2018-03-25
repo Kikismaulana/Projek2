@@ -841,11 +841,11 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Masukkan presensi |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
-| Alternative Paths |  |
-| Postcondition |  |
+| Trigger | Siswa dapat memasukan presensi dengan menekan fingerprint |
+| Precondition | Presensi akan masuk ke web server M-AFI dan app M-AFI |
+| Basic Path | Siswa harus login dan melihat presensi melalui app M-AFI  |
+| Alternative Paths | Presensi dilakukan siswa dengan menekan fingerprint melalui sidik jari siswa |
+| Postcondition | Presensi akan tampil pada app M-AFI dan web server M-AFI |
 | Exception Paths |  |
 | Other |  |
 
