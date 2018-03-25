@@ -1207,9 +1207,9 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | ------ | ------ |
 | Use Case Name | Update Presensi Izin |
 | XRef |  |
-| Trigger |  |
-| Precondition |  |
-| Basic Path |  |
+| Trigger | Admin dapat mengupdate presensi Izin melalui web server M-AFI |
+| Precondition | Admin akan melihat Presensi Izin pada web server M-AFI |
+| Basic Path | |
 | Alternative Paths |  |
 | Postcondition |  |
 | Exception Paths |  |
@@ -1226,7 +1226,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Precondition | Admin dapat membuka web M-AFI untuk mengakses pada halaman yang iningin dicari datanya |
 | Basic Path |Pada web M-AFI ini menyediakan form search pada tiap-tiap halaman untuk mencari data |
 | Alternative Paths | Admin dapat mengisi form search untuk mencari data yang ingin dicari |
-| Postcondition |  |
+| Postcondition | Sistem akan memproses dan akan menampilkan data yang telah dicari |
 | Exception Paths |  |
 | Other |  |
 
