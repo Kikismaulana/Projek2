@@ -7,7 +7,7 @@ class Datakelas extends CI_Controller {
 		parent::__construct();
 	}
 
-	public function read()
+	public function index()
 	{
 		$this->load->model('Mkelas');
 		$tampildata['data'] = $this->Mkelas->read()->result_array();

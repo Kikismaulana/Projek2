@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(''); ?>assets/css/table.min.css">
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/custom.css">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/tittle.png">
+    <link rel="shortcut icon" href="<?php echo base_url(''); ?>assets/img/tittle.png">
     <!-- TinyMCE/Textarea -->
     <script type="text/javascript" src="<?php echo base_url(''); ?>assets/tinymce/js/tinymce/tinymce.min.js"></script>
     <script type="text/javascript">
@@ -61,7 +61,7 @@
                 <li><a href="<?php echo base_url('Datauser/readuserguru') ?>"> <i class="icon-user"></i>User Siswa</a></li>
               </ul>
             </li>
-            <li><a href="<?php echo base_url('Datakelas/read') ?>"> <i class="icon-home"></i>Data Kelas </a></li>
+            <li><a href="<?php echo base_url('Datakelas') ?>"> <i class="icon-home"></i>Data Kelas </a></li>
             <li><a href="<?php echo base_url('Datajurusan') ?>"> <i class="icon-home"></i>Data Jurusan </a></li>
             <li><a href="#datapresensi" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Data Presensi</a>
               <ul id="datapresensi" class="collapse list-unstyled ">

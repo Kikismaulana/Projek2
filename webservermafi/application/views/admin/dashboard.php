@@ -33,7 +33,7 @@
             <div class="col-xl-2 col-md-4 col-6">
               <div class="wrapper count-title d-flex">
                 <div class="icon"><i class="icon-home"></i></div>
-                <div class="name text-black"><?php echo anchor('Datakelas/read', 'Data Kelas', ['class'=>'text-uppercase']) ?><span>Jumlah</span>
+                <div class="name text-black"><?php echo anchor('Datakelas', 'Data Kelas', ['class'=>'text-uppercase']) ?><span>Jumlah</span>
                   <div class="count-number">20</div>
                 </div>
               </div>
