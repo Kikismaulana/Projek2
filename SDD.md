@@ -301,9 +301,11 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 ![](https://image.ibb.co/ieN3uc/IMG_20180322_WA0003.jpg)
 
+![](https://image.ibb.co/hT1UZc/IMG_20180322_WA0002.jpg)
+
 ##### 2.2.3 Physical Data Model
 
-![](https://image.ibb.co/hT1UZc/IMG_20180322_WA0002.jpg)
+
 
 ##### 2.2.4 Daftar Tabel Aplikasi
 
@@ -333,24 +335,19 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 #### 3.1 Diagram Konteks ####
 
-
-![](https://image.ibb.co/h8rZZc/Konteks_Diagram.png)
+![](https://image.ibb.co/iV7mfH/DFD_Level_1_mengelola_data_presensi.jpg)
 
 
 
 ##### 3.1.1 DFD level 0
 
-![](https://image.ibb.co/bUeGfH/DFD_Level_0.png)
-
-
+![](![](https://image.ibb.co/bUeGfH/DFD_Level_0.png))
 
 
 
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master
 
-
-![](https://image.ibb.co/fsfp0H/DFD_Level_1_mengelola_data_master.jpg)
-
+![](![](https://image.ibb.co/fsfp0H/DFD_Level_1_mengelola_data_master.jpg))
 
 
  
@@ -360,44 +357,34 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 
 
-
-
-
-
 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
 
-![](https://image.ibb.co/gJdgEc/DFD_Level_2_mengelola_data_siswa.jpg)
-
+![](![](https://image.ibb.co/gJdgEc/DFD_Level_2_mengelola_data_siswa.jpg))
 
 
 
 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
 
+
 ![](https://image.ibb.co/dWjouc/DFD_Level_2_mengelola_data_guru.jpg)
-
-
-
 
 
 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
 
-![](https://image.ibb.co/gh83Sx/DFD_Level_2_mengelola_data_user.jpg)
+![](![](https://image.ibb.co/gh83Sx/DFD_Level_2_mengelola_data_user.jpg) )
+
 
 
 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
 
-![](https://image.ibb.co/bvwZZc/DFD_Level_2_mengelola_data_jurusan.jpg)
-
-
+![](![](https://image.ibb.co/bvwZZc/DFD_Level_2_mengelola_data_jurusan.jpg))
 
 
 
 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
 
 
-![](https://image.ibb.co/iV7mfH/DFD_Level_1_mengelola_data_presensi.jpg)
-
-
+![](![](https://image.ibb.co/iV7mfH/DFD_Level_1_mengelola_data_presensi.jpg))
 
 
 #### 3.2 Deskripsi Rinci Tabel ####
