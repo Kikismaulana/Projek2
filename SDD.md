@@ -335,56 +335,57 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 
 #### 3.1 Diagram Konteks ####
 
-![](https://image.ibb.co/iV7mfH/DFD_Level_1_mengelola_data_presensi.jpg)
+
+![](http://image.ibb.co/fEUMGc/Konteks_Diagram.png)
 
 
 
 ##### 3.1.1 DFD level 0
 
-![](![](https://image.ibb.co/bUeGfH/DFD_Level_0.png))
 
+![](http://image.ibb.co/dyXxpx/DFD_Level_0.png)
 
 
 3.1.1.1 DFD Level 1 Proses Mengelola Data Master
 
-![](![](https://image.ibb.co/fsfp0H/DFD_Level_1_mengelola_data_master.jpg))
 
+![](http://image.ibb.co/c0tRhH/DFD_Level_1_mengelola_data_master.jpg)
 
  
 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
 
-![](https://image.ibb.co/bOZA7x/DFD_Level_2_mengelola_data_kelas.jpg)
 
+![](http://image.ibb.co/mOEMGc/DFD_Level_2_mengelola_data_kelas.jpg)
 
 
 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
 
-![](![](https://image.ibb.co/gJdgEc/DFD_Level_2_mengelola_data_siswa.jpg))
 
+![](http://image.ibb.co/jLYFbc/DFD_Level_2_mengelola_data_siswa.jpg)
 
 
 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
 
 
-![](https://image.ibb.co/dWjouc/DFD_Level_2_mengelola_data_guru.jpg)
+![](http://image.ibb.co/nGhV9x/DFD_Level_2_mengelola_data_guru.jpg)
 
 
 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
 
-![](![](https://image.ibb.co/gh83Sx/DFD_Level_2_mengelola_data_user.jpg) )
 
+![](http://image.ibb.co/mn33Ux/DFD_Level_2_mengelola_data_user.jpg)
 
 
 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
 
-![](![](https://image.ibb.co/bvwZZc/DFD_Level_2_mengelola_data_jurusan.jpg))
 
+![](http://image.ibb.co/cqwCNH/DFD_Level_2_mengelola_data_jurusan.jpg)
 
 
 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
 
 
-![](![](https://image.ibb.co/iV7mfH/DFD_Level_1_mengelola_data_presensi.jpg))
+![](http://image.ibb.co/b4L6hH/DFD_Level_1_mengelola_data_presensi.jpg)
 
 
 #### 3.2 Deskripsi Rinci Tabel ####
