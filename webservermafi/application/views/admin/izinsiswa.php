@@ -17,16 +17,16 @@
               <div class="card">
                 <!-- Conten Header-->
                 <div class="card-header d-flex align-items-center">
-                  <h4>Izin Siswa</h4>
+                  <i class="fa fa-envelope" style="padding-right: 10px"></i><h4>Izin Siswa</h4>
                 </div>
 
                 <!-- Conten value-->
                 <div class="card-body container-fluid">
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                       awdawda
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                       awdawd
                     </div>
                   </div>

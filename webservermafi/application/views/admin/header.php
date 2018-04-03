@@ -52,7 +52,7 @@
         <div class="main-menu">
           <h5 class="sidenav-heading">Main</h5>
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
-            <li><a href="<?php echo base_url('Admin') ?>"> <i class="icon-home"></i>Home </a></li>
+            <li><a href="<?php echo base_url('Admin/dashboard') ?>"> <i class="icon-home"></i>Home </a></li>
             <li><a href="<?php echo base_url('Datasiswa/read') ?>"> <i class="icon-user"></i>Data Siswa </a></li>
             <li><a href="<?php echo base_url('Dataguru/read') ?>"> <i class="icon-user"></i>Data Guru </a></li>
             <li><a href="#datauser" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Data User</a>
@@ -103,7 +103,7 @@
                       <li><a rel="nofollow" href="<?php echo base_url('Datapresensi/readizinsiswa'); ?>" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-envelope"></i>Lihat semua pesan</strong></a></li>
                     </ul>
                   </li>
-                  <li class="nav-item"><a href="<?php echo base_url('Admin/login'); ?>" class="nav-link logout">Logout<i class="fa fa-sign-out"></i></a></li>
+                  <li class="nav-item"><a href="<?php echo base_url('Admin'); ?>" class="nav-link logout">Logout<i class="fa fa-sign-out"></i></a></li>
                 </ul>
             </div>
           </div>

@@ -41,12 +41,12 @@
               <div class="form-group-material">
                 <input id="login-password" type="password" name="loginPassword" required class="input-material">
                 <label for="login-password" class="label-material">Password</label>
-              </div><a id="login" href="<?php echo base_url('Admin'); ?>" class="btn btn-primary">Login</a>
+              </div><a id="login" href="<?php echo base_url('Admin/login'); ?>" class="btn btn-primary">Login</a>
               <!-- This should be submit button but I replaced it with <a> for demo purposes-->
             </form>
           </div>
           <div class="copyrights text-center">
-            <p>Copy Right <a href="https://bootstrapious.com" class="external"> &copy 2018 Team M-AFI</a></p>
+            <p>Copy Right <a href="#" class="external"> &copy 2018 Team M-AFI</a></p>
             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
           </div>
         </div>
