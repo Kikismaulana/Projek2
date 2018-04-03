@@ -12,24 +12,92 @@ class Datakelas extends CI_Controller {
 		$this->load->model('Mkelas');
 		$tampildata['data'] = $this->Mkelas->read()->result_array();
 		$this->load->model('Mjurusan');
-		$tampiljurusan['datajurusan'] = $this->Mjurusan->read()->result_array();
+		$tampildata['datajurusan'] = $this->Mjurusan->read()->result_array();
 		$this->load->view('admin/header');
-		$this->load->view('admin/datakelas', $tampildata, $tampiljurusan);
+		$this->load->view('admin/datakelas', $tampildata);
 		$this->load->view('admin/footer');
 	}
 
 	public function create()
 	{
-
+		$this->load->model('Mkelas');
+		$tingkat = $this->input->POST('tingkat');
+		$jurusan = $this->input->POST('jurusan');
+		$kategori = $this->input->POST('kategori');
+		$gabung = "$tingkat $jurusan $kategori";
+		$data = array(
+			'id_jurusan' => 5,
+			'nama_kelas' => $gabung
+		);
+		if ($this->Mkelas->create($data))
+		{
+			$this->session->set_flashdata('info', "<div class='alert alert-success alert-dismissible fade show'>
+                        Data berhasil ditambahkan!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                          <span aria-hidden='true'>&times;</span>
+                        </button>
+                      </div>");
+		}
+		else
+		{
+			$this->session->set_flashdata('info', "<div class='alert alert-success alert-dismissible fade show'>
+                        Data gagal ditambahkan!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                          <span aria-hidden='true'>&times;</span>
+                        </button>
+                      </div>");
+		}
+		return redirect('Datakelas');
 	}
 
-	public function update()
+	public function update($id_kelas)
 	{
-		
+		$this->load->model('Mkelas');
+		$tingkat = $this->input->POST('tingkat');
+		$jurusan = $this->input->POST('jurusan');
+		$kategori = $this->input->POST('kategori');
+		$gabung = "$tingkat $jurusan $kategori";
+		$data = array(
+			'id_jurusan' => 5,
+			'nama_kelas' => $gabung
+		);
+			if ($this->Mkelas->update($data, $id_kelas)) {
+				$this->session->set_flashdata('info', "<div class='alert alert-info alert-dismissible fade show'>
+                        Data berhasil diupdate!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                          <span aria-hidden='true'>&times;</span>
+                        </button>
+                      </div>");
+			} else {
+				$this->session->set_flashdata('info', "<div class='alert alert-info alert-dismissible fade show'>
+                        Data gagal diupdate!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                          <span aria-hidden='true'>&times;</span>
+                        </button>
+                      </div>");
+			}
+			return redirect('Datakelas');
 	}
 
-	public function delete()
+	public function delete($id_kelas)
 	{
-		
+		$this->load->model('Mkelas');
+		if($this->Mkelas->delete($id_kelas)){
+			$this->session->set_flashdata('info', "<div class='alert alert-danger alert-dismissible fade show'>
+                        Berhasil hapus data!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                          <span aria-hidden='true'>&times;</span>
+                        </button>
+                      </div>");
+		} else {
+			$this->session->set_flashdata('info', "<div class='alert alert-danger alert-dismissible fade show'>
+                        Gagal hapus data!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                          <span aria-hidden='true'>&times;</span>
+                        </button>
+                      </div>");
+		}
+		$r['data'] = $this->Mkelas->read()->result_array();
+		return redirect('Datakelas', $r);
 	}
 }

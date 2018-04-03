@@ -22,11 +22,14 @@
                 <!-- Conten value-->
                 <div class="card-body container-fluid">
                   <div class="form-group">
-
-                    <!--Pilih jurusan-->
+                    <!--Pilih kelas-->
                     <div class="form-group row">
-
                       <div class="col-sm-12 form-group container-fluid" style="padding-bottom: 20px">
+                        <!-- Notifikasi -->
+                        <?php if ($info = $this->session->flashdata('info')) {
+                          echo $info;
+                        } ?>
+                        <!-- /Notifikasi -->
                         <a class="btn btn-success text-white" data-toggle="modal" data-target="#modal_add_new"> Tambah data</a>
                       </div>
 
@@ -47,8 +50,8 @@
                                 <td align="center"><?php echo $a++; ?>.</td>
                                 <td><?php echo $row['nama_kelas']; ?></td>
                                 <td align="center">
-                                  <button class="btn btn-sm btn-success">Update</button>
-                                  <button class="btn btn-sm btn-danger">Delete</button>
+                                  <a class="btn btn-sm btn-info text-white" data-toggle="modal" data-target="#modal_edit<?php echo $row['id_kelas'];?>">Update</a>
+                                  <a href="<?php echo base_url('Datakelas/delete/') ?><?php echo $row['id_kelas'] ?>" class="btn btn-sm btn-danger">Delete</a>
                                 </td>
                             </tr>
                           <?php } ?>
@@ -74,26 +77,24 @@
                 <h3 class="modal-title" id="myModalLabel">Tambah kelas</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
             </div>
-            <form class="form-horizontal" method="post" action="<?php echo base_url().'Datakelas/create'?>">
+            <form class="form-horizontal" method="post" action="<?php echo base_url('Datakelas/create/')?>">
                 <div class="modal-body">
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Tingkat</label>
                         <div class="col-xs-8">
-                             <select name="tingkat" class="form-control" required>
-                                <option class="active">-PILIH-</option>
-                                <option>X</option>
-                                <option>XI</option>
-                                <option>XII</option>
+                             <select name="tingkat" class="form-control" required="">
+                                <option value="X">X</option>
+                                <option value="XI">XI</option>
+                                <option value="XII">XII</option>
                              </select>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Jurusan</label>
                         <div class="col-xs-8">
-                             <select name="jurusan" class="form-control" required>
-                                <option class="active">-PILIH-</option>
+                             <select name="jurusan" class="form-control" required="">
                                 <?php foreach ($datajurusan as $row) { ?>
-                                <option> <?php echo $row['nama_jurusan']; ?></option>
+                                <option value="<?php echo $row['nama_jurusan']; ?>"> <?php echo $row['nama_jurusan']; ?></option>
                                 <?php } ?>
                              </select>
                         </div>
@@ -101,12 +102,11 @@
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Kategori</label>
                         <div class="col-xs-8">
-                             <select name="kategori" class="form-control" required>
-                                <option class="active">-PILIH-</option>
-                                <option>I</option>
-                                <option>II</option>
-                                <option>III</option>
-                                <option>VI</option>
+                             <select name="kategori" class="form-control" required="">
+                                <option value="I">I</option>
+                                <option value="II">II</option>
+                                <option value="III">III</option>
+                                <option value="IV">VI</option>
                              </select>
                         </div>
                     </div>
@@ -114,10 +114,67 @@
 
                 <div class="modal-footer">
                     <button class="btn" data-dismiss="modal" aria-hidden="true">Tutup</button>
-                    <button class="btn btn-info">Simpan</button>
+                    <button name="simpan" class="btn btn-info">Simpan</button>
                 </div>
             </form>
             </div>
             </div>
         </div>
-    <!--END MODAL ADD BARANG-->
+    <!--END MODAL ADD DATA KELAS-->
+
+    <!-- ============ MODAL UPDATE DATA KELAS =============== -->
+        <?php 
+          foreach($data as $row) {
+        ?>
+        <div class="modal fade" id="modal_edit<?php echo $row['id_kelas'];?>" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="myModalLabel">Tambah kelas</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            </div>
+            <form class="form-horizontal" method="post" action="<?php echo base_url('Datakelas/update/')?><?php echo $row['id_kelas'] ?>">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="control-label col-xs-3" >Tingkat</label>
+                        <div class="col-xs-8">
+                             <select name="tingkat" class="form-control" required="">
+                                <option value="X">X</option>
+                                <option value="XI">XI</option>
+                                <option value="XII">XII</option>
+                             </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-3" >Jurusan</label>
+                        <div class="col-xs-8">
+                             <select name="jurusan" class="form-control" required="">
+                                <?php foreach ($datajurusan as $row) { ?>
+                                <option value="<?php echo $row['nama_jurusan']; ?>"> <?php echo $row['nama_jurusan']; ?></option>
+                                <?php } ?>
+                             </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-3" >Kategori</label>
+                        <div class="col-xs-8">
+                             <select name="kategori" class="form-control" required="">
+                                <option value="I">I</option>
+                                <option value="II">II</option>
+                                <option value="III">III</option>
+                                <option value="IV">VI</option>
+                             </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Tutup</button>
+                    <button class="btn btn-info">Update</button>
+                </div>
+            </form>
+            </div>
+            </div>
+        </div>
+        <?php } ?>
+    <!--END MODAL UPDATE DATA KELAS-->

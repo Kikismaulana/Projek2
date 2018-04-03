@@ -22,6 +22,13 @@ class Datauser extends CI_Controller {
 		$this->load->view('admin/footer');
 	}
 
+	public function readuserortu()
+	{
+		$this->load->view('admin/header');
+		$this->load->view('admin/userortu');
+		$this->load->view('admin/footer');
+	}
+
 	public function creat()
 	{
 

@@ -61,17 +61,15 @@
                           <?php } ?>
                         </tbody>
                       </table>
-
                     </div>
                   </div>
                 </div>
-                <!-- /Conten Header-->
-
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- /Conten Header-->
 
       <!-- ============ MODAL EDIT JURUSAN =============== -->
         <?php 

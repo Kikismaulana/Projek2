@@ -8,3 +8,32 @@
           </ul>
         </div>
       </div>
+
+      <!--Content-->
+      <section class="forms" style="padding-top: 50px">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card">
+                <!-- Conten Header-->
+                <div class="card-header d-flex align-items-center">
+                  <h4>Izin Siswa</h4>
+                </div>
+
+                <!-- Conten value-->
+                <div class="card-body container-fluid">
+                  <div class="row">
+                    <div class="col-md-6">
+                      awdawda
+                    </div>
+                    <div class="col-md-6">
+                      awdawd
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Conten Header-->

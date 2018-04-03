@@ -57,8 +57,9 @@
             <li><a href="<?php echo base_url('Dataguru/read') ?>"> <i class="icon-user"></i>Data Guru </a></li>
             <li><a href="#datauser" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Data User</a>
               <ul id="datauser" class="collapse list-unstyled ">
-                <li><a href="<?php echo base_url('Datauser/readusersiswa') ?>"> <i class="icon-user"></i>User Guru</a></li>
-                <li><a href="<?php echo base_url('Datauser/readuserguru') ?>"> <i class="icon-user"></i>User Siswa</a></li>
+                <li><a href="<?php echo base_url('Datauser/readusersiswa') ?>"> <i class="icon-user"></i>User Siswa</a></li>
+                <li><a href="<?php echo base_url('Datauser/readuserguru') ?>"> <i class="icon-user"></i>User Guru</a></li>
+                <li><a href="<?php echo base_url('Datauser/readuserortu') ?>"> <i class="icon-user"></i>User Orang tua</a></li>
               </ul>
             </li>
             <li><a href="<?php echo base_url('Datakelas') ?>"> <i class="icon-home"></i>Data Kelas </a></li>

@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class MJurusan extends CI_Model {
 
-	private $tabel = 'jurusan';
+	public $tabel = 'jurusan';
 
 	//Harus ada
 	function __construct(){
@@ -13,7 +13,6 @@ class MJurusan extends CI_Model {
 	function create($data)
 	{
 		return $this->db->insert($this->tabel, $data);
-		
 	}
 
 	function read()

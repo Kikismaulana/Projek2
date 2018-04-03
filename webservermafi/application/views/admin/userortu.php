@@ -17,7 +17,7 @@
               <div class="card">
                 <!-- Conten Header-->
                 <div class="card-header d-flex align-items-center">
-                  <h4>Data User siswa</h4>
+                  <h4>Data User Orang tua</h4>
                 </div>
 
                 <!-- Conten value-->
@@ -35,6 +35,7 @@
                         <thead>
                             <tr>
                                 <th>No</th>
+                                <th>NISN</th>
                                 <th>NIS</th>
                                 <th>Nama</th>
                                 <th>Password</th>
@@ -43,6 +44,7 @@
                         </thead>
                         <tbody>
                             <tr>
+                                <td>s</td>
                                 <td>s</td>
                                 <td>s</td>
                                 <td>s</td>
@@ -77,6 +79,11 @@
                         <div class="modal-body">
                           <p>Tambah User Siswa</p>
                                   <form>
+
+                                    <div class="form-group">
+                                      <label>NISN</label>
+                                      <input type="nip" placeholder="Nip" class="form-control">
+                                    </div>
 
                                     <div class="form-group">       
                                       <label>NIS</label>

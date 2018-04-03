@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class MKelas extends CI_Model {
 
-	private $tabel = 'kelas';
+	public $tabel = 'kelas';
 
 	//Harus ada
 	function __construct(){
@@ -13,7 +13,6 @@ class MKelas extends CI_Model {
 	function create($data)
 	{
 		return $this->db->insert($this->tabel, $data);
-		
 	}
 
 	function read()
@@ -21,15 +20,15 @@ class MKelas extends CI_Model {
 		return $this->db->get($this->tabel);
 	}
 
-	function update($data, $id_jurusan)
+	function update($data, $id_kelas)
 	{
-		return $this->db->where('id_jurusan', $id_jurusan)
+		return $this->db->where('id_kelas', $id_kelas)
 			->update($this->tabel, $data);
 	}
 
-	function delete($id_jurusan)
+	function delete($id_kelas)
 	{
-		return $this->db->delete($this->tabel, ['id_jurusan'=>$id_jurusan]);
+		return $this->db->delete($this->tabel, ['id_kelas'=>$id_kelas]);
 	}
 
 }
