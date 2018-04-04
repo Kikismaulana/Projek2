@@ -233,6 +233,11 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini fungsinya untuk ganti password dan logout pada guru.
 
+![](https://image.ibb.co/gnThPx/ganti_password_guru.png)
+
+- Pada Gambar ini fungsinya untuk mengganti password yang diingikan oleh guru.
+
+ 
 	2.1.3. Antarmuka perangkat awal keras
 
 - Fingerprint
