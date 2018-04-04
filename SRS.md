@@ -193,11 +193,21 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 ![](https://image.ibb.co/gHG0cH/logout_siswa.png)
 
--Pada Gambar ini fungsinya untuk ganti password dan logout pada app M-AFI siswa.
+- Pada Gambar ini fungsinya untuk ganti password dan logout pada app M-AFI siswa.
 
 ![](https://image.ibb.co/bCPLcH/ganti_password_siswa.png)
 
 - Pada Gambar ini fungsinya untuk mengganti password yang diinginkan oleh siswa.
+
+**App Mobile Guru**
+
+![](https://image.ibb.co/mkSLBc/login_guru.png)
+
+- Pada Gambar ini guru dapat login melalui App M-AFI yang sudah ada dengan memasukkan username dan password.
+
+![](https://image.ibb.co/iVyhPx/lupa_password_guru.png)
+
+- Pada Gambar ini menjelaskan ketika guru lupa password maka guru akan diminta memasukkan Emailnya.
 
 	2.1.3. Antarmuka perangkat awal keras
 
