@@ -178,8 +178,11 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini menjelaskan ketika siswa lupa password maka siswa akan diminta memasukkan Emailnya.
 
+![](https://image.ibb.co/mDU8Wc/dasboard_siswa.png)
 
-	2.1.3. Antarmuka perangkat keras
+- Pada Gambar ini adalah tampilan dasboard pada siswa.
+
+	2.1.3. Antarmuka perangkat awal keras
 
 - Fingerprint
 
