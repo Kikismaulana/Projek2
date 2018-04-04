@@ -215,7 +215,15 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 ![](https://image.ibb.co/jtZNPx/jurusan_guru.png)
 
-- Pada Gambar ini fungsingnya untuk memilih jurusan yang akan didownload rekap presensinya. 
+- Pada Gambar ini fungsingnya untuk memilih jurusan yang akan didownload rekap presensinya.
+
+![](https://image.ibb.co/hZihPx/pilih_kelas_guru.png) 
+
+- Pada Gambar ini fungsinya untuk memilih kelas yang akan didownload rekap absensinya.
+
+![](https://image.ibb.co/hiYSrc/pilih_tahun_guru.png)
+
+- Pada Gambar ini fungsinya untuk memilih tahun yang akan didownload rekap absensinya.
 
 	2.1.3. Antarmuka perangkat awal keras
 
