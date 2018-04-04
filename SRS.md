@@ -134,14 +134,23 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 	2.1.2. Antarmuka Pengguna
 	
-* Mobile Orang tua 
+* App Orang tua 
+
 ![](https://image.ibb.co/fjhyxH/Login_orang_tua.png)
 
-Pada Gambar ini Orang tua dapat login melalui App M-AFI yang sudah ada dengan memasukkan username dan password.
+- Pada Gambar ini Orang tua dapat login melalui App M-AFI yang sudah ada dengan memasukkan username dan password.
 
-![](https://image.ibb.co/dxD5cH/lupa_password_ortu.png)
+![](![](https://image.ibb.co/dxD5cH/lupa_password_ortu.png)
 
-Pada Gambar ini ketika orang tua lupa password maka orang tua diminta untuk memasukkan Email agar admin tau bahwa orang tua tersebut lupa password.
+- Pada Gambar ini ketika orang tua lupa password maka orang tua diminta untuk memasukkan Email agar admin tau bahwa orang tua tersebut lupa password.
+
+![](https://image.ibb.co/bPrDWc/logout_ortu.png)
+
+- Pada Gambar ini adalah tampilan dasboard pada app orang tua ketika sudah login
+
+![](https://image.ibb.co/jZpNPx/sidebar_ortu.png)
+
+- Pada Gambar ini menjelaskan bahwa sidebar berfungsi untuk mendownload rekap persemester siswa.
 
 
 	2.1.3. Antarmuka perangkat keras
