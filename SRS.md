@@ -191,7 +191,13 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini fungsinya untuk memilih semester berapa yang akan didownload.
 
+![](https://image.ibb.co/gHG0cH/logout_siswa.png)
 
+-Pada Gambar ini fungsinya untuk ganti password dan logout pada app M-AFI siswa.
+
+![](https://image.ibb.co/bCPLcH/ganti_password_siswa.png)
+
+- Pada Gambar ini fungsinya untuk mengganti password yang diinginkan oleh siswa.
 
 	2.1.3. Antarmuka perangkat awal keras
 
