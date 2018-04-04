@@ -145,7 +145,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini ketika orang tua lupa password maka orang tua diminta untuk memasukkan Email agar admin tau bahwa orang tua tersebut lupa password.
 
-![](https://image.ibb.co/bPrDWc/logout_ortu.png)
+![](https://image.ibb.co/jZkkcH/dasboard_ortu.png)
 
 - Pada Gambar ini adalah tampilan dasboard pada app orang tua ketika sudah login
 
