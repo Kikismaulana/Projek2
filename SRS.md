@@ -134,7 +134,8 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 	2.1.2. Antarmuka Pengguna
 	
-* App Mobile Orang tua 
+
+**App Mobile Orang tua**
 
 ![](https://image.ibb.co/fjhyxH/Login_orang_tua.png)
 
@@ -168,7 +169,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini fungsinya ketika orang tua ingin mengganti passwordnya pada app  M-AFI.
 
-* App Mobile Siswa
+**App Mobile Siswa**
 
 ![](https://image.ibb.co/irP8Wc/Login_siswa.png)
 
@@ -181,6 +182,16 @@ Admin bertugas untuk memanage presensi pada webserver.
 ![](https://image.ibb.co/mDU8Wc/dasboard_siswa.png)
 
 - Pada Gambar ini adalah tampilan dasboard pada siswa.
+
+![](https://image.ibb.co/jvOcrc/pilih_tahun_siswa.png)
+
+- Pada Gambar ini fungsinya untuk memilih tahun yang akan didownload.
+
+![](https://image.ibb.co/iui2rc/pilih_semester_siswa.png)
+
+- Pada Gambar ini fungsinya untuk memilih semester berapa yang akan didownload.
+
+
 
 	2.1.3. Antarmuka perangkat awal keras
 
