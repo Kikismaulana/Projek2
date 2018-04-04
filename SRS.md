@@ -209,6 +209,14 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini menjelaskan ketika guru lupa password maka guru akan diminta memasukkan Emailnya.
 
+![](https://image.ibb.co/cqt5cH/dasboard_guru.png)
+
+- Pada Gambar ini adalah tampilan dasboard pada guru.
+
+![](https://image.ibb.co/jtZNPx/jurusan_guru.png)
+
+- Pada Gambar ini fungsingnya untuk memilih jurusan yang akan didownload rekap presensinya. 
+
 	2.1.3. Antarmuka perangkat awal keras
 
 - Fingerprint
