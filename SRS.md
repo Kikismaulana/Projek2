@@ -133,20 +133,15 @@ Orang tua siswa dapat mengakses aplikasi M-AFI melalui perangkat mobile dengan s
 Admin bertugas untuk memanage presensi pada webserver.
 
 	2.1.2. Antarmuka Pengguna
+	
+* Mobile Orang tua 
+![](https://image.ibb.co/fjhyxH/Login_orang_tua.png)
 
-![](https://image.ibb.co/hbTof7/login.png)
+Pada Gambar ini Orang tua dapat login melalui App M-AFI yang sudah ada dengan memasukkan username dan password.
 
-![](https://image.ibb.co/jSzGYS/login2.png)
+![](https://image.ibb.co/dxD5cH/lupa_password_ortu.png)
 
-![](https://image.ibb.co/mpYznn/dasboard.png)
-
-![](https://image.ibb.co/dax3DS/sidebar.png)
-
-![](https://image.ibb.co/bBFqtS/logout.png)
-
-![](https://image.ibb.co/dsvZL7/izin_siswa.png)
-
-![](https://image.ibb.co/gqoof7/lupa_password.png)
+Pada Gambar ini ketika orang tua lupa password maka orang tua diminta untuk memasukkan Email agar admin tau bahwa orang tua tersebut lupa password.
 
 
 	2.1.3. Antarmuka perangkat keras
