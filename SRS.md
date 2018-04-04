@@ -140,7 +140,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini Orang tua dapat login melalui App M-AFI yang sudah ada dengan memasukkan username dan password.
 
-![](![](https://image.ibb.co/dxD5cH/lupa_password_ortu.png)
+(![](https://image.ibb.co/dxD5cH/lupa_password_ortu.png)
 
 - Pada Gambar ini ketika orang tua lupa password maka orang tua diminta untuk memasukkan Email agar admin tau bahwa orang tua tersebut lupa password.
 
@@ -151,6 +151,22 @@ Admin bertugas untuk memanage presensi pada webserver.
 ![](https://image.ibb.co/jZpNPx/sidebar_ortu.png)
 
 - Pada Gambar ini menjelaskan bahwa sidebar berfungsi untuk mendownload rekap persemester siswa.
+
+![](https://image.ibb.co/bPrDWc/logout_ortu.png)
+
+- Pada Gambar ini fungsinya untuk ganti password sama logout.
+
+![](https://image.ibb.co/hGdhPx/izin_siswa_ortu.png)
+
+- Pada Gambar ini fungsinya untuk izin siswa yang mana izin siswa tersebut di inputkan oleh orang tua.
+
+![](https://image.ibb.co/cOBQcH/keterangan_ortu.png)
+
+- Pada Gambar ini fungsinya untuk memberikan keterangan ketika anaknya sedang sakit atau izin
+
+![](https://image.ibb.co/caakcH/ganti_password_ortu.png)
+
+- Pada Gambar ini fungsinya ketika orang tua ingin mengganti passwordnya pada app  M-AFI.
 
 
 	2.1.3. Antarmuka perangkat keras
