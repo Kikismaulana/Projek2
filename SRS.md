@@ -225,6 +225,14 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini fungsinya untuk memilih tahun yang akan didownload rekap absensinya.
 
+![](https://image.ibb.co/cne6jx/semester_guru.png)
+
+- Pada Gambar ini fungsinya untuk memilih semester yang akan didownload.
+
+![](https://image.ibb.co/mXuNPx/logout_guru.png)
+
+- Pada Gambar ini fungsinya untuk ganti password dan logout pada guru.
+
 	2.1.3. Antarmuka perangkat awal keras
 
 - Fingerprint
