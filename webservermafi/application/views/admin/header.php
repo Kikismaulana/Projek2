@@ -54,7 +54,7 @@
         <div class="main-menu">
           <h5 class="sidenav-heading">Main</h5>
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
-            <li><a href="<?php echo base_url('Admin/dashboard') ?>"> <i class="icon-home"></i>Home </a></li>
+            <li><a href="<?php echo base_url('Dashboard') ?>"> <i class="icon-home"></i>Home </a></li>
             <li><a href="<?php echo base_url('Datasiswa/read') ?>"> <i class="icon-user"></i>Data Siswa </a></li>
             <li><a href="<?php echo base_url('Dataguru/read') ?>"> <i class="icon-user"></i>Data Guru </a></li>
             <li><a href="#datauser" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Data User</a>
@@ -105,9 +105,63 @@
                       <li><a rel="nofollow" href="<?php echo base_url('Datapresensi/readizinsiswa'); ?>" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-envelope"></i>Lihat semua pesan</strong></a></li>
                     </ul>
                   </li>
-                  <li class="nav-item"><a href="<?php echo base_url('Admin'); ?>" class="nav-link logout">Logout<i class="fa fa-sign-out"></i></a></li>
+                  <li class="dropdown">
+                    <a  id="header-dropdown" class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">
+                        <i id="header-icon" class="fa fa-user fa-fw"></i>  <i id="header-icon"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user" style="width:300%">
+                        <li><a class="dropdown-item" href="#" data-toggle="modal" data-target="#changePasswordModal"><i class="fa fa-refresh fa-fw"></i> Ganti Password</a></li>
+                        <li class="divider"></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url();?>Admin/logout"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
                 </ul>
             </div>
           </div>
         </nav>
       </header>
+
+        <div class="modal fade" id="changePasswordModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header modal-blue">
+                        <h4 class="modal-title" id="myModalLabel">Ganti Password</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label>Password Lama</label>
+                                    <input class="form-control" placeholder="passwordlama" name="passwordlama" type="password">
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label>Password Baru</label>
+                                    <input class="form-control" placeholder="Password Baru" type="password" name="passwordbaru">
+                                </div> 
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label>Konfirmasi Password Baru</label>
+                                    <input class="form-control" placeholder="Konfirmasi Password Baru" name="konfirmasipassword" type="password">
+                                </div> 
+                            </div>
+                      </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">CANCEL</button>
+                        <button id="changePasswordSubmit" type="button" class="btn btn-primary">UPDATE</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->

@@ -32,16 +32,26 @@
       <div class="container">
         <div class="form-outer text-center align-items-center" style="padding-top: 100px">
           <div class="form-inner">
-            <div class="logo text-uppercase"><span>LOGIN </span><strong class="text-primary"> ADMIN M-AFI</strong></div>
-            <form id="login-form" method="post">
+            <div class="logo text-uppercase"><span>LOGIN </span><strong class="text-primary"> ADMIN M-AFI</strong></div><br>
+            <!-- Notifikasi -->
+              <?php if($alert): ?>
+                <div id="login-invalid-input" class="error alert alert-danger alert-dismissible fade show">
+                  Kombinasi Username dan password salah!
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <?php endif; ?>
+            <!-- /Notifikasi -->
+            <form id="login-form" method="post" onsubmit="return checkEmptyInput();" action="<?php echo base_url(''); ?>admin/login">
               <div class="form-group-material">
-                <input id="login-username" type="text" name="loginUsername" required class="input-material">
+                <input id="login-username" type="text" name="admin" required="" class="input-material">
                 <label for="login-username" class="label-material">Username</label>
               </div>
               <div class="form-group-material">
-                <input id="login-password" type="password" name="loginPassword" required class="input-material">
+                <input id="login-password" type="password" name="password" required="" class="input-material">
                 <label for="login-password" class="label-material">Password</label>
-              </div><a id="login" href="<?php echo base_url('Admin/login'); ?>" class="btn btn-primary">Login</a>
+              </div><input id="login" type="submit" value="Login" name="insert" class="btn btn-primary">
               <!-- This should be submit button but I replaced it with <a> for demo purposes-->
             </form>
           </div>
@@ -63,5 +73,22 @@
     <script src="<?php echo base_url(''); ?>assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- Main File-->
     <script src="<?php echo base_url(''); ?>assets/js/front.js"></script>
+
+    <script>
+      window.onload = hideLoginErrors();
+      function hideLoginErrors(){
+        $("#login-empty-input").hide();
+      }
+
+      function checkEmptyInput(){
+        hideLoginErrors();
+        $("#login-invalid-input").hide();
+        if( $("#email").val() == '' || $("#password").val() == '' ){
+          $("#login-empty-input").show();
+          return false;
+        }
+      }
+    </script>
+
   </body>
 </html>
