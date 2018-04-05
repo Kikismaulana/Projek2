@@ -2,8 +2,8 @@
       <div class="breadcrumb-holder">
         <div class="container-fluid">
           <ul class="breadcrumb">
-            <li class="breadcrumb-item"><a href="<?php echo base_url('Admin') ?>">Home</a></li>
-            <li class="breadcrumb-item active">Data Siswa       </li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url('Admin/dashboard') ?>">Home</a></li>
+            <li class="breadcrumb-item active">Data Siswa</li>
           </ul>
         </div>
       </div>

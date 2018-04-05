@@ -2,7 +2,7 @@
       <div class="breadcrumb-holder">
         <div class="container-fluid">
           <ul class="breadcrumb">
-            <li class="breadcrumb-item"><a href="<?php echo base_url('Admin') ?>">Home</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url('Admin/dashboard') ?>">Home</a></li>
             <li class="breadcrumb-item active">Data Jurusan</li>
           </ul>
         </div>
@@ -55,7 +55,7 @@
                                 <td><?php echo $row['nama_jurusan']; ?></td>
                                 <td align="center">
                                   <a class="btn btn-sm btn-info text-white" data-toggle="modal" data-target="#modal_edit<?php echo $row['id_jurusan'];?>">Update</a>
-                                  <a href="<?php echo base_url('Datajurusan/delete/') ?><?php echo $row['id_jurusan'] ?>" class="btn btn-sm btn-danger">Delete</a>
+                                  <a data-toggle="modal" data-target="#modal_konfirmasidelete<?php echo $row['id_jurusan'];?>"" class="btn btn-sm btn-danger text-white">Delete</a>
                                 </td>
                             </tr>
                           <?php } ?>
@@ -104,4 +104,36 @@
         </div>
 
         <?php }?>
-      <!--END MODAL ADD JURUSAN-->
+      <!--END MODAL EDIT JURUSAN-->
+
+      <!-- ============ MODAL KONFIRMASI DELETE JURUSAN =============== -->
+        <?php 
+        foreach($data as $row) {
+        ?>
+        <div class="modal fade" id="modal_konfirmasidelete<?php echo $row['id_jurusan'];?>" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="myModalLabel">Delete Jurusan</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            </div>
+            <form class="form-horizontal" method="post" action="<?php echo base_url('Datajurusan/delete/');?><?php echo $row['id_jurusan'] ?>">
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label class="control-label col-xs-3" >Apakah anda yakin ingin menghapus data jurusan <b> <?php echo $row['nama_jurusan']; ?> ? </b></label>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Batal</button>
+                    <button class="btn btn-danger"> Ya </button>
+                </div>
+            </form>
+            </div>
+            </div>
+        </div>
+
+        <?php }?>
+      <!--END MODAL KONFIRMASI DELETE JURUSAN-->

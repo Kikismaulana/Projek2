@@ -34,7 +34,7 @@ class Datajurusan extends CI_Controller {
 		}
 		else
 		{
-			$this->session->set_flashdata('info', "<div class='alert alert-success alert-dismissible fade show'>
+			$this->session->set_flashdata('info', "<div class='alert alert-danger alert-dismissible fade show'>
                         Data gagal ditambahkan!
                         <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                           <span aria-hidden='true'>&times;</span>
@@ -49,14 +49,14 @@ class Datajurusan extends CI_Controller {
 		$data = $this->input->post();
 			$this->load->model('MJurusan');
 			if ($this->MJurusan->update($data, $id_jurusan)) {
-				$this->session->set_flashdata('info', "<div class='alert alert-info alert-dismissible fade show'>
+				$this->session->set_flashdata('info', "<div class='alert alert-success alert-dismissible fade show'>
                         Data berhasil diupdate!
                         <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                           <span aria-hidden='true'>&times;</span>
                         </button>
                       </div>");
 			} else {
-				$this->session->set_flashdata('info', "<div class='alert alert-info alert-dismissible fade show'>
+				$this->session->set_flashdata('info', "<div class='alert alert-danger alert-dismissible fade show'>
                         Data gagal diupdate!
                         <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                           <span aria-hidden='true'>&times;</span>
@@ -70,7 +70,7 @@ class Datajurusan extends CI_Controller {
 	{
 		$this->load->model('MJurusan');
 		if($this->MJurusan->delete($id_jurusan)){
-			$this->session->set_flashdata('info', "<div class='alert alert-danger alert-dismissible fade show'>
+			$this->session->set_flashdata('info', "<div class='alert alert-success alert-dismissible fade show'>
                         Berhasil hapus data!
                         <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                           <span aria-hidden='true'>&times;</span>

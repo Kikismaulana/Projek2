@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class MKelas extends CI_Model {
 
 	public $tabel = 'kelas';
+	public $tabeljurusan = 'jurusan';
 
 	//Harus ada
 	function __construct(){

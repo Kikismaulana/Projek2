@@ -62,6 +62,6 @@
     <script src="<?php echo base_url(''); ?>assets/vendor/jquery-validation/jquery.validate.min.js"></script>
     <script src="<?php echo base_url(''); ?>assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- Main File-->
-    <script src="js/front.js"></script>
+    <script src="<?php echo base_url(''); ?>assets/js/front.js"></script>
   </body>
 </html>

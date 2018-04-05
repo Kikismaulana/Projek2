@@ -2,8 +2,8 @@
       <div class="breadcrumb-holder">
         <div class="container-fluid">
           <ul class="breadcrumb">
-            <li class="breadcrumb-item"><a href="<?php echo base_url('Admin') ?>">Home</a></li>
-            <li class="breadcrumb-item active">Data Kelas       </li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url('Admin/dashboard') ?>">Home</a></li>
+            <li class="breadcrumb-item active">Data Kelas</li>
           </ul>
         </div>
       </div>
@@ -51,7 +51,7 @@
                                 <td><?php echo $row['nama_kelas']; ?></td>
                                 <td align="center">
                                   <a class="btn btn-sm btn-info text-white" data-toggle="modal" data-target="#modal_edit<?php echo $row['id_kelas'];?>">Update</a>
-                                  <a href="<?php echo base_url('Datakelas/delete/') ?><?php echo $row['id_kelas'] ?>" class="btn btn-sm btn-danger">Delete</a>
+                                  <a data-toggle="modal" data-target="#modal_konfirmasidelete<?php echo $row['id_kelas'];?>"" class="btn btn-sm btn-danger text-white">Delete</a>
                                 </td>
                             </tr>
                           <?php } ?>
@@ -83,6 +83,7 @@
                         <label class="control-label col-xs-3" >Tingkat</label>
                         <div class="col-xs-8">
                              <select name="tingkat" class="form-control" required="">
+                                <option class="active">--PILIH DATA--</option>
                                 <option value="X">X</option>
                                 <option value="XI">XI</option>
                                 <option value="XII">XII</option>
@@ -92,17 +93,20 @@
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Jurusan</label>
                         <div class="col-xs-8">
-                             <select name="jurusan" class="form-control" required="">
+                            <input type="hidden" name="jurusan_new" id="jurusan_new">
+                            <select name="jurusan" class="form-control" required="" id="jurusan">
+                                <option class="active">--PILIH DATA--</option>
                                 <?php foreach ($datajurusan as $row) { ?>
-                                <option value="<?php echo $row['nama_jurusan']; ?>"> <?php echo $row['nama_jurusan']; ?></option>
+                                <option value="<?php echo $row['id_jurusan']; ?>"> <?php echo $row['nama_jurusan']; ?></option>
                                 <?php } ?>
-                             </select>
+                            </select>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Kategori</label>
                         <div class="col-xs-8">
                              <select name="kategori" class="form-control" required="">
+                                <option class="active">--PILIH DATA--</option>
                                 <option value="I">I</option>
                                 <option value="II">II</option>
                                 <option value="III">III</option>
@@ -139,6 +143,7 @@
                         <label class="control-label col-xs-3" >Tingkat</label>
                         <div class="col-xs-8">
                              <select name="tingkat" class="form-control" required="">
+                                <option class="active">--PILIH DATA--</option>
                                 <option value="X">X</option>
                                 <option value="XI">XI</option>
                                 <option value="XII">XII</option>
@@ -149,6 +154,7 @@
                         <label class="control-label col-xs-3" >Jurusan</label>
                         <div class="col-xs-8">
                              <select name="jurusan" class="form-control" required="">
+                                <option class="active">--PILIH DATA--</option>
                                 <?php foreach ($datajurusan as $row) { ?>
                                 <option value="<?php echo $row['nama_jurusan']; ?>"> <?php echo $row['nama_jurusan']; ?></option>
                                 <?php } ?>
@@ -159,6 +165,7 @@
                         <label class="control-label col-xs-3" >Kategori</label>
                         <div class="col-xs-8">
                              <select name="kategori" class="form-control" required="">
+                                <option class="active">--PILIH DATA--</option>
                                 <option value="I">I</option>
                                 <option value="II">II</option>
                                 <option value="III">III</option>
@@ -178,3 +185,42 @@
         </div>
         <?php } ?>
     <!--END MODAL UPDATE DATA KELAS-->
+
+    <!-- ============ MODAL KONFIRMASI DELETE KELAS =============== -->
+        <?php 
+        foreach($data as $row) {
+        ?>
+        <div class="modal fade" id="modal_konfirmasidelete<?php echo $row['id_kelas'];?>" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="myModalLabel">Delete Jurusan</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            </div>
+            <form class="form-horizontal" method="post" action="<?php echo base_url('Datakelas/delete/');?><?php echo $row['id_kelas'] ?>">
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label class="control-label col-xs-3" >Apakah anda yakin ingin menghapus data jurusan <b> <?php echo $row['nama_kelas']; ?> ? </b> </label>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Batal</button>
+                    <button class="btn btn-danger"> Ya </button>
+                </div>
+            </form>
+            </div>
+            </div>
+        </div>
+
+        <?php }?>
+      <!--END MODAL KONFIRMASI DELETE KELAS-->
+
+    <script type="text/javascript">
+      $('#jurusan').change(function(e){
+        //alert($('#jurusan option:selected').text());
+        $('#jurusan_new').val($('#jurusan option:selected').text());
+      });
+    </script>

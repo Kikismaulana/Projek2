@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="<?php echo base_url(''); ?>assets/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="<?php echo base_url(''); ?>assets/img/tittle.png">
+    <!-- JQuery -->
+    <script src="<?php echo base_url(''); ?>assets/vendor/jquery/jquery.min.js"></script>
     <!-- TinyMCE/Textarea -->
     <script type="text/javascript" src="<?php echo base_url(''); ?>assets/tinymce/js/tinymce/tinymce.min.js"></script>
     <script type="text/javascript">

@@ -2,9 +2,9 @@
       <div class="breadcrumb-holder">
         <div class="container-fluid">
           <ul class="breadcrumb">
-            <li class="breadcrumb-item"><a href="<?php echo base_url('Admin') ?>">Home</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url('Admin/dashboard') ?>">Home</a></li>
             <li class="breadcrumb-item active">Data Presensi</li>
-            <li class="breadcrumb-item active">Izin Siswa       </li>
+            <li class="breadcrumb-item active">Izin Siswa</li>
           </ul>
         </div>
       </div>
@@ -21,13 +21,30 @@
                 </div>
 
                 <!-- Conten value-->
-                <div class="card-body container-fluid">
+                <div class="card-body">
                   <div class="row">
-                    <div class="col-md-4">
-                      awdawda
+                    <div class="col-md-3">
+                      <p>Pengirim</p>
+                      <a href="#" class="btn btn-default btn-lg text-white col-md-12">Nurhayati</a>
+                      <a href="#" class="btn btn-warning btn-lg text-white col-md-12">Nurjannah</a>
                     </div>
-                    <div class="col-md-8">
-                      awdawd
+                    <div class="col-md-9">
+                      <p>Detail</p>
+
+                      <a href="#" class="btn btn-sm btn-success">Accept</a>
+                      <a href="#" class="btn btn-sm btn-danger">Decline</a>
+                    </div>
+                  </div>
+                  <div class="row" style="padding-top:20px">
+                    <div class="card-body" style="background-color: #F9FCFC">
+                      <h4>Keterangan : </h4>
+                      <div class="col-md-5">
+                        <div class="col-md-12" style="padding: 20px; background-color: #FFC107"></div>
+                        <div class="col-md-12" style="padding: 20px; background-color: #CED4DA"></div>
+                      </div>
+                      <div class="col-md-5">
+                        :
+                      </div>
                     </div>
                   </div>
                 </div>
