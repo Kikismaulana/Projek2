@@ -83,16 +83,13 @@ Untuk mengorganisasikan pekerjaan kami sehingga terarah, kami memilih model pros
 
 ## 2.3 Batasan dan antar muka organisasi ##
 
-Project Manager : dimana harus mejadi pengawas dari anggota – anggotanya bilamana
-saat anggota lalai dengan tugas – tugasnya, Project Manager berhak menegur dan bagi anggota tidak berhak melawan jika ditegur, dan untuk Project Manager sendiri tidak berhak semena-mena \dengan jabatanya.
-
-Documentation : dimana harus memenuhi segala dokumentasi proyek dan selalu berkomunikasi dengan semua anggota termasuk Project Manager.
-
-System Analysis : System analysis di harapkan mampu memecahkan dan mengembangkan permasalahan untuk menghasilkan solusi yang sesuai dengan tujuan dari apa yang dibutuhkan.
-
-Desain UI/UX : hanya bertugas pada bagian front-end dari implementasi System Analysis.
-
-Programmer : hanya bertugas pada bagian back-end dan selalu berkomunikasi dengan Desain UI/UX dan System Analysis.
+|Jabatan | Deskripsi Pekerjaan| 
+| ------ | ------ |
+|Project Manager | dimana harus menjadi pengawas dari anggotanya bilamana saat anggota lalai dengan tugas – tugasnya, Project Manager berhak menegur dan bagi anggota tidak berhak melawan jika ditegur, dan untuk Project Manager sendiri tidak berhak semena-mena dengan jabatanya. |
+| Documentation | dimana harus memenuhi segala dokumentasi proyek dan selalu berkomunikasi dengan semua anggota termasuk Project Manager.  |
+|DB Engineer  | Bertugas pada Back-end (CRUD webserver) |
+| Desain UI/UX | hanya bertugas pada bagian front-end dari implementasi System Analysis. |
+| Programmer | hanya bertugas pada bagian back-end dan selalu berkomunikasi dengan Desain UI/UX dan System Analysis. |
 
 ## 2.4 lingkup tanggung jawab ##
 
