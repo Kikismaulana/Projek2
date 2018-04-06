@@ -93,30 +93,16 @@ Untuk mengorganisasikan pekerjaan kami sehingga terarah, kami memilih model pros
 
 ## 2.4 lingkup tanggung jawab ##
 
-Project Manager :
-
-Project Manager adalah seseorang mempunyai tanggung jawab dan tugas yang besar dalam sebuah tim, tidak hanya terfokus pada hal-hal yang teknis sifatnya. Project Manager juga harus mampu memanagement tim dengan baik, agar target projek dapat tercapai. Selain itu memberi pengarahan, memonitoring kinerja tim, serta dapat membagi tugas dan bagian tanggung jawab dari seorang Project Manager.
-
-Documentation :
-
-Adalah seseorang yang bertanggung jawab terhadap pengaturan, pembuatan, dan rekam jejak segala jenis dokumen yang terlibat dalam proyek.
-Mulai dari proposal dan kontrak proyek, sampai dengan hasil sampling atau
-percobaan dalam proses pembangunan proyek.
-
-System Analysis :
-
-Banyak hal yang harus dilakukan oleh seorang System Analysis, terutama yang berkaitan dengan pemecahan masalah. Seorang System Analysis harus mampu menganalisa segala kemungkinan dari pemasalahan yang ada, dan dapat mengasilkan solusi yang tepat dari permasalahan tersebut. Menentukan sistem yang
-tepat merupakan bagian dari tugas seorang sistem analis, sehingga kinerja tim dapat berjalasan secara efesien.
-
-Design UI/UX :
-
-Design UI/UX adalah dia yang membuat suatu tampilan untuk user yang mengimplementasikan perancangan sistem yang telah di buat oleh System Analysis.
+Jabatan | Tanggung Jawab| 
+| ------ | ------ |
+|Project Manager | Project Manager adalah seseorang mempunyai tanggung jawab dan tugas yang besar dalam sebuah tim, tidak hanya terfokus pada hal-hal yang teknis sifatnya. Project Manager juga harus mampu memanagement tim dengan baik, agar target projek dapat tercapai. Selain itu memberi pengarahan, memonitoring kinerja tim, serta dapat membagi tugas dan bagian tanggung jawab dari seorang Project Manager. |
+| Documentation | Adalah seseorang yang bertanggung jawab terhadap pengaturan, pembuatan, dan rekam jejak segala jenis dokumen yang terlibat dalam proyek. Mulai dari proposal dan kontrak proyek, sampai dengan hasil sampling atau percobaan dalam proses pembangunan proyek.  |
+|DB Engineer  | Bertanggung jawab dalam mengatur database M-AFI dan bertugas pada Back-end (CRUD webserver) |
+| Desain UI/UX | Design UI/UX adalah dia yang membuat suatu tampilan untuk user yang mengimplementasikan perancangan sistem yang telah di buat oleh System Analysis.|
+| Programmer | Dalam hal ini, seorang programer bertugas untuk mengimplementasikan dari sistem yang sudah dirancang dan didesain. Programmer dituntut dapat menuliskan code program dengan baik, dan efesien. Hal ini dimaksudakan untuk menghindari terjadinya banyak error dalam proses implementasinya. |
 
 
-Programmer :
 
-Dalam hal ini, seorang programer bertugas untuk mengimplementasikan dari
-sistem yang sudah dirancang dan didesain. Programmer dituntut dapat menuliskan code program dengan baik, dan efesien. Hal ini dimaksudakan untuk menghindari terjadinya banyak error dalam proses implementasinya.
 
 
 ## BAB III Proses Manajerial ##
