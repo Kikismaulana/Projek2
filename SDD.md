@@ -186,6 +186,7 @@ Tools | Definisi
 | Presensi | id_presensi |  | tabel siswa | tabel presensi terdiri dari id_presensi, NIS, keterangan, presensi, tanggal, masuk, terlambat, pulang dan lebih_cepat. tabel presensi terhubung dengan tabel siswa. |
 
 
+
 #### 2.3 Deskripsi Modul ####
 
  No |  Nama Modul | Keterangan 
@@ -195,6 +196,7 @@ Tools | Definisi
 | 3 | Modul Jurusan | Yang dapat mengelola modul jurusan hanya admin saja, pada modul jurusan admin dapat mengelola data jurusan. |
 | 4 | Modul User | | Yang dapat mengelola modul user hanya admin saja, pada modul user admin dapat mengelola data user. |
 | 5 | Modul Presensi | Pada modul presensi admin dapat mengelola, sedangkan guru, siswa dan orang tua dapat melihat hasil rekap absen berdasarkan levelnya. |
+| 6 | Modul Login | Pada Modul Login Terbagi menjadi empat yaitu admin, siswa, guru dan orang tua. |
 
 
 
