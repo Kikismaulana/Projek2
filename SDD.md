@@ -180,17 +180,10 @@ Tools | Definisi
 |-----------|-------------|------------|-----|---------|
 | Siswa | NIS |  | tabel users, kelas dan presensi | tabel siswa terdiri dari NIS int not null PRIMARY KEY, id_kelas int not null REFERENCES kelas (id_kelas) ON DELETE CASCADE ON UPDATE CASCADE, nama_lengkap varchar (50), jk varchar (9), ttl varchar (50), email varchar (50), agama varchar (10), alamat text, no_hp varchar (15), nama_ayah varchar (50), nama_ibu varchar (50), pekerjaan_ayah varchar (50), pekerjaan_ibu varchar (50), alamat_ortu text. tabel siswa terhubung dengan tabel users, kelas dan presensi |
 | Guru | NIP |  | tabel users dan kelas | tabel guru terdiri dari NIP int not null, id_kelas int not null REFERENCES kelas (id_kelas) ON DELETE CASCADE ON UPDATE CASCADE, nama_lengkap varchar (50), email varchar (50), password varchar (50), jk varchar (9), no_hp varchar (15), alamat text, PRIMARY KEY (NIP). tabel guru terhubung dengan tabel users dan kelas |
-| Kelas | id_kelas |  | tabel siswa, jurusan dan guru | tabel kelas terdiri dari id_kelas int not null PRIMARY KEY DEFAULT NEXTVAL('id_kelas'),
-id_jurusan int not null REFERENCES jurusan (id_jurusan) ON DELETE CASCADE ON UPDATE CASCADE,
-nama_kelas varchar (20). tabel kelas terhubung dengan tabel siswa, jurusan dan guru |
-| Jurusan | id_jurusan |  | tabel kelas | tabel jurusan terdiri dari id_jurusan int not null PRIMARY KEY DEFAULT NEXTVAL('id_jurusan'),
-nama_jurusan varchar (50). tabel jurusan terhubung dengan tabel kelas |
-| Users | id_user |  | tabel siswa dan guru | tabel users terdiri dari id_users int not null PRIMARY KEY,
-NIS int not null REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE,
-NIP int not null REFERENCES guru (NIP) ON DELETE CASCADE ON UPDATE CASCADE, NISN int not null, password varchar (50), level varchar (10). tabel users terhubung dengan tabel siswa dan guru. |
-| Presensi | id_presensi |  | tabel siswa | tabel presensi terdiri dari id_presensi int not null PRIMARY KEY DEFAULT NEXTVAL('id_presensi'),
-NIS int not null REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE,
-id_izin int not null REFERENCES izin (id_izin) ON DELETE CASCADE ON UPDATE CASCADE, tanggal date, presensi varchar (20), pulang time, lebih_cepat int, masuk time, terlambat int. tabel presensi terhubung dengan tabel siswa. |
+| Kelas | id_kelas |  | tabel siswa, jurusan dan guru | tabel kelas terdiri dari id_kelas int not null PRIMARY KEY DEFAULT NEXTVAL('id_kelas'), id_jurusan int not null REFERENCES jurusan (id_jurusan) ON DELETE CASCADE ON UPDATE CASCADE, nama_kelas varchar (20). tabel kelas terhubung dengan tabel siswa, jurusan dan guru |
+| Jurusan | id_jurusan |  | tabel kelas | tabel jurusan terdiri dari id_jurusan int not null PRIMARY KEY DEFAULT NEXTVAL('id_jurusan'), nama_jurusan varchar (50). tabel jurusan terhubung dengan tabel kelas |
+| Users | id_user |  | tabel siswa dan guru | tabel users terdiri dari id_users int not null PRIMARY KEY, NIS int not null REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE, NIP int not null REFERENCES guru (NIP) ON DELETE CASCADE ON UPDATE CASCADE, NISN int not null, password varchar (50), level varchar (10). tabel users terhubung dengan tabel siswa dan guru. |
+| Presensi | id_presensi |  | tabel siswa | tabel presensi terdiri dari id_presensi int not null PRIMARY KEY DEFAULT NEXTVAL('id_presensi'), NIS int not null REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE, id_izin int not null REFERENCES izin (id_izin) ON DELETE CASCADE ON UPDATE CASCADE, tanggal date, presensi varchar (20), pulang time, lebih_cepat int, masuk time, terlambat int. tabel presensi terhubung dengan tabel siswa. |
 | izin | id_izin |  | tabel izin | tabel izin terdiri dari id_izin int not null PRIMARY KEY DEFAULT NEXTVAL ('id_izin'), alasan text, tanggal_mulai date, tanggal_selesai date, bukti varchar(50), status varchar (10). tabel izin terhubung dengan tabel presensi |
  
 
