@@ -92,139 +92,15 @@ IEEE Draft Standard for Software Design Descriptions
 
 #### 1.5 Ikhtisar Dokumen ####
 
-BAB 1 Pendahuluan
+ SUBBAB | ISI
+|-------|---------------------|
+| BAB I | PENDAHULUAN |
+|  | Berisi overview perangkat lunak yang merupakan ringkasan terhadap kemampuan aplikasisecara umum. |
+| BAB II | DESKRIPSI PERANCANGAN GLOBAL |
+|  | Berisi perancangan global dari perangkat lunak yang meliputi perancangan lingkungan operasidimana perangkat lunak akan dioperasikan, deskripsi dari data yang digunakan oleh perangkatlunak, serta dekomposisi lojik dari modul-modul perangkat lunak. |
+| BAB III | DESKRIPSI PERANCANGAN RINCI |
+|  | Berisi deskripsi lengkap dan rinci dari kebutuhan perangkat lunak yang meliputi deskripsi rincidari tabel yang digunakan, perincian dari setiap fungsi yang ada pada rancangan global,dekomposisi fisik dari modul –modul perangkat lunak, serta matriks kerunutan yangmenggambarkan keterkaitan antara perancangan dengan spesifikasi kebutuhan. |
 
-1.1 Tujuan
-
-1.2 Lingkup
-
-1.3 Definisi, Akronim, dan Singkatan
-
-1.4 Referensi
-
-1.5 Ikhtisar Dokumen
-
-BAB 2 Deskripsi Perancangan Global
-
-2.1 Rancangan Lingkungan Implementasi
-
-2.2 Deskripsi Data
-
-2.2.1  Definisi Domain/Type
-
-2.2.2 Conceptual Data Model
-
-2.2.3 Physical Data Model
- 
-2.2.4 Daftar Tabel Aplikasi
-
-2.3 Deskripsi Modul
-
-BAB 3 Deskripsi Perancangan Rinci
-
-3.1 Diagram Konteks
-
-3.1.1 DFD level 0
-
-3.1.1.1 DFD Level 1 Proses Mengelola Data Master 
-
-3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
-
-3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
-
-3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
-
-3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
-
-3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
-
-3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
-
-3.2 Deskripsi Rinci Tabel
-
-3.2.1 Tabel Siswa
-
-3.2.2 Tabel Guru
-
-3.2.3 Tabel Kelas
-
-3.2.4 Tabel Jurusan
-
-3.2.5 Tabel User
-
-3.2.6 Tabel Presensi
-
-3.3 Deskripsi Rinci Modul
-
-3.3.1 Modul siswa
-
-3.3.1.1 Fungsi Modul
-
-3.3.1.2 Spesifikasi Layar Utama
-
-3.3.1.3 Spesifikasi Query
-
-3.3.1.4 Spesifikasi Field Data Layar
-
-3.3.1.5 Spesifikasi Obyek Pada Layer
-
-3.3.1.6 Spesifikasi Proses / Algoritma
-
-3.3.2 Modul kelas
-
-3.3.2.1 Fungsi Modul
-
-3.3.2.2 Spesifikasi Layar Utama
-
-3.3.2.3 Spesifikasi Query
-
-3.3.2.4 Spesifikasi Field Data Layar
-
-3.3.2.5 Spesifikasi Obyek Pada Layer
-
-3.3.2.6 Spesifikasi Proses / Algoritma
-
-3.3.3 Modul jurusan
-
-3.3.3.1 Fungsi Modul
-
-3.3.3.2 Spesifikasi Layar Utama
-
-3.3.3.3 Spesifikasi Query
-
-3.3.3.4 Spesifikasi Field Data Layar
-
-3.3.3.5 Spesifikasi Obyek Pada Layer
-
-3.3.3.6 Spesifikasi Proses / Algoritma
-
-3.3.4 Modul users
-
-3.3.4.1 Fungsi Modul
-
-3.3.4.2 Spesifikasi Layar Utama
-
-3.3.4.3 Spesifikasi Query
-
-3.3.4.4 Spesifikasi Field Data Layar
-
-3.3.4.5 Spesifikasi Obyek Pada Layer
-
-3.3.4.6 Spesifikasi Proses / Algoritma
-
-3.3.5 Modul presensi
-
-3.3.5.1 Fungsi Modul
-
-3.3.5.2 Spesifikasi Layar Utama
-
-3.3.5.3 Spesifikasi Query
-
-3.3.5.4 Spesifikasi Field Data Layar
-
-3.3.5.5 Spesifikasi Obyek Pada Layer
-
-3.3.5.6 Spesifikasi Proses / Algoritma
 
 3.4 Matriks Keturunan
 
@@ -233,28 +109,19 @@ BAB 3 Deskripsi Perancangan Rinci
 
 #### 2.1 Rancangan Lingkungan Implementasi ####
 
--	Sublime,
-Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman termasuk pemrograman PHP, sublime mendukung banyak bahasa pemrograman dan bahasa markup serta fungsinya dapat ditambah dengan plugin, sublime juga memiliki banyak kelebihan.
-
-- PHP adalah singkatan dari Hypertext Prepocessor, yaitu bahasa pemrograman yang digunakan secara luas untuk penanganan pembuatan dan pengembangan sebuah situs web dan bias digunakan bersamaan dengan HTML. PHP diciptakan oleh Rasmus Lerdorf pertama kali tahun 1994. Pada awalnya PHP adalah singkatan dari “Personal Home Page Tools”. Selanjutnya diganti menjadi FI (“Forms Interpreter”). Sejak versi 3.0, nama bahasa ini diubah menjadi “PHP Hypertext Prepocessor  dengan singkatannya PHP . PHP versi terbaru adalah versi ke-5. Berdasarkan survey Netcraft pada bulan Desember 1999, lebih dari sejuta website menggunakan PHP, diantaranya adalah NASA, Mitsubishi, dan RedHat.
-
-- MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL (bahasa Inggris: database management system) atau DBMS yang multithread, multi-user, dengan sekitar 6 juta instalasi di seluruh dunia. MySQL AB membuat MySQL tersedia sebagai perangkat lunak gratis dibawah lisensi GNU General Public License (GPL), tetapi mereka juga menjual dibawah lisensi komersial untuk kasus-kasus di mana penggunaannya tidak cocok dengan penggunaan GPL. Tidak sama dengan proyek-proyek seperti Apache, di mana perangkat lunak dikembangkan oleh komunitas umum, dan hak cipta untuk kode sumber dimiliki oleh penulisnya masing-masing, MySQL dimiliki dan disponsori oleh sebuah perusahaan komersial Swedia MySQL AB, di mana memegang hak cipta hampir atas semua kode sumbernya. Kedua orang Swedia dan satu orang Finlandia yang mendirikan MySQL AB adalah: David Axmark, Allan Larsson, dan Michael "Monty" Widenius.
-
-- Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman. Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa berkas (file). Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML. CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan, atas, bawah, dan parameter lainnya.  CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen. Dengan adanya CSS memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda.
-
-- Framework Boostrap adalah sebuah library framework CSS yang dibuat khusus untuk mengembangkan front-end boostrap. Boostrap merupakan salah satu framework HTML, CSS, dan Javascript yang banyak digunakan pada website. Boostrap telah menyidiakan kumpulan komponen dasar yang telah dirancang sedimikian rupa untuk menciptakaan tampilan yang menarik. Boostrap juga berfungsi untuk mengatur layout pada halaman website yang bisa digunakan dengan mudah.
-
-- Codeigniter (CI) merupakan sebuah framework yang bersifat open source serta gratis dan menggunakan metode MVC (Model, View,Controller). Tujuannya sama dengan yang lainnya yaitu untuk mempermudah pembuatan website. Codeigniter (CI) adalah sekumpulan intruksi-intruksi yang dikumpulkan menjadi satu untuk mempermudah programmer dalam pemanggilannya tanpa harus mengetikan syntax nya secara berulang.
-
-- Android-SDK merupakan tools bagi para programmer yang ingin mengembangkan aplikasi berbasis google android. Android SDK mencakup seperangkat alat pengembangan yang komprehensif. Android SDK terdiri dari debugger, libraries, handset emulator,dokumentasi, contoh kode, dan tutorial. Saat ini Android sudah mendukung arsitektur x86 pada Linux (distribusi Linux apapun untuk desktop modern), Mac OS X 10.4.8 atau lebih, Windows XP atau Vista. Persyaratan mencakup JDK, Apache Ant dan Python 2.2 atau yang lebih baru. IDE yang didukung secara resmi adalah Eclipse 3.2 atau lebih dengan menggunakan pluginAndroid Development Tools (ADT), dengan ini pengembang dapat menggunakan teks editor untuk mengedit file Java dan XML serta menggunakan peralatan command line untuk menciptakan, membangun, melakukan debug aplikasi Android dan pengendalian perangkat Android (misalnya, reboot, menginstal paket perangkat lunak dengan jarak jauh).
-
-- Java JDK adalah sebuah perangkat lunak yang digunakan untuk menggunakan proses kompilasi dari kode  java ke bytecode yang dapat dimengerti dan dapat dijalankan oleh JRE (Java Runtime Envirotment). JDK wajib terinstall pada komputer yang akan melakukan proses pembuatan aplikasi berbasis java.
-
-- JavaScript adalah bahasa pemrograman yang bisa disisipkan ke HTML seperti halnya PHP akan tetapi Javascript berjalan disisi Client. Desain javascript dipengaruhi oleh banyak bahasa pemrograman, termasuk C, tetapi dimaksudkan untuk lebih digunakan oleh non-programmer.
-
-- Fingerprint adalah mesin untuk memberikan data otomatis yang secara cepat absensi siswa. Fingerprint adalah aplikasi yang didesain untuk memenuhi data yang cepat dengan menggunakan verifikasi sidik jari .
-
-- Android Studio adalah Lingkungan Pengembangan Terpadu - Integrated Development Environment (IDE) untuk pengembangan aplikasi Android, berdasarkan IntelliJ IDEA .
+Tools | Definisi
+| ------------- | ------------------|
+| Sublime | Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman termasuk pemrograman PHP, sublime mendukung banyak bahasa pemrograman dan bahasa markup serta fungsinya dapat ditambah dengan plugin, sublime juga memiliki banyak kelebihan. |
+| PHP | PHP adalah singkatan dari Hypertext Prepocessor, yaitu bahasa pemrograman yang digunakan secara luas untuk penanganan pembuatan dan pengembangan sebuah situs web dan bias digunakan bersamaan dengan HTML. PHP diciptakan oleh Rasmus Lerdorf pertama kali tahun 1994. Pada awalnya PHP adalah singkatan dari “Personal Home Page Tools”. Selanjutnya diganti menjadi FI (“Forms Interpreter”). Sejak versi 3.0, nama bahasa ini diubah menjadi “PHP Hypertext Prepocessor dengan singkatannya PHP . PHP versi terbaru adalah versi ke-5. Berdasarkan survey Netcraft pada bulan Desember 1999, lebih dari sejuta website menggunakan PHP, diantaranya adalah NASA, Mitsubishi, dan RedHat. |
+| MySQL | MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL (bahasa Inggris: database management system) atau DBMS yang multithread, multi-user, dengan sekitar 6 juta instalasi di seluruh dunia. MySQL AB membuat MySQL tersedia sebagai perangkat lunak gratis dibawah lisensi GNU General Public License (GPL), tetapi mereka juga menjual dibawah lisensi komersial untuk kasus-kasus di mana penggunaannya tidak cocok dengan penggunaan GPL. Tidak sama dengan proyek-proyek seperti Apache, di mana perangkat lunak dikembangkan oleh komunitas umum, dan hak cipta untuk kode sumber dimiliki oleh penulisnya masing-masing, MySQL dimiliki dan disponsori oleh sebuah perusahaan komersial Swedia MySQL AB, di mana memegang hak cipta hampir atas semua kode sumbernya. Kedua orang Swedia dan satu orang Finlandia yang mendirikan MySQL AB adalah: David Axmark, Allan Larsson, dan Michael "Monty" Widenius. |
+| CSS | Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman. Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa berkas (file). Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML. CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan, atas, bawah, dan parameter lainnya. CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen. Dengan adanya CSS memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda. |
+| Framework Boostrap | Framework Boostrap adalah sebuah library framework CSS yang dibuat khusus untuk mengembangkan front-end boostrap. Boostrap merupakan salah satu framework HTML, CSS, dan Javascript yang banyak digunakan pada website. Boostrap telah menyidiakan kumpulan komponen dasar yang telah dirancang sedimikian rupa untuk menciptakaan tampilan yang menarik. Boostrap juga berfungsi untuk mengatur layout pada halaman website yang bisa digunakan dengan mudah. |
+| Codeigniter | Codeigniter (CI) merupakan sebuah framework yang bersifat open source serta gratis dan menggunakan metode MVC (Model, View,Controller). Tujuannya sama dengan yang lainnya yaitu untuk mempermudah pembuatan website. Codeigniter (CI) adalah sekumpulan intruksi-intruksi yang dikumpulkan menjadi satu untuk mempermudah programmer dalam pemanggilannya tanpa harus mengetikan syntax nya secara berulang. |
+| Android-SDK | Android-SDK merupakan tools bagi para programmer yang ingin mengembangkan aplikasi berbasis google android. Android SDK mencakup seperangkat alat pengembangan yang komprehensif. Android SDK terdiri dari debugger, libraries, handset emulator,dokumentasi, contoh kode, dan tutorial. Saat ini Android sudah mendukung arsitektur x86 pada Linux (distribusi Linux apapun untuk desktop modern), Mac OS X 10.4.8 atau lebih, Windows XP atau Vista. Persyaratan mencakup JDK, Apache Ant dan Python 2.2 atau yang lebih baru. IDE yang didukung secara resmi adalah Eclipse 3.2 atau lebih dengan menggunakan pluginAndroid Development Tools (ADT), dengan ini pengembang dapat menggunakan teks editor untuk mengedit file Java dan XML serta menggunakan peralatan command line untuk menciptakan, membangun, melakukan debug aplikasi Android dan pengendalian perangkat Android (misalnya, reboot, menginstal paket perangkat lunak dengan jarak jauh). |
+| Java JDK | Java JDK adalah sebuah perangkat lunak yang digunakan untuk menggunakan proses kompilasi dari kode java ke bytecode yang dapat dimengerti dan dapat dijalankan oleh JRE (Java Runtime Envirotment). JDK wajib terinstall pada komputer yang akan melakukan proses pembuatan aplikasi berbasis java. |
+| JavaScript | JavaScript adalah bahasa pemrograman yang bisa disisipkan ke HTML seperti halnya PHP akan tetapi Javascript berjalan disisi Client. Desain javascript dipengaruhi oleh banyak bahasa pemrograman, termasuk C, tetapi dimaksudkan untuk lebih digunakan oleh non-programmer. |
+| Fingerprint | Fingerprint adalah mesin untuk memberikan data otomatis yang secara cepat absensi siswa. Fingerprint adalah aplikasi yang didesain untuk memenuhi data yang cepat dengan menggunakan verifikasi sidik jari . |
+| Android Studio | Android Studio adalah Lingkungan Pengembangan Terpadu - Integrated Development Environment (IDE) untuk pengembangan aplikasi Android, berdasarkan IntelliJ IDEA . |
 
 
 #### 2.2 Deskripsi Data ####
@@ -319,6 +186,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 | Presensi | id_presensi |  | tabel siswa | tabel presensi terdiri dari id_presensi, NIS, keterangan, presensi, tanggal, masuk, terlambat, pulang dan lebih_cepat. tabel presensi terhubung dengan tabel siswa. |
 
 
+
 #### 2.3 Deskripsi Modul ####
 
  No |  Nama Modul | Keterangan 
@@ -328,6 +196,7 @@ Sublime adalah sebuah software aplikasi/editor text untuk bahasa pemrograman ter
 | 3 | Modul Jurusan | Yang dapat mengelola modul jurusan hanya admin saja, pada modul jurusan admin dapat mengelola data jurusan. |
 | 4 | Modul User | | Yang dapat mengelola modul user hanya admin saja, pada modul user admin dapat mengelola data user. |
 | 5 | Modul Presensi | Pada modul presensi admin dapat mengelola, sedangkan guru, siswa dan orang tua dapat melihat hasil rekap absen berdasarkan levelnya. |
+| 6 | Modul Login | Pada Modul Login Terbagi menjadi empat yaitu admin, siswa, guru dan orang tua. |
 
 
 
