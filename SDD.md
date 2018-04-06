@@ -95,10 +95,12 @@ IEEE Draft Standard for Software Design Descriptions
 BAB I | PENDAHULUAN
 |------- |---------------------|
 |  | Berisi overview perangkat lunak yang merupakan ringkasan terhadap kemampuan aplikasisecara umum. |
+
 BAB II | DESKRIPSI PERANCANGAN GLOBAL
 |------- |---------------------|
 |  | Berisi perancangan global dari perangkat lunak yang meliputi perancangan lingkungan operasidimana perangkat lunak akan dioperasikan, deskripsi dari data yang digunakan oleh perangkatlunak, serta dekomposisi lojik dari modul-modul perangkat lunak. |
-BAB II | DESKRIPSI PERANCANGAN RINCI
+
+BAB III | DESKRIPSI PERANCANGAN RINCI
 |------- |---------------------|
 |  | Berisi deskripsi lengkap dan rinci dari kebutuhan perangkat lunak yang meliputi deskripsi rincidari tabel yang digunakan, perincian dari setiap fungsi yang ada pada rancangan global,dekomposisi fisik dari modul –modul perangkat lunak, serta matriks kerunutan yangmenggambarkan keterkaitan antara perancangan dengan spesifikasi kebutuhan. |
 
