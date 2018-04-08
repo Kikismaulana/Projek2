@@ -207,21 +207,11 @@ Dalam pembuatan aplikasi ini dibuat oleh 5 orang. Didalam kebutuhan sumber daya 
 
 2. Kebutuhan-kebutuhan software
 
-* Android Studio
-
-* PostgreSQL
-
-* Sublime
-
-* SDK Fingerprint
+![](http://image.ibb.co/kMQucH/TABEL.png)
 
 3. Kebutuhan-kebutuhan Hardware
 
-* Laptop / PC
-
-* Fingerprint
-
-* Smartphone
+![](http://image.ibb.co/duJVHH/Kebutuhan_Hardware.png)
 
 ## 5.4 Alokasi budget dan sumber daya ##
 
