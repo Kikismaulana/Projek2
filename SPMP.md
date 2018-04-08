@@ -197,15 +197,13 @@ Dalam pembuatan aplikasi ini dibuat oleh 5 orang. Didalam kebutuhan sumber daya 
 
 1. Kebutuhan-kebutuhan sumber daya manusia
 
-* Kikis Maulana ( Project Manager )
-
-* Noufal Ibrahim ( Programmer )
-
-* Widiana Silvi ( Database )
-
-* Diyah Ayu Amaliyah ( Desain )
-
-* Triyani Ramadhani ( Dokumentasi )
+| Sumber daya| Jobdesk |  
+| ------ | ------ |
+|Kikis Maulana | Project Manager |
+|Noufal Ibrahim | Programmer |
+|Widiana Silvi | Database |
+|Diyah Ayuh Amaliyah| Desain|
+|Triyani Ramadhani | Dokumentasi |
 
 2. Kebutuhan-kebutuhan software
 
