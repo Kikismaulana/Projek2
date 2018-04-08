@@ -53,7 +53,7 @@ Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin aka
 
 PostgreSQL adalah sebuah sistem basis data yang disebarluaskan secara bebas menurut Perjanjian lisensi BSD. Peranti lunak ini merupakan salah satu basis data yang paling banyak digunakan saat ini, selain MySQL dan Oracle. PostgreSQL menyediakan fitur yang berguna untuk replikasi basis data. Fitur-fitur yang disediakan PostgreSQL antara lain DB Mirror, PGPool, Slony, PGCluster, dan lain-lain.
 
-Tabel I.1 Akronim
+Tabel 1.1 Akronim
 
 | Singkatan | Arti kata |
 | --------- | --------- |
