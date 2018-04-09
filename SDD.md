@@ -166,9 +166,7 @@ Tools | Definisi
   
 ##### 2.2.2 Conceptual Data Model
 
-![](https://image.ibb.co/ieN3uc/IMG_20180322_WA0003.jpg)
 
-![](https://image.ibb.co/hT1UZc/IMG_20180322_WA0002.jpg)
 
 ##### 2.2.3 Physical Data Model
 
@@ -361,6 +359,20 @@ Primary Key			: id_presensi
 
 ![](https://image.ibb.co/mWJ9Zc/IMG_20180323_WA0008.jpg)
 
+#### 3.2.7 Tabel Izin
+
+Identifikasi/Nama	: izin
+
+Deskripsi Isi		: 
+
+Jenis 				: 
+
+Volume				:
+
+Laju				:
+
+Primary Key			: id_izin
+
 
 #### 3.3 Deskripsi Rinci Modul ####
 
@@ -377,8 +389,8 @@ Primary Key			: id_presensi
 3.3.1.3 Spesifikasi Query
 
 create table siswa (
-NIS int not null,
-id_kelas int not null,
+NIS int not null PRIMARY KEY,
+id_kelas int not null REFERENCES kelas (id_kelas) ON DELETE CASCADE ON UPDATE CASCADE,
 nama_lengkap varchar (50),
 jk varchar (9),
 ttl varchar (50),
@@ -390,13 +402,7 @@ nama_ayah varchar (50),
 nama_ibu varchar (50),
 pekerjaan_ayah varchar (50),
 pekerjaan_ibu varchar (50),
-alamat_ortu text,
-password varchar (50),
-PRIMARY KEY (NIS),
-FOREIGN KEY (id_kelas) REFERENCES kelas (id_kelas)
-ON DELETE CASCADE
-ON UPDATE CASCADE
-);
+alamat_ortu text);
 
 3.3.1.4 Spesifikasi Field Data Layar
 
@@ -424,14 +430,9 @@ ON UPDATE CASCADE
 3.3.2.3 Spesifikasi Query
 
 create table kelas (
-id_kelas int not null AUTO_INCREMENT,
-id_jurusan int not null,
-nama_kelas varchar (20),
-PRIMARY KEY (id_kelas),
-FOREIGN KEY (id_jurusan) REFERENCES jurusan (id_jurusan)
-ON DELETE CASCADE
-ON UPDATE CASCADE
-);
+id_kelas int not null PRIMARY KEY DEFAULT NEXTVAL('id_kelas'),
+id_jurusan int not null REFERENCES jurusan (id_jurusan) ON DELETE CASCADE ON UPDATE CASCADE,
+nama_kelas varchar (20));
 
 
 3.3.2.4 Spesifikasi Field Data Layar
@@ -459,9 +460,9 @@ ON UPDATE CASCADE
 3.3.3.3 Spesifikasi Query
 
 create table jurusan (
-id_jurusan int not null AUTO_INCREMENT,
-nama_jurusan varchar (50),
-PRIMARY KEY (id_jurusan));
+id_jurusan int not null PRIMARY KEY DEFAULT NEXTVAL('id_jurusan'),
+nama_jurusan varchar (50));
+
 
 3.3.3.4 Spesifikasi Field Data Layar
 
@@ -489,17 +490,12 @@ PRIMARY KEY (id_jurusan));
 3.3.4.3 Spesifikasi Query
 
 create table users (
-id_users int not null,
-NIP int not null,
-NIS int not null,
-NISN int not null, 
+id_users int not null PRIMARY KEY,
+NIS int not null REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE,
+NIP int not null REFERENCES guru (NIP) ON DELETE CASCADE ON UPDATE CASCADE,
+NISN int not null,
 password varchar (50),
-level varchar (10),
-PRIMARY KEY (id_users),
-FOREIGN KEY (NIS) REFERENCES siswa (NIS), 
-FOREIGN KEY (NIP) REFERENCES guru (NIP)
-ON DELETE CASCADE
-ON UPDATE CASCADE
+level varchar (10)
 );
 
 3.3.4.4 Spesifikasi Field Data Layar
@@ -527,19 +523,15 @@ ON UPDATE CASCADE
 3.3.5.3 Spesifikasi Query
 
 create table presensi (
-id_presensi int not null AUTO_INCREMENT,
-NIS int not null,
+id_presensi int not null PRIMARY KEY DEFAULT NEXTVAL('id_presensi'),
+NIS int not null REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE,
+id_izin int not null REFERENCES izin (id_izin) ON DELETE CASCADE ON UPDATE CASCADE,
 tanggal date,
-keterangan text,
 presensi varchar (20),
 pulang time,
 lebih_cepat int,
 masuk time,
-terlambat int,
-PRIMARY KEY (id_presensi),
-FOREIGN KEY (NIS) REFERENCES siswa (NIS)
-ON DELETE CASCADE
-ON UPDATE CASCADE
+terlambat int
 );
 
 3.3.5.4 Spesifikasi Field Data Layar
