@@ -1,10 +1,11 @@
+<html>
 <div align="center">
 
 <h1>Software Design Document</h1> 
 
-<p>Version 1.0 <br> 15 Maret 2018</p>
+<p>Version 1.0 <br> 15 Maret 2018</p><br>
 
-<img src="https://image.ibb.co/bJCF0x/POLINDRA.png" height="300px">
+<img src="https://image.ibb.co/bJCF0x/POLINDRA.png" height="200px"><br>
 
 <br><br>
 
@@ -12,36 +13,16 @@
 
 <table>
 	<tr>
-		<td>
-			<ul>
+		<td align="center">
+			Diyah Ayu Amaliyah (1603067) <br><br>
+		
+			Kikis Maulana (1603074) <br><br>
 			
-				<li>Diyah Ayu Amaliyah</li>
+			Noufal Ibrahim (1603080) <br><br>
 			
-				<li>Kikis Maulana</li>
+			Triyani Ramadhani (1603086) <br><br>
 			
-				<li>Noufal Ibrahim</li>
-			
-				<li>Triyani Ramadhani</li>
-			
-				<li>Widiana Silvi</li>
-			
-			<ul>
-		</td>
-
-		<td>
-			<ul>
-			
-				<li>1603067</li>
-			
-				<li>1603074</li>
-			
-				<li>1603080</li>
-			
-				<li>1603086</li>
-			
-				<li>1603088</li>
-			
-			<ul>
+			Widiana Silvi (1603088) <br><br>
 		</td>
 	</tr>
 </table>
@@ -51,7 +32,7 @@
 Politeknik Negeri Indramayu</h2>
 
 </div>
-
+</html>
 
 ## BAB I Pendahuluan ##
 
