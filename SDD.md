@@ -376,19 +376,21 @@ Primary Key			: id_izin
 
 #### 3.3 Deskripsi Rinci Modul ####
 
-### 
+#### 3.3.1 Modul Login
 
-#### 3.3.1 Modul Siswa
+ 
 
-3.3.1.1 Fungsi Modul
+#### 3.3.2 Modul Siswa
+
+#### 3.3.2.1 Fungsi Modul
 
 ![](https://image.ibb.co/iOaLPc/fungsi_siswa.png)
 
-3.3.1.2 Spesifikasi Layar Utama
+#### 3.3.2.2 Spesifikasi Layar Utama
 
 ![](https://image.ibb.co/gEdD9c/data_siswa.png)
 
-3.3.1.3 Spesifikasi Query
+#### 3.3.2.3 Spesifikasi Query
 
 create table siswa (
 NIS int not null PRIMARY KEY,
@@ -406,30 +408,30 @@ pekerjaan_ayah varchar (50),
 pekerjaan_ibu varchar (50),
 alamat_ortu text);
 
-3.3.1.4 Spesifikasi Field Data Layar
+#### 3.3.2.4 Spesifikasi Field Data Layar
 
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
 
-3.3.1.5 Spesifikasi Obyek Pada Layer
+#### 3.3.2.5 Spesifikasi Obyek Pada Layer
 
 ![](https://image.ibb.co/fxaXnx/obyek_siswa.png)
 
-3.3.1.6 Spesifikasi Proses / Algoritma
+#### 3.3.2.6 Spesifikasi Proses / Algoritma
 
 
 
-#### 3.3.2 Modul Kelas
+#### 3.3.3 Modul Kelas
 
-3.3.2.1 Fungsi Modul
+#### 3.3.3.1 Fungsi Modul
 
 ![](https://image.ibb.co/c1ux4c/fungsi_kelass.png)
 
-3.3.2.2 Spesifikasi Layar Utama
+#### 3.3.3.2 Spesifikasi Layar Utama
 
 ![](https://image.ibb.co/m5JD9c/data_kelas.png)
 
-3.3.2.3 Spesifikasi Query
+#### 3.3.3.3 Spesifikasi Query
 
 create table kelas (
 id_kelas int not null PRIMARY KEY DEFAULT NEXTVAL('id_kelas'),
@@ -437,59 +439,59 @@ id_jurusan int not null REFERENCES jurusan (id_jurusan) ON DELETE CASCADE ON UPD
 nama_kelas varchar (20));
 
 
-3.3.2.4 Spesifikasi Field Data Layar
+#### 3.3.3.4 Spesifikasi Field Data Layar
 
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
 
-3.3.2.5 Spesifikasi Obyek Pada Layer
+#### 3.3.3.5 Spesifikasi Obyek Pada Layer
 
 ![](https://image.ibb.co/g4xCnx/obyek_kelas.png)
 
-3.3.2.6 Spesifikasi Proses / Algoritma
+#### 3.3.3.6 Spesifikasi Proses / Algoritma
 
 
-#### 3.3.3 Modul Jurusan
+#### 3.3.4 Modul Jurusan
 
-3.3.3.1 Fungsi Modul
+#### 3.3.4.1 Fungsi Modul
 
 ![](https://image.ibb.co/ciWujc/fungsi_jurusan.png)
 
-3.3.3.2 Spesifikasi Layar Utama
+#### 3.3.4.2 Spesifikasi Layar Utama
 
 ![](https://image.ibb.co/nNTKhx/data_jurusan.png)
 
-3.3.3.3 Spesifikasi Query
+#### 3.3.4.3 Spesifikasi Query
 
 create table jurusan (
 id_jurusan int not null PRIMARY KEY DEFAULT NEXTVAL('id_jurusan'),
 nama_jurusan varchar (50));
 
 
-3.3.3.4 Spesifikasi Field Data Layar
+#### 3.3.4.4 Spesifikasi Field Data Layar
 
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
 
-3.3.3.5 Spesifikasi Obyek Pada Layer
+#### 3.3.4.5 Spesifikasi Obyek Pada Layer
 
 ![](https://image.ibb.co/jJPsnx/obyek_jurusan.png)
 
-3.3.3.6 Spesifikasi Proses / Algoritma
+#### 3.3.4.6 Spesifikasi Proses / Algoritma
 
 
-#### 3.3.4 Modul User
+#### 3.3.5 Modul User
 
-3.3.4.1 Fungsi Modul
+#### 3.3.5.1 Fungsi Modul
 
 ![](https://image.ibb.co/h7yJAH/fungsi_users.png)
 
-3.3.4.2 Spesifikasi Layar Utama
+#### 3.3.5.2 Spesifikasi Layar Utama
 
 ![](https://image.ibb.co/eyvh2x/data_user_siswa.png)
 ![](https://image.ibb.co/j5w0pc/data_user_guru.png)
 
-3.3.4.3 Spesifikasi Query
+#### 3.3.5.3 Spesifikasi Query
 
 create table users (
 id_users int not null PRIMARY KEY,
@@ -500,29 +502,29 @@ password varchar (50),
 level varchar (10)
 );
 
-3.3.4.4 Spesifikasi Field Data Layar
+#### 3.3.5.4 Spesifikasi Field Data Layar
 
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
 
-3.3.4.5 Spesifikasi Obyek Pada Layer
+#### 3.3.5.5 Spesifikasi Obyek Pada Layer
 
 ![](https://image.ibb.co/dopgfH/obyek_users.png)
 
-3.3.4.6 Spesifikasi Proses / Algoritma
+#### 3.3.5.6 Spesifikasi Proses / Algoritma
 
 
-#### 3.3.5 Modul Presensi
+#### 3.3.6 Modul Presensi
 
-3.3.5.1 Fungsi Modul
+#### 3.3.6.1 Fungsi Modul
 
 ![](https://image.ibb.co/d709Hx/fungsi_presensi.png)
 
-3.3.5.2 Spesifikasi Layar Utama
+#### 3.3.6.2 Spesifikasi Layar Utama
 
 ![](https://image.ibb.co/dsVn4c/data_presensi.png)
 
-3.3.5.3 Spesifikasi Query
+#### 3.3.6.3 Spesifikasi Query
 
 create table presensi (
 id_presensi int not null PRIMARY KEY DEFAULT NEXTVAL('id_presensi'),
@@ -536,16 +538,16 @@ masuk time,
 terlambat int
 );
 
-3.3.5.4 Spesifikasi Field Data Layar
+#### 3.3.6.4 Spesifikasi Field Data Layar
 
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
 
-3.3.5.5 Spesifikasi Obyek Pada Layer
+#### 3.3.6.5 Spesifikasi Obyek Pada Layer
 
 ![](https://image.ibb.co/i2YwEc/obyek_presensi.png)
 
-3.3.5.6 Spesifikasi Proses / Algoritma
+#### 3.3.6.6 Spesifikasi Proses / Algoritma
 
 
 
