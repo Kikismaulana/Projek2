@@ -12,19 +12,19 @@
 <h2>M-AFI</h2><br><br>
 
 
-Diyah Ayu Amaliyah (1603067) <br><br>
+Diyah Ayu Amaliyah (1603067) <br>
 		
-Kikis Maulana (1603074) <br><br>
+Kikis Maulana (1603074) <br>
 			
-Noufal Ibrahim (1603080) <br><br>
+Noufal Ibrahim (1603080) <br>
 			
-Triyani Ramadhani (1603086) <br><br>
+Triyani Ramadhani (1603086) <br>
 			
-Widiana Silvi (1603088) <br><br><br><br>
+Widiana Silvi (1603088) <br><br><br>
 
 
 <h2>Jurusan D3 Teknik Informatika
-<br><br>
+<br>
 Politeknik Negeri Indramayu</h2>
 
 </div>
