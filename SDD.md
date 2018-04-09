@@ -9,7 +9,7 @@
 
 <br><br>
 
-<h2>M-AFI</h2><br><br>
+<h2>M-AFI</h2>
 
 
 Diyah Ayu Amaliyah (1603067) <br>
