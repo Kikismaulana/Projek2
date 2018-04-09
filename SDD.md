@@ -9,26 +9,22 @@
 
 <br><br>
 
-<h2>M-AFI</h2><br>
+<h2>M-AFI</h2>
 
-<table>
-	<tr>
-		<td align="center">
-			Diyah Ayu Amaliyah (1603067) <br><br>
+
+Diyah Ayu Amaliyah (1603067) <br>
 		
-			Kikis Maulana (1603074) <br><br>
+Kikis Maulana (1603074) <br>
 			
-			Noufal Ibrahim (1603080) <br><br>
+Noufal Ibrahim (1603080) <br>
 			
-			Triyani Ramadhani (1603086) <br><br>
+Triyani Ramadhani (1603086) <br>
 			
-			Widiana Silvi (1603088) <br><br>
-		</td>
-	</tr>
-</table>
+Widiana Silvi (1603088) <br><br><br>
+
 
 <h2>Jurusan D3 Teknik Informatika
-<br><br>
+<br>
 Politeknik Negeri Indramayu</h2>
 
 </div>
@@ -104,7 +100,7 @@ Tools | Definisi
 
 #### 2.2 Deskripsi Data ####
 
-<img src="https://image.ibb.co/f0Mujc/IMG_20180322_WA0007.jpg" height="200px">
+<img src="https://image.ibb.co/ignTjx/ER.png" height="200px">
 
 #### 2.2.1 Definisi Domain/Type
 
