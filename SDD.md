@@ -83,9 +83,6 @@ IEEE Draft Standard for Software Design Descriptions
 |  | Berisi deskripsi lengkap dan rinci dari kebutuhan perangkat lunak yang meliputi deskripsi rincidari tabel yang digunakan, perincian dari setiap fungsi yang ada pada rancangan global,dekomposisi fisik dari modul –modul perangkat lunak, serta matriks kerunutan yangmenggambarkan keterkaitan antara perancangan dengan spesifikasi kebutuhan. |
 
 
-3.4 Matriks Keturunan
-
-
 ## BAB II Deskripsi Perancangan Global ##
 
 #### 2.1 Rancangan Lingkungan Implementasi ####
@@ -107,7 +104,7 @@ Tools | Definisi
 
 #### 2.2 Deskripsi Data ####
 
-![](https://image.ibb.co/f0Mujc/IMG_20180322_WA0007.jpg)
+<img src="https://image.ibb.co/f0Mujc/IMG_20180322_WA0007.jpg" height="200px">
 
 #### 2.2.1 Definisi Domain/Type
 
@@ -185,56 +182,56 @@ Tools | Definisi
 #### 3.1 Diagram Konteks ####
 
 
-![](http://image.ibb.co/fEUMGc/Konteks_Diagram.png)
+<img src="http://image.ibb.co/fEUMGc/Konteks_Diagram.png" height="600px">
 
 
 
 #### 3.1.1 DFD level 0
 
 
-![](http://image.ibb.co/dyXxpx/DFD_Level_0.png)
+<img src="http://image.ibb.co/dyXxpx/DFD_Level_0.png" height="500px">
 
 
 #### 3.1.1.1 DFD Level 1 Proses Mengelola Data Master
 
 
-![](http://image.ibb.co/c0tRhH/DFD_Level_1_mengelola_data_master.jpg)
+<img src="http://image.ibb.co/c0tRhH/DFD_Level_1_mengelola_data_master.jpg" height="700px"><br><br><br><br>
 
  
 #### 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
 
 
-![](http://image.ibb.co/mOEMGc/DFD_Level_2_mengelola_data_kelas.jpg)
+<img src="http://image.ibb.co/mOEMGc/DFD_Level_2_mengelola_data_kelas.jpg" height="500px"><br><br><br><br>
 
 
 #### 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
 
 
-![](http://image.ibb.co/jLYFbc/DFD_Level_2_mengelola_data_siswa.jpg)
+<img src="http://image.ibb.co/jLYFbc/DFD_Level_2_mengelola_data_siswa.jpg" height="600px"><br><br><br><br>
 
 
 #### 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
 
 
-![](http://image.ibb.co/nGhV9x/DFD_Level_2_mengelola_data_guru.jpg)
+<img src="http://image.ibb.co/nGhV9x/DFD_Level_2_mengelola_data_guru.jpg" height="500px"><br><br><br><br>
 
 
 #### 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
 
 
-![](http://image.ibb.co/mn33Ux/DFD_Level_2_mengelola_data_user.jpg)
+<img src="http://image.ibb.co/mn33Ux/DFD_Level_2_mengelola_data_user.jpg" height="500px"><br><br><br><br>
 
 
 #### 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
 
 
-![](http://image.ibb.co/cqwCNH/DFD_Level_2_mengelola_data_jurusan.jpg)
+<img src="http://image.ibb.co/cqwCNH/DFD_Level_2_mengelola_data_jurusan.jpg" height="500px"><br><br><br><br>
 
 
 #### 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
 
 
-![](http://image.ibb.co/b4L6hH/DFD_Level_1_mengelola_data_presensi.jpg)
+<img src="http://image.ibb.co/b4L6hH/DFD_Level_1_mengelola_data_presensi.jpg" height="700px"><br><br><br><br>
 
 
 #### 3.2 Deskripsi Rinci Tabel ####
@@ -253,7 +250,7 @@ Laju				:
 
 Primary Key			: NIP 
 
-![](https://image.ibb.co/gA0Ouc/IMG_20180323_WA0005.jpg)
+<img src="https://image.ibb.co/gA0Ouc/IMG_20180323_WA0005.jpg" height="300px">
 
 
 #### 3.2.2 Tabel Guru
@@ -270,7 +267,7 @@ Laju				:
 
 Primary Key			: NIP
 
-![](https://image.ibb.co/fQFCnx/IMG_20180323_WA0006.jpg)
+<img src="https://image.ibb.co/fQFCnx/IMG_20180323_WA0006.jpg" height="250px">
 
 
 #### 3.2.3 Tabel Kelas
@@ -287,7 +284,7 @@ Laju				:
 
 Primary Key			: id_kelas
 
-![](https://image.ibb.co/ey4iuc/IMG_20180323_WA0004.jpg)
+<img src="https://image.ibb.co/ey4iuc/IMG_20180323_WA0004.jpg" height="190px">
 
 
 #### 3.2.4 Tabel Jurusan
@@ -304,7 +301,7 @@ Laju				:
 
 Primary Key			: id_jurusan
 
-![](https://image.ibb.co/cq8nLH/IMG_20180323_WA0000.jpg)
+<img src="https://image.ibb.co/cq8nLH/IMG_20180323_WA0000.jpg" height="160px">
 
 
 #### 3.2.5 Tabel Users
@@ -321,7 +318,7 @@ Laju				:
 
 Primary Key			: id_users
 
-![](https://image.ibb.co/fi7Q7x/IMG_20180323_WA0007.jpg)
+<img src="https://image.ibb.co/fi7Q7x/IMG_20180323_WA0007.jpg" height="240px">
 
 
 #### 3.2.6 Tabel Presensi
@@ -338,9 +335,12 @@ Laju				:
 
 Primary Key			: id_presensi
 
-![](https://image.ibb.co/mWJ9Zc/IMG_20180323_WA0008.jpg)
+<img src="https://image.ibb.co/hBZDHH/presensi.png" height="270px">
 
 #### 3.2.7 Tabel Izin
+
+<img src="https://image.ibb.co/dgjDHH/izin.png" height="220px">
+
 
 Identifikasi/Nama	: izin
 
@@ -369,7 +369,7 @@ Primary Key			: id_izin
 
 #### 3.3.2.2 Spesifikasi Layar Utama
 
-![](https://image.ibb.co/gEdD9c/data_siswa.png)
+<img src="https://image.ibb.co/gEdD9c/data_siswa.png" height="350px">
 
 #### 3.3.2.3 Spesifikasi Query
 
@@ -410,7 +410,8 @@ alamat_ortu text);
 
 #### 3.3.3.2 Spesifikasi Layar Utama
 
-![](https://image.ibb.co/m5JD9c/data_kelas.png)
+
+<img src="https://image.ibb.co/m5JD9c/data_kelas.png" height="350px">
 
 #### 3.3.3.3 Spesifikasi Query
 
@@ -440,7 +441,7 @@ nama_kelas varchar (20));
 
 #### 3.3.4.2 Spesifikasi Layar Utama
 
-![](https://image.ibb.co/nNTKhx/data_jurusan.png)
+<img src="https://image.ibb.co/nNTKhx/data_jurusan.png" height="350px">
 
 #### 3.3.4.3 Spesifikasi Query
 
@@ -469,8 +470,8 @@ nama_jurusan varchar (50));
 
 #### 3.3.5.2 Spesifikasi Layar Utama
 
-![](https://image.ibb.co/eyvh2x/data_user_siswa.png)
-![](https://image.ibb.co/j5w0pc/data_user_guru.png)
+<img src="https://image.ibb.co/eyvh2x/data_user_siswa.png" height="350">
+<img src="https://image.ibb.co/j5w0pc/data_user_guru.png" height="350">
 
 #### 3.3.5.3 Spesifikasi Query
 
@@ -503,7 +504,7 @@ level varchar (10)
 
 #### 3.3.6.2 Spesifikasi Layar Utama
 
-![](https://image.ibb.co/dsVn4c/data_presensi.png)
+<img src="https://image.ibb.co/dsVn4c/data_presensi.png" height="350">
 
 #### 3.3.6.3 Spesifikasi Query
 
