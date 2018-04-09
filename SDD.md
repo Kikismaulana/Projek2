@@ -359,7 +359,31 @@ Primary Key			: id_izin
 
 #### 3.3.1 Modul Login
 
- 
+
+#### 3.3.1.1 Fungsi Modul
+
+
+
+#### 3.3.1.2 Spesifikasi Layar Utama
+
+
+
+#### 3.3.1.3 Spesifikasi Query
+
+
+
+#### 3.3.1.4 Spesifikasi Field Data Layar
+
+ Label | Field | Tabel/Query | Validasi | Keterangan
+|------|-------|-------------|----------|-----------|
+
+
+#### 3.3.1.5 Spesifikasi Obyek Pada Layer
+
+
+
+#### 3.3.1.6 Spesifikasi Proses / Algoritma
+
 
 #### 3.3.2 Modul Siswa
 
@@ -393,6 +417,22 @@ alamat_ortu text);
 
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
+| ComboBox | Kelas.nama_kelas | 3.2.3 |  | Untuk pilih nama kelas |       
+| TextBox | Siswa.nama_lengkap | 3.2.1 |  | Untuk mengisi nama siswa |       
+| TextBox | Siswa.NIS | 3.2.1 |  | Untuk mengisi NIS siswa |       
+| RadioButton | Siswa.jk | 3.2.1 |  | Untuk mengisi jenis kelamin |       
+| TextBox | Siswa.ttl | 3.2.1  |  | Untuk mengisi tempat, tanggal lahir |       
+| TextBox | Siswa.agama | 3.2.1  |  | Untuk mengisi agama  siswa |       
+| Tinymce | Siswa.alamat | 3.2.1  |  | Untuk mengisi alamat siswa |       
+| TextBox | Siswa.no_hp | 3.2.1  |  | Untuk mengisi nomer handphone siswa |       
+| TextBox | Siswa.nama_ayah | 3.2.1  |  | Untuk mengisi nama ayah siswa |       
+| TextBox | Siswa.nama_ibu | 3.2.1  |  | Untuk mengisi nama ibu siswa |       
+| TextBox | Siswa.pekerjaan_ayah | 3.2.1  |  | Untuk mengisi pekerjaan ayah siswa |       
+| TextBox | Siswa.pekerjaan_ibu | 3.2.1  |  | Untuk mengisi pekerjaan ibu siswa |       
+| Tinymce | Siswa.alamat_ortu | 3.2.1  |  | Untuk mengisi alamat orang tua siswa |       
+| Pilih file | Siswa.filesiswa | 3.2.1  |  | Untuk mengisi data siswa sekaligus tanpa harus memasukkan satu-persatu |       
+
+
 
 #### 3.3.2.5 Spesifikasi Obyek Pada Layer
 
@@ -425,6 +465,12 @@ nama_kelas varchar (20));
 
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
+| ComboBox (Tambah Kelas/ Tingkat) | Kelas.nama_kelas | 3.2.3 |  | Untuk menambah tingkat pada data nama_kelas |
+| ComboBox (Tambah Kelas/ Jurusan) | Kelas.nama_kelas | 3.2.3 |  | ntuk menambah jurusan pada data nama_kelas |
+| ComboBox (Tambah Kelas/ Kategori) | Kelas.nama_kelas | 3.2.3 |  | Untuk menambah kategori  pada data nama_kelas |
+| ComboBox (Show) | Kelas.nama_kelas | 3.2.3 |  | Untuk memilih kelas mana yang akan ditampilkan |
+
+
 
 #### 3.3.3.5 Spesifikasi Obyek Pada Layer
 
@@ -454,6 +500,9 @@ nama_jurusan varchar (50));
 
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
+| TextBox ( Tambah data jurusan ) | Jurusan.nama_jurusan | 3.2.4 |  | Untuk menambah nama jurusan |
+| ComboBox (Show) | Jurusan.nama_jurusan | 3.2.4 |  | Untuk memilih jurusan mana yang akan ditampilkan |
+
 
 #### 3.3.4.5 Spesifikasi Obyek Pada Layer
 
@@ -488,6 +537,17 @@ level varchar (10)
 
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
+| TextBox ( Tambah data / NISN  ) | Users.NISN | 3.2.5 |  | Untuk menambah NISN pada table users |
+| TextBox ( Tambah data / NIS  ) | Users.NIS | 3.2.5 |  | Untuk menambah NIS pada table users |
+| TextBox ( Tambah data / Password ) | Users.password | 3.2.5 |  | Untuk menambah password  pada table users |
+| ComboBox (Show) | Users.datausers | 3.2.5 |  | Untuk memilih users mana yang akan ditampilkan |
+
+Label | Field | Tabel / Query | Validasi | Keterangan 
+| ------- | ------ | ------------------- | ---------- | --------------- |
+| TextBox ( Tambah data / NIP ) | Users.NIP | 3.2.5 |  | Untuk menambah NIP pada table users |
+| TextBox ( Tambah data / password ) | Users.password | 3.2.5 |  | Untuk menambah password pada table users |
+| ComboBox (Show) | Users.datausers | 3.2.5 |  | Untuk memilih users mana yang akan ditampilkan |
+
 
 #### 3.3.5.5 Spesifikasi Obyek Pada Layer
 
@@ -533,6 +593,31 @@ terlambat int
 
 
 
+#### 3.3.7 Modul Rekap
+
+
+#### 3.3.7.1 Fungsi Modul
+
+
+
+#### 3.3.7.2 Spesifikasi Layar Utama
+
+
+
+#### 3.3.7.3 Spesifikasi Query
+
+
+
+#### 3.3.7.4 Spesifikasi Field Data Layar
+
+ Label | Field | Tabel/Query | Validasi | Keterangan
+|------|-------|-------------|----------|-----------|
+
+#### 3.3.7.5 Spesifikasi Obyek Pada Layer
+
+
+
+#### 3.3.7.6 Spesifikasi Proses / Algoritma
 
 #### 3.4 Matriks Kerunutan  ####
 
