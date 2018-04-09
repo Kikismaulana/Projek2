@@ -8,7 +8,7 @@
 <img src="https://image.ibb.co/nOcmsH/logo.jpg"/>
 </p>
 
-<br><h2 align="center"><b> M-AFI</h2><br>
+<br><h2 align="center"><b> M-AFI</b></h2><br>
 
 <p align="center">Kelompok 6 <br>
  Diyah Ayu Amaliyah 	(1603067)<br>
