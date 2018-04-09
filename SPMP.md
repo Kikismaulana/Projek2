@@ -43,7 +43,8 @@ Dokumen ini bersifat freeware, jadi siapa saja boleh untuk memanfaatkan dokumen 
 
 ## 1.4 Material Acuan ##
 
-Materi yang menjadi acuan dalam pembuatan projek ini menggunakan standar IEEE, karena menyediakan kerangka kerja yang menggabungkan seluruh spektrum proses siklus hidup perangkat lunak. Dan juga standar IEEE untuk membentuk model yang diakui secara internasional dari kehidupan perangkat lunak umum, siklus proses yang dapat direferensikan oleh industri perangkat lunak diseluruh dunia, untuk mempromosikan pemahaman diantara pihak bisnis dengan aplikasi umum serta mengakui proses, kegiatan dan tugas.
+- https://cs.uwaterloo.ca/~apidduck/se362/Assignments/A2/spmp
+
 
 ## 1.5 Definisi dan akronis (singkatan) ##
 
