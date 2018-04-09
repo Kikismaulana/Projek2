@@ -1,55 +1,27 @@
-<div align="center">
-<h1>Software Requirement Specification</h1> 
+<html>
+<body>
+<div align="center"><h1> Software Requirements Spesification</h1></div>
 
-<p>Version 2.0 <br> 25 Maret 2018</p>
+<p align="center"><b>Version 2.0 </b><br>
+<p align="center">25 Maret 2018</b>
+<p align="center">
+<img src="https://image.ibb.co/nOcmsH/logo.jpg"/>
+</p>
 
-<img src="https://image.ibb.co/bJCF0x/POLINDRA.png" height="300px">
+<br><h2 align="center"><b> M-AFI</h2><br>
 
-<br><br>
+<p align="center">Kelompok 6 <br>
+ Diyah Ayu Amaliyah 	(1603067)<br>
+ Kikis Maulana			(1603074)<br>
+ Noufal Ibrahim			(1603080)<br>
+ Triyani Ramadhani		(1603086)<br>
+ Widiana Silvi			(1603088)<br><br><br>
 
-<h2>M-AFI</h2><br>
-
-<table>
-	<tr>
-		<td>
-			<ul>
-			
-				<li>Diyah Ayu Amaliyah</li>
-			
-				<li>Kikis Maulana</li>
-			
-				<li>Noufal Ibrahim</li>
-			
-				<li>Triyani Ramadhani</li>
-			
-				<li>Widiana Silvi</li>
-			
-			<ul>
-		</td>
-
-		<td>
-			<ul>
-			
-				<li>1603067</li>
-			
-				<li>1603074</li>
-			
-				<li>1603080</li>
-			
-				<li>1603086</li>
-			
-				<li>1603088</li>
-			
-			<ul>
-		</td>
-	</tr>
-</table>
-
-<h2>Jurusan D3 Teknik Informatika
-<br><br>
-Politeknik Negeri Indramayu</h2>
-
-</div>
+<h2 align="center">Jurusan D3 Teknik Informatika</h2>
+<h2 align="center">Politeknik Negeri Indramayu
+</h2>
+</body>
+</html>
 
 
 ## Pendahuluan ##
@@ -132,7 +104,7 @@ Siswa berperan sebagai inputan pada presensi melalui device fingerprint.
 Orang tua siswa dapat mengakses aplikasi M-AFI melalui perangkat mobile dengan standar sistem operasi Lolipop dan harus menggunakan akses internet.
 Admin bertugas untuk memanage presensi pada webserver.
 
-	2.1.2. Antarmuka Pengguna
+2.1.2. Antarmuka Pengguna
 	
 
 **App Mobile Orang tua**
