@@ -129,11 +129,11 @@ Proyek ini diprioritaskan untuk kebutuhan instansi.
 
 ## 3.3 Manajemen resiko ##
 
- - Resiko teknologi misalnya kerusakan alat atau sistem
-   
- - Resiko orang misalnya bentuk sidik jari yang rusak akibat kecelakaan atau sebagainya
-
- - struktur/resiko proses misalnya kesalahan pembacaan data pada sidik jari
+|Resiko | Solusi |
+| ------ |------ |
+|Teknologi (Kerusakan alat atau sistem) |  dengan mengganti dengan yang baru tetapi dengan alat dan sistem yang sama
+|Bentuk sidik jari yang rusak akibat kecelakaan atau sebagainya | Konfirmasi/lapor ke admin
+|struktur/resiko proses kesalahan pembacaan pada sidik jari| Melaporkan kesalahan pada sistem ke Admin agar sistem dapat digunakan dengan benar lagi 
 
 
 ## 3.4 Mekanisme monitoring dan kontroling ##
