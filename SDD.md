@@ -9,23 +9,19 @@
 
 <br><br>
 
-<h2>M-AFI</h2><br>
+<h2>M-AFI</h2><br><br>
 
-<table>
-	<tr>
-		<td align="center">
-			Diyah Ayu Amaliyah (1603067) <br><br>
+
+Diyah Ayu Amaliyah (1603067) <br><br>
 		
-			Kikis Maulana (1603074) <br><br>
+Kikis Maulana (1603074) <br><br>
 			
-			Noufal Ibrahim (1603080) <br><br>
+Noufal Ibrahim (1603080) <br><br>
 			
-			Triyani Ramadhani (1603086) <br><br>
+Triyani Ramadhani (1603086) <br><br>
 			
-			Widiana Silvi (1603088) <br><br>
-		</td>
-	</tr>
-</table>
+Widiana Silvi (1603088) <br><br><br><br>
+
 
 <h2>Jurusan D3 Teknik Informatika
 <br><br>
