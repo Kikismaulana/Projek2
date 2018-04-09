@@ -53,7 +53,7 @@ Politeknik Negeri Indramayu</h2>
 </div>
 
 
-## Pendahuluan ##
+## BAB I Pendahuluan ##
 
 
 #### 1.1 Tujuan ####
@@ -105,7 +105,7 @@ IEEE Draft Standard for Software Design Descriptions
 3.4 Matriks Keturunan
 
 
-##  Deskripsi Perancangan Global ##
+## BAB II Deskripsi Perancangan Global ##
 
 #### 2.1 Rancangan Lingkungan Implementasi ####
 
@@ -128,7 +128,7 @@ Tools | Definisi
 
 ![](https://image.ibb.co/f0Mujc/IMG_20180322_WA0007.jpg)
 
-##### 2.2.1 Definisi Domain/Type
+#### 2.2.1 Definisi Domain/Type
 
  Domain Name | Power Designer Tipe
 |------------|--------------------|
@@ -164,15 +164,15 @@ Tools | Definisi
 
 
   
-##### 2.2.2 Conceptual Data Model
+#### 2.2.2 Conceptual Data Model
 
 
 
-##### 2.2.3 Physical Data Model
+#### 2.2.3 Physical Data Model
 
 
 
-##### 2.2.4 Daftar Tabel Aplikasi
+#### 2.2.4 Daftar Tabel Aplikasi
 
  Nama Tabel | Primary key | Data Store | E/R | Dekripsi 
 |-----------|-------------|------------|-----|---------|
@@ -208,49 +208,49 @@ Tools | Definisi
 
 
 
-##### 3.1.1 DFD level 0
+#### 3.1.1 DFD level 0
 
 
 ![](http://image.ibb.co/dyXxpx/DFD_Level_0.png)
 
 
-3.1.1.1 DFD Level 1 Proses Mengelola Data Master
+#### 3.1.1.1 DFD Level 1 Proses Mengelola Data Master
 
 
 ![](http://image.ibb.co/c0tRhH/DFD_Level_1_mengelola_data_master.jpg)
 
  
-3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
+#### 3.1.1.1.1 DFD Level 2 Proses Mengelola Data Kelas
 
 
 ![](http://image.ibb.co/mOEMGc/DFD_Level_2_mengelola_data_kelas.jpg)
 
 
-3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
+#### 3.1.1.1.2 DFD Level 2 Proses Mengelola Data Siswa
 
 
 ![](http://image.ibb.co/jLYFbc/DFD_Level_2_mengelola_data_siswa.jpg)
 
 
-3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
+#### 3.1.1.1.3 DFD Level 2 Proses Mengelola Data Guru
 
 
 ![](http://image.ibb.co/nGhV9x/DFD_Level_2_mengelola_data_guru.jpg)
 
 
-3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
+#### 3.1.1.1.4 DFD Level 2 Proses Mengelola Data Users
 
 
 ![](http://image.ibb.co/mn33Ux/DFD_Level_2_mengelola_data_user.jpg)
 
 
-3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
+#### 3.1.1.1.5 DFD Level 2 Proses Mengelola Data Jurusan
 
 
 ![](http://image.ibb.co/cqwCNH/DFD_Level_2_mengelola_data_jurusan.jpg)
 
 
-3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
+#### 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
 
 
 ![](http://image.ibb.co/b4L6hH/DFD_Level_1_mengelola_data_presensi.jpg)
@@ -258,7 +258,7 @@ Tools | Definisi
 
 #### 3.2 Deskripsi Rinci Tabel ####
 
-##### 3.2.1 Tabel Siswa
+#### 3.2.1 Tabel Siswa
 
 Identifikasi/Nama	: siswa
 
@@ -275,7 +275,7 @@ Primary Key			: NIP
 ![](https://image.ibb.co/gA0Ouc/IMG_20180323_WA0005.jpg)
 
 
-##### 3.2.2 Tabel Guru
+#### 3.2.2 Tabel Guru
 
 Identifikasi/Nama	: guru
 
@@ -292,7 +292,7 @@ Primary Key			: NIP
 ![](https://image.ibb.co/fQFCnx/IMG_20180323_WA0006.jpg)
 
 
-##### 3.2.3 Tabel Kelas
+#### 3.2.3 Tabel Kelas
 
 Identifikasi/Nama	: kelas 
 
@@ -309,7 +309,7 @@ Primary Key			: id_kelas
 ![](https://image.ibb.co/ey4iuc/IMG_20180323_WA0004.jpg)
 
 
-##### 3.2.4 Tabel Jurusan
+#### 3.2.4 Tabel Jurusan
 
 Identifikasi/Nama	: jurusan
 
@@ -326,7 +326,7 @@ Primary Key			: id_jurusan
 ![](https://image.ibb.co/cq8nLH/IMG_20180323_WA0000.jpg)
 
 
-##### 3.2.5 Tabel Users
+#### 3.2.5 Tabel Users
 
 Identifikasi/Nama	: users
 
@@ -343,7 +343,7 @@ Primary Key			: id_users
 ![](https://image.ibb.co/fi7Q7x/IMG_20180323_WA0007.jpg)
 
 
-##### 3.2.6 Tabel Presensi
+#### 3.2.6 Tabel Presensi
 
 Identifikasi/Nama	: presensi
 
@@ -376,7 +376,9 @@ Primary Key			: id_izin
 
 #### 3.3 Deskripsi Rinci Modul ####
 
-##### 3.3.1 Modul Siswa
+### 
+
+#### 3.3.1 Modul Siswa
 
 3.3.1.1 Fungsi Modul
 
@@ -417,7 +419,7 @@ alamat_ortu text);
 
 
 
-##### 3.3.2 Modul Kelas
+#### 3.3.2 Modul Kelas
 
 3.3.2.1 Fungsi Modul
 
@@ -447,7 +449,7 @@ nama_kelas varchar (20));
 3.3.2.6 Spesifikasi Proses / Algoritma
 
 
-##### 3.3.3 Modul Jurusan
+#### 3.3.3 Modul Jurusan
 
 3.3.3.1 Fungsi Modul
 
@@ -476,7 +478,7 @@ nama_jurusan varchar (50));
 3.3.3.6 Spesifikasi Proses / Algoritma
 
 
-##### 3.3.4 Modul User
+#### 3.3.4 Modul User
 
 3.3.4.1 Fungsi Modul
 
@@ -510,7 +512,7 @@ level varchar (10)
 3.3.4.6 Spesifikasi Proses / Algoritma
 
 
-##### 3.3.5 Modul Presensi
+#### 3.3.5 Modul Presensi
 
 3.3.5.1 Fungsi Modul
 
