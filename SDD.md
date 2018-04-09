@@ -100,7 +100,7 @@ Tools | Definisi
 
 #### 2.2 Deskripsi Data ####
 
-<img src="https://image.ibb.co/f0Mujc/IMG_20180322_WA0007.jpg" height="200px">
+<img src="https://image.ibb.co/ignTjx/ER.png" height="200px">
 
 #### 2.2.1 Definisi Domain/Type
 
