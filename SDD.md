@@ -224,10 +224,20 @@ Tools | Definisi
 <img src="http://image.ibb.co/cqwCNH/DFD_Level_2_mengelola_data_jurusan.jpg" height="500px"><br><br><br><br>
 
 
-#### 3.1.1.1 DFD Level 1 Proses Mengelola Data Presensi 
+#### 3.1.1.2 DFD Level 1 Proses Mengelola Data Presensi dan Izin
 
 
-<img src="http://image.ibb.co/b4L6hH/DFD_Level_1_mengelola_data_presensi.jpg" height="700px"><br><br><br><br>
+
+
+
+#### 3.1.1.2.1 DFD Level 2 Mengelola Data Presensi
+
+
+
+
+#### 3.1.1.2.2 DFD Level 2 Mengelola Data Izin
+
+
 
 
 #### 3.2 Deskripsi Rinci Tabel ####
@@ -366,6 +376,17 @@ Primary Key			: id_izin
 
 #### 3.3.1.3 Spesifikasi Query
 
+ Fungsi  | Query 
+| -------- | -------- |
+| validate_login |         $this->db->select('*');
+        $this->db->where('admin', $postData['admin']);
+        $this->db->where('password', $postData['password']);
+        $this->db->from('users');
+        $query=$this->db->get();
+        if ($query->num_rows() == 0)
+            return false;
+        else
+            return $query->result(); |
 
 
 #### 3.3.1.4 Spesifikasi Field Data Layar
@@ -393,21 +414,14 @@ Primary Key			: id_izin
 
 #### 3.3.2.3 Spesifikasi Query
 
-create table siswa (
-NIS int not null PRIMARY KEY,
-id_kelas int not null REFERENCES kelas (id_kelas) ON DELETE CASCADE ON UPDATE CASCADE,
-nama_lengkap varchar (50),
-jk varchar (9),
-ttl varchar (50),
-email varchar (50),
-agama varchar (10),
-alamat text,
-no_hp varchar (15),
-nama_ayah varchar (50),
-nama_ibu varchar (50),
-pekerjaan_ayah varchar (50),
-pekerjaan_ibu varchar (50),
-alamat_ortu text);
+  Fungsi  | Query 
+| -------- | -------- |
+| Create table |  |
+| Create | return $this->db->insert($this->tabel, $data); |
+| Read | return $this->db->get($this->tabel); |
+| Update |  |
+| Delete |  |
+
 
 #### 3.3.2.4 Spesifikasi Field Data Layar
 
@@ -451,10 +465,7 @@ alamat_ortu text);
 
 #### 3.3.3.3 Spesifikasi Query
 
-create table kelas (
-id_kelas int not null PRIMARY KEY DEFAULT NEXTVAL('id_kelas'),
-id_jurusan int not null REFERENCES jurusan (id_jurusan) ON DELETE CASCADE ON UPDATE CASCADE,
-nama_kelas varchar (20));
+
 
 
 #### 3.3.3.4 Spesifikasi Field Data Layar
