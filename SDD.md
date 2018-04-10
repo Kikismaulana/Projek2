@@ -378,8 +378,7 @@ Primary Key			: id_izin
 
  Fungsi  | Query 
 | -------- | -------- |
-| validate_login | $this->db->select('*');
-$this->db->where('admin', $postData['admin']); $this->db->where('password', $postData['password']); $this->db->from('users'); $query=$this->db->get(); if ($query->num_rows() == 0) return false; else return $query->result(); |
+| validate_login | $this->db->select('*'); $this->db->where('admin', $postData['admin']); $this->db->where('password', $postData['password']); $this->db->from('users'); $query=$this->db->get(); if ($query->num_rows() == 0) return false; else return $query->result(); |
 
 
 #### 3.3.1.4 Spesifikasi Field Data Layar
@@ -412,7 +411,7 @@ $this->db->where('admin', $postData['admin']); $this->db->where('password', $pos
 | Create table |  |
 | Create | return $this->db->insert($this->tabel, $data); |
 | Read | return $this->db->get($this->tabel); |
-| Update |  |
+| Update | return $this->db->where(nis, $nis)->update('siswa', $data); |
 | Delete |  |
 
 
@@ -458,8 +457,13 @@ $this->db->where('admin', $postData['admin']); $this->db->where('password', $pos
 
 #### 3.3.3.3 Spesifikasi Query
 
-
-
+  Fungsi  | Query 
+| -------- | -------- |
+| Create table |  |
+| Create | return $this->db->insert($this->tabel, $data); |
+| Read | return $this->db->get($this->tabel); |
+| Update | return $this->db->where('id_kelas', $id_kelas->update($this->tabel, $data); |
+| Delete | return $this->db->delete($this->tabel, ['id_kelas'=>$id_kelas]); |
 
 #### 3.3.3.4 Spesifikasi Field Data Layar
 
@@ -491,10 +495,13 @@ $this->db->where('admin', $postData['admin']); $this->db->where('password', $pos
 
 #### 3.3.4.3 Spesifikasi Query
 
-create table jurusan (
-id_jurusan int not null PRIMARY KEY DEFAULT NEXTVAL('id_jurusan'),
-nama_jurusan varchar (50));
-
+  Fungsi  | Query 
+| -------- | -------- |
+| Create table |  |
+| Create | return $this->db->insert($this->tabel, $data); |
+| Read | return $this->db->get($this->tabel); |
+| Update | return $this->db->where('id_jurusan', $id_jurusan)->update($this->tabel, $data); |
+| Delete | return $this->db->delete($this->tabel, ['id_jurusan'=>$id_jurusan]); |
 
 #### 3.3.4.4 Spesifikasi Field Data Layar
 
@@ -524,14 +531,17 @@ nama_jurusan varchar (50));
 
 #### 3.3.5.3 Spesifikasi Query
 
-create table users (
-id_users int not null PRIMARY KEY,
-NIS int not null REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE,
-NIP int not null REFERENCES guru (NIP) ON DELETE CASCADE ON UPDATE CASCADE,
-NISN int not null,
-password varchar (50),
-level varchar (10)
-);
+  Fungsi  | Query 
+| -------- | -------- |
+| Create table |  |
+| Create | return $this->db->insert($this->tabel, $data); |
+| Readadmin | return $this->db->get_where($this->tabel, 'level = admin'); |
+| Read | return $this->db->get($this->tabel); |
+| Readortu | $levelortu = "ortu"; return $this->db->get($this->v_ortu,'level', $levelortu); |
+| Readuserguru | $levelguru = "guru"; return $this->db->get($this->v_guru,'level',$levelguru); |
+| Readusersiswa | $levelsiswa = "siswa"; return $this->db->get($this->v_siswa,'level',$levelsiswa); |
+| Updateadmin | return $this->db->where('id_users', $id_users)->update($this->tabel, $data); |
+
 
 #### 3.3.5.4 Spesifikasi Field Data Layar
 
@@ -568,17 +578,13 @@ Label | Field | Tabel / Query | Validasi | Keterangan
 
 #### 3.3.6.3 Spesifikasi Query
 
-create table presensi (
-id_presensi int not null PRIMARY KEY DEFAULT NEXTVAL('id_presensi'),
-NIS int not null REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE,
-id_izin int not null REFERENCES izin (id_izin) ON DELETE CASCADE ON UPDATE CASCADE,
-tanggal date,
-presensi varchar (20),
-pulang time,
-lebih_cepat int,
-masuk time,
-terlambat int
-);
+  Fungsi  | Query 
+| -------- | -------- |
+| Create table |  |
+| Create |  |
+| Read |  |
+| Update |  |
+| Delete |  |
 
 #### 3.3.6.4 Spesifikasi Field Data Layar
 
@@ -606,7 +612,13 @@ terlambat int
 
 #### 3.3.7.3 Spesifikasi Query
 
-
+  Fungsi  | Query 
+| -------- | -------- |
+| Create table |  |
+| Create |  |
+| Read |  |
+| Update |  |
+| Delete |  |
 
 #### 3.3.7.4 Spesifikasi Field Data Layar
 
