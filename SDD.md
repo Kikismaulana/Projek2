@@ -378,15 +378,8 @@ Primary Key			: id_izin
 
  Fungsi  | Query 
 | -------- | -------- |
-| validate_login |         $this->db->select('*');
-        $this->db->where('admin', $postData['admin']);
-        $this->db->where('password', $postData['password']);
-        $this->db->from('users');
-        $query=$this->db->get();
-        if ($query->num_rows() == 0)
-            return false;
-        else
-            return $query->result(); |
+| validate_login | $this->db->select('*');
+$this->db->where('admin', $postData['admin']); $this->db->where('password', $postData['password']); $this->db->from('users'); $query=$this->db->get(); if ($query->num_rows() == 0) return false; else return $query->result(); |
 
 
 #### 3.3.1.4 Spesifikasi Field Data Layar
