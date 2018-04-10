@@ -335,8 +335,6 @@ Primary Key			: id_presensi
 
 #### 3.2.7 Tabel Izin
 
-<img src="https://image.ibb.co/dgjDHH/izin.png" height="220px">
-
 
 Identifikasi/Nama	: izin
 
@@ -349,6 +347,8 @@ Volume				:
 Laju				:
 
 Primary Key			: id_izin
+
+<img src="https://image.ibb.co/dgjDHH/izin.png" height="220px">
 
 
 #### 3.3 Deskripsi Rinci Modul ####
