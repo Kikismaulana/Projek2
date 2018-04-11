@@ -227,15 +227,22 @@ Tools | Definisi
 #### 3.1.1.2 DFD Level 1 Proses Mengelola Data Presensi dan Izin
 
 
+![](https://image.ibb.co/cVTRCH/mengelola_data_presensi_dan_izin.jpg)
+
+
 
 
 
 #### 3.1.1.2.1 DFD Level 2 Mengelola Data Presensi
 
+![](https://image.ibb.co/cX67Kx/mengelola_data_presensi.jpg)
 
 
 
 #### 3.1.1.2.2 DFD Level 2 Mengelola Data Izin
+
+
+![](https://image.ibb.co/n2EzXH/mengelola_data_izin.jpg)
 
 
 
