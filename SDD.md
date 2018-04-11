@@ -164,12 +164,14 @@ Tools | Definisi
 
  No |  Nama Modul | Keterangan 
 |---|-------------|-----------|
-| 1 | Modul Siswa | Yang dapat mengelola modul siswa hanya admin saja, pada modul siswa admin dapat mengelola data siswa. | 
-| 2 | Modul Kelas | Yang dapat mengelola modul kelas hanya admin saja, pada modul kelas admin dapat mengelola data kelas. |
-| 3 | Modul Jurusan | Yang dapat mengelola modul jurusan hanya admin saja, pada modul jurusan admin dapat mengelola data jurusan. |
-| 4 | Modul User | | Yang dapat mengelola modul user hanya admin saja, pada modul user admin dapat mengelola data user. |
-| 5 | Modul Presensi | Pada modul presensi admin dapat mengelola, sedangkan guru, siswa dan orang tua dapat melihat hasil rekap absen berdasarkan levelnya. |
-| 6 | Modul Login | Pada Modul Login Terbagi menjadi empat yaitu admin, siswa, guru dan orang tua. |
+| 1 | Modul Login | Pada Modul Login Terbagi menjadi empat yaitu admin, siswa, guru dan orang tua. | 
+| 2 | Modul Siswa | Yang dapat mengelola modul siswa hanya admin saja, pada modul siswa admin dapat mengelola data siswa. |
+| 3 | Modul Kelas | Yang dapat mengelola modul kelas hanya admin saja, pada modul kelas admin dapat mengelola data kelas. |
+| 4 | Modul Jurusan | Yang dapat mengelola modul jurusan hanya admin saja, pada modul jurusan admin dapat mengelola data jurusan. |
+| 5 | Modul User | | Yang dapat mengelola modul user hanya admin saja, pada modul user admin dapat mengelola data user. |
+| 6 | Modul Presensi | Pada modul presensi admin dapat mengelola, sedangkan guru, siswa dan orang tua dapat melihat hasil rekap absen berdasarkan levelnya. |
+| 7 | Modul Rekap | |
+
 
 
 
@@ -413,13 +415,14 @@ Primary Key			: id_izin
 
 #### 3.3.2.3 Spesifikasi Query
 
-  Fungsi  | Query 
+ Fungsi  | Query 
 | -------- | -------- |
-| Create table |  |
-| Create | return $this->db->insert($this->tabel, $data); |
+| Create table |create table siswa  (NIS int not null PRIMARY KEY, id_kelas int not null REFERENCES kelas (id_kelas) ON DELETE CASCADE ON UPDATE CASCADE, nama_lengkap varchar (50), jk varchar (9), ttl varchar (50), email varchar (50), agama varchar (10), alamat text, no_hp varchar (15), nama_ayah varchar (50), nama_ibu varchar (50), pekerjaan_ayah varchar (50), pekerjaan_ibu varchar (50), alamat_ortu text); |
+| Create | return $this->db->insert('siswa', $data); |
 | Read | return $this->db->get($this->tabel); |
 | Update | return $this->db->where(nis, $nis)->update('siswa', $data); |
-| Delete |  |
+| Delete | return $this->db->delete('siswa', ['nis'=>$nis]); |
+
 
 
 #### 3.3.2.4 Spesifikasi Field Data Layar
@@ -464,13 +467,14 @@ Primary Key			: id_izin
 
 #### 3.3.3.3 Spesifikasi Query
 
-  Fungsi  | Query 
+Fungsi  | Query 
 | -------- | -------- |
-| Create table |  |
+| Create table |create table kelas ( id_kelas int not null PRIMARY KEY DEFAULT NEXTVAL('id_kelas'), id_jurusan int not null REFERENCES jurusan (id_jurusan) ON DELETE CASCADE ON UPDATE CASCADE, nama_kelas varchar (50)); |
 | Create | return $this->db->insert($this->tabel, $data); |
 | Read | return $this->db->get($this->tabel); |
-| Update | return $this->db->where('id_kelas', $id_kelas->update($this->tabel, $data); |
+| Update | return $this->db->where('id_kelas', $id_kelas)->update($this->tabel, $data); |
 | Delete | return $this->db->delete($this->tabel, ['id_kelas'=>$id_kelas]); |
+
 
 #### 3.3.3.4 Spesifikasi Field Data Layar
 
@@ -502,13 +506,14 @@ Primary Key			: id_izin
 
 #### 3.3.4.3 Spesifikasi Query
 
-  Fungsi  | Query 
+Fungsi  | Query 
 | -------- | -------- |
-| Create table |  |
+| Create table |create table jurusan ( id_jurusan int not null PRIMARY KEY DEFAULT NEXTVAL('id_jurusan'), nama_jurusan varchar (50)); |
 | Create | return $this->db->insert($this->tabel, $data); |
 | Read | return $this->db->get($this->tabel); |
 | Update | return $this->db->where('id_jurusan', $id_jurusan)->update($this->tabel, $data); |
 | Delete | return $this->db->delete($this->tabel, ['id_jurusan'=>$id_jurusan]); |
+
 
 #### 3.3.4.4 Spesifikasi Field Data Layar
 
@@ -538,16 +543,17 @@ Primary Key			: id_izin
 
 #### 3.3.5.3 Spesifikasi Query
 
-  Fungsi  | Query 
+Fungsi  | Query 
 | -------- | -------- |
-| Create table |  |
-| Create | return $this->db->insert($this->tabel, $data); |
+| Create table | create table users ( id_users int not null PRIMARY KEY DEFAULT NEXTVAL ('id_users'), NIS int REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE, NIP int REFERENCES guru (NIP) ON DELETE CASCADE ON UPDATE CASCADE, NISN int, admin varchar (50), password varchar (50), level varchar (10) ); |
+| Create return $this->db->insert($this->tabel, $data);|
 | Readadmin | return $this->db->get_where($this->tabel, 'level = admin'); |
 | Read | return $this->db->get($this->tabel); |
 | Readortu | $levelortu = "ortu"; return $this->db->get($this->v_ortu,'level', $levelortu); |
-| Readuserguru | $levelguru = "guru"; return $this->db->get($this->v_guru,'level',$levelguru); |
-| Readusersiswa | $levelsiswa = "siswa"; return $this->db->get($this->v_siswa,'level',$levelsiswa); |
-| Updateadmin | return $this->db->where('id_users', $id_users)->update($this->tabel, $data); |
+| Readguru | $levelguru = "guru"; return $this->db->get($this->v_guru,'level', $levelguru); |
+| Readsiswa | $levelsiswa = "siswa"; return $this->db->get_where($this->v_siswa,'nis != '); |
+| Updateadmin | return $this->db->where('id_users', $id_users)->update($this->tabel, $data); 
+
 
 
 #### 3.3.5.4 Spesifikasi Field Data Layar
@@ -585,13 +591,14 @@ Label | Field | Tabel / Query | Validasi | Keterangan
 
 #### 3.3.6.3 Spesifikasi Query
 
-  Fungsi  | Query 
+Fungsi  | Query 
 | -------- | -------- |
-| Create table |  |
+| Create table | create table presensi (id_presensi int not null PRIMARY KEY DEFAULT NEXTVAL('id_presensi'), id_izin int REFERENCES izin (id_izin) ON DELETE CASCADE ON UPDATE CASCADE, NIS int not null REFERENCES siswa (NIS) ON DELETE CASCADE ON UPDATE CASCADE, tanggal date, presensi varchar (20), pulang time, lebih_cepat int, masuk time, terlambat int); |
 | Create |  |
 | Read |  |
 | Update |  |
 | Delete |  |
+ 
 
 #### 3.3.6.4 Spesifikasi Field Data Layar
 
