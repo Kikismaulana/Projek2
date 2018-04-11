@@ -1,30 +1,29 @@
-<div align="center">
+<html>
+<body>
+<div align="center"><h1> Software Project Management Plan</h1></div>
 
-<h1>Software Project Management Plan</h1> 
+<p align="center"><b>Version 1.0 </b><br>
+<p align="center">04 Maret 2018</b>
+<p align="center">
+<img src="https://image.ibb.co/nOcmsH/logo.jpg"/>
+</p>
 
-<p>Version 1.0 <br> 04 Maret 2018</p>
+<br><h2 align="center"><b> M-AFI</b></h2><br>
 
-<img src="https://image.ibb.co/bJCF0x/POLINDRA.png" height="300px">
+<p align="center">Kelompok 6 <br>
+ Diyah Ayu Amaliyah 	(1603067)<br>
+ Kikis Maulana			(1603074)<br>
+ Noufal Ibrahim			(1603080)<br>
+ Triyani Ramadhani		(1603086)<br>
+ Widiana Silvi			(1603088)<br><br><br>
 
-<br><br>
+<h2 align="center">Jurusan D3 Teknik Informatika</h2>
+<h2 align="center">Politeknik Negeri Indramayu
+</h2>
+</body>
+</html>
 
-<h2>M-AFI</h2><br>
 
-	Diyah Ayu Amaliyah  (1603067)
-
-    Kikis Maulana       (1603074)
-
-    Noufal Ibrahim      (1603080)
-
-    Triyani Ramadhani   (1603086)
-
-    Widiana Silvi       (1603088)
-
-<h2>Jurusan D3 Teknik Informatika
-<br><br>
-Politeknik Negeri Indramayu</h2>
-
-</div>
 
 ## BAB I Pendahuluan ##
 ## 1.1 Gambaran Proyek ##
@@ -191,6 +190,7 @@ Semua dokumen pendukung proyek akan selesai secara bertahap.
 ## 5.2 Ketergantungan/Keterkaitan ##
 
 Pada proses pengerjaan projek yang kami buat ini, keterkaitan dalam tugas masing-masing sangat membantu karena dalam pengerjaannya dikerjakan dengan pembagian modul-modul yang ada yang tentunya koordinasi yang baik agar terbentuknya ketelitian dalam mengerjakan projek ini sehingga mendapatkan hasil yang baik pula.
+![](https://image.ibb.co/fwcsmc/modul.png)
 
 ## 5.3 Kebutuhan-kebutuhan sumber daya ##
 
