@@ -178,7 +178,7 @@ Semua dokumen pendukung proyek akan selesai secara bertahap.
 
 ## 5.1 Paket Pekerjaan ##
 
-![](https://image.ibb.co/mFyEzx/rincian.png)
+![](https://image.ibb.co/fkfisH/Capture.png)
 
 
 ## 5.2 Ketergantungan/Keterkaitan ##
