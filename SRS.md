@@ -24,7 +24,7 @@
 </html>
 
 
-## Pendahuluan ##
+## 1. Pendahuluan ##
 
 1.1. Tujuan
 	
