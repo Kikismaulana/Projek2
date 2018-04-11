@@ -399,8 +399,13 @@ Primary Key			: id_izin
 |------|-------|-------------|----------|-----------|
 
 
-#### 3.3.1.5 Spesifikasi Obyek Pada Layer
+#### 3.3.1.5 Spesifikasi Obyek Pada Layar
 
+ Id Objek | Jenis | Keterangan
+| ---------- | --------- | --------------- |
+| Username | TextBox | Jika di klik, maka masukkan inputan |
+| Password | TextBox | Jika di klik, maka masukkan inputan |
+| Login |  Button |  Jika diklik, akan mengaktifkan Proses Algo Login |
 
 
 #### 3.3.1.6 Spesifikasi Proses / Algoritma
@@ -456,14 +461,27 @@ No | Fungsi | Jenis | Tabel Terkait
 | Pilih file | Siswa.filesiswa | 3.2.1  |  | Untuk mengisi data siswa sekaligus tanpa harus memasukkan satu-persatu |       
 
 
+#### 3.3.2.5 Spesifikasi Obyek Pada Layar
 
-#### 3.3.2.5 Spesifikasi Obyek Pada Layer
+Id Objek | Jenis | Keterangan
+| ---------- | --------- | --------------- |
+| Tambah data  | Button | Jika diklik, akan mengaktifkan Proses Algo Tambah data   |
+| Lihat Data | Button | Jika diklik, akan mengaktifkan Proses Algo Lihat Data |
+| Import Data | Button | Jika diklik, akan mengaktifkan Proses Algo Import Data |
+| Get PDF | Button | Jika diklik, akan mengaktifkan Proses Algo  Get PDF |
+| Details | Button | Jika diklik, akan mengaktifkan Proses Algo Details |
+| Update | Button | Jika diklik, akan mengaktifkan Proses Algo Update |
+| Delete | Button | Jika diklik, akan mengaktifkan Proses Algo  Delete |
+| Choose File | Label | Jika diklik, akan mengaktifkan Proses Algo Choose File |
+| Pilih / Import Data | Section | Isi teks yang disimpan akan di simpan data tabel siswa |
+| Data Siswa | Section | Isi teks yang ditampilkan hasil dari pilih/import data |
 
-![](https://image.ibb.co/fxaXnx/obyek_siswa.png)
 
 #### 3.3.2.6 Spesifikasi Proses / Algoritma
 
 ![]([img]http://image.ibb.co/gZV1wc/algo_siswa.png[/img])
+
+
 
 #### 3.3.3 Modul Kelas
 
@@ -503,9 +521,14 @@ Fungsi  | Query
 
 
 
-#### 3.3.3.5 Spesifikasi Obyek Pada Layer
+#### 3.3.3.5 Spesifikasi Obyek Pada Layar
 
-![](https://image.ibb.co/g4xCnx/obyek_kelas.png)
+Id Objek | Jenis | Keterangan
+| ---------- | --------- | --------------- |
+| Tambah Data | Button | Jika diklik, akan mengaktifkan Proses Algo tambah data dan akan tersimpan pada tabel kelas |
+| Update | Button | Jika diklik, akan mengaktifkan Proses Algo update |
+| Delete | Button | Jika diklik, akan mengaktifkan Proses Algo delete |
+
 
 #### 3.3.3.6 Spesifikasi Proses / Algoritma
 
@@ -545,9 +568,14 @@ Fungsi  | Query
 | ComboBox (Show) | Jurusan.nama_jurusan | 3.2.4 |  | Untuk memilih jurusan mana yang akan ditampilkan |
 
 
-#### 3.3.4.5 Spesifikasi Obyek Pada Layer
+#### 3.3.4.5 Spesifikasi Obyek Pada Layar
 
-![](https://image.ibb.co/jJPsnx/obyek_jurusan.png)
+Id Objek | Jenis | Keterangan
+| ---------- | --------- | --------------- |
+| Tambah Data | Button | Jika diklik, akan mengaktifkan Proses Algo tambah data dan akan tersimpan pada tabel jurusan | 
+| Update | Button | Jika diklik, akan mengaktifkan Proses Algo update |
+| Delete | Button | Jika diklik, akan mengaktifkan Proses Algo delete |
+
 
 #### 3.3.4.6 Spesifikasi Proses / Algoritma
 
@@ -619,9 +647,15 @@ Label | Field | Tabel / Query | Validasi | Keterangan
 | ComboBox (Show) | Users.datausers | 3.2.5 |  | Untuk memilih users mana yang akan ditampilkan |
 
 
-#### 3.3.5.5 Spesifikasi Obyek Pada Layer
+#### 3.3.5.5 Spesifikasi Obyek Pada Layar
 
-![](https://image.ibb.co/dopgfH/obyek_users.png)
+ Id Objek | Jenis | Keterangan
+| ---------- | --------- | --------------- |
+| Tambah Data | Button | Jika diklik, akan mengaktifkan Proses Algo tambah data dan akan tersimpan pada tabel users | 
+| Update | Button | Jika diklik, akan mengaktifkan Proses Algo update |
+| Delete | Button | Jika diklik, akan mengaktifkan Proses Algo delete |
+| Details | Button | jika diklik, akan menampilkan details data |
+
 
 #### 3.3.5.6 Spesifikasi Proses / Algoritma
 
@@ -637,11 +671,13 @@ Label | Field | Tabel / Query | Validasi | Keterangan
 
 ![]([img]http://image.ibb.co/gbrVpx/algo_user_ortu.png[/img])
 
+
 #### 3.3.6 Modul Presensi
 
 #### 3.3.6.1 Fungsi Modul
 
-![](https://image.ibb.co/d709Hx/fungsi_presensi.png)
+No | Fungsi | Jenis | Tabel Terkait
+|---- | -------- | ------- | ---------------- |
 
 #### 3.3.6.2 Spesifikasi Layar Utama
 
@@ -663,7 +699,7 @@ Fungsi  | Query
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
 
-#### 3.3.6.5 Spesifikasi Obyek Pada Layer
+#### 3.3.6.5 Spesifikasi Obyek Pada Layar
 
 ![](https://image.ibb.co/i2YwEc/obyek_presensi.png)
 
@@ -676,7 +712,8 @@ Fungsi  | Query
 
 #### 3.3.7.1 Fungsi Modul
 
-
+No | Fungsi | Jenis | Tabel Terkait
+|---- | -------- | ------- | ---------------- |
 
 #### 3.3.7.2 Spesifikasi Layar Utama
 
@@ -697,7 +734,7 @@ Fungsi  | Query
  Label | Field | Tabel/Query | Validasi | Keterangan
 |------|-------|-------------|----------|-----------|
 
-#### 3.3.7.5 Spesifikasi Obyek Pada Layer
+#### 3.3.7.5 Spesifikasi Obyek Pada Layar
 
 
 
