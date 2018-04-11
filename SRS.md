@@ -24,9 +24,10 @@
 </html>
 
 
-<<<<<<< HEAD
-## 1. Pendahuluan ##
-=======
+
+
+
+
 # 1. Pendahuluan #
 >>>>>>> daf969e07c9e083ee011896ef84d679145205e85
 
@@ -70,7 +71,7 @@ Pada dokumen ini memberikan penjelasan tentang gambaran umum, termasuk karakteri
 
 A.    Perbandingan dengan produk-produk kompetitor
 
-1.    Absensi siswa realtime dengan sms gateway
+# 1.    Absensi siswa realtime dengan sms gateway #
 
 Aplikasi ini adalah aplikasi absensi yang memanfaatkan fitur sms gateway, aplikasi ini digunakan untuk memantau para siswa terkait dengan tingkat kedisiplinan dalam proses belajar di sekolah, dimana tingkat kedisiplinan kehadiran siswa menjadi salah satu tolok ukur dalam proses penilaian. 
 Aplikasi ini memiliki kelebihan untuk orang tua siswa dalam memantau anaknya apabila anaknya tersebut tidak hadir di sekolah, sistem akan otomatis mengirim pemberitahuan melalui sms langsung ke HP orang tua siswa.
