@@ -178,26 +178,7 @@ Semua dokumen pendukung proyek akan selesai secara bertahap.
 
 ## 5.1 Paket Pekerjaan ##
 
-| No | Nama | Jabatan | Modul | Rincian Pekerjaan |
-| ------ | ------ | ---------| ------------------|
-| 1 | Kikis Maulana | Project Manager | Presensi | CRUD data presensi pada webserver M-AFI |
-|  |            |           | Rekap Presensi | CRUD data Rekap siswa pada webserver M-AFI |
-|  |            |           | Kelas | CRUD data kelas pada webserver M-AFI |
-|  |            |           | Login | Membuat login pada webserver M-AFI |
-| 2 | Noufal Ibrahim | Programmer | Presensi | Mengambil data presensi dari database dan mengintegrasikan device fingerprint sehingga dapat menginputkan data presensi di database |
-|  |            |           | Rekap Presensi | Mengambil rekap presensi dari database dengan ekstensi file excel atau pdf |
-|  |            |           | Login | Membuat Login pada app mobile |
-| 3 | Widiana Silvi | Database | Siswa | CRUD data siswa pada webserver  M-AFI |
-|  |            |           |        | Dapat mengexport data berupa excel atau PDF pada webserver  M-AFI |
-|  |            |           |        | Dapat mengimport data  ke database dari file CSV |
-| 4 | Diyah Ayu Amaliyah | Desain | User | CRUD data user pada webserver M-AFI |
-|  |            |           |        | CRUD user siswa pada data user di webserver M-AFI |
-|  |            |           |        | CRUD user guru pada data user di webserver M-AFI |
-|  |            |           |        | CRUD user orang tua pada data user di webserver M-AFI |
-| 5 | Triyani Ramadhani | Documentasi | User | CRUD data guru pada webserver M-AFI |
-|   |                   |             |      | Dapat mengimport data  ke database dari file CSV diwebserver M-AFI |
-|   |                   |             |      |CRUD  data jurusan pada webserver M-AFI |
-|   |                   |             |      |Dapat mengexport data  berupa excel atau PDF pada webserver  M-AFI |
+![](https://image.ibb.co/mFyEzx/rincian.png)
 
 
 ## 5.2 Ketergantungan/Keterkaitan ##
