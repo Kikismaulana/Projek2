@@ -77,7 +77,7 @@ Aplikasi ini memiliki kelebihan untuk orang tua siswa dalam memantau anaknya apa
 
 ![](https://image.ibb.co/jVdNfx/Absensi_siswa.png)
 
-2.    Sistem absensi fingerprint untuk dosen di POLINDRA
+# 2.    Sistem absensi fingerprint untuk dosen di POLINDRA #
 
 Sistem absensi dosen yang diterapkan untuk para dosen di POLINDRA ini adalah sistem absensi yang diterapkan dengan menggunakan fingerprint, sistem ini mempunyai kelebihan cepat dan akurat dalam proses absensi, karena sistem ini menggunakan metode biometrik dalam pengaplikasiannya, metode biometrik dalam sistem ini adalah menggunakan sidik jari dosen.
 Sistem ini belum bisa dilihat report presensinya untuk para dosen, jadi aplikasi ini hanya sekedar absensi menggunakan sidik jari, dan data absensi nya hanya masuk ke database, tetapi tidak bisa dilihat oleh para dosen.
