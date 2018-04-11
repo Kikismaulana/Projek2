@@ -214,6 +214,9 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini admin harus terlebih dahulu login agar bisa masuk ke web server
 
+![](https://ibb.co/b0JbUx)
+
+- Pada gambar ini ketika admin sudah masuk ke web server, maka pertama kali yang akan dilihat adalah dashboard web server
 
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
@@ -384,7 +387,7 @@ Langkah - langkah :
 
 Monitoring Presensi
 
-![](https://image.ibb.co/jSMnkH/28.jpg)
+![](https://image.ibb.co/jSMnkH/28.jpg) 
 
 Deskripsi singkat :
 	
