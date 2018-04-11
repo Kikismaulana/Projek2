@@ -377,6 +377,9 @@ Primary Key			: id_izin
 
 #### 3.3.1.1 Fungsi Modul
 
+ No | Fungsi | Jenis | Tabel Terkait
+|---- | -------- | ------- | ---------------- |
+| 1 | Login | Form Entry | Tabel siswa, guru, dan users |
 
 
 #### 3.3.1.2 Spesifikasi Layar Utama
@@ -407,7 +410,15 @@ Primary Key			: id_izin
 
 #### 3.3.2.1 Fungsi Modul
 
-![](https://image.ibb.co/iOaLPc/fungsi_siswa.png)
+No | Fungsi | Jenis | Tabel Terkait
+|---- | -------- | ------- | ---------------- |
+| 1 | Lihat data | Form Report  | Tabel Siswa |
+| 2  | Choose File | Form Entry | Tabel Siswa |
+| 3 |  Import Data | Form Entry | Tabel Siswa |
+| 4 |  Get.pdf  | Form Report | Tabel Siswa |
+| 5 | Update | Form Entry | Tabel Siswa |
+| 6 | Delete | Form berisi dialog/button saja | Tabel Siswa |
+
 
 #### 3.3.2.2 Spesifikasi Layar Utama
 
@@ -458,7 +469,12 @@ Primary Key			: id_izin
 
 #### 3.3.3.1 Fungsi Modul
 
-![](https://image.ibb.co/c1ux4c/fungsi_kelass.png)
+No | Fungsi | Jenis | Tabel Terkait
+|---- | -------- | ------- | ---------------- |
+| 1 | Tambah Data | Form Entry | Tabel Kelas |
+| 2 | Update | Form Entry | Tabel Kelas |
+| 3 | Delete | Form berisi dialog/button saja | Tabel Kelas | 
+
 
 #### 3.3.3.2 Spesifikasi Layar Utama
 
@@ -499,7 +515,12 @@ Fungsi  | Query
 
 #### 3.3.4.1 Fungsi Modul
 
-![](https://image.ibb.co/ciWujc/fungsi_jurusan.png)
+No | Fungsi | Jenis | Tabel Terkait
+|---- | -------- | ------- | ---------------- |
+| 1 | Tambah Data | Form Entry | Tabel Jurusan |
+| 2 | Update | Form Entry | Tabel Jurusan |
+| 3 | Delete | Form berisi dialog/button saja | Tabel Jurusan | 
+
 
 #### 3.3.4.2 Spesifikasi Layar Utama
 
@@ -536,7 +557,31 @@ Fungsi  | Query
 
 #### 3.3.5.1 Fungsi Modul
 
-![](https://image.ibb.co/h7yJAH/fungsi_users.png)
+##### 3.3.5.1 Users Siswa
+
+No | Fungsi | Jenis | Tabel Terkait
+|---- | -------- | ------- | ---------------- |
+| 1 | Tambah Data | Form Entry | Tabel  | Tabel Siswa dan Users |
+| 2 | Update | Form Entry | Tabel  | Tabel Siswa dan Users |
+| 3 | Delete | Form berisi dialog/button saja | Tabel  | Tabel Siswa dan Users |
+
+
+##### 3.3.5.1 Users Guru
+
+No | Fungsi | Jenis | Tabel Terkait
+|---- | -------- | ------- | ---------------- |
+| 1 | Tambah Data | Form Entry | Tabel  | Tabel Guru dan Users |
+| 2 | Update | Form Entry | Tabel  | Tabel Guru dan Users |
+| 3 | Delete | Form berisi dialog/button saja | Tabel  |  Tabel Guru dan Users |
+
+##### 3.3.5.1 Users Ortu
+
+No | Fungsi | Jenis | Tabel Terkait
+|---- | -------- | ------- | ---------------- |
+| 1 | Tambah Data | Form Entry | Tabel  | Tabel Siswa dan Users |
+| 2 | Update | Form Entry | Tabel  | Tabel Siswa dan Users |
+| 3 | Delete | Form berisi dialog/button saja | Tabel  | Tabel Siswa dan Users |
+
 
 #### 3.3.5.2 Spesifikasi Layar Utama
 
