@@ -452,7 +452,7 @@ Primary Key			: id_izin
 
 #### 3.3.2.6 Spesifikasi Proses / Algoritma
 
-
+![]([img]http://image.ibb.co/gZV1wc/algo_siswa.png[/img])
 
 #### 3.3.3 Modul Kelas
 
@@ -493,6 +493,7 @@ Fungsi  | Query
 
 #### 3.3.3.6 Spesifikasi Proses / Algoritma
 
+![]([img]http://image.ibb.co/e2tbUx/algo_kelas.png[/img])
 
 #### 3.3.4 Modul Jurusan
 
@@ -529,6 +530,7 @@ Fungsi  | Query
 
 #### 3.3.4.6 Spesifikasi Proses / Algoritma
 
+[img]http://image.ibb.co/cNLO9x/algo_jurusan.png[/img]
 
 #### 3.3.5 Modul User
 
@@ -578,6 +580,17 @@ Label | Field | Tabel / Query | Validasi | Keterangan
 
 #### 3.3.5.6 Spesifikasi Proses / Algoritma
 
+##### 3.3.5.6.1 Users Siswa
+
+![]([img]http://image.ibb.co/fCwKhH/algo_user_siswa.png[/img])
+
+##### 3.3.5.6.2 Users Guru
+
+![]([img]http://image.ibb.co/e77QNH/algo_user_guru.png[/img])
+
+##### 3.3.5.6.3 Users Ortu
+
+![]([img]http://image.ibb.co/gbrVpx/algo_user_ortu.png[/img])
 
 #### 3.3.6 Modul Presensi
 
