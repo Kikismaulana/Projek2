@@ -208,6 +208,16 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini fungsinya untuk mengganti password yang diingikan oleh guru.
 
+### D. App Website Admin ###
+
+![](https://ibb.co/eze5NH)
+
+- Pada gambar ini admin harus terlebih dahulu login agar bisa masuk ke web server
+
+![](https://ibb.co/b0JbUx)
+
+- Pada gambar ini ketika admin sudah masuk ke web server, maka pertama kali yang akan dilihat adalah dashboard web server
+
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
 
@@ -377,7 +387,11 @@ Langkah - langkah :
 
 Monitoring Presensi
 
+<<<<<<< HEAD
 <img src="https://image.ibb.co/jSMnkH/28.jpg" height="300px">
+=======
+![](https://image.ibb.co/jSMnkH/28.jpg) 
+>>>>>>> 7606533618372d6cd887c581677e447611ddb9c8
 
 Deskripsi singkat :
 	
