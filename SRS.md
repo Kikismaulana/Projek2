@@ -1,5 +1,4 @@
 <html>
-<body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
 
 <p align="center"><b>Version 2.0 </b><br>
@@ -20,16 +19,10 @@
 <h2 align="center">Jurusan D3 Teknik Informatika</h2>
 <h2 align="center">Politeknik Negeri Indramayu
 </h2>
-</body>
 </html>
 
-
-
-
-
-
 # 1. Pendahuluan #
->>>>>>> daf969e07c9e083ee011896ef84d679145205e85
+
 
 ## 1.1. Tujuan ##
 	
@@ -1422,7 +1415,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 ### 3.3.1 Logical Structure data ###
 
-![](https://image.ibb.co/fuuq5H/ERD_FIX_BANGET_YA_ALLAH.jpg)
+![](https://image.ibb.co/iNMXSH/ERD.jpg)
 
 
 Entitas data Jurusan
