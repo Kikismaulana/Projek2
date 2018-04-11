@@ -29,7 +29,7 @@
 
 
 # 1. Pendahuluan #
->>>>>>> daf969e07c9e083ee011896ef84d679145205e85
+
 
 ## 1.1. Tujuan ##
 	
