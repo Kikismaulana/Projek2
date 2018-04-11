@@ -69,14 +69,14 @@ A.    Perbandingan dengan produk-produk kompetitor
 Aplikasi ini adalah aplikasi absensi yang memanfaatkan fitur sms gateway, aplikasi ini digunakan untuk memantau para siswa terkait dengan tingkat kedisiplinan dalam proses belajar di sekolah, dimana tingkat kedisiplinan kehadiran siswa menjadi salah satu tolok ukur dalam proses penilaian. 
 Aplikasi ini memiliki kelebihan untuk orang tua siswa dalam memantau anaknya apabila anaknya tersebut tidak hadir di sekolah, sistem akan otomatis mengirim pemberitahuan melalui sms langsung ke HP orang tua siswa.
 
-![](https://image.ibb.co/jVdNfx/Absensi_siswa.png)
+<img src="https://image.ibb.co/jVdNfx/Absensi_siswa.png" height="300px">
 
 # 2.    Sistem absensi fingerprint untuk dosen di POLINDRA #
 
 Sistem absensi dosen yang diterapkan untuk para dosen di POLINDRA ini adalah sistem absensi yang diterapkan dengan menggunakan fingerprint, sistem ini mempunyai kelebihan cepat dan akurat dalam proses absensi, karena sistem ini menggunakan metode biometrik dalam pengaplikasiannya, metode biometrik dalam sistem ini adalah menggunakan sidik jari dosen.
 Sistem ini belum bisa dilihat report presensinya untuk para dosen, jadi aplikasi ini hanya sekedar absensi menggunakan sidik jari, dan data absensi nya hanya masuk ke database, tetapi tidak bisa dilihat oleh para dosen.
 
-![](https://image.ibb.co/cww8Lx/absensi_polindra.jpg)
+<img src="https://image.ibb.co/cww8Lx/absensi_polindra.jpg" height="300px">
 
 # 3.    M-AFI (Mobile-Attendance Fingerprint) #
 
@@ -95,7 +95,7 @@ No | Nama Aplikasi | Keunggulan | Kekurangan
 
 ### 2.1.1. Antarmuka sistem ###
 
-![](https://image.ibb.co/m2STDS/Antarmuka_sistem.png)
+<img src="https://image.ibb.co/m2STDS/Antarmuka_sistem.png" height="400px">
 
 Mobile - Attendance Fingerprint memiliki 3 faktor pada pengimplementasiannya, diantaranya, Siswa, Orangtua siswa dan admin.
 Siswa berperan sebagai inputan pada presensi melalui device fingerprint.
@@ -107,104 +107,104 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 #### A. App Mobile Orang tua ####
 
-![](https://image.ibb.co/fjhyxH/Login_orang_tua.png)
+<img src="https://image.ibb.co/fjhyxH/Login_orang_tua.png" height="300px">
 
 - Pada Gambar ini Orang tua dapat login melalui App M-AFI yang sudah ada dengan memasukkan username dan password.
 
-![](https://image.ibb.co/dxD5cH/lupa_password_ortu.png)
+<img src="https://image.ibb.co/dxD5cH/lupa_password_ortu.png" height="300px">
 
 - Pada Gambar ini ketika orang tua lupa password maka orang tua diminta untuk memasukkan Email agar admin tau bahwa orang tua tersebut lupa password.
 
-![](https://image.ibb.co/jZkkcH/dasboard_ortu.png)
+<img src="https://image.ibb.co/jZkkcH/dasboard_ortu.png" height="300px">
 
 - Pada Gambar ini adalah tampilan dasboard pada app orang tua ketika sudah login
 
-![](https://image.ibb.co/jZpNPx/sidebar_ortu.png)
+<img src="https://image.ibb.co/jZpNPx/sidebar_ortu.png" height="300px">
 
 - Pada Gambar ini menjelaskan bahwa sidebar berfungsi untuk mendownload rekap persemester siswa.
 
-![](https://image.ibb.co/bPrDWc/logout_ortu.png)
+<img src="https://image.ibb.co/bPrDWc/logout_ortu.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk ganti password sama logout.
 
-![](https://image.ibb.co/hGdhPx/izin_siswa_ortu.png)
+<img src="https://image.ibb.co/hGdhPx/izin_siswa_ortu.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk izin siswa yang mana izin siswa tersebut di inputkan oleh orang tua.
 
-![](https://image.ibb.co/cOBQcH/keterangan_ortu.png)
+<img src="https://image.ibb.co/cOBQcH/keterangan_ortu.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk memberikan keterangan ketika anaknya sedang sakit atau izin
 
-![](https://image.ibb.co/caakcH/ganti_password_ortu.png)
+<img src="https://image.ibb.co/caakcH/ganti_password_ortu.png" height="300px">
 
 - Pada Gambar ini fungsinya ketika orang tua ingin mengganti passwordnya pada app  M-AFI.
 
 
 #### B. App Mobile Siswa ####
 
-![](https://image.ibb.co/irP8Wc/Login_siswa.png)
+<img src="https://image.ibb.co/irP8Wc/Login_siswa.png" height="300px">
 
 - Pada Gambar ini siswa dapat login melalui App M-AFI yang sudah ada dengan memasukkan username dan password.
 
-![](https://image.ibb.co/c82HPx/lupa_password_siswa.png)
+<img src="https://image.ibb.co/c82HPx/lupa_password_siswa.png" height="300px">
 
 - Pada Gambar ini menjelaskan ketika siswa lupa password maka siswa akan diminta memasukkan Emailnya.
 
-![](https://image.ibb.co/mDU8Wc/dasboard_siswa.png)
+<img src="https://image.ibb.co/mDU8Wc/dasboard_siswa.png" height="300px">
 
 - Pada Gambar ini adalah tampilan dasboard pada siswa.
 
-![](https://image.ibb.co/jvOcrc/pilih_tahun_siswa.png)
+<img src="https://image.ibb.co/jvOcrc/pilih_tahun_siswa.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk memilih tahun yang akan didownload.
 
-![](https://image.ibb.co/iui2rc/pilih_semester_siswa.png)
+<img src="https://image.ibb.co/iui2rc/pilih_semester_siswa.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk memilih semester berapa yang akan didownload.
 
-![](https://image.ibb.co/gHG0cH/logout_siswa.png)
+<img src="https://image.ibb.co/gHG0cH/logout_siswa.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk ganti password dan logout pada app M-AFI siswa.
 
-![](https://image.ibb.co/bCPLcH/ganti_password_siswa.png)
+<img src="https://image.ibb.co/bCPLcH/ganti_password_siswa.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk mengganti password yang diinginkan oleh siswa.
 
 #### C. App Mobile Guru ####
 
-![](https://image.ibb.co/mkSLBc/login_guru.png)
+<img src="https://image.ibb.co/mkSLBc/login_guru.png" height="300px">
 
 - Pada Gambar ini guru dapat login melalui App M-AFI yang sudah ada dengan memasukkan username dan password.
 
-![](https://image.ibb.co/iVyhPx/lupa_password_guru.png)
+<img src="https://image.ibb.co/iVyhPx/lupa_password_guru.png" height="300px">
 
 - Pada Gambar ini menjelaskan ketika guru lupa password maka guru akan diminta memasukkan Emailnya.
 
-![](https://image.ibb.co/cqt5cH/dasboard_guru.png)
+<img src="https://image.ibb.co/cqt5cH/dasboard_guru.png" height="300px">
 
 - Pada Gambar ini adalah tampilan dasboard pada guru.
 
-![](https://image.ibb.co/jtZNPx/jurusan_guru.png)
+<img src="https://image.ibb.co/jtZNPx/jurusan_guru.png" height="300px">
 
 - Pada Gambar ini fungsingnya untuk memilih jurusan yang akan didownload rekap presensinya.
 
-![](https://image.ibb.co/hZihPx/pilih_kelas_guru.png) 
+<img src="https://image.ibb.co/hZihPx/pilih_kelas_guru.png" height="300px"> 
 
 - Pada Gambar ini fungsinya untuk memilih kelas yang akan didownload rekap absensinya.
 
-![](https://image.ibb.co/hiYSrc/pilih_tahun_guru.png)
+<img src="https://image.ibb.co/hiYSrc/pilih_tahun_guru.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk memilih tahun yang akan didownload rekap absensinya.
 
-![](https://image.ibb.co/cne6jx/semester_guru.png)
+<img src="https://image.ibb.co/cne6jx/semester_guru.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk memilih semester yang akan didownload.
 
-![](https://image.ibb.co/mXuNPx/logout_guru.png)
+<img src="https://image.ibb.co/mXuNPx/logout_guru.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk ganti password dan logout pada guru.
 
-![](https://image.ibb.co/gnThPx/ganti_password_guru.png)
+<img src="https://image.ibb.co/gnThPx/ganti_password_guru.png" height="300px">
 
 - Pada Gambar ini fungsinya untuk mengganti password yang diingikan oleh guru.
 
@@ -232,7 +232,7 @@ Semartphone berfungsi untuk implementasi aplikasi mobile M-AFI.
 
 - Webserver
 
-    Untuk Webserver admin dapat di akses menggunakan semua jenis browser (google chrom, Mozila, Opera dan lain-lain), dan pastinya harus menggunakan akses internet untuk mengakses data pada Firebase.
+	Untuk Webserver admin dapat di akses menggunakan semua jenis browser (google chrom, Mozila, Opera dan lain-lain), dan pastinya harus menggunakan akses internet untuk mengakses data pada Firebase.
 
 
 - Mobile M-AFI
@@ -261,14 +261,14 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 
 ### 2.2.1 Mobile App ###
 
-![](https://image.ibb.co/mOnA5H/USES_CASES_APP.jpg)
+<img src="https://image.ibb.co/dcnZhH/USES_CASES_APP.jpg" height="500px">
 
 
 #### 2.2.1.1 Siswa ####
 
 Masukkan presensi
 	
-![](https://image.ibb.co/frsMCx/19.jpg)
+<img src="https://image.ibb.co/frsMCx/19.jpg" height="300px">
 
 Deskripsi singkat :
 
@@ -282,7 +282,7 @@ Langkah-langkah :
 
 masuk / keluar
 
-![](https://image.ibb.co/keXGec/20.jpg)
+<img src="https://image.ibb.co/keXGec/20.jpg" height="300px">
 
 Deskripsi singkat :
 		
@@ -302,7 +302,7 @@ Langkah-langkah :
 		
 Ganti password
 
-![](https://image.ibb.co/eyZwec/21.jpg)
+<img src="https://image.ibb.co/eyZwec/21.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -320,7 +320,7 @@ Langkah-langkah :
 	
 Rekap Presensi
 
-![](https://image.ibb.co/escGec/22.jpg)
+<img src="https://image.ibb.co/escGec/22.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -339,7 +339,7 @@ Langkah-langkah :
 
 Masuk / Keluar
 
-![](https://image.ibb.co/j17hKc/26.jpg)
+<img src="https://image.ibb.co/j17hKc/26.jpg" height="300px">
 
 Deskripsi singkat :
 		
@@ -361,7 +361,7 @@ Langkah-langkah :
 
 Ganti Password
 
-![](https://image.ibb.co/ddcSkH/27.jpg)
+<img src="https://image.ibb.co/ddcSkH/27.jpg" height="300px">
 
 Deskripsi singkat :
 	
@@ -377,7 +377,7 @@ Langkah - langkah :
 
 Monitoring Presensi
 
-![](https://image.ibb.co/jSMnkH/28.jpg)
+<img src="https://image.ibb.co/jSMnkH/28.jpg" height="300px">
 
 Deskripsi singkat :
 	
@@ -391,7 +391,7 @@ Langkah - langkah :
 
 Kirim Izin
 
-![](https://image.ibb.co/dL8NKc/29.jpg)
+<img src="https://image.ibb.co/dL8NKc/29.jpg" height="300px">
 
 Deskripsi singkat :
 
@@ -407,7 +407,7 @@ Langkah - langkah
 
 Rekap presensi
 
-![](https://image.ibb.co/dyX4Xx/30.jpg)
+<img src="https://image.ibb.co/dyX4Xx/30.jpg" height="300px">
 
 Deskripsi singkat :
 
@@ -425,7 +425,7 @@ Langkah - langkah :
 
 Masuk / Keluar
 
-![](https://image.ibb.co/imBL5H/23.jpg)
+<img src="https://image.ibb.co/imBL5H/23.jpg" height="300px">
 		
 Deskripsi singkat :
 	
@@ -446,7 +446,7 @@ Langkah - langkah :
 
 Ganti Password
 
-![](https://image.ibb.co/bVejXx/24.jpg)
+<img src="https://image.ibb.co/bVejXx/24.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -466,7 +466,7 @@ Langkah-langkah :
 
 Rekap Presensi
 
-![](https://image.ibb.co/gApwec/25.jpg)
+<img src="https://image.ibb.co/gApwec/25.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -483,13 +483,13 @@ Langkah - langkah :
 		
 ### 2.2.2 Webserver ###
 
-![](https://image.ibb.co/nNRL5H/USES_CASES_WEBSERVER.jpg)
+<img src="https://image.ibb.co/kR1o9x/USES_CASES_WEBSERVER.jpg" height="700px">
 
 #### 2.2.2.1 Admin ####
 
 Masuk / Keluar
 
-![](https://image.ibb.co/dknXKc/1.jpg)
+<img src="https://image.ibb.co/dknXKc/1.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -506,7 +506,7 @@ Langkah - langkah :
 
 Tambah Data Siswa
 
-![](https://image.ibb.co/kvMsKc/2.jpg)
+<img src="https://image.ibb.co/kvMsKc/2.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -530,7 +530,7 @@ Langkah - langkah :
 
 Perbarui Data Siswa
 
-![](https://image.ibb.co/jTLV5H/3.jpg)
+<img src="https://image.ibb.co/jTLV5H/3.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -552,7 +552,7 @@ Langkah - langkah :
 
 Hapus Data Siswa
 
-![](https://image.ibb.co/gXiHkH/4.jpg)
+<img src="https://image.ibb.co/gXiHkH/4.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -574,7 +574,7 @@ Langkah - langkah :
 
 Tambah Data Guru
 
-![](https://image.ibb.co/e7RsKc/5.jpg)
+<img src="https://image.ibb.co/e7RsKc/5.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -594,7 +594,7 @@ Langkah - langkah :
 
 Perbarui Data Guru
 
-![](https://image.ibb.co/d7Fmec/6.jpg)
+<img src="https://image.ibb.co/d7Fmec/6.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -614,7 +614,7 @@ Langkah - langkah :
 
 Hapus Data Guru
 
-![](https://image.ibb.co/nepCKc/7.jpg)
+<img src="https://image.ibb.co/nepCKc/7.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -634,7 +634,7 @@ Langkah - langkah :
 
 Tambah Data Users
 
-![](https://image.ibb.co/hmOuXx/8.jpg)
+<img src="https://image.ibb.co/hmOuXx/8.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -653,7 +653,7 @@ Langkah - langkah :
 
 Perbarui Data Users
 
-![](https://image.ibb.co/g5Zq5H/9.jpg)
+<img src="https://image.ibb.co/g5Zq5H/9.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -673,7 +673,7 @@ Langkah - langkah :
 
 Hapus Data Users
 
-![](https://image.ibb.co/chfV5H/10.jpg)
+<img src="https://image.ibb.co/chfV5H/10.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -693,7 +693,7 @@ Langkah - langkah :
 
 Tambah Data Kelas
 
-![](https://image.ibb.co/cYggCx/11.jpg)
+<img src="https://image.ibb.co/cYggCx/11.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -712,7 +712,7 @@ Langkah - langkah :
 
 Perbarui Data Kelas
 
-![](https://image.ibb.co/j01Rec/12.jpg)
+<img src="https://image.ibb.co/j01Rec/12.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -734,7 +734,7 @@ Langkah - langkah :
 
 Hapus Data Kelas
 
-![](https://image.ibb.co/iG2XKc/13.jpg)
+<img src="https://image.ibb.co/iG2XKc/13.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -754,7 +754,7 @@ Langkah - langkah :
 
 Tambah Data Jurusan
 
-![](https://image.ibb.co/bUPOQH/14.jpg)
+<img src="https://image.ibb.co/bUPOQH/14.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -772,7 +772,7 @@ Langkah - langkah :
 
 Perbarui Data Jurusan
 
-![](https://image.ibb.co/b1w3QH/15.jpg)
+<img src="https://image.ibb.co/b1w3QH/15.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -788,7 +788,7 @@ Langkah - langkah :
 
 Hapus Data Jurusan
 
-![](https://image.ibb.co/f9cA5H/16.jpg)
+<img src="https://image.ibb.co/f9cA5H/16.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -805,7 +805,7 @@ Langkah - langkah :
 
 Update Presensi Izin
 
-![](https://image.ibb.co/d7hMCx/17.jpg)
+<img src="https://image.ibb.co/d7hMCx/17.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -823,7 +823,7 @@ Langkah - langkah :
 
 Cari Data
 
-![](https://image.ibb.co/ncVV5H/18.jpg)
+<img src="https://image.ibb.co/ncVV5H/18.jpg" height="300px">
 
 
 Deskripsi singkat :
@@ -1413,7 +1413,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 ### 3.3.1 Logical Structure data ###
 
-![](https://image.ibb.co/iNMXSH/ERD.jpg)
+<img src="https://image.ibb.co/iNMXSH/ERD.jpg" height="300px">
 
 
 Entitas data Jurusan
