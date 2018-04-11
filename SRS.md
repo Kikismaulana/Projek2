@@ -215,6 +215,8 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini fungsinya untuk mengganti password yang diingikan oleh guru.
 
+### D. 
+
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
 
