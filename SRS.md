@@ -84,7 +84,7 @@ Sistem ini belum bisa dilihat report presensinya untuk para dosen, jadi aplikasi
 
 ![](https://image.ibb.co/cww8Lx/absensi_polindra.jpg)
 
-3.    M-AFI (Mobile-Attendance Fingerprint)
+# 3.    M-AFI (Mobile-Attendance Fingerprint) #
 
 M-AFI (Mobile-Attendance Fingerprint) adalah aplikasi project 2 yang sedang kita garap saat ini, aplikasi ini diterapkan untuk absensi siswa menggunakan fingerprint. Fingerprint adalah sebuah metode biometrik yang mana pengaplikasiannya menggunakan sidik jari.
 Aplikasi ini memiliki 4 user, yaitu user admin, user monitoring (orang tua siswa), user guru dan user siswa. User admin mempunyai hak akses untuk mengelola semua data diantaranya; data jurusan, data kelas, data siswa, data guru, data user dan data presensi melalui web server. User monitoring adalah user pengguna aplikasi android yang memonitoring report presensi siswa dengan menggunakan aplikasi mobile melalui smartphone, dimana user monitoring tersebut adalah orang orang tua siswa yang hanya dapat memonitoring presensi anaknya. User Guru dan user siswa hanya mempunyai hak akses untuk mendownload hasil/rekap presensi menggunakan aplikasi mobile melalui smartphone.
