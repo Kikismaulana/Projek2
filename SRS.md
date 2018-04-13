@@ -21,7 +21,7 @@
 </h2>
 </html>
 
-## Bab I Pendahuluan ##
+## BAB I Pendahuluan ##
 
 
 ### 1.1. Tujuan ###
