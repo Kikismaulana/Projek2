@@ -100,7 +100,7 @@ Tools | Definisi
 
 #### 2.2 Deskripsi Data ####
 
-<img src="https://image.ibb.co/ignTjx/ER.png" height="200px">
+
 
 #### 2.2.1 Definisi Domain/Type
 
@@ -140,7 +140,7 @@ Tools | Definisi
   
 #### 2.2.2 Conceptual Data Model
 
-
+<img src="https://image.ibb.co/ignTjx/ER.png" height="200px">
 
 #### 2.2.3 Physical Data Model
 
