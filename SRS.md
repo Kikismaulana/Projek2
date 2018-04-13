@@ -218,6 +218,10 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini ketika admin sudah masuk ke web server, maka pertama kali yang akan dilihat adalah dashboard web server
 
+![](https://ibb.co/eXRN6n)
+
+- Pada gambar ini admin dapat melihat data guru, menambah data guru, menghapus data guru, dan mengupdate data guru
+
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
 
