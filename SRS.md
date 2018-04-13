@@ -21,19 +21,19 @@
 </h2>
 </html>
 
-# 1. Pendahuluan #
+## Bab I Pendahuluan ##
 
 
-## 1.1. Tujuan ##
+### 1.1. Tujuan ###
 	
 Tujuan dari penulisan dokumen Softaware Requirement Specification (SRS) untuk mempermudah mengembangkan perangkat lunak untuk Mobile-Attendance Fingerprint dan memberikan gambaran yang spesifik dari kebutuhan softaware Mobile-Attendance Fingerprint(M-AFI). Spesifikasi kebutuhan tersebut termasuk dari segi perangkat lunak dan perangkat keras,untuk memberikan gambaran dan  penjelasan mengenai pembuatan produk termasuk kebutuhan fungsional hingga non-fungsional, dan kebutuhan antar muka mulai dari antar muka pengguna hingga antar muka komunikasi.
 
 
-## 1.2. Lingkup ##
+### 1.2. Lingkup ###
 
 Ruang lingkup dalam membangun aplikasi M-AFI yaitu Mobile Attendence Fingerprint menggunakan beberapa perangkat lunak yang mendukung, diantaranya saat penginputan data siswa dan guru dimana admin harus mengoperasikannya melalui webserver pada komputer/laptop. M-AFI ini perlu dibuatkan karena untuk mempermudah instansi pendidikan untuk sistem absensinya.
 
-## 1.3. Definisi, akronim, singkatan ##
+### 1.3. Definisi, akronim, singkatan ###
 
 Singkatan | Definisi 
 | ------ | ------ |
@@ -44,7 +44,7 @@ Singkatan | Definisi
 | LAN | LAN merupakan singkatan dari Local Area Network, yang mana merupakan sebuah jaringan komputer dengan skala kecil (local) seperti gedung perkantoran, sekolah atau rumah. LAN umumnya digunakan untuk berbagi resource dalam suatu gedung. LAN dapat berdiri sendiri, tanpa terhubung oleh jaringan luar atau internet. Namun apabila suatu LAN dihubungkan dengan beberapa LAN lainnya maka akan terbentuk suatu jaringan yang disebut Metropolitan Area Network (MAN). |
 
 
-## 1.4. Referensi ##
+### 1.4. Referensi ###
 
 http://hanungnp.staff.telkomuniversity.ac.id/files/2015/04/contoh-SKPL-Sistem-informasi-tugas-akhir-SISTA.pdf
 
@@ -53,38 +53,38 @@ https://dillinger.io/
 https://martinyunianto.wordpress.com/desain-dan-implementasi-sistem-informasi-absensi/
 
 
-## 1.5. Overview ##
+### 1.5. Overview ###
 
 Pada dokumen ini memberikan penjelasan tentang gambaran umum, termasuk karakterisitik pengguna proyek ini, hardware produk, dan persyaratan fungsional seperti data siswa/guru pada instansi yag terkait yang digunakan untuk persyaratan penginputan data. Gambaran umum ini dibahasan pada bagian 2 yang terdiri dari prespektif produk,antarmuka sistem, antarmuka pengguna,antarmuka perangkat keras,antarmuka perangkat lunak sampe anatrmuka komunikasi. Hal ini juga dapat memberikan suatu kebutuhan yang terdapat pada aplikasi M-AFI (Mobile Attandence Finger Print).
 
 
-# 2. Gambaran Umum #
+## BAB II Gambaran Umum #
 
-## 2.1. Perspektif produk ##
+### 2.1. Perspektif produk ###
 
-### A.    Perbandingan dengan produk-produk kompetitor ###
+#### A.    Perbandingan dengan produk-produk kompetitor ####
 
-#### 1.    Absensi siswa realtime dengan sms gateway ####
+##### 1.    Absensi siswa realtime dengan sms gateway #####
 
 Aplikasi ini adalah aplikasi absensi yang memanfaatkan fitur sms gateway, aplikasi ini digunakan untuk memantau para siswa terkait dengan tingkat kedisiplinan dalam proses belajar di sekolah, dimana tingkat kedisiplinan kehadiran siswa menjadi salah satu tolok ukur dalam proses penilaian. 
 Aplikasi ini memiliki kelebihan untuk orang tua siswa dalam memantau anaknya apabila anaknya tersebut tidak hadir di sekolah, sistem akan otomatis mengirim pemberitahuan melalui sms langsung ke HP orang tua siswa.
 
 <img src="https://image.ibb.co/jVdNfx/Absensi_siswa.png" height="300px">
 
-#### 2.    Sistem absensi fingerprint untuk dosen di POLINDRA ####
+##### 2.    Sistem absensi fingerprint untuk dosen di POLINDRA #####
 
 Sistem absensi dosen yang diterapkan untuk para dosen di POLINDRA ini adalah sistem absensi yang diterapkan dengan menggunakan fingerprint, sistem ini mempunyai kelebihan cepat dan akurat dalam proses absensi, karena sistem ini menggunakan metode biometrik dalam pengaplikasiannya, metode biometrik dalam sistem ini adalah menggunakan sidik jari dosen.
 Sistem ini belum bisa dilihat report presensinya untuk para dosen, jadi aplikasi ini hanya sekedar absensi menggunakan sidik jari, dan data absensi nya hanya masuk ke database, tetapi tidak bisa dilihat oleh para dosen.
 
 <img src="https://image.ibb.co/cww8Lx/absensi_polindra.jpg" height="300px">
 
-#### 3.    M-AFI (Mobile-Attendance Fingerprint) ####
+##### 3.    M-AFI (Mobile-Attendance Fingerprint) #####
 
 M-AFI (Mobile-Attendance Fingerprint) adalah aplikasi project 2 yang sedang kita garap saat ini, aplikasi ini diterapkan untuk absensi siswa menggunakan fingerprint. Fingerprint adalah sebuah metode biometrik yang mana pengaplikasiannya menggunakan sidik jari.
 Aplikasi ini memiliki 4 user, yaitu user admin, user monitoring (orang tua siswa), user guru dan user siswa. User admin mempunyai hak akses untuk mengelola semua data diantaranya; data jurusan, data kelas, data siswa, data guru, data user dan data presensi melalui web server. User monitoring adalah user pengguna aplikasi android yang memonitoring report presensi siswa dengan menggunakan aplikasi mobile melalui smartphone, dimana user monitoring tersebut adalah orang orang tua siswa yang hanya dapat memonitoring presensi anaknya. User Guru dan user siswa hanya mempunyai hak akses untuk mendownload hasil/rekap presensi menggunakan aplikasi mobile melalui smartphone.
 Aplikasi ini juga bisa mengirimkan izin siswa melalui user monitoring (orang tua siswa) melalui smartphone, orang tua siswa bisa mengirimkan surat izin atau sakit dengan cara mengupload foto surat izin yang sebelumnya sudah dibuat tulis tangan oleh orang tua, dan selanjutnya surat itu difoto dan di upload melalui aplikasi M-AFI, yang nantinya dari sisi user admin akan menerima notifikasi dari web server dan selanjutnya akan di update keterangan presensi siswa tersebut oleh admin.
 
-### B. Perbedaan system M-AFI dengan kompetitor ###
+#### B. Perbedaan system M-AFI dengan kompetitor ####
 
 No | Nama Aplikasi | Keunggulan | Kekurangan
 -- |  ------------ | ---------- | ----------
@@ -93,7 +93,7 @@ No | Nama Aplikasi | Keunggulan | Kekurangan
 3 | M-AFI (Mobile-Attendance Fingerprint | User siswa lebih cepat dalam kegiatan absensi karena menggunakan sidik jari. User monitoring (orang tua siswa dan guru) juga bisa melihat/memonitoring report presensi di aplikasi mobile secara realtime | Tidak bisa menjamin keakuratan sidik jari karena bisa saja kemungkinan sewaktu-waktu data sidik jari tertukar
 
 
-### 2.1.1. Antarmuka sistem ###
+#### 2.1.1. Antarmuka sistem ####
 
 <img src="https://image.ibb.co/m2STDS/Antarmuka_sistem.png" height="400px">
 
@@ -102,10 +102,10 @@ Siswa berperan sebagai inputan pada presensi melalui device fingerprint.
 Orang tua siswa dapat mengakses aplikasi M-AFI melalui perangkat mobile dengan standar sistem operasi Lolipop dan harus menggunakan akses internet.
 Admin bertugas untuk memanage presensi pada webserver.
 
-### 2.1.2. Antarmuka Pengguna ###
+#### 2.1.2. Antarmuka Pengguna ####
 	
 
-#### A. App Mobile Orang tua ####
+##### A. App Mobile Orang tua #####
 
 <img src="https://image.ibb.co/fjhyxH/Login_orang_tua.png" height="300px">
 
@@ -140,7 +140,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 - Pada Gambar ini fungsinya ketika orang tua ingin mengganti passwordnya pada app  M-AFI.
 
 
-#### B. App Mobile Siswa ####
+##### B. App Mobile Siswa #####
 
 <img src="https://image.ibb.co/irP8Wc/Login_siswa.png" height="300px">
 
@@ -170,7 +170,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini fungsinya untuk mengganti password yang diinginkan oleh siswa.
 
-#### C. App Mobile Guru ####
+##### C. App Mobile Guru #####
 
 <img src="https://image.ibb.co/mkSLBc/login_guru.png" height="300px">
 
@@ -208,7 +208,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada Gambar ini fungsinya untuk mengganti password yang diingikan oleh guru.
 
-### D. App Website Admin ###
+##### D. App Website Admin #####
 
 ![](https://ibb.co/eze5NH)
 
@@ -236,7 +236,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 
  
-### 2.1.3. Antarmuka perangkat awal keras ###
+#### 2.1.3. Antarmuka perangkat awal keras ####
 
 - Fingerprint
 
@@ -255,7 +255,7 @@ Digunakan untuk pembuatan aplikasi M-AFI.
 Semartphone berfungsi untuk implementasi aplikasi mobile M-AFI.
 
 
-### 2.1.4. Antarmuka perangkat lunak ###
+#### 2.1.4. Antarmuka perangkat lunak ####
 
 - Webserver
 
@@ -267,13 +267,13 @@ Semartphone berfungsi untuk implementasi aplikasi mobile M-AFI.
     Aplikasi M-AFI yang berfungsi sebagai monitoring absensi ini hanya dapat di akses melalui smartphone android dengan OS minimum Lolipop.
 
 
-### 2.1.5. Antarmuka komunikasi ###
+#### 2.1.5. Antarmuka komunikasi ####
 
 M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat fingerprint ke laptop. Ini harus menggunakan protokol IP handal-jenis seperti TCP / IP ataureliable-UDP/IP untuk kompatibilitas maksimum dan stabilitas. Semua perangkat itu akanantarmuka dengan seharusnya berisi standar Ethernet kompatibel, perangkat lunak kartu LAN dapatdiakses untuk menjaga komunikasi antara server dan komputer. Perangkat yang nirkabel juga harus menggunakan Ethernet cardyang kompatibel, menggunakan IEEE 802.11b / g dan mendukung standar memiliki untuk enkripsiWPA2-PSK. Penggunaan IEEE 802.11n hardware standar transmisi juga diterima jika semua perangkat keras lokal lainnya adalah konforman dengan standar yang sama.
 
-### 2.1.6. Batasan memori ###
+#### 2.1.6. Batasan memori ####
 
-### 2.1.7. Operasi-operasi ###
+#### 2.1.7. Operasi-operasi ####
 
 * Login melalui website, masuk sebagai admin untuk mengelola presensi dan mengelola user guru dan orang tua siswa
 * Login melalui mobile, masuk sebagai orang tua siswa atau sebagai guru
@@ -281,19 +281,19 @@ M-AFI menggunakan Local Area Network (LAN) untuk mengkoneksikan perangkat finger
 * Izin siswa, dapat mengupload foto surat izin/sakit siswa melalui mobile yang dilakukan orang tua siswa.
 
 
-### 2.1.8. Kebutuhan adaptasi ###
+#### 2.1.8. Kebutuhan adaptasi ####
 
 
-## 2.2. Spesifikasi kebutuhan fungsional ##
+### 2.2. Spesifikasi kebutuhan fungsional ###
 
-### 2.2.1 Mobile App ###
+#### 2.2.1 Mobile App ####
 
 <img src="https://image.ibb.co/dcnZhH/USES_CASES_APP.jpg" height="500px">
 
 
 #### 2.2.1.1 Siswa ####
 
-Masukkan presensi
+##### Masukkan presensi #####
 	
 <img src="https://image.ibb.co/frsMCx/19.jpg" height="300px">
 
@@ -307,7 +307,7 @@ Langkah-langkah :
 * Siswa meletakan sidik jari ke device fingerprint.
 * sistem akan merecord data siswa yang sudah absen.
 
-masuk / keluar
+##### masuk / keluar #####
 
 <img src="https://image.ibb.co/keXGec/20.jpg" height="300px">
 
@@ -327,7 +327,7 @@ Langkah-langkah :
 * Siswa memilih logout untuk keluar dari sistem
 * Sistem Menampilkan activity login
 		
-Ganti password
+##### Ganti password #####
 
 <img src="https://image.ibb.co/eyZwec/21.jpg" height="300px">
 
@@ -345,7 +345,7 @@ Langkah-langkah :
 * Sistem Memberikan notice bahwa password telah berubah.
 
 	
-Rekap Presensi
+##### Rekap Presensi #####
 
 <img src="https://image.ibb.co/escGec/22.jpg" height="300px">
 
@@ -364,7 +364,7 @@ Langkah-langkah :
 	
 #### 2.2.1.2 Orang tua siswa ####
 
-Masuk / Keluar
+##### Masuk / Keluar #####
 
 <img src="https://image.ibb.co/j17hKc/26.jpg" height="300px">
 
@@ -386,7 +386,7 @@ Langkah-langkah :
 
 
 
-Ganti Password
+##### Ganti Password #####
 
 <img src="https://image.ibb.co/ddcSkH/27.jpg" height="300px">
 
@@ -402,7 +402,7 @@ Langkah - langkah :
 * Sistem Memberikan notice bahwa password telah berubah.
 
 
-Monitoring Presensi
+##### Monitoring Presensi #####
 
 <img src="https://image.ibb.co/jSMnkH/28.jpg" height="300px">
 
@@ -416,7 +416,7 @@ Langkah - langkah :
 * Sistem memperlihatkan presensi masuk dan pulang di hari tersebut pada activity dashboard.
 		
 
-Kirim Izin
+##### Kirim Izin #####
 
 <img src="https://image.ibb.co/dL8NKc/29.jpg" height="300px">
 
@@ -432,7 +432,7 @@ Langkah - langkah
 * Pengiriman perizinan siswa akan masuk melalui webserver pada admin.
 
 
-Rekap presensi
+##### Rekap presensi #####
 
 <img src="https://image.ibb.co/dyX4Xx/30.jpg" height="300px">
 
@@ -450,7 +450,7 @@ Langkah - langkah :
 
 #### 2.2.1.3 Guru ####
 
-Masuk / Keluar
+##### Masuk / Keluar #####
 
 <img src="https://image.ibb.co/imBL5H/23.jpg" height="300px">
 		
@@ -471,7 +471,7 @@ Langkah - langkah :
 * Sistem Menampilkan activity login
 		
 
-Ganti Password
+##### Ganti Password #####
 
 <img src="https://image.ibb.co/bVejXx/24.jpg" height="300px">
 
@@ -491,7 +491,7 @@ Langkah-langkah :
 
 		
 
-Rekap Presensi
+##### Rekap Presensi #####
 
 <img src="https://image.ibb.co/gApwec/25.jpg" height="300px">
 
@@ -514,7 +514,7 @@ Langkah - langkah :
 
 #### 2.2.2.1 Admin ####
 
-Masuk / Keluar
+##### Masuk / Keluar #####
 
 <img src="https://image.ibb.co/dknXKc/1.jpg" height="300px">
 
@@ -531,7 +531,7 @@ Langkah - langkah :
 * Sistem melakukan verifikasi username dan password admin
 
 
-Tambah Data Siswa
+##### Tambah Data Siswa #####
 
 <img src="https://image.ibb.co/kvMsKc/2.jpg" height="300px">
 
@@ -555,7 +555,7 @@ Langkah - langkah :
 * Admin mengisi form dan menekan button save.
 * Sistem akan menyimpan data.
 
-Perbarui Data Siswa
+##### Perbarui Data Siswa #####
 
 <img src="https://image.ibb.co/jTLV5H/3.jpg" height="300px">
 
@@ -577,7 +577,7 @@ Langkah - langkah :
 
 
 
-Hapus Data Siswa
+##### Hapus Data Siswa #####
 
 <img src="https://image.ibb.co/gXiHkH/4.jpg" height="300px">
 
@@ -599,7 +599,7 @@ Langkah - langkah :
 
 
 
-Tambah Data Guru
+##### Tambah Data Guru #####
 
 <img src="https://image.ibb.co/e7RsKc/5.jpg" height="300px">
 
@@ -619,7 +619,7 @@ Langkah - langkah :
 
 
 
-Perbarui Data Guru
+##### Perbarui Data Guru #####
 
 <img src="https://image.ibb.co/d7Fmec/6.jpg" height="300px">
 
@@ -639,7 +639,7 @@ Langkah - langkah :
 * Sistem akan memperbarui data guru tersebut
 
 
-Hapus Data Guru
+##### Hapus Data Guru #####
 
 <img src="https://image.ibb.co/nepCKc/7.jpg" height="300px">
 
@@ -659,7 +659,7 @@ Langkah - langkah :
 * Sistem akan menghapus data guru tersebut 
 
 
-Tambah Data Users
+##### Tambah Data Users #####
 
 <img src="https://image.ibb.co/hmOuXx/8.jpg" height="300px">
 
@@ -678,7 +678,7 @@ Langkah - langkah :
 * Admin mengisi form dan menekan button save.
 * Sistem akan menyimpan data.
 
-Perbarui Data Users
+##### Perbarui Data Users #####
 
 <img src="https://image.ibb.co/g5Zq5H/9.jpg" height="300px">
 
@@ -698,7 +698,7 @@ Langkah - langkah :
 * Admin melakukan perubahan pada data user dan menekan button save
 * Sistem akan memperbarui data user tersebut
 
-Hapus Data Users
+##### Hapus Data Users #####
 
 <img src="https://image.ibb.co/chfV5H/10.jpg" height="300px">
 
@@ -718,7 +718,7 @@ Langkah - langkah :
 * Admin memilih button ya untuk menghapus data siswa tersebut
 * Sistem akan menghapus data user tersebut
 
-Tambah Data Kelas
+##### Tambah Data Kelas #####
 
 <img src="https://image.ibb.co/cYggCx/11.jpg" height="300px">
 
@@ -737,7 +737,7 @@ Langkah - langkah :
 * Sistem menampilkan data yang kelas yang berhasil ditambahkan.
 
 
-Perbarui Data Kelas
+##### Perbarui Data Kelas #####
 
 <img src="https://image.ibb.co/j01Rec/12.jpg" height="300px">
 
@@ -759,7 +759,7 @@ Langkah - langkah :
 * Admin melakukan perubahan pada data kelas dan menekan button save
 * Sistem akan memperbarui data kelas. 
 
-Hapus Data Kelas
+##### Hapus Data Kelas #####
 
 <img src="https://image.ibb.co/iG2XKc/13.jpg" height="300px">
 
@@ -779,7 +779,7 @@ Langkah - langkah :
 * Admin memilih button ya untuk menghapus data kelas tersebut
 * Sistem akan menghapus data kelas. 
 
-Tambah Data Jurusan
+##### Tambah Data Jurusan #####
 
 <img src="https://image.ibb.co/bUPOQH/14.jpg" height="300px">
 
@@ -797,7 +797,7 @@ Langkah - langkah :
 		
 
 
-Perbarui Data Jurusan
+##### Perbarui Data Jurusan #####
 
 <img src="https://image.ibb.co/b1w3QH/15.jpg" height="300px">
 
@@ -813,7 +813,7 @@ Langkah - langkah :
 * Sistem memproses dan mengupdate data jurusan.
 
 
-Hapus Data Jurusan
+##### Hapus Data Jurusan #####
 
 <img src="https://image.ibb.co/f9cA5H/16.jpg" height="300px">
 
@@ -830,7 +830,7 @@ Langkah - langkah :
 
 
 
-Update Presensi Izin
+##### Update Presensi Izin #####
 
 <img src="https://image.ibb.co/d7hMCx/17.jpg" height="300px">
 
@@ -848,7 +848,7 @@ Langkah - langkah :
 * Sistem memperbarui presensi siswa tersebut.
 
 
-Cari Data
+##### Cari Data #####
 
 <img src="https://image.ibb.co/ncVV5H/18.jpg" height="300px">
 
@@ -867,23 +867,23 @@ Langkah - langkah :
 
 
 
-## 2.3. Spesifikasi kebutuhan non-fungsional ##
+### 2.3. Spesifikasi kebutuhan non-fungsional ###
 
 - Design UI/UX layout mobile
 - Design UI/UX layout web server
 
-## 2.4. Karakteristik pengguna ##
+### 2.4. Karakteristik pengguna ###
 
 karakteristik pengguna dari aplikasi M-AFI ini adalah semua yang ingin menggunakan absensi diantaranya siswa, guru dan orang tua yang membedakan adalah pengguna yang berinteraksi dengan sistem dihubungkan dengan hak akses dan 
 autentifikasi sesuai aturan yang terdapat pada absensi (level).
 
-## 2.5. Batasan-batasan ##
+### 2.5. Batasan-batasan ###
 
 * Aplikasi M-AFI untuk waktu pengembangannya hanya ada beberapa fungsi yang dilaksanakan.
 * Pengembangan aplikasi M-AFI tidak akan mengubah file-file ataupun database yang ada pada saat ini tanpa adanya izin dari pihak sekolah.
 * Pengembangan aplikasi M-AFI ini akan meliputi pengelolaan data-data yang ada disekolah yang meliputi data absensi siswa serta laporan untuk siswa yang tidak masuk.
 
-## 2.6. Asumsi-asumsi keterkaitan ##
+### 2.6. Asumsi-asumsi keterkaitan ###
 
 * Kapasitas user pada fingerprint : 20.000 sidikjari
 * Jenis komunikasi PC : TCP/IP (RJ45), RS 232/RS485, USB cable, USB disk
@@ -892,23 +892,23 @@ autentifikasi sesuai aturan yang terdapat pada absensi (level).
 * Absensi disekolah sendiri akan dilakukan oleh siswa yang apabila
   ketika ingin kehadirannya masuk ke sekolah.
 
-## 2.7. Kebutuhan penyeimbang ##
+### 2.7. Kebutuhan penyeimbang ###
 
-# 3. Requiremet Spesification #
+## 3. Requiremet Spesification ##
 
 
-## 3.1. External Interface Requirements ##
+### 3.1. External Interface Requirements ###
 
 Kebutuhan akan pengelolaan/management presensi pada suatu instansi sangatlah penting dengan menimbang beberapa aspek yang saling mendukung, pada hal ini tertuju pada sekolah SMK Negeri 1 Indramayu dimana penerapan management/pengelolaan presensi siswa-siswi sudah semestinya menggunakan komputerisasi untuk dapat menghindari terjadinya human error pada pengerjaannya, Staf TU pada bidang kesiswaan sangatlah terbantu untuk meningkatkan kedisplinan siswa-siswinya dikarenakan fitur dari aplikasi M-AFI ini menunjang kedua orang tua siswa untuk dapat memonitoring siswa/siswinya pada saat berada pada lingkungan sekolah, dengan ini faktor kedua orang tua siswa terhadap kedisplinan siswa/siswnya pada lingkungan sekolah sangatlah membantu bidang kesiswaan.
 
 Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat membantu guru-guru di sekolah tersebut sehingga sistem presensi yang dulu menggunakan buku absensi sekarang bisa di tinggalkan dengan adanya sistem presensi menggunakan fingerprint ini.
 
 
-## 3.2. Functional Requirements ##
+### 3.2. Functional Requirements ###
 
-### 3.2.1. Uses Cases Siswa ###
+#### 3.2.1. Uses Cases Siswa ####
 
-#### 3.2.1.1. Masukkan presensi ####
+##### 3.2.1.1. Masukkan presensi #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -924,7 +924,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.1.2. masuk / keluar ####
+##### 3.2.1.2. masuk / keluar #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -947,7 +947,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.1.2. Rekap Presensi ####
+##### 3.2.1.2. Rekap Presensi #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -964,9 +964,9 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-### 3.2.2. Uses Cases Orang tua siswa ###
+#### 3.2.2. Uses Cases Orang tua siswa ####
 
-#### 3.2.2.1. Masuk / Keluar ####
+##### 3.2.2.1. Masuk / Keluar #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -989,7 +989,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.2.2. Ganti Password ####
+##### 3.2.2.2. Ganti Password #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1007,7 +1007,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.2.3. Monitoring Presensi ####
+##### 3.2.2.3. Monitoring Presensi #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1023,7 +1023,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.2.4. Kirim Izin ####
+##### 3.2.2.4. Kirim Izin #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1042,7 +1042,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 
 
-#### 3.2.2.5. Rekap Presensi ####
+##### 3.2.2.5. Rekap Presensi #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1060,9 +1060,9 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 
 
-### 3.2.3. Uses Cases Admin ###
+#### 3.2.3. Uses Cases Admin ####
 
-#### 3.2.3.1. Masuk / Keluar ####
+##### 3.2.3.1. Masuk / Keluar #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1080,7 +1080,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.2. Tambah Data Siswa ####
+##### 3.2.3.2. Tambah Data Siswa #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1106,7 +1106,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.3. Perbarui Data Siswa ####
+##### 3.2.3.3. Perbarui Data Siswa #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1128,7 +1128,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.4. Hapus Data Siswa ####
+##### 3.2.3.4. Hapus Data Siswa #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1150,7 +1150,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.5. Tambah Data Guru ####
+##### 3.2.3.5. Tambah Data Guru #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1171,7 +1171,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.6. Perbarui Data Guru ####
+##### 3.2.3.6. Perbarui Data Guru #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1193,7 +1193,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.7. Hapus Data Guru ####
+##### 3.2.3.7. Hapus Data Guru #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1215,7 +1215,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.8. Tambah Data Users ####
+##### 3.2.3.8. Tambah Data Users #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1236,7 +1236,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.9. Perbarui Data Users ####
+##### 3.2.3.9. Perbarui Data Users #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1258,7 +1258,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.10. Hapus Data Users ####
+##### 3.2.3.10. Hapus Data Users #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1280,7 +1280,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.11. Tambah Data Kelas ####
+##### 3.2.3.11. Tambah Data Kelas #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1300,7 +1300,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.12. Perbarui Data Kelas ####
+##### 3.2.3.12. Perbarui Data Kelas #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1322,7 +1322,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.13. Hapus Data Kelas ####
+##### 3.2.3.13. Hapus Data Kelas #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1344,7 +1344,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.14. Tambah Data Jurusan ####
+##### 3.2.3.14. Tambah Data Jurusan #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1362,7 +1362,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.15. Perbarui Data Jurusan ####
+##### 3.2.3.15. Perbarui Data Jurusan #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1380,7 +1380,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.16. Hapus Data Jurusan ####
+##### 3.2.3.16. Hapus Data Jurusan #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1398,7 +1398,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.17. Update Presensi Izin ####
+##### 3.2.3.17. Update Presensi Izin #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1417,7 +1417,7 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 | Other |  |
 
 
-#### 3.2.3.18. Cari Data ####
+##### 3.2.3.18. Cari Data #####
 
 | Item | Descriptions |
 | ------ | ------ |
@@ -1436,9 +1436,9 @@ Selain hal demikian, management/pengelolaan presensi yang terkomputerisasi dapat
 
 
 
-## 3.3. Detailed Non-Functional Requirements ##
+### 3.3. Detailed Non-Functional Requirements ###
 
-### 3.3.1 Logical Structure data ###
+#### 3.3.1 Logical Structure data ####
 
 <img src="https://image.ibb.co/iNMXSH/ERD.jpg" height="300px">
 
