@@ -230,7 +230,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini admin dapat melihat data kelas, menambah data kelas, menghapus data kelas, dan mengupdate data kelas
 
-![](https://ibb.co/hLETCS)
+<img src="https://image.ibb.co/bQJARn/data_siswa.png" height=300px">
 
 - Pada gambar ini admin dapat melihat data siswa, menambah data siswa, menghapus data siswa, dan mengupdate data siswa
 
