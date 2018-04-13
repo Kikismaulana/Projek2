@@ -214,7 +214,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini admin harus terlebih dahulu login agar bisa masuk ke web server
 
-<img src="https://image.ibb.co/huLtCS/dashboard1.png" height=300px">
+<img src="https://image.ibb.co/huLtCS/dashboard1.png" height="300px">
 
 - Pada gambar ini ketika admin sudah masuk ke web server, maka pertama kali yang akan dilihat adalah dashboard web server
 
@@ -230,14 +230,17 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini admin dapat melihat data kelas, menambah data kelas, menghapus data kelas, dan mengupdate data kelas
 
-<img src="https://image.ibb.co/bQJARn/data_siswa.png" height=300px">
+<img src="https://image.ibb.co/bQJARn/data_siswa.png" height="300px">
 
 - Pada gambar ini admin dapat melihat data siswa, menambah data siswa, menghapus data siswa, dan mengupdate data siswa
 
-<img src="https://image.ibb.co/gOh9K7/izin_siswa_detail.png" height=300px">
+<img src="https://image.ibb.co/gOh9K7/izin_siswa_detail.png" height="300px">
 
 - Pada gambar ini admin dapat melihat detail izin siswa, yang mana izin siswa ini adalah fungsi izin siswa yang dikirimkan oleh orang tua siswa melalui mobile
 
+<img src="https://image.ibb.co/j6H1z7/user_siswa.png" height="300px">
+
+- Pada gambar ini admin dapat melihat detail user siswa, admin juga dapat mencari, melihat, mengupdate, dan menghapus user siswa.
 
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
