@@ -222,6 +222,9 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini admin dapat melihat data guru, menambah data guru, menghapus data guru, dan mengupdate data guru
 
+![](https://ibb.co/mjkbXS)
+
+
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
 
