@@ -242,6 +242,10 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini admin dapat melihat detail user siswa, admin juga dapat mencari, melihat, mengupdate, dan menghapus user siswa.
 
+<img src="https://image.ibb.co/eEXOCS/user_orang_tua.png" height="300px">
+
+- Pada gambar ini admin dapat melihat detail user orang tua siswa, admin juga dapat mencari, melihat, mengupdate, dan menghapus user orang tua siswa.
+
  
 #### 2.1.3. Antarmuka perangkat awal keras ####
 
