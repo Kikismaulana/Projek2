@@ -232,7 +232,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 ![](https://ibb.co/hLETCS)
 
-- Pada
+- Pada gambar ini admin dapat melihat data siswa, menambah data siswa, menghapus data siswa, dan mengupdate data siswa
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
 
