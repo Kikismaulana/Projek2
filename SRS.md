@@ -226,7 +226,7 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini admin dapat melihat data jurusan, menambah data jurusan, menghapus data jurusan, dan mengupdate data jurusan
 
-![](https://ibb.co/kYM0sS)
+<img src="https://image.ibb.co/iETfsS/data_kelas.png" height="300px">
 
 - Pada gambar ini admin dapat melihat data kelas, menambah data kelas, menghapus data kelas, dan mengupdate data kelas
 
