@@ -225,6 +225,10 @@ Admin bertugas untuk memanage presensi pada webserver.
 ![](https://ibb.co/mjkbXS)
 
 - Pada gambar ini admin dapat melihat data jurusan, menambah data jurusan, menghapus data jurusan, dan mengupdate data jurusan
+
+![](https://ibb.co/kYM0sS)
+
+-
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
 
