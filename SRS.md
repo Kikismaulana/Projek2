@@ -62,29 +62,29 @@ Pada dokumen ini memberikan penjelasan tentang gambaran umum, termasuk karakteri
 
 ## 2.1. Perspektif produk ##
 
-A.    Perbandingan dengan produk-produk kompetitor
+### A.    Perbandingan dengan produk-produk kompetitor ###
 
-# 1.    Absensi siswa realtime dengan sms gateway #
+#### 1.    Absensi siswa realtime dengan sms gateway ####
 
 Aplikasi ini adalah aplikasi absensi yang memanfaatkan fitur sms gateway, aplikasi ini digunakan untuk memantau para siswa terkait dengan tingkat kedisiplinan dalam proses belajar di sekolah, dimana tingkat kedisiplinan kehadiran siswa menjadi salah satu tolok ukur dalam proses penilaian. 
 Aplikasi ini memiliki kelebihan untuk orang tua siswa dalam memantau anaknya apabila anaknya tersebut tidak hadir di sekolah, sistem akan otomatis mengirim pemberitahuan melalui sms langsung ke HP orang tua siswa.
 
 <img src="https://image.ibb.co/jVdNfx/Absensi_siswa.png" height="300px">
 
-# 2.    Sistem absensi fingerprint untuk dosen di POLINDRA #
+#### 2.    Sistem absensi fingerprint untuk dosen di POLINDRA ####
 
 Sistem absensi dosen yang diterapkan untuk para dosen di POLINDRA ini adalah sistem absensi yang diterapkan dengan menggunakan fingerprint, sistem ini mempunyai kelebihan cepat dan akurat dalam proses absensi, karena sistem ini menggunakan metode biometrik dalam pengaplikasiannya, metode biometrik dalam sistem ini adalah menggunakan sidik jari dosen.
 Sistem ini belum bisa dilihat report presensinya untuk para dosen, jadi aplikasi ini hanya sekedar absensi menggunakan sidik jari, dan data absensi nya hanya masuk ke database, tetapi tidak bisa dilihat oleh para dosen.
 
 <img src="https://image.ibb.co/cww8Lx/absensi_polindra.jpg" height="300px">
 
-# 3.    M-AFI (Mobile-Attendance Fingerprint) #
+#### 3.    M-AFI (Mobile-Attendance Fingerprint) ####
 
 M-AFI (Mobile-Attendance Fingerprint) adalah aplikasi project 2 yang sedang kita garap saat ini, aplikasi ini diterapkan untuk absensi siswa menggunakan fingerprint. Fingerprint adalah sebuah metode biometrik yang mana pengaplikasiannya menggunakan sidik jari.
 Aplikasi ini memiliki 4 user, yaitu user admin, user monitoring (orang tua siswa), user guru dan user siswa. User admin mempunyai hak akses untuk mengelola semua data diantaranya; data jurusan, data kelas, data siswa, data guru, data user dan data presensi melalui web server. User monitoring adalah user pengguna aplikasi android yang memonitoring report presensi siswa dengan menggunakan aplikasi mobile melalui smartphone, dimana user monitoring tersebut adalah orang orang tua siswa yang hanya dapat memonitoring presensi anaknya. User Guru dan user siswa hanya mempunyai hak akses untuk mendownload hasil/rekap presensi menggunakan aplikasi mobile melalui smartphone.
 Aplikasi ini juga bisa mengirimkan izin siswa melalui user monitoring (orang tua siswa) melalui smartphone, orang tua siswa bisa mengirimkan surat izin atau sakit dengan cara mengupload foto surat izin yang sebelumnya sudah dibuat tulis tangan oleh orang tua, dan selanjutnya surat itu difoto dan di upload melalui aplikasi M-AFI, yang nantinya dari sisi user admin akan menerima notifikasi dari web server dan selanjutnya akan di update keterangan presensi siswa tersebut oleh admin.
 
-B. Perbedaan system M-AFI dengan kompetitor
+### B. Perbedaan system M-AFI dengan kompetitor ###
 
 No | Nama Aplikasi | Keunggulan | Kekurangan
 -- |  ------------ | ---------- | ----------
