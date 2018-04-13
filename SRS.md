@@ -210,11 +210,11 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 ##### D. App Website Admin #####
 
-![](https://ibb.co/eze5NH)
+<img src="https://image.ibb.co/nCrGXS/login.png" height="300px">
 
 - Pada gambar ini admin harus terlebih dahulu login agar bisa masuk ke web server
 
-![](https://ibb.co/b0JbUx)
+<img src="https://image.ibb.co/huLtCS/dashboard1.png" height=300px">
 
 - Pada gambar ini ketika admin sudah masuk ke web server, maka pertama kali yang akan dilihat adalah dashboard web server
 
@@ -222,17 +222,21 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini admin dapat melihat data guru, menambah data guru, menghapus data guru, dan mengupdate data guru
 
-![](https://ibb.co/mjkbXS)
+<img src="https://image.ibb.co/d1nqsS/data_jurusan.png" height="300px">
 
 - Pada gambar ini admin dapat melihat data jurusan, menambah data jurusan, menghapus data jurusan, dan mengupdate data jurusan
 
-![](https://ibb.co/kYM0sS)
+<img src="https://image.ibb.co/iETfsS/data_kelas.png" height="300px">
 
 - Pada gambar ini admin dapat melihat data kelas, menambah data kelas, menghapus data kelas, dan mengupdate data kelas
 
-![](https://ibb.co/hLETCS)
+<img src="https://image.ibb.co/bQJARn/data_siswa.png" height=300px">
 
 - Pada gambar ini admin dapat melihat data siswa, menambah data siswa, menghapus data siswa, dan mengupdate data siswa
+
+<img src="https://image.ibb.co/gOh9K7/izin_siswa_detail.png" height=300px">
+
+- Pada gambar ini admin dapat melihat detail izin siswa, yang mana izin siswa ini adalah fungsi izin siswa yang dikirimkan oleh orang tua siswa melalui mobile
 
 
  
