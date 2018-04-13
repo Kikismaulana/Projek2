@@ -210,11 +210,11 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 ### D. App Website Admin ###
 
-![](https://ibb.co/eze5NH)
+<img src="https://image.ibb.co/nCrGXS/login.png" height="300px">
 
 - Pada gambar ini admin harus terlebih dahulu login agar bisa masuk ke web server
 
-![](https://ibb.co/b0JbUx)
+<img src="https://image.ibb.co/huLtCS/dashboard1.png" height=300px">
 
 - Pada gambar ini ketika admin sudah masuk ke web server, maka pertama kali yang akan dilihat adalah dashboard web server
 
