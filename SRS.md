@@ -229,6 +229,10 @@ Admin bertugas untuk memanage presensi pada webserver.
 ![](https://ibb.co/kYM0sS)
 
 - Pada gambar ini admin dapat melihat data kelas, menambah data kelas, menghapus data kelas, dan mengupdate data kelas
+
+![](https://ibb.co/hLETCS)
+
+- Pada gambar ini admin dapat melihat data siswa, menambah data siswa, menghapus data siswa, dan mengupdate data siswa
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
 
