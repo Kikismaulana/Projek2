@@ -234,6 +234,10 @@ Admin bertugas untuk memanage presensi pada webserver.
 
 - Pada gambar ini admin dapat melihat data siswa, menambah data siswa, menghapus data siswa, dan mengupdate data siswa
 
+<img src="https://image.ibb.co/gOh9K7/izin_siswa_detail.png" height=300px">
+
+- Pada gambar ini admin dapat melihat detail izin siswa, yang mana izin siswa ini adalah fungsi izin siswa yang dikirimkan oleh orang tua siswa melalui mobile
+
 
  
 ### 2.1.3. Antarmuka perangkat awal keras ###
