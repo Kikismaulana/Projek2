@@ -404,11 +404,7 @@ Langkah - langkah :
 
 Monitoring Presensi
 
-<<<<<<< HEAD
 <img src="https://image.ibb.co/jSMnkH/28.jpg" height="300px">
-=======
-![](https://image.ibb.co/jSMnkH/28.jpg) 
->>>>>>> 7606533618372d6cd887c581677e447611ddb9c8
 
 Deskripsi singkat :
 	
