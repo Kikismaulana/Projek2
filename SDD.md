@@ -828,6 +828,13 @@ No | Fungsi | Jenis | Tabel Terkait
 
  ID Kebutuhan | Modul | Keterangan 
 |-------------|-------|-----------|
+| SRS-01 | 01 |  |
+| SRS-02 | 02 |  |
+| SRS-03 | 03 |  |
+| SRS-04 | 04 |  |
+| SRS-05 | 05 |  |
+| SRS-06 | 06 |  |
+| SRS-07 | 07 |  |
 
 
 
