@@ -140,11 +140,11 @@ Tools | Definisi
   
 #### 2.2.2 Conceptual Data Model
 
-<img src="https://image.ibb.co/ignTjx/ER.png" height="200px">
+![](http://image.ibb.co/ce5iZ7/cdm.png)
 
 #### 2.2.3 Physical Data Model
 
-
+<img src="https://image.ibb.co/ignTjx/ER.png" height="200px">
 
 #### 2.2.4 Daftar Tabel Aplikasi
 
