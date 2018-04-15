@@ -100,6 +100,89 @@ Tools | Definisi
 
 #### 2.2 Deskripsi Data ####
 
+Tabel Siswa
+
+Nama Field | Jenis | Volume  | Laju | Primary Key | Constraint integrity	| Deskripsi
+| ------------- | -------- | ----------- | ------- | -------------- | ------------------------- | ------------- |
+| NIS | Integer	| 11 | Primary key | Iya | Auto_increment | Id siswa auto increment |
+| Id_kelas | Integer | 11	 | Foreign key |	Iya | Id_kelas pada kelas | Relasi untuk menampilkan kelas |
+| Nama_lengkap | Varchar | 50 | Tidak | Tidak |  - | Nama_lengkap  siswa |
+| Jk | Varchar |	9 | Tidak | Tidak | - | Jk siswa |
+| Ttl |	Varchar  | 50 |	Tidak |	Tidak |	- | Ttl siswa |
+|  Email | Varchar  | 50 | Tidak | Tidak |	- | Email siswa |
+| Agama | Varchar | 10	| Tidak | Tidak	| - | Agama siswa | 
+| alamat | text | - | Tidak | Tidak | - | Alamat siswa |
+| No_hp | Varchar | 15 | Tidak | Tidak | - | No_hp siswa |
+| Nama_ayah |	Varchar | 50 | Tidak | Tidak | -	| Nama_ayah siswa |
+| Nama_ibu | Varchar  | 50 | Tidak | Tidak | - | Nama_ibu siswa |
+| Pekerjaan_ayah | Varchar | 50 | Tidak | Tidak | - | Pekerjaan_ayah siswa |
+| Pekerjaan_ibu	 | Varchar | 50	| Tidak | Tidak | - | Pekerjaan_ibu siswa |
+| Alamat_ortu | text | - | Tidak | Tidak | - | Alamat_ortu siswa |
+
+Tabel guru
+
+Nama Field | Jenis | Volume  | Laju | Primary Key | Constraint integrity	| Deskripsi
+| ------------- | -------- | ----------- | ------- | -------------- | ------------------------- | ------------- |
+| NIP | integer | 11 | Primary key | Iya	| Auto_increment | NIP auto incerement |
+| Id_kelas | integer | 11	 | Foreign key |	Iya | Id kelas pada kelas	 | Relasi untuk menampilkan kelas |
+| Nama_lengkap | Varchar | 50 | Tidak | Tidak | - | Nama_lengkap guru |
+| Email | Varchar | 50 | Tidak | 	Tidak |	- | Email guru |
+| Password | Varchar |	50 | Tidak | Tidak | - | Password guru |
+| Jk | Varchar | 9 | Tidak | Tidak | - | Jenis kelamin guru |
+| No_hp | Varchar | 15	| Tidak | Tidak | - | No_hp guru |
+| alamat | text	| - | Tidak | Tidak | - | Alamat guru |
+
+Tabel kelas
+
+Nama Field | Jenis | Volume  | Laju | Primary Key | Constraint integrity	| Deskripsi
+| ------------- | -------- | ----------- | ------- | -------------- | ------------------------- | ------------- |
+| Id_kelas | Integer | 11	 | Primary key | Iya | Auto increment | Id_kelas auto increment |
+| Id_jurusan | Integer | 11 | Foreign key | Iya | Id jurusan pada jurusan | Relasi untuk menampilkan jurusan |
+| Nama_kelas | varchar	 | 20 | -	 | Tidak  | - | Nama_kelas kelas |
+
+Tabel Jurusan 
+
+Nama Field | Jenis | Volume  | Laju | Primary Key | Constraint integrity	| Deskripsi
+| ------------- | -------- | ----------- | ------- | -------------- | ------------------------- | ------------- |
+| Id_jurusan | Integer |	11 | Primary key | Iya |	Auto increment | Id jurusan auto increment |
+| Nama_jurusan | varchar | 50 | Tidak | Tidak | - | Nama_jurusan untuk jurusan |
+
+Tabel users
+
+Nama Field | Jenis | Volume  | Laju | Primary Key | Constraint integrity	| Deskripsi
+| ------------- | -------- | ----------- | ------- | -------------- | ------------------------- | ------------- |
+| Id_users | Integer  | 11 | Primary key	| Iya | Auto increment | Id users auto increment |
+| NIS | Integer | 11 | Foreign key | Iya | NIS pada siswa | Relasi untuk menampilkan siswa |
+| NIP | Integer | 11 | Foreign key | Iya | NIP pada guru  | Relasi untuk menampilkan guru |
+| NISN	| Integer | 11 | Foreign key | Iya | - | Untuk id orang tua |
+| Password | Varchar  | 50 | Tidak | Tidak | - | Password users |
+| level | Varchar | 50 | Tidak | Tidak | - | Level users |
+
+Tabel Presensi
+
+Nama Field | Jenis | Volume  | Laju | Primary Key | Constraint integrity	| Deskripsi
+| ------------- | -------- | ----------- | ------- | -------------- | ------------------------- | ------------- |
+| Id_presensi | Integer | 11 | Primary key | Iya | Auto increment | Id presensi auto increment |
+| NIS | Integer | 11 | Foreign key | Iya | NIS pada siswa | Relasi untuk menampilkan siswa |
+| Id_izin | Integer | 11 | Foreign key | Iya | Id izin pada izin | Relasi untuk menampilkan izin |
+| Tanggal | Date | - | Tidak	 | Tidak | - | Tanggal presensi |
+| Keterangan | Text | - | Tidak | Tidak | - | Keterangan presensi |
+| Presensi | Varchar | 20 | Tidak | Tidak | - | Presensi pada presensi |
+| Pulang | Time	| - | Tidak | Tidak | - | Waktu Pulang pada presensi |
+| Lebih_cepat | Integer | 11 | Tidak | Tidak | - | Waktu lebih cepat pada presensi |
+| Masuk | Time | - | Tidak | Tidak | - | Waktu masuk pada presensi |
+| Terlambat | Integer | 11 | Tidak | Tidak | - | Waktu terlambat pada presensi |
+
+Tabel izin
+
+Nama Field | Jenis | Volume  | Laju | Primary Key | Constraint integrity	| Deskripsi
+| ------------- | -------- | ----------- | ------- | -------------- | ------------------------- | ------------- |
+| Id_izin | Integer | 11 | Primary key | Iya | Auto_increment | Id izin auto increment |
+| Alasan | Text | - | Tidak | Tidak | - | Alasan pada izin  |
+| Tanggal_mulai | Date | - | Tidak | Tidak | - | Tanggal mulai pada izin |
+|Tanggal_selesai | Date | - | Tidak | Tidak | - | Tanggal selesai pada izin |
+| Bukti | Varchar | 50 | Tidak | Tidak | - | Bukti pada izin |
+| Status	| Varchar | 20 | Tidak | Tidak | - | Status pada izin | 
 
 
 #### 2.2.1 Definisi Domain/Type
