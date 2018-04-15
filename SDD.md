@@ -411,6 +411,7 @@ Primary Key			: id_izin
 #### 3.3.1.6 Spesifikasi Proses / Algoritma
 
 
+
 #### 3.3.2 Modul Siswa
 
 #### 3.3.2.1 Fungsi Modul
@@ -480,8 +481,6 @@ Id Objek | Jenis | Keterangan
 #### 3.3.2.6 Spesifikasi Proses / Algoritma
 
 ![]([img]http://image.ibb.co/gZV1wc/algo_siswa.png[/img])
-
-
 
 #### 3.3.3 Modul Kelas
 
