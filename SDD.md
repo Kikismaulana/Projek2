@@ -258,7 +258,7 @@ Nama Field | Jenis | Volume  | Laju | Primary Key | Constraint integrity	| Deskr
 
 
 
-## Deskripsi Perancangan Rinci ##
+## BAB III Deskripsi Perancangan Rinci ##
 
 #### 3.1 Diagram Konteks ####
 
@@ -346,7 +346,7 @@ Volume				:
 
 Laju				: 
 
-Primary Key			: NIP 
+Primary Key			: NIS 
 
 <img src="https://image.ibb.co/gA0Ouc/IMG_20180323_WA0005.jpg" height="300px">
 
