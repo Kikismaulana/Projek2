@@ -467,7 +467,7 @@ Primary Key			: id_izin
 
 #### 3.3.1.2 Spesifikasi Layar Utama
 
-
+<img src="http://image.ibb.co/nby5pc/login.png" height="350">
 
 #### 3.3.1.3 Spesifikasi Query
 
@@ -697,6 +697,8 @@ No | Fungsi | Jenis | Tabel Terkait
 
 <img src="https://image.ibb.co/eyvh2x/data_user_siswa.png" height="350">
 <img src="https://image.ibb.co/j5w0pc/data_user_guru.png" height="350">
+<img src="http://image.ibb.co/bGJern/user_ortu.png" height="350">
+
 
 #### 3.3.5.3 Spesifikasi Query
 
