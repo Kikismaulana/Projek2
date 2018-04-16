@@ -1,5 +1,4 @@
 <html>
-<body>
 <div align="center"><h1> Software Project Management Plan</h1></div>
 
 <p align="center"><b>Version 1.0 </b><br>
@@ -20,7 +19,6 @@
 <h2 align="center">Jurusan D3 Teknik Informatika</h2>
 <h2 align="center">Politeknik Negeri Indramayu
 </h2>
-</body>
 </html>
 
 
@@ -79,7 +77,7 @@ Untuk mengorganisasikan pekerjaan kami sehingga terarah, kami memilih model pros
 
 ## 2.2 struktur organisasi ##
 
-![](https://image.ibb.co/ddS4tH/STRUKTUR.png)
+<img src="https://image.ibb.co/ddS4tH/STRUKTUR.png" height="200px" >
 
 ## 2.3 Batasan dan antar muka organisasi ##
 
@@ -178,13 +176,14 @@ Semua dokumen pendukung proyek akan selesai secara bertahap.
 
 ## 5.1 Paket Pekerjaan ##
 
-![](https://image.ibb.co/fkfisH/Capture.png)
+<img src="https://image.ibb.co/fkfisH/Capture.png" height="400px">
 
 
 ## 5.2 Ketergantungan/Keterkaitan ##
 
 Pada proses pengerjaan projek yang kami buat ini, keterkaitan dalam tugas masing-masing sangat membantu karena dalam pengerjaannya dikerjakan dengan pembagian modul-modul yang ada yang tentunya koordinasi yang baik agar terbentuknya ketelitian dalam mengerjakan projek ini sehingga mendapatkan hasil yang baik pula.
-![](https://image.ibb.co/fwcsmc/modul.png)
+
+<img src="https://image.ibb.co/fwcsmc/modul.png" height="400px">
 
 ## 5.3 Kebutuhan-kebutuhan sumber daya ##
 
@@ -212,7 +211,7 @@ Dalam pembuatan aplikasi ini dibuat oleh 5 orang. Didalam kebutuhan sumber daya 
 
 Berikut ini yang dibutuhkan pada pembuatan aplikasi ini diantaranya
 
-![](https://image.ibb.co/kotfNn/biaya.png)
+<img src="https://image.ibb.co/kotfNn/biaya.png">
 
 ## 5.5 Jadwal ##
 
