@@ -33,6 +33,8 @@ Perangkat lunak yang akan diuji “Mobile-Attandace Fingerprint’. Perangkat lu
 
 #### 1.3 Deskripsi Dokumen ####
 
+Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
+
 #### 1.4 Definisi dan Singkatan ####
 
 •	SKPL adalah Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa inggrisnya sering  juga disebut sebagai Software Requirements Spesification (SRS), dan merupakan spesifikasi dari perangkat lunak yang akan dikembangkan
@@ -47,6 +49,11 @@ Perangkat lunak yang akan diuji “Mobile-Attandace Fingerprint’. Perangkat lu
 
 #### 1.5 Dokumen Referensi ####
 
+•	Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor. 
+
+•	Sistem Pentiketan Elektronik Konser.2013. Spesifikasi Kebutuhan Perangkat Lunak (SKPL)SPEK. Bogor.
+
+•	Sistem Pentiketan Elektronik Konser.2013. Dokumen Perancangan Perangkat Lunak (DPPL)SPEK. Bogor.
 
 
 

@@ -252,8 +252,8 @@ Nama Field | Jenis | Volume  | Laju | Primary Key | Constraint integrity	| Deskr
 | 3 | Modul Kelas | Yang dapat mengelola modul kelas hanya admin saja, pada modul kelas admin dapat mengelola data kelas. |
 | 4 | Modul Jurusan | Yang dapat mengelola modul jurusan hanya admin saja, pada modul jurusan admin dapat mengelola data jurusan. |
 | 5 | Modul User | | Yang dapat mengelola modul user hanya admin saja, pada modul user admin dapat mengelola data user. |
-| 6 | Modul Presensi | Pada modul presensi admin dapat mengelola, sedangkan guru, siswa dan orang tua dapat melihat hasil rekap absen berdasarkan levelnya. |
-| 7 | Modul Rekap | |
+| 6 | Modul Rekap | Pada modul presensi admin dapat mengelola, sedangkan guru, siswa dan orang tua dapat melihat hasil rekap absen berdasarkan levelnya. |
+| 7 | Modul Izin | |
 
 
 
@@ -756,7 +756,7 @@ Label | Field | Tabel / Query | Validasi | Keterangan
 ![](http://image.ibb.co/gbrVpx/algo_user_ortu.png)
 
 
-#### 3.3.6 Modul Presensi
+#### 3.3.6 Modul Rekap
 
 #### 3.3.6.1 Fungsi Modul
 
@@ -791,7 +791,7 @@ Fungsi  | Query
 
 
 
-#### 3.3.7 Modul Rekap
+#### 3.3.7 Modul Izin
 
 
 #### 3.3.7.1 Fungsi Modul
