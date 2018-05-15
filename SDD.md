@@ -765,7 +765,7 @@ No | Fungsi | Jenis | Tabel Terkait
 
 #### 3.3.6.2 Spesifikasi Layar Utama
 
-<img src="https://image.ibb.co/dsVn4c/data_presensi.png" height="350">
+<img src="https://image.ibb.co/dEyNwJ/rekap_absen.png" height="350">
 
 #### 3.3.6.3 Spesifikasi Query
 
@@ -801,7 +801,7 @@ No | Fungsi | Jenis | Tabel Terkait
 
 #### 3.3.7.2 Spesifikasi Layar Utama
 
-
+<img src=https://image.ibb.co/cMVD3y/izin_siswa.png" height="350">
 
 #### 3.3.7.3 Spesifikasi Query
 
