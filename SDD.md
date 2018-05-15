@@ -801,7 +801,7 @@ No | Fungsi | Jenis | Tabel Terkait
 
 #### 3.3.7.2 Spesifikasi Layar Utama
 
-<img src=https://image.ibb.co/cMVD3y/izin_siswa.png" height="350">
+<img src="https://image.ibb.co/cMVD3y/izin_siswa.png" height="350">
 
 #### 3.3.7.3 Spesifikasi Query
 
