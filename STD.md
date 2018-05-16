@@ -151,14 +151,21 @@ Dokumen hasil uji dari aplikkasi ini akan diberikan kepada asisten praktikum dan
 
 Tabel 1 Identifikasi dan Rencana Pengujian di Web
 
+![](https://image.ibb.co/fUfQmJ/rencana_pengujian.png)
+
 Tabel 2 Identifikasi dan Rencana Pengujian di Mobile
 
+![](https://image.ibb.co/kNWy6J/pengujian_mobile.png)
 
 ## BAB V Deskripsi dan Hasil Uji
 
 a. Deskripsi dan Hasil Uji di web
 
+![](https://image.ibb.co/mbc5mJ/hasil_uji_web.png)
+
 b. Deskripsi dan Hasil Uji di mobile
+
+![](https://image.ibb.co/khOd6J/hasil_uji_mobile.png)
 
 
 
