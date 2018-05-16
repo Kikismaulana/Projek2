@@ -151,21 +151,131 @@ Dokumen hasil uji dari aplikkasi ini akan diberikan kepada asisten praktikum dan
 
 Tabel 1 Identifikasi dan Rencana Pengujian di Web
 
-![](https://image.ibb.co/fUfQmJ/rencana_pengujian.png)
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<table border="1" style="text-align: center;" width="750">
+
+
+
+	<tr>
+		<td width="100">kelas uji</td>
+		<td width="100">butir uji</td>
+		<td width="200">
+			<table align="center" >
+				<tr>
+					<td width="200">Identifikasi</td>
+				</tr>
+				<tr>
+					<td width="100">SKPL</td>
+					<td width="100">DUPL</td>
+				</tr>
+			</table>
+		</td>
+		<td width="100">Tingkat Pengujian</td>
+		<td width="100">Jenis Pengujian</td>
+		<td width="100">Penguji</td>
+	</tr>
+
+
+
+	<tr>
+		<td width="100">PengujianSign In </td>
+		<td>
+			<table width="100">
+				<tr>
+					<td width="100" height="100">Pengujian Sign in</td>
+				</tr>
+				<tr>
+					<td  width="100" height="100">Kebenaran pengisian Username dan password</td>
+				</tr>
+			</table>
+		</td>
+
+		<td>
+		<table>
+		<tr>
+		<td width="100">
+		<table>
+		<tr>
+		<td width="100" height="100"> SKPL- M-AFI.K- 0011</td>
+		</tr>
+		<tr>
+		<td width="100" height="100"> </td>
+		</tr>
+		</table>
+		</td>
+		<td width="100">
+		<table>
+		<tr>
+		<td width="100" height="100" >DUPL-01</td>
+		</tr>
+		<tr>
+		<td width="100" height="100"> DUPL-02 </td>
+		</tr>
+		</table>
+		</td>
+		</tr>
+		</table>
+		</td>
+
+				<td width="100">
+			<table width="100">
+				<tr>
+					<td width="100" height="100">Pengujian sistem</td>
+				</tr>
+				<tr>
+					<td width="100" height="100">Pengujian sistem</td>
+				</tr>
+			</table>
+		</td>
+				<td width="100">
+			<table width="100">
+				<tr>
+					<td width="100" height="100">Black box</td>
+				</tr>
+				<tr>
+					<td width="100" height="100">Black box</td>
+				</tr>
+			</table>
+		</td>
+				<td width="100">
+			<table width="100">
+				<tr>
+					<td width="100" height="100"></td>
+				</tr>
+				<tr>
+					<td width="100" height="100"></td>
+				</tr>
+			</table>
+		</td>
+			
+	</tr>
+
+
+
+
+</table>
+
+</body>
+</html>
 
 Tabel 2 Identifikasi dan Rencana Pengujian di Mobile
 
-![](https://image.ibb.co/kNWy6J/pengujian_mobile.png)
+
 
 ## BAB V Deskripsi dan Hasil Uji
 
 a. Deskripsi dan Hasil Uji di web
 
-![](https://image.ibb.co/mbc5mJ/hasil_uji_web.png)
+
 
 b. Deskripsi dan Hasil Uji di mobile
 
-![](https://image.ibb.co/khOd6J/hasil_uji_mobile.png)
+
 
 
 
